@@ -1,0 +1,241 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://yourdomain.com/schemas/myschema.json",
+    "title": "descriptiveMetadata",
+    "definitions": {
+        "value": {
+            "description": "Default value model for descriptive elements.",
+            "type": "object",
+            "allOf": [
+                {"$ref": "#/definitions/basicValue"},
+                {"$ref": "#/definitions/structuredValue"},
+                {"$ref": "#/definitions/appliesTo"}
+            ]
+        },
+        "basicValue": {
+            "description": "Value model for descriptive elements without recursive properties.",
+            "type": "object",
+            "properties": {
+                "value": {
+                    "description": "String value of the descriptive element.",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Type of value provided by the descriptive element.",
+                    "type": "string"
+                },
+                "status": {
+                    "description": "Status of the descriptive element relative to other instances of the element.",
+                    "type": "string"
+                },
+                "code": {
+                    "description": "Code value of the descriptive element.",
+                    "type": "string"
+                },
+                "URI": {
+                    "description": "URI value of the descriptive element.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "standard": {
+                    "description": "Descriptive or content standard to which the value conforms.",
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "encoding": {
+                    "description": "Encoding schema, standard, or syntax to which the value conforms.",
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "source": {"$ref": "#/definitions/source"}
+            }
+        },
+        "structuredValue": {
+            "description": "Value model for descriptive elements structured as typed values.",
+            "type": "object",
+            "properties": {
+                "structuredValue": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/basicValue"}
+                }
+            }
+        },
+        "appliesTo": {
+            "description": "Property model for indicating the parts, aspects, or versions of the resource to which a descriptive element is applicable.",
+            "type": "object",
+            "properties": {
+                "appliesTo": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/basicValue"}
+                }
+            }
+        },
+        "source": {
+            "description": "Property model for indicating the vocabulary, authority, or other origin for a term, code, or identifier.",
+            "type": "object",
+            "properties": {
+                "code": {
+                    "description": "Code representing the value source.",
+                    "type": "string"
+                },
+                "URI": {
+                    "description": "URI for the value source.",
+                    "type": "string",
+                    "format": "uri"
+                },
+                "value": {
+                    "description": "String describing the value source.",
+                    "type": "string"
+                }
+            }
+        },
+        "contributor": {
+            "description": "Property model for describing agents contributing in some way to the creation and history of the resource",
+            "type": "object",
+            "properties": {
+                "name": {
+                    "description": "Names associated with a contributor.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/value"}
+                },
+                "type": {
+                    "description": "Entity type of the contributor (person, organization, etc.).",
+                    "type": "string"
+                },
+                "status": {
+                    "description": "Status of the contributor relative to other parallel contributors.",
+                    "type": "string"
+                },
+                "role": {
+                    "description": "Relationships of the contributor to the resource or to an event in its history.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/value"}
+                }
+            }
+        },
+        "event": {
+            "description": "Property model for describing events in the history of the resource.",
+            "type": "object",
+            "properties": {
+                "type": {
+                    "description": "Description of the event (creation, publication, etc.).",
+                    "type": "string"
+                },
+                "date": {
+                    "description": "Dates associated with the event.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/value"}
+                },
+                "contributor": {
+                    "description": "Contributors associated with the event.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/contributor"}
+                },
+                "location": {
+                    "description": "Locations associated with the event.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/value"}
+                },
+                "note": {
+                    "description": "Other information about the event.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/value"}
+                },
+                "structuredValue": {
+                    "description": "Structured information about the event (such as the parts of a publication statement).",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/structuredValue"}
+                }
+            }
+        }
+    },
+    "properties": {
+        "title": {
+            "description": "Titles of the resource.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "allOf": [
+                    {"$ref": "#/definitions/value"},
+                    {
+                        "anyOf": [
+                            {
+                                "required": ["value"]
+                            },
+                            {
+                                "required": ["structuredValue"]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "contributor": {
+            "description": "Agents contributing in some way to the creation and history of the resource.",
+            "type": "array",
+            "items": {"$ref": "#/definitions/contributor"}
+        },
+        "event": {
+            "description": "Events in the history of the resource.",
+            "type": "array",
+            "items": {"$ref": "#/definitions/event"}
+        },
+        "form": {
+            "description": "Characteristics of the resource's physical, digital, and intellectual form and genre.",
+            "type": "array",
+            "items": {"$ref": "#/definitions/value"}
+        },
+        "language": {
+            "description": "Languages, scripts, and notations used in all or part of a resource.",
+            "type": "array",
+            "items": {"$ref": "#/definitions/value"}
+        },
+        "note": {
+            "description": "Additional information relevant to a resource.",
+            "type": "array",
+            "items": {"$ref": "#/definitions/value"}
+        },
+        "identifier": {
+            "description": "Unique strings associated with the resource.",
+            "type": "array",
+            "items": {"$ref": "#/definitions/value"}
+        },
+        "purl": {
+            "description": "Stanford persistent URL associated with the resource.",
+            "type": "string",
+            "format": "uri"
+        },
+        "url": {
+            "description": "URLs where the resource may be accessed in full or part.",
+            "type": "array",
+            "items": {"$ref": "#/definitions/value"}
+        },
+        "marcEncodedData": {
+            "description": "Data about the resource represented in MARC fixed fields and codes.",
+            "type": "array",
+            "items": {"$ref": "#/definitions/value"}
+        },
+        "adminMetadata": {
+            "description": "Information about this description of the resource.",
+            "type": "object",
+            "properties": {
+                "event": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/event"}
+                },
+                "contributor": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/contributor"}
+                },
+                "language": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/value"}
+                },
+                "note": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/value"}
+                }
+            }
+        }
+    }
+}
