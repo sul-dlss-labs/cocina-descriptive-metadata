@@ -1,0 +1,118 @@
+1. Physical location term (with authority)
+<location>
+  <physicalLocation authority="lcsh" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/nb2006009317">British Broadcasting Corporation. Sound Effects Library</physicalLocation>
+</location>
+{
+  "access": {
+    "physicalLocation": [
+      {
+        "value": "British Broadcasting Corporation. Sound Effects Library",
+        "uri": "http://id.loc.gov/authorities/names/nb2006009317",
+        "source": {
+          "code": "lcsh",
+          "uri": "http://id.loc.gov/authorities/names/"
+        }
+      }
+    ]
+  }
+}
+
+2. Physical location code
+<location>
+  <physicalLocation authority="marcorg">CSt</physicalLocation>
+</location>
+{
+  "access": {
+    "physicalLocation": [
+      {
+        "code": "CSt",
+        "source": {
+          "code": "marcorg"
+        }
+      }
+    ]
+  }
+}
+
+3. Physical repository
+<location>
+  <physicalLocation type="repository" authority="naf" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives</physicalLocation>
+</location>
+{
+  "access": {
+    "accessContact": [
+      {
+        "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
+        "uri": "http://id.loc.gov/authorities/names/no2014019980",
+        "source": {
+          "code": "naf"
+        }
+      }
+    ]
+  }
+}
+
+4. URL (with usage)
+<location>
+  <url usage="primary display">https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no=%2211728.000</url>
+</location>
+{
+  "access": {
+    "url": [
+      {
+        "value": "https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no=%2211728.000",
+        "status": "primary"
+      }
+    ]
+  }
+}
+
+5. PURL
+<location>
+  <url usage="primary display">http://purl.stanford.edu/ys701qw6956</url>
+</location>
+{
+  "purl": "http://purl.stanford.edu/ys701qw6956"
+}
+
+6. Web archive (with display label)
+<location>
+  <physicalLocation type="repository" authority="naf" valueURI="http://id.loc.gov/authorities/names/n81070667">Stanford University. Libraries</physicalLocation>
+  <url usage="primary display">http://purl.stanford.edu/hf898mn6942</url>
+  <url displayLabel="Archived website">https://swap.stanford.edu/20171107174354/https://www.le.ac.uk/english/em1060to1220/index.html</url>
+</location>
+{
+  "purl": "http://purl.stanford.edu/hf898mn6942",
+  "access": {
+    "accessContact": [
+      {
+        "value": "Stanford University. Libraries",
+        "uri": "http://id.loc.gov/authorities/names/n81070667",
+        "source": {
+          "code": "naf"
+        }
+      }
+    ],
+    "url": [
+      {
+        "value": "https://swap.stanford.edu/20171107174354/https://www.le.ac.uk/english/em1060to1220/index.html",
+        "displayLabel": "Archived website"
+      }
+    ]
+  }
+}
+
+7. Shelf locator
+<location>
+  <shelfLocator>SC080</shelfLocator>
+</location>
+{
+  "access": {
+    "physicalLocation": [
+      {
+        "value": "SC080",
+        "type": "shelf locator"
+      }
+    ]
+  }
+}
