@@ -1,0 +1,34 @@
+1. Identifier with type
+<identifier type="isbn">1234 5678 9203</identifier>
+{
+  "identifier": [
+    {
+      "value": "1234 5678 9203",
+      "source": {
+        "code": "isbn"
+      }
+    }
+  ]
+}
+
+2. URI as identifier
+<identifier type="uri">https://www.wikidata.org/wiki/Q146</identifier>
+{
+  "identifier": [
+    {
+      "type": "URI",
+      "value": "https://www.wikidata/wiki/Q146"
+    }
+  ]
+}
+
+3. Identifier with display label
+<identifier displayLabel="Accession number">1980-12345</identifier>
+{
+  "identifier": [
+    {
+      "value": "1980-12345",
+      "displayLabel": "Accession number"
+    }
+  ]
+}

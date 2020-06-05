@@ -1,0 +1,136 @@
+Genre
+
+1. Single value
+<genre>photographs</genre>
+{
+  "form": [
+    {
+      "value": "photographs",
+      "type": "genre"
+    }
+  ]
+}
+
+2. Multiple values
+<genre>photographs</genre>
+<genre>prints</genre>
+{
+  "form": [
+    {
+      "value": "photographs",
+      "type": "genre"
+    },
+    {
+      "value": "prints",
+      "type": "genre"
+    }
+  ]
+}
+
+3. With type
+<genre type="style">Art Deco</genre>
+{
+  "form": [
+    {
+      "value": "Art deco",
+      "type": "style"
+    }
+  ]
+}
+
+4. With authority
+<genre authority="lcgft" authorityURI="http://id.loc.gov/authorities/genreForms/" valueURI="http://id.loc.gov/authorities/genreForms/gf2017027249">Photographs</genre>
+{
+  "form": [
+    {
+      "value": "Photographs",
+      "type": "genre",
+      "uri": "http://id.loc.gov/authorities/genreForms/gf2017027249",
+      "source": {
+        "code": "lcgft",
+        "uri": "http://id.loc.gov/authorities/genreForms/"
+      }
+    }
+  ]
+}
+
+5. With usage
+<genre usage="primary">photographs</genre>
+<genre>prints</genre>
+{
+  "form": [
+    {
+      "value": "photographs",
+      "status": "primary",
+      "type": "genre"
+    },
+    {
+      "value": "prints",
+      "type": "genre"
+    }
+  ]
+}
+
+6. Multilingual
+<genre lang="eng" script="Latn" altRepGroup="1">photographs</genre>
+<genre lang="rus" script="Cyrl" altRepGroup="1">фотографии</genre>
+{
+  "form": [
+    {
+      "type": "genre",
+      "parallelValue": [
+        {
+          "value": "photographs",
+          "language": [
+            {
+              "code": "eng",
+              "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+              "source": {
+                "code": "iso639-2b",
+                "uri": "http://id.loc.gov/vocabulary/iso639-2/"
+              },
+              "script": {
+                "code": "Latn",
+                "source": {
+                  "value": "ISO 15924"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "value": "фотографии",
+          "language": [
+            {
+              "code": "rus",
+              "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+              "source": {
+                "code": "iso639-2b",
+                "uri": "http://id.loc.gov/vocabulary/iso639-2/"
+              },
+              "script": {
+                "code": "Cyrl",
+                "source": {
+                  "value": "ISO 15924"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+7. Display Label
+<genre displayLabel="Style">Art deco</genre>
+{
+  "genre":
+    [
+      {
+        "value": "Art deco",
+        "type": "genre",
+        "displayLabel": "Style"
+      }
+    ]
+}

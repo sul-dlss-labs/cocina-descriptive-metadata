@@ -1,0 +1,1146 @@
+Dates
+
+1. Single dateCreated
+<originInfo>
+  <dateCreated>1980</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "1980"
+        }
+      ]
+    }
+  ]
+}
+
+2. Single dateIssued (with encoding)
+<originInfo>
+  <dateIssued encoding="w3cdtf">1928</dateIssued>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "date": [
+        {
+          "value": "1928",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+3. Single copyrightDate
+<originInfo>
+  <copyrightDate>1930</copyrightDate>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "copyright",
+      "date": [
+        {
+          "value": "1930"
+        }
+      ]
+    }
+  ]
+}
+
+4. Single dateCaptured (ISO 8601 encoding, keyDate)
+<originInfo>
+  <dateCaptured keyDate="yes" encoding="iso8601">20131012231249</dateCaptured>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "capture",
+      "date": [
+        {
+          "value": "20131012231249",
+          "encoding": {
+            "code": "iso8601"
+          },
+          "status": "primary"
+        }
+      ]
+    }
+  ]
+}
+
+5. Single dateOther
+<originInfo>
+  <dateOther type="Islamic">1441 AH</dateOther>
+</originInfo>
+{
+  "event": [
+    {
+      "date": [
+        {
+          "value": "1441 AH",
+          "note": [
+            {
+              "value": "Islamic",
+              "type": "date type"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+6. Date range
+<originInfo>
+  <dateCreated keyDate="yes" point="start">1920</dateCreated>
+  <dateCreated point="end">1925</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "1920",
+              "type": "start",
+              "status": "primary"
+            },
+            {
+              "value": "1925",
+              "type": "end"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+7. Approximate date
+<originInfo>
+  <dateCreated qualifier="approximate">1940</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "1940",
+          "qualifier": "approximate"
+        }
+      ]
+    }
+  ]
+}
+
+
+8. Approximate date range
+<originInfo>
+  <dateCreated keyDate="yes" point="start" qualifier="approximate">1940</dateCreated>
+  <dateCreated point="end" qualifier="approximate">1945</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "1940",
+              "type": "start",
+              "status": "primary",
+              "qualifier": "approximate"
+            },
+            {
+              "value": "1945",
+              "type": "end",
+              "qualifier": "approximate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+9. Date range, approximate start date only
+<originInfo>
+  <dateCreated keyDate="yes" point="start" qualifier="approximate">1940</dateCreated>
+  <dateCreated point="end">1945</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "1940",
+              "type": "start",
+              "status": "primary",
+              "qualifier": "approximate"
+            },
+            {
+              "value": "1945",
+              "type": "end"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+10. Date range, approximate end date only
+<originInfo>
+  <dateCreated keyDate="yes" point="start">1940</dateCreated>
+  <dateCreated point="end" qualifier="approximate">1945</dateCreated>
+<originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "1940",
+              "type": "start",
+              "status": "primary"
+            },
+            {
+              "value": "1945",
+              "type": "end",
+              "qualifier": "approximate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+11. Inferred date
+<originInfo>
+  <dateCreated qualifier="inferred">1940</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "1940",
+          "qualifier": "inferred"
+        }
+      ]
+    }
+  ]
+}
+
+12. Questionable date
+<originInfo>
+  <dateCreated qualifier="questionable">1940</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "1940",
+          "qualifier": "questionable"
+        }
+      ]
+    }
+  ]
+}
+
+13. Date range plus single date
+<originInfo>
+  <dateIssued keyDate="yes" point="start">1940</dateIssued>
+  <dateIssued point="end">1945</dateIssued>
+  <dateIssued>1948</dateIssued>
+<originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "1940",
+              "type": "start",
+              "status": "primary"
+            },
+            {
+              "value": "1945",
+              "type": "end"
+            }
+          ]
+        },
+        {
+          "value": "1948"
+        }
+      ]
+    }
+  ]
+}
+
+14. Multiple single dates
+<originInfo>
+  <dateIssued keyDate="yes">1940</dateIssued>
+  <dateIssued>1942</dateIssued>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "date": [
+        {
+          "value": "1940",
+          "status": "primary"
+        },
+        {
+          "value": "1942"
+        }
+      ]
+    }
+  ]
+}
+
+15. BCE date (edtf encoding)
+<originInfo>
+  <dateCreated encoding="edtf">-0499</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "-0499",
+          "encoding": {
+            "code": "edtf"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+16. BCE date range (edtf encoding)
+<originInfo>
+  <dateCreated encoding="edtf" point="start">-0499</dateCreated>
+  <dateCreated encoding="edtf" point="end">-0599</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "-0499",
+              "type": "start",
+              "encoding": {
+                "code": "edtf"
+              }
+            },
+            {
+              "value": "0599",
+              "type": "end",
+              "encoding": {
+                "code": "edtf"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+17. CE date (edtf encoding)
+<originInfo>
+  <dateCreated encoding="edtf">0800</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "0800",
+          "encoding": {
+            "code": "edtf"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+18. CE date range (edtf encoding)
+<originInfo>
+  <dateCreated encoding="edtf" point="start">0800</dateCreated>
+  <dateCreated encoding="edtf" point="end">1000</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "0800",
+              "type": "start",
+              "encoding": {
+                "code": "edtf"
+              }
+            },
+            {
+              "value": "1000",
+              "type": "end",
+              "encoding": {
+                "code": "edtf"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+19. Multiple date types
+<originInfo>
+  <dateIssued>1955</dateIssued>
+  <copyrightDate>1940</copyrightDate>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "date": [
+        {
+          "value": "1955"
+        }
+      ]
+    },
+    {
+      "type": "copyright",
+      "date": [
+        {
+          "value": "1940"
+        }
+      ]
+    }
+  ]
+}
+
+20. Julian calendar
+<originInfo>
+  <dateOther type="Julian">1544-02-02</dateOther>
+</originInfo>
+{
+  "event": [
+    {
+      "date": [
+        {
+          "value": "1544-02-02",
+          "note": [
+            {
+              "value": "Julian",
+              "type": "date type"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+21. Date range, no start point
+<originInfo>
+  <dateIssued point="end">1980</dateIssued>
+</originInfo>
+{
+  "event": [
+    {
+      "date": [
+        {
+          "value": "1980",
+          "type": "end"
+        }
+      ]
+    }
+  ]
+}
+
+22. Date range, no end point
+<originInfo>
+  <dateIssued point="start">1975</dateIssued>
+</originInfo>
+{
+  "event": [
+    {
+      "date": [
+        {
+          "value": "1975",
+          "type": "start"
+        }
+      ]
+    }
+  ]
+}
+
+23. MARC-encoded uncertain date
+<originInfo>
+  <dateCreated encoding="marc">19uu</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "date": [
+        {
+          "value": "19uu",
+          "encoding": {
+            "code": "marc"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+24. Unencoded date string
+<originInfo>
+  <dateCreated>11th century</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "11th century"
+        }
+      ]
+    }
+  ]
+}
+
+25. originInfo eventType matches date type
+<originInfo eventType="publication">
+  <dateIssued>1980</dateIssued>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "date": [
+        {
+          "value": "1980"
+        }
+      ]
+    }
+  ]
+}
+
+26. originInfo eventType differs from date type
+<originInfo eventType="publication">
+  <copyrightDate>1980</copyrightDate>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "copyright",
+      "date": [
+        {
+          "value": "1980"
+        }
+      ]
+    }
+  ]
+}
+
+Place
+
+27. Place - text (authorized)
+<originInfo>
+  <place authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">
+    <placeTerm type="text">Stanford (Calif.)</placeTerm>
+  </place>
+</originInfo>
+{
+  "event": [
+    {
+      "location": [
+        {
+          "value": "Stanford (Calif.)",
+          "uri": "http://id.loc.gov/authorities/names/n50046557",
+          "source": {
+            "code": "naf",
+            "uri": "http://id.loc.gov/authorities/names/"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+28. Place - code
+<originInfo>
+  <place>
+    <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">cau</placeTerm>
+  <place>
+</originInfo>
+{
+  "event": [
+    {
+      "location": [
+        {
+          "code": "cau",
+          "uri": "http://id.loc.gov/vocabulary/countries/cau",
+          "source": {
+            "code": "marccountry",
+            "uri": "http://id.loc.gov/vocabulary/countries/"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+29. Place - text and code for same place
+<originInfo>
+  <place>
+    <placeTerm type="text" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">California</placeTerm>
+    <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">cau</placeTerm>
+  <place>
+</originInfo>
+{
+  "event": [
+    {
+      "location": [
+        {
+          "value": "California",
+          "code": "cau",
+          "uri": "http://id.loc.gov/vocabulary/countries/cau",
+          "source": {
+            "code": "marccountry",
+            "uri": "http://id.loc.gov/vocabulary/countries/"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+30. Place - text and code for different places
+Version A (converted from MARC, standard MODS)
+<originInfo>
+  <place>
+    <placeTerm type="code" authority="marccountry">enk</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">London</placeTerm>
+  </place>
+</originInfo>
+{
+  "event": [
+    {
+      "location": [
+        {
+          "code": "enk",
+          "source": {
+            "code": "marccountry"
+          }
+        },
+        {
+          "value": "London"
+        }
+      ]
+    }
+  ]
+}
+Version B (from replayable spreadsheet, incorrect MODS)
+<originInfo>
+  <place>
+    <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">cau</placeTerm>
+    <placeTerm type="text" authority="marccountry" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">Stanford (Calif.)</placeTerm>
+  </place>
+</originInfo>
+{
+  "event": [
+    {
+      "location": [
+        {
+          "code": "cau",
+          "source": {
+            "code": "marccountry"
+          }
+        },
+        {
+          "value": "Stanford (Calif.)",
+          "uri": "http://id.loc.gov/authorities/names/n50046557",
+          "source": {
+            "uri": "http://id.loc.gov/authorities/names/"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+31. Publisher
+<originInfo>
+  <publisher>Virago</publisher>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Virago"
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+32. Publisher - transliterated
+<originInfo>
+  <publisher lang="rus" script="Latn" transliteration="ALA-LC Romanization Tables">Institut russkoĭ literatury (Pushkinskiĭ Dom)</publisher>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Institut russkoĭ literatury (Pushkinskiĭ Dom)",
+              "type": "transliterated",
+              "standard": {
+                "value": "ALA-LC Romanization Tables"
+              },
+              "language": [
+                {
+                  "code": "rus",
+                  "source": {
+                    "code": "iso639-2b"
+                  },
+                  "script": {
+                    "code": "Latn",
+                    "source": {
+                      "code": "iso15924"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+33. Publisher - other language
+<originInfo>
+  <publisher lang="rus" script="Cyrl">СФУ</publisher>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "СФУ",
+              "language": [
+                {
+                  "code": "rus",
+                  "source": {
+                    "code": "iso639-2b"
+                  },
+                  "script": {
+                    "code": "Cyrl",
+                    "source": {
+                      "code": "iso15924"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "type": "organization"
+        }
+      ],
+      "role": [
+        {
+          "value": "publisher",
+          "code": "pbl",
+          "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+34. Multiple publishers
+<originInfo>
+  <publisher>Ardis</publisher>
+  <publisher>Commonplace Books</publisher>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Ardis"
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        },
+        {
+          "name": [
+            {
+              "value": "Commonplace Books"
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+35. Edition
+<originInfo>
+  <edition>1st ed.</edition>
+<originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "note": [
+        {
+          "value": "1st ed.",
+          "type": "edition"
+        }
+      ]
+    }
+  ]
+}
+
+36. Issuance and frequency
+<originInfo>
+  <issuance>serial</issuance>
+  <frequency>every full moon</frequency>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "note": [
+        {
+          "value": "serial",
+          "type": "issuance",
+          "source": {
+            "value": "MODS issuance terms"
+          }
+        },
+        {
+          "value": "every full moon",
+          "type": "frequency"
+        }
+      ]
+    }
+  ]
+}
+
+37. Issuance and frequency - authorized term
+<originInfo>
+  <issuance>multipart monograph</issuance>
+  <frequency authority="marcfrequency">Annual</frequency>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "note": [
+        {
+          "value": "multipart monograph",
+          "type": "issuance",
+          "source": {
+            "value": "MODS issuance terms"
+          }
+        },
+        {
+          "value": "Annual",
+          "type": "frequency",
+          "source": {
+            "code": "marcfrequency"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+38. Multiple originInfo elements for different events
+<originInfo eventType="production">
+  <dateCreated>1899</dateCreated>
+  <place>
+    <placeTerm type="text">York</placeTerm>
+  </place>
+</originInfo>
+<originInfo eventType="publication">
+  <dateIssued>1901</dateIssued>
+  <place>
+    <placeTerm type="text">London</placeTerm>
+  </place>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "1899"
+        }
+      ],
+      "location": [
+        {
+          "value": "York"
+        }
+      ]
+    },
+    {
+      "type": "publication",
+      "date": [
+        {
+          "value": "1901"
+        }
+      ],
+      "location": [
+        {
+          "value": "London"
+        }
+      ]
+    }
+  ]
+}
+
+
+39. Origin info - multilingual
+<originInfo script="Latn" altRepGroup="1">
+  <place>
+    <placeTerm type="code" authority="marccountry">ja</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Kyōto-shi</placeTerm>
+  </place>
+  <publisher>Rinsen Shoten</publisher>
+  <dateIssued>Heisei 8 [1996]</dateIssued>
+  <dateIssued encoding="marc">1996</dateIssued>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo script="Hani" altRepGroup="1">
+  <place>
+    <placeTerm type="text">京都市 :</placeTerm>
+  </place>
+  <publisher>臨川書店,</publisher>
+  <dateIssued>平成 8 [1996]</dateIssued>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "location": [
+        {
+          "parallelValue": [
+            {
+              "value": "Kyōto-shi",
+              "language": [
+                {
+                  "script": {
+                    "value": "Latn",
+                    "source": {
+                      "code": "iso15924"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "value": "京都市",
+              "language": [
+                {
+                  "script": {
+                    "value": "Hani",
+                    "source": {
+                      "code": "iso15924"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ja",
+          "source": {
+            "code": "marccountry"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "type": "organization",
+          "name": [
+            {
+              "parallelValue": [
+                {
+                  "value": "Rinsen Shoten",
+                  "language": [
+                    {
+                      "script": {
+                        "code": "Latn",
+                        "source": {
+                          "code": "iso15924"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "value": "臨川書店",
+                  "language": [
+                    {
+                      "script": {
+                        "code": "Hani",
+                        "source": {
+                          "code": "iso15924"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+40. originInfo with displayLabel
+<originInfo displayLabel="Origin">
+  <place>
+    <placeTerm type="text">Stanford (Calif.)</placeTerm>
+  </place>
+</originInfo>
+{
+  "event": [
+    {
+      "displayLabel": "Origin",
+      "location": [
+        {
+          "value": "Stanford (Calif.)"
+        }
+      ]
+    }
+  ]
+}
