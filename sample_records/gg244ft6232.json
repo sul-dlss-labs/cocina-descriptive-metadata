@@ -1,0 +1,308 @@
+{
+    "Description": {
+        "title": [
+            {
+                "structuredValue": [
+                    {
+                        "value": "Madama Butterfly",
+                        "type": "main title"
+                    },
+                    {
+                        "value": "tragedia giapponese in tre atti / di Luigi Illica e Giuseppe Giacosa (da John L. Long e David Belasco) ; [musica] Giacomo Puccini ; ridizione per canto e pianofote di Carlo Carignani ; a cura di Mario Parenti (1964)",
+                        "type": "subtitle"
+                    }
+                ],
+                "status": "primary"
+            },
+            {
+                "structuredValue": [
+                    {
+                        "structuredValue": [
+                            {
+                                "value": "Puccini, Giacomo",
+                                "type": "name"
+                            },
+                            {
+                                "value": "1858-1924",
+                                "type": "date"
+                            }
+                        ],
+                        "value": "Madama Butterfly. Vocal score",
+                        "type": "title"
+                    }
+                ],
+                "type": "uniform"
+            }
+        ],
+        "contributor": [
+            {
+                "name": [
+                    {
+                        "structuredValue": [
+                            {
+                                "value": "Puccini, Giacomo",
+                                "type": "name"
+                            },
+                            {
+                                "value": "1858-1924",
+                                "type": "date"
+                            }
+                        ]
+                    }
+                ],
+                "type": "person",
+                "status": "primary"
+            },
+            {
+                "name": [
+                    {
+                        "structuredValue": [
+                            {
+                                "value": "Illica, Luigi",
+                                "type": "name"
+                            },
+                            {
+                                "value": "1857-1919",
+                                "type": "date"
+                            }
+                        ]
+                    }
+                ],
+                "type": "person",
+                "role": [
+                    {
+                        "value": "lbt",
+                        "source": {"code": "marcrelator"}
+                    }
+                ]
+            },
+            {
+                "name": [
+                    {
+                        "structuredValue": [
+                            {
+                                "value": "Giacosa, Giuseppe",
+                                "type": "name"
+                            },
+                            {
+                                "value": "1847-1906",
+                                "type": "date"
+                            }
+                        ]
+                    }
+                ],
+                "type": "person",
+                "role": [
+                    {
+                        "value": "lbt",
+                        "source": {"code": "marcrelator"}
+                    }
+                ]
+            },
+            {
+                "name": [
+                    {"value": "Carignani, Carlo"}
+                ],
+                "type": "person"
+            },
+            {
+                "name": [
+                    {
+                        "structuredValue": [
+                            {
+                                "value": "Belasco, David",
+                                "type": "name"
+                            },
+                            {
+                                "value": "1853-1931",
+                                "type": "date"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "form": [
+            {
+                "value": "notated music",
+                "type": "resource type",
+                "source": {"value": "MODS resource type"}
+            },
+            {
+                "value": "print",
+                "source": {"code": "marcform"},
+                "type": "form"
+            },
+            {
+                "value": "1 vocal score ; 27 cm",
+                "type": "extent"
+            }
+        ],
+        "event": [
+            {
+                "type": "publication",
+                "location": [
+                    {
+                        "code": "it",
+                        "source": {"code": "marccountry"}
+                    },
+                    {"value": "Milan"}
+                ],
+                "contributor": [
+                    {
+                        "name": [
+                            {"value": "Ricordi"}
+                        ],
+                        "role": [
+                            {"value": "publisher"}
+                        ]
+                    }
+                ],
+                "date": [
+                    {"value": "[1996], c1907"},
+                    {
+                        "value": "1996",
+                        "encoding": {"code": "marc"}
+                    }
+                ],
+                "note": [
+                    {
+                        "value": "monographic",
+                        "type": "issuance",
+                        "source": {"value": "MODS issuance terms"}
+                    }
+                ]
+            }
+        ],
+        "language": [
+            {
+                "code": "ita",
+                "source": {"code": "iso639-2b"}
+            }
+        ],
+        "note": [
+            {"value": "Prima rappresentazione: Milano, Teatro all Scala, 17 Febbraio 1904"}
+        ],
+        "purl": "https://purl.stanford.edu/gg244ft6232",
+        "subject": [
+            {
+                "structuredValue": [
+                    {
+                        "value": "Operas",
+                        "type": "topic"
+                    },
+                    {
+                        "value": "Vocal scores with piano",
+                        "type": "genre"
+                    }
+                ],
+                "source": {"code": "lcsh"}
+            },
+            {
+                "value": "M1503.P",
+                "type": "classification",
+                "source": {"code": "lcc"}
+            }
+        ],
+        "relatedResource": [
+            {
+                "title": [
+                    {"value": "Madame Butterfly"}
+                ],
+                "contributor": [
+                    {
+                        "name": [
+                            {
+                                "structuredValue": [
+                                    {
+                                        "value": "Belasco, David",
+                                        "type": "name"
+                                    },
+                                    {
+                                        "value": "1853-1931",
+                                        "type": "date"
+                                    }
+                                ]
+                            }
+                        ],
+                        "type": "person"
+                    }
+                ]
+            },
+            {
+                "type": "series",
+                "title": [
+                    {"value": "Vocal music. Selections"}
+                ],
+                "contributor": [
+                    {
+                        "name": [
+                            {
+                                "structuredValue": [
+                                    {
+                                        "value": "Puccini, Giacomo",
+                                        "type": "name"
+                                    },
+                                    {
+                                        "value": "1858-1924",
+                                        "type": "date"
+                                    }
+                                ]
+                            }
+                        ],
+                        "type": "person"
+                    }
+                ]
+            }
+        ],
+        "identifier": [
+            {
+                "value": "M041370644",
+                "source": {"code": "ismn"}
+            },
+            {
+                "value": "110000 Ricordi",
+                "type": "music plate"
+            }
+        ],
+        "adminMetadata": {
+            "standard": {"code": "aacr2"},
+            "contributor": [
+                {
+                    "name": [
+                        {
+                            "code": "CSt",
+                            "source": {"code": "marcorg"}
+                        }
+                    ],
+                    "role": [
+                        {"value": "original cataloging agency"}
+                    ]
+                }
+            ],
+            "event": [
+                {
+                    "type": "creation",
+                    "date": [
+                        {
+                            "value": "070830",
+                            "encoding": {"code": "marc"}
+                        }
+                    ]
+                }
+            ],
+            "identifier": [
+                {
+                    "value": "a6914736",
+                    "type": "Symphony catkey"
+                }
+            ],
+            "note": [
+                {
+                    "value": "Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4_SDR.xsl (Version 1.2.5 2013/08/11)",
+                    "type": "record origin"
+                }
+            ]
+        }
+    }
+}

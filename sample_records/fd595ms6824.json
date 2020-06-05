@@ -1,0 +1,107 @@
+{
+    "Description": {
+        "title": [
+            {
+                "value": "Data for \"Physiological constraints on body size distributions in Crocodyliformes\"",
+                "status": "primary"
+            }
+        ],
+        "contributor": [
+            {
+                "type": "person",
+                "name": [
+                    {"value": "Payne, Jonathan L"}
+                ],
+                "role": [
+                    {
+                        "value": "Advisor",
+                        "source": {"code": "marcrelator"}
+                    }
+                ]
+            }
+        ],
+        "event": [
+            {
+                "type": "creation",
+                "date": [
+                    {
+                        "value": "2016-07",
+                        "type": "start",
+                        "status": "primary",
+                        "encoding": {"code": "w3cdtf"}
+                    },
+                    {
+                        "value": "2019-04",
+                        "type": "end",
+                        "encoding": {"code": "w3cdtf"}
+                    }
+                ]
+            }
+        ],
+        "form": [
+            {
+                "value": "software, multimedia",
+                "type": "resource type",
+                "source": {"value": "MODS resource type"}
+            },
+            {
+                "value": "dataset",
+                "type": "genre"
+            }
+        ],
+        "note": [
+            {
+                "value": "These data were used to produce the figures and analyses presented in the paper by Gearty and Payne, published in 2019.",
+                "type": "summary"
+            },
+            {
+                "value": "Gearty, William and Payne, Jonathan L. (2019). Data for \"Physiological constraints on body size distributions in Crocodyliformes\". Stanford Digital Repository. Available at: https://purl.stanford.edu/fd595ms6824",
+                "type": "preferred citation",
+                "displayLabel": "Preferred citation"
+            }
+        ],
+        "access": {
+            "accessContact": [
+                {
+                    "value": "wgearty@stanford.edu",
+                    "type": "email",
+                    "displayLabel": "Contact"
+                }
+            ]
+        },
+        "subject": [
+            {
+                "value": "Department of Geological Sciences",
+                "type": "topic"
+            },
+            {
+                "value": "Body Size",
+                "type": "topic"
+            },
+            {
+                "value": "Paleobiology",
+                "type": "topic"
+            },
+            {
+                "value": "Physiology",
+                "type": "topic"
+            },
+            {
+                "value": "Crocodiles",
+                "type": "topic"
+            }
+        ],
+        "relatedResource": [
+            {
+                "title": [
+                    {"value": "Published journal article"}
+                ],
+                "access": {
+                    "url": [
+                        {"value": "https://onlinelibrary.wiley.com/doi/full/10.1111/evo.13901"}
+                    ]
+                }
+            }
+        ]
+    }
+}
