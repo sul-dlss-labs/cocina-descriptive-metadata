@@ -15,10 +15,10 @@
 {
   "note": [
     {
+      "type": "summary"
       "parallelValue": [
         {
           "value": "This is an abstract.",
-          "type": "summary",
           "language": [
             {
               "code": "eng",
@@ -36,7 +36,6 @@
         },
         {
           "value": "Это аннотация.",
-          "type": "summary",
           "language": [
             {
               "code": "rus",
