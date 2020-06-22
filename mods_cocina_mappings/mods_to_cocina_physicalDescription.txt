@@ -61,20 +61,28 @@
 {
   "form": [
     {
-      "value": "audio recording",
-      "type": "form"
+      "structuredValue": [
+        {
+          "value": "audio recording",
+          "type": "form"
+        },
+        {
+          "value": "1 audiocassette",
+          "type": "extent"
+        }
+      ]
     },
     {
-      "value": "1 audiocassette",
-      "type": "extent"
-    },
-    {
-      "value": "transcript",
-      "type": "form"
-    },
-    {
-      "value": "5 pages",
-      "type": "extent"
+      "structuredValue": [
+        {
+          "value": "transcript",
+          "type": "form"
+        },
+        {
+          "value": "5 pages",
+          "type": "extent"
+        }
+      ]
     }
   ]
 }
