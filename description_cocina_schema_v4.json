@@ -29,7 +29,7 @@
                     "type": "string"
                 },
                 "status": {
-                    "description": "Status of the contributor relative to other parallel contributors.",
+                    "description": "Status of the contributor relative to other parallel contributors (e.g. the primary author among a group of contributors).",
                     "type": "string"
                 },
                 "role": {
