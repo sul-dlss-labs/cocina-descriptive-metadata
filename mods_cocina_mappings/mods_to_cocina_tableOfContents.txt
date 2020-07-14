@@ -1,0 +1,90 @@
+1. Simple table of contents
+<tableOfContents>Chapter 1. Chapter 2. Chapter 3.</tableOfContents>
+{
+  "note": [
+    {
+      "value": "Chapter 1. Chapter 2. Chapter 3.",
+      "type": "table of contents"
+    }
+  ]
+}
+
+2. Structured table of contents
+<tableOfContents>Chapter 1. -- Chapter 2. -- Chapter 3.</tableOfContents>
+{
+  "note": [
+    {
+      "structuredValue": [
+        {
+          "value": "Chapter 1."
+        },
+        {
+          "value": "Chapter 2."
+        },
+        {
+          "value": "Chapter 3."
+        }
+      ],
+      "type": "table of contents"
+    }
+  ]
+}
+
+3. Multilingual table of contents
+<tableOfContents lang="eng" script="Latn" altRepGroup="1">Chapter 1. Chapter 2. Chapter 3.</tableOfContents>
+<tableOfContents lang="rus" script="Cyrl" altRepGroup="1">Глава 1. Глава 2. Глава 3.</tableOfContents>
+{
+  "note": [
+    {
+      "parallelValue": [
+        {
+          "value": "Chapter 1. Chapter 2. Chapter 3.",
+          "language": [
+            {
+              "code": "eng",
+              "source": {
+                "code": "iso639-2b"
+              },
+              "script": {
+                "code": "Latn",
+                "source": {
+                  "code": "iso15924"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "value": "Глава 1. Глава 2. Глава 3.",
+          "language": [
+            {
+              "code": "rus",
+              "source": {
+                "code": "iso639-2b"
+              },
+              "script": {
+                "value" : "Cyrl",
+                "source": {
+                  "code": "iso15924"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "type": "table of contents"
+    }
+  ]
+}
+
+4. Display label
+<tableOfContents displayLabel="Contents">Content 1. Content 2.</tableOfContents>
+{
+  "note": [
+    {
+      "value": "Content 1. Content 2.",
+      "type": "table of contents",
+      "displayLabel": "Contents"
+    }
+  ]
+}

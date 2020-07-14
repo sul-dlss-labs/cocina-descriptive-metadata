@@ -1,0 +1,48 @@
+1. Classification with authority
+<classification authority="lcc">G9801.S12 2015 .Z3</classification>
+{
+  "subject": [
+    {
+      "type": "classification",
+      "value": "G9801.S12 2015 .Z3",
+      "source": {
+        "code": "lcc"
+      }
+    }
+  ]
+}
+
+2. Classification with edition
+<classification authority="ddc" edition="11">683</classification>
+{
+  "subject": [
+    {
+      "type": "classification",
+      "value": "683",
+      "source": {
+        "code": "ddc",
+        "note": [
+          {
+            "type": "edition",
+            "value": "11"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+3. Display label
+<classification authority="lcc" displayLabel="Library of Congress classification">ML410.B3</classification>
+{
+  "subject": [
+    {
+      "type": "classification",
+      "value": "ML410.B3",
+      "displayLabel": "Library of Congress classification",
+      "source": {
+        "code": "lcc"
+      }
+    }
+  ]
+}

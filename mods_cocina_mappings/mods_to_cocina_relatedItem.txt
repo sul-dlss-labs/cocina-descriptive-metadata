@@ -1,0 +1,136 @@
+1. Related item with type
+<relatedItem type="series">
+  <titleInfo>
+    <title>Lymond chronicles</title>
+  </titleInfo>
+  <name type="personal">
+    <namePart>Dunnett, Dorothy</namePart>
+  </name>
+  <physicalDescription>
+    <extent>6 vols.
+  </physicalDescription>
+</relatedItem>
+{
+  "relatedResource": [
+    {
+      "title": [
+        {
+          "value": "Lymond chronicles"
+        }
+      ],
+      "contributor": [
+        {
+          "type": "person",
+          "name": [
+            {
+              "value": "Dunnett, Dorothy"
+            }
+          ]
+        }
+      ],
+      "form": [
+        {
+          "value": "6 vols.",
+          "type": "extent"
+        }
+      ],
+      "type": "series"
+    }
+
+  ]
+}
+
+
+2. Related item without type
+<relatedItem>
+  <titleInfo>
+    <title>Supplement</title>
+  </titleInfo>
+  <abstract>Additional data.</abstract>
+</relatedItem>
+{
+  "relatedResource": [
+    {
+      "title": [
+        {
+          "value": "Supplement"
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "value": "Additional data.",
+      "type": "summary"
+    }
+  ]
+}
+
+3. Related item without title
+<relatedItem>
+  <location>
+    <url>https://www.example.com</url>
+  </location>
+</relatedItem>
+{
+  "relatedResource": [
+    {
+      "access": {
+        "url": [
+          {
+            "value": "https://www.example.com"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+4. Multiple related items
+<relatedItem>
+  <titleInfo>
+    <title>Related item 1</title>
+  </titleInfo>
+</relatedItem>
+<relatedItem>
+  <titleInfo>
+    <title>Related item 2</title>
+  </titleInfo>
+</relatedItem>
+{
+  "relatedResource": [
+    {
+      "title": [
+        {
+          "value": "Related item 1"
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "value": "Related item 2"
+        }
+      ]
+    }
+  ]
+}
+
+5. Related item with display label
+<relatedItem displayLabel="Additional data">
+  <titleInfo>
+    <title>Supplement</title>
+  </titleInfo>
+</relatedItem>
+{
+  "relatedResource": [
+    {
+      "title": [
+        {
+          "value": "Supplement"
+        }
+      ],
+      "displayLabel": "Additional data"
+    }
+  ]
+}

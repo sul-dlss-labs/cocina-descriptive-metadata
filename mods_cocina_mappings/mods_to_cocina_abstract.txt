@@ -1,0 +1,69 @@
+1. Single abstract
+<abstract>This is an abstract.</abstract>
+{
+  "note": [
+    {
+      "value": "This is an abstract.",
+      "type": "summary"
+    }
+  ]
+}
+
+2. Multilingual abstract
+<abstract lang="eng" script="Latn" altRepGroup="1">This is an abstract</abstract>
+<abstract lang="rus" script="Cyrl" altRepGroup="1">Это аннотация.</abstract>
+{
+  "note": [
+    {
+      "type": "summary"
+      "parallelValue": [
+        {
+          "value": "This is an abstract.",
+          "language": [
+            {
+              "code": "eng",
+              "source": {
+                "code": "iso639-2b"
+              },
+              "script": {
+                "code": "Latn",
+                "source": {
+                  "code": "iso15924"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "value": "Это аннотация.",
+          "language": [
+            {
+              "code": "rus",
+              "source": {
+                "code": "iso639-2b"
+              },
+              "script": {
+                "code": "Cyrl",
+                "source": {
+                  "code": "iso15924"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+3. Display label
+<abstract displayLabel="Synopsis">This is a synopsis.</abstract>
+{
+  "note": [
+    {
+      "value": "This is a synopsis.",
+      "type": "summary",
+      "displayLabel": "Synopsis"
+    }
+  ]
+}

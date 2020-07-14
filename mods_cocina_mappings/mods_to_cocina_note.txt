@@ -1,0 +1,65 @@
+1. Simple note
+<note>This is a note.</note>
+{
+  "note": [
+    {
+      "value": "This is a note."
+    }
+  ]
+}
+
+2. Note with type
+<note type="preferred citation">This is the preferred citation.</note>
+{
+  "note": [
+    {
+      "value": "This is the preferred citation.",
+      "type": "preferred citation"
+    }
+  ]
+}
+
+3. Multilingual note
+<note lang="eng" altReptGroup="1">This is a note.</note>
+<note lang="fre" altRepGroup="1">C'est une note.</note.
+{
+  "note": [
+    {
+      "parallelValue": [
+        {
+          "value": "This is a note.",
+          "language": [
+            {
+              "code": "eng",
+              "source": {
+                "code": "iso639-2b"
+              }
+            }
+          ]
+        },
+        {
+          "value": "C'est une note.",
+          "language": [
+            {
+              "code": "fre",
+              "source": {
+                "code": "iso639-2b"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+4. Display label
+<note displayLabel="Conservation note">This is a conservation note.</note>
+{
+  "note": [
+    {
+      "value": "This is a conservation note.",
+      "displayLabel": "Conservation note"
+    }
+  ]
+}

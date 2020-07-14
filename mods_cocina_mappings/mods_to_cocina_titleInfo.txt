@@ -1,0 +1,386 @@
+Titles
+
+1. Basic title
+How to ID: only subelement of titleInfo is title and no titleInfo type attribute
+<titleInfo>
+  <title>Gaudy night</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "value": "Gaudy night"
+    }
+  ]
+}
+
+2. Title with parts
+How to ID: multiple subelements in titleInfo
+<titleInfo>
+  <nonSort>The</nonSort>
+  <title>journal of stuff</title>
+  <partNumber>volume 5</partNumber>
+  <partName>special issue</partName>
+</titleInfo>
+{
+"title": [
+    {
+      "structuredValue": [
+        {
+          "value": "The",
+          "type": "nonsorting characters"
+        },
+        {
+          "value": "journal of stuff",
+          "type": "main title"
+        },
+        {
+          "value": "volume 5",
+          "type": "part"
+        },
+        {
+          "value": "special issue",
+          "type": "part"
+        },
+        {
+          "note": [
+            {
+              "value": 4,
+              "type": "nonsorting character count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+Note: the nonsorting character count should be the number of characters in the nonsorting characters value plus 1 unless the nonsorting characters value ends with an apostrophe or a hyphen.
+
+3. Alternative title
+How to ID: titleInfo type="alternative"
+<titleInfo usage="primary">
+  <title>Five red herrings</title>
+</titleInfo>
+<titleInfo type="alternative">
+  <title>Suspicious characters</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "value": "Five red herrings",
+      "status": "primary"
+    },
+    {
+      "value": "Suspicious characters",
+      "type": "alternative"
+    }
+  ]
+}
+
+4. Translated title (title is structuredValue)
+How to ID: titleInfo type="translated"
+<titleInfo usage="primary" lang="fre" altRepGroup="0">
+  <nonSort>Les</nonSort>
+  <title>misérables</title>
+</titleInfo>
+<titleInfo type="translated" lang="eng" altRepGroup="0">
+  <nonSort>The</nonSort>
+  <title>wretched</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "parallelValue": [
+        {
+          "structuredValue": [
+            {
+              "value": "Les",
+              "type": "nonsorting characters"
+            },
+            {
+              "value": "misérables",
+              "type": "main title"
+            },
+            {
+              "note": [
+                {
+                  "value": 4,
+                  "type": "nonsorting character count"
+                }
+              ]
+            }
+          ],
+          "status": "primary",
+          "language": [
+            {
+              "code": "fre",
+              "source": {
+                "code": "iso639-2b"
+              }
+            }
+          ]
+        },
+        {
+          "structuredValue": [
+            {
+              "value": "The",
+              "type": "nonsorting characters"
+            },
+            {
+              "value": "wretched",
+              "type": "main title"
+            },
+            {
+              "note": [
+                {
+                  "value": 4,
+                  "type": "nonsorting character count"
+                }
+              ]
+            }
+          ],
+          "type": "translated",
+          "language": [
+            {
+              "code": "eng",
+              "source": {
+                "code": "iso639-2b"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+5. Transliterated title (title is value)
+How to ID: presence of titleInfo transliteration attribute (may need to manually review all records with a titleInfo script element to catch additional instances)
+<titleInfo usage="primary" language="rus" script="Cyrl" altRepGroup="0">
+  <title>Война и миръ</title>
+</titleInfo>
+<titleInfo type="translated" language="rus" script="Latn" transliteration="ALA-LC Romanization Tables" altRepGroup="0">
+  <title>Voĭna i mir</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "parallelValue": [
+        {
+          "value": "Война и миръ",
+          "status": "primary",
+          "language": [
+            {
+              "code": "rus",
+              "source": {
+                "code": "iso639-2b"
+              },
+              "script": {
+                "code": "Cyrl",
+                "source": {
+                  "code": "iso15924"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "value": "Voĭna i mir",
+          "language": [
+            {
+              "code": "rus",
+              "source": {
+                "code": "iso639-2b"
+              },
+              "script": {
+                "code": "Latn",
+                "source": {
+                  "code": "iso15924"
+                }
+              }
+            }
+          ],
+          "type": "transliterated",
+          "standard": {
+            "value": "ALA-LC Romanization Tables"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+6. Uniform title with authority
+How to ID: titleInfo type="uniform"
+<titleInfo usage="primary">
+  <title>Hamlet</title>
+</titleInfo>
+<titleInfo type="uniform" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n80008522" nameTitleGroup="0">
+  <title>Hamlet</title>
+</titleInfo>
+<name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n78095332" nameTitleGroup="0">
+  <namePart>Shakespeare, William, 1564-1616</namePart>
+</name>
+{
+  "title": [
+    {
+      "value": "Hamlet",
+      "status": "primary"
+    },
+    {
+      "value": "Shakespeare, William, 1564-1616. Hamlet",
+      "type": "uniform",
+      "uri": "http://id.loc.gov/authorities/names/n80008522"
+    }
+  ]
+}
+
+7. Supplied title
+How to ID: titleInfo supplied="yes"
+<titleInfo supplied="yes">
+  <title>"Because I could not stop for death"</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "value": "\"Because I could not stop for death\"",
+      "type": "supplied"
+    }
+  ]
+}
+
+8. Abbreviated title
+How to ID: titleInfo type="abbreviated"
+<titleInfo usage="primary">
+  <title>Annual report of notifiable diseases</title>
+</titleInfo>
+<titleInfo type="abbreviated" authority="dnlm">
+  <title>Annu. rep. notif. dis.</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "value": "Annual report of notifiable diseases",
+      "status": "primary"
+    },
+    {
+      "value": "Annu. rep. notif. dis.",
+      "type": "abbreviated",
+      "source": {
+        "code": "dnlm"
+      }
+    }
+  ]
+}
+
+9. Parallel titles
+How to ID: edge case requiring manual review of records with multiple titleInfo type="translated" instances
+<titleInfo type="translated" lang="ger" altRepGroup="0">
+  <title>Berliner Mauer Kunst</title>
+</titleInfo>
+<titleInfo type="translated" lang="eng" altRepGroup="0">
+  <title>Berlin's wall art<title>
+</titleInfo>
+<titleInfo type="translated" lang="spa" altRepGroup="0">
+  <title>Arte en el muro de Berlin</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "parallelValue": [
+        {
+          "value": "Berliner Mauer Kunst",
+          "language": [
+            {
+              "code": "ger",
+              "source": {
+                "code": "iso639-2b"
+              }
+            }
+          ]
+        },
+        {
+          "value": "Berlin's wall art",
+          "language": [
+            {
+              "code": "eng",
+              "source": {
+                "code": "iso639-2b"
+              }
+            }
+          ]
+        },
+        {
+          "value": "Arte en el muro de Berlin",
+          "language": [
+            {
+              "code": "spa",
+              "source": {
+                "code": "iso639-2b"
+              }
+            }
+          ]
+        }
+      ],
+      "type": "parallel",
+      "status": "primary"
+    }
+  ]
+}
+
+10. Multiple untyped titles without primary
+<titleInfo>
+  <title>Symphony no. 6</title>
+</titleInfo>
+<titleInfo>
+  <title>Pastoral symphony</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "value": "Symphony no. 6"
+    },
+    {
+      "value": "Pastoral symphony"
+    }
+  ]
+}
+
+11. Multiple typed titles without primary
+<titleInfo>
+  <title>Symphony no. 6</title>
+</titleInfo>
+<titleInfo type="alternative">
+  <title>Pastoral symphony</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "value": "Symphony no. 6"
+    },
+    {
+      "value": "Pastoral symphony",
+      "type": "alternative"
+    }
+  ]
+}
+
+12. Title with display label
+<titleInfo usage="primary">
+  <title>Unnatural death</title>
+</titleInfo>
+<titleInfo type="alternative" displayLabel="Original U.S. title">
+  <title>The Dawson pedigree</title>
+</titleInfo>
+{
+  "title": [
+    {
+      "value": "Unnatural death",
+      "status": "primary"
+    },
+    {
+      "value": "The Dawson pedigree",
+      "type": "alternative",
+      "displayLabel": "Original U.S. title"
+    }
+  ]
+}

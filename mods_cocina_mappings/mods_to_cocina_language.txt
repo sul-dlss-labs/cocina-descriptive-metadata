@@ -1,0 +1,158 @@
+1. Single language with term, code, and authority
+<language>
+  <languageTerm type="text" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2/" valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">English</languageTerm>
+  <languageTerm type="code" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2/" valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+</language>
+{
+  "language": [
+    {
+      "value": "English",
+      "code": "eng",
+      "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+      "source": {
+        "code": "iso639-2b",
+        "uri": "http://id.loc.gov/vocabulary/iso639-2/"
+      }
+    }
+  ]
+}
+
+2. Language term only
+<language>
+  <languageTerm type="text">English</languageTerm>
+</language>
+{
+  "language": [
+    {
+      "value": "English"
+    }
+  ]
+}
+
+3. Language code only
+<language>
+  <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+</language>
+{
+  "language": [
+    {
+      "code": "eng",
+      "source": {
+        "code": "iso639-2b"
+      }
+    }
+  ]
+}
+
+4. Multiple languages
+<language>
+  <languageTerm type="text" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2/" valueURI="http://id.loc.gov/vocabulary/iso639-2/eng" status="primary">English</languageTerm>
+  <languageTerm type="code" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2/" valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+</language>
+<language>
+  <languageTerm type="text" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2/" valueURI="http://id.loc.gov/vocabulary/iso639-2/fre">French</languageTerm>
+  <languageTerm type="code" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2/" valueURI="http://id.loc.gov/vocabulary/iso639-2/fre">fre</languageTerm>
+</language>
+{
+  "language": [
+    {
+      "value": "English",
+      "code": "eng",
+      "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+      "source": {
+        "code": "iso639-2b",
+        "uri": "http://id.loc.gov/vocabulary/iso639-2/"
+      },
+      "status": "primary"
+    },
+    {
+      "value": "French",
+      "code": "fre",
+      "uri": "http://id.loc.gov/vocabulary/iso639-2/fre",
+      "source": {
+        "code": "iso639-2b",
+        "uri": "http://id.loc.gov/vocabulary/iso639-2/"
+      }
+    }
+  ]
+}
+
+5. Language with script and authority
+<language>
+  <languageTerm type="text" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2/" valueURI="http://id.loc.gov/vocabulary/iso639-2/rus">Russian</languageTerm>
+  <languageTerm type="code" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2/" valueURI="http://id.loc.gov/vocabulary/iso639-2/rus">rus</languageTerm>
+  <scriptTerm type="text" authority="iso15924">Cyrillic</scriptTerm>
+  <scriptTerm type="code" authority="iso15924">Cyrl</scriptTerm>
+</language>
+{
+  "language": [
+    {
+      "value": "Russian",
+      "code": "rus",
+      "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+      "source": {
+        "code": "iso639-2b",
+        "uri": "http://id.loc.gov/vocabulary/iso639-2/"
+      },
+      "script": {
+        "value": "Cyrillic",
+        "code": "Cyrl",
+        "source": {
+          "code": "iso15924"
+        }
+      }
+    }
+  ]
+}
+
+6. Script only
+<language>
+  <scriptTerm type="text" authority="iso15924">Latin</scriptTerm>
+  <scriptTerm type="code" authority="iso15924">Latn</scriptTerm>
+</language>
+{
+  "language": [
+    {
+      "script": {
+        "value": "Latin",
+        "code": "Latn",
+        "source": {
+          "code": "iso15924"
+        }
+      }
+    }
+  ]
+}
+
+7. Applies to part of object
+<language objectPart="liner notes">
+  <languageTerm type="text">English</languageTerm>
+</language>
+<language objectPart="libretto">
+  <languageTerm type="text">German</languageTerm>
+</language>
+{
+  "language": [
+    {
+      "value": "English",
+      "appliesTo": "liner notes"
+    },
+    {
+      "value": "German",
+      "appliesTo": "libretto"
+    }
+  ]
+}
+
+8. Display label
+<language displayLabel="Translated to">
+  <languageTerm type="text">English</languageTerm>
+</language>
+{
+  "language": [
+    {
+      "value": "English",
+      "displayLabel": "Translated to"
+    }
+  ]
+}
