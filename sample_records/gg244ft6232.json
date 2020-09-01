@@ -45,7 +45,7 @@
                             },
                             {
                                 "value": "1858-1924",
-                                "type": "date"
+                                "type": "life dates"
                             }
                         ]
                     }
@@ -63,7 +63,7 @@
                             },
                             {
                                 "value": "1857-1919",
-                                "type": "date"
+                                "type": "life dates"
                             }
                         ]
                     }
@@ -86,7 +86,7 @@
                             },
                             {
                                 "value": "1847-1906",
-                                "type": "date"
+                                "type": "life dates"
                             }
                         ]
                     }
@@ -115,7 +115,7 @@
                             },
                             {
                                 "value": "1853-1931",
-                                "type": "date"
+                                "type": "life dates"
                             }
                         ]
                     }
@@ -245,7 +245,7 @@
                                     },
                                     {
                                         "value": "1858-1924",
-                                        "type": "date"
+                                        "type": "life dates"
                                     }
                                 ]
                             }
@@ -294,7 +294,7 @@
             "identifier": [
                 {
                     "value": "a6914736",
-                    "type": "Symphony catkey"
+                    "source": {"value": "SIRSI"}
                 }
             ],
             "note": [

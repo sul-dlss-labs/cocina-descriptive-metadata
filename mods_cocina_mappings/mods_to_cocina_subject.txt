@@ -1,0 +1,704 @@
+Note: Subjects with LCSH/NAF authorities are tricky in MODS (and MARC) because there may be a URI for the combined subject string, each individual term, or both. Also, the official MODS documentation says to use authority="lcsh" at the subject level, even when the individual terms have authority="naf": 'If the subject string is formulated according to the Library of Congress Subject Headings (or LC Name Authority File), the value of the authority attribute is "lcsh." A subject thesaurus that does not include names but has an implied authority for names uses the designation for that thesaurus (i.e., "lcsh" means LCSH plus NAF).'[1] This results in apparent inconsistencies, such as pairing authorityURI="http://id.loc.gov/authorities/subjects/" with valueURI="http://id.loc.gov/authorities/names/123", where the authorityURI namespace does not actually include the valueURI. The MODS>COCINA mapping does not represent this conflict, but it is possible to regenerate it from the retained data when mapping COCINA>MODS if desired.
+
+[1] http://www.loc.gov/standards/mods/userguide/subject.html
+
+1. Single-term topic subject
+<subject>
+  <topic>Cats</topic>
+</subject>
+{
+  "subject": [
+    {
+      "value": "Cats",
+      "type": "topic"
+    }
+  ]
+}
+
+2. Multi-term topic etc. subject
+<subject>
+  <topic>Cats</topic>
+  <temporal>1640</temporal>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Cats",
+          "type": "topic"
+        },
+        {
+          "value": "1640",
+          "type": "time"
+        }
+      ]
+    }
+  ]
+}
+
+3. Single-term topic subject with authority
+Option A
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh85021262">
+  <topic>Cats</topic>
+</subject>
+Option B
+<subject authority="lcsh">
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh85021262">Cats</topic>
+</subject>
+{
+  "subject": [
+    {
+      "value": "Cats",
+      "type": "topic",
+      "uri": "http://id.loc.gov/authorities/subjects/sh85021262",
+      "source": {
+        "code": "lcsh",
+        "uri": "http://id.loc.gov/authorities/subjects/"
+      }
+    }
+  ]
+}
+
+4. Multi-term topic subject with authority for set
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh85021263">
+  <topic>Cats</topic>
+  <topic>Anatomy</topic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Cats",
+          "type": "topic"
+        },
+        {
+          "value": "Anatomy",
+          "type": "topic"
+        }
+      ],
+      "uri": "http://id.loc.gov/authorities/subjects/sh85021263",
+      "source": {
+        "code": "lcsh",
+        "uri": "http://id.loc.gov/authorities/subjects/"
+      }
+    }
+  ]
+}
+
+5. Multi-term topic subject with authority for terms
+<subject authority="lcsh">
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh85021262">Cats</topic>
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sj96004895">Behavior</topic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Cats",
+          "type": "topic",
+          "uri": "http://id.loc.gov/authorities/subjects/sh85021262",
+          "source": {
+            "code": "lcsh",
+            "uri": "http://id.loc.gov/authorities/subjects/"
+          }
+        },
+        {
+          "value": "Behavior",
+          "type": "topic",
+          "uri": "http://id.loc.gov/authorities/subjects/sj96004895",
+          "source": {
+            "code": "lcsh",
+            "uri": "http://id.loc.gov/authorities/subjects/"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+6. Multi-term topic subject with authority for both set and terms
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh12345">
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh23456">Horses</topic>
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURi="http://id.loc.gov/authorities/subjects/sh34567">History</topic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Horses",
+          "type": "topic",
+          "uri": "http://id.loc.gov/authorities/subjects/sh23456",
+          "source": {
+            "code": "lcsh",
+            "uri": "http://id.loc.gov/authorities/subjects/"
+          }
+        },
+        {
+          "value": "History",
+          "type": "topic",
+          "uri": "http://id.loc.gov/authorities/subjects/sh34567",
+          "source": {
+            "code": "lcsh",
+            "uri": "http://id.loc.gov/authorities/subjects/"
+          }
+        }
+      ],
+      "uri": "http://id.loc.gov/authorities/subjects/sh12345",
+      "source": {
+        "code": "lcsh",
+        "uri": "http://id.loc.gov/authorities/subjects/"
+      }
+    }
+  ]
+}
+
+7. Name subject
+<subject>
+  <name type="personal">
+    <namePart>Dunnett, Dorothy</namePart>
+  </name>
+</subject>
+{
+  "subject": [
+    {
+      "value": "Dunnett, Dorothy",
+      "type": "person"
+    }
+  ]
+}
+
+8. Name subject with authority
+<subject authority="lcsh">
+  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79046044">
+    <namePart>Sayers, Dorothy L. (Dorothy Leigh), 1893-1957</namePart>
+  </name>
+</subject>
+{
+  "subject": [
+    {
+      "value": "Sayers, Dorothy L. (Dorothy Leigh), 1893-1957",
+      "type": "person",
+      "uri": "http://id.loc.gov/authorities/names/n79046044",
+      "source": {
+        "code": "naf",
+        "uri": "http://id.loc.gov/authorities/names/"
+      }
+    }
+  ]
+}
+
+9. Name subject with additional terms
+<subject>
+  <name type="personal">
+    <namePart>Shakespeare, William, 1564-1616</namePart>
+  </name>
+  <topic>Homes and haunts</topic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "person"
+        },
+        {
+          "value": "Homes and haunts",
+          "type": "topic"
+        }
+      ]
+    }
+  ]
+}
+
+10. Name subject with additional terms, authority for set
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85120951">
+  <name type="personal">
+    <namePart>Shakespeare, William, 1564-1616</namePart>
+  </name>
+  <topic>Homes and haunts</topic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "person"
+        },
+        {
+          "value": "Homes and haunts",
+          "type": "topic"
+        }
+      ],
+      "uri": "http://id.loc.gov/authorities/subjects/sh85120951",
+      "source": {
+        "code": "lcsh",
+        "uri": "http://id.loc.gov/authorities/subjects/"
+      }
+    }
+  ]
+}
+
+11. Name subject with additional terms, authority for terms
+<subject authority="lcsh">
+  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n78095332">
+    <namePart>Shakespeare, William, 1564-1616</namePart>
+  </name>
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh99005711">Homes and haunts</topic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "person",
+          "uri": "http://id.loc.gov/authorities/names/n78095332",
+          "source": {
+            "code": "naf",
+            "uri": "http://id.loc.gov/authorities/names/"
+          }
+        },
+        {
+          "value": "Homes and haunts",
+          "type": "topic",
+          "uri": "http://id.loc.gov/authorities/subjects/sh99005711",
+          "source": {
+            "code": "lcsh",
+            "uri": "http://id.loc.gov/authorities/subjects/"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+12. Name subject with additional terms, authority for terms and set
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85120951">
+  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n78095332">
+    <namePart>Shakespeare, William, 1564-1616</namePart>
+  </name>
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh99005711">Homes and haunts</topic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "person",
+          "uri": "http://id.loc.gov/authorities/names/n78095332",
+          "source": {
+            "code": "naf",
+            "uri": "http://id.loc.gov/authorities/names/"
+          }
+        },
+        {
+          "value": "Homes and haunts",
+          "type": "topic",
+          "uri": "http://id.loc.gov/authorities/subjects/sh99005711",
+          "source": {
+            "code": "lcsh",
+            "uri": "http://id.loc.gov/authorities/subjects/"
+          }
+        }
+      ],
+      "uri": "http://id.loc.gov/authorities/subjects/sh85120951",
+      "source": {
+        "code": "lcsh",
+        "uri": "http://id.loc.gov/authorities/subjects/"
+      }
+    }
+  ]
+}
+
+13. Name-title subject with authority
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n97075542">
+  <name type="personal">
+    <namePart>Dunnett, Dorothy</namePart>
+  </name>
+  <titleInfo>
+    <title>Lymond chronicles</title>
+  </titleInfo>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Dunnett, Dorothy",
+          "type": "person"
+        },
+        {
+          "value": "Lymond chronicles",
+          "type": "title"
+        }
+      ],
+      "uri": "http://id.loc.gov/authorities/names/n97075542",
+      "source": {
+        "code": "naf",
+        "uri": "http://id.loc.gov/authorities/names/"
+      }
+    }
+  ]
+}
+
+14. Name-title subject with authority plus authority for name
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n97075542">
+  <name type="personal">
+    <namePart authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50025011">Dunnett, Dorothy</namePart>
+  </name>
+  <titleInfo>
+    <title>Lymond chronicles</title>
+  </titleInfo>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Dunnett, Dorothy",
+          "type": "person",
+          "uri": "http://id.loc.gov/authorities/names/n50025011",
+          "source": {
+            "code": "naf",
+            "uri": "http://id.loc.gov/authorities/names/"
+          }
+        },
+        {
+          "value": "Lymond chronicles",
+          "type": "title"
+        }
+      ],
+      "uri": "http://id.loc.gov/authorities/names/n97075542",
+      "source": {
+        "code": "naf",
+        "uri": "http://id.loc.gov/authorities/names/"
+      }
+    }
+  ]
+}
+
+15. Name-title subject with additional terms including genre subdivision, authority for set
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85120809">
+  <name type="personal">
+    <namePart>Shakespeare, William, 1564-1616</namePart>
+  </name>
+  <titleInfo>
+    <title>Hamlet</title>
+  </titleInfo>
+  <genre>Bibliographies</genre>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "person"
+        },
+        {
+          "value": "Hamlet",
+          "type": "title"
+        },
+        {
+          "value": "Bibliographies",
+          "type": "genre"
+        }
+      ],
+      "uri": "http://id.loc.gov/authorities/subjects/sh85120809",
+      "source": {
+        "code": "lcsh",
+        "uri": "http://id.loc.gov/authorities/subjects/"
+      }
+    }
+  ],
+  "form": [
+    {
+      "value": "Bibliographies",
+      "type": "genre"
+    }
+  ]
+}
+
+16. Name-title subject with additional terms including genre subdivision, authority for terms
+<subject authority="lcsh">
+  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n78095332">
+    <namePart>Shakespeare, William, 1564-1616</namePart>
+  </name>
+  <titleInfo authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n80008522">
+    <title>Hamlet</title>
+  </titleInfo>
+  <genre authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh99001362">Bibliographies</genre>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "person",
+          "uri": "http://id.loc.gov/authorities/names/n78095332",
+          "source": {
+            "code": "naf",
+            "uri": "http://id.loc.gov/authorities/names/"
+          }
+        },
+        {
+          "value": "Hamlet",
+          "type": "title",
+          "uri": "http://id.loc.gov/authorities/names/n80008522",
+          "source": {
+            "code": "naf",
+            "uri": "http://id.loc.gov/authorities/names/"
+          }
+        },
+        {
+          "value": "Bibliographies",
+          "type": "genre",
+          "uri": "http://id.loc.gov/authorities/subjects/sh99001362",
+          "source": {
+            "code": "lcsh",
+            "uri": "http://id.loc.gov/authorities/subjects/"
+          }
+        }
+      ]
+    }
+  ],
+  "form": [
+    {
+      "value": "Bibliographies",
+      "type": "genre"
+    }
+  ]
+}
+
+17. Geographic subject subdivision
+<subject>
+  <topic>Cats</topic>
+  <geographic>Europe</geographic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Cats",
+          "type": "topic"
+        },
+        {
+          "value": "Europe",
+          "type": "place"
+        }
+      ]
+    }
+  ]
+}
+
+18. Hierarchical geographic subject
+<subject>
+  <hierarchicalGeographic>
+    <country>Canada</country>
+    <city>Vancouver</city>
+  </hierarchicalGeographic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Canada",
+          "type": "country"
+        },
+        {
+          "value": "Vancouver",
+          "type": "city"
+        }
+      ],
+      "type": "place"
+    }
+  ]
+}
+
+19. Cartographic subject
+<subject>
+  <cartographics>
+    <coordinates>E 72°--E 148°/N 13°--N 18°</coordinates>
+    <scale>1:22,000,000</scale>
+    <projection>Conic proj</projection>
+  </cartographics>
+</subject>
+{
+  "form": [
+    {
+      "value": "1:22,000,000",
+      "type": "map scale"
+    },
+    {
+      "value": "Conic proj",
+      "type": "map projection"
+    }
+  ],
+  "subject": [
+    {
+      "value": "E 72°--E 148°/N 13°--N 18°",
+      "type": "map coordinates",
+      "encoding": {
+        "value": "DMS"
+      }
+    }
+  ]
+}
+
+20. Geographic code subject
+<subject>
+  <geographicCode authority="marcgac">n-us-md</geographicCode>
+</subject>
+{
+  "subject": [
+    {
+      "code": "n-us-md",
+      "type": "place",
+      "source": {
+        "code": "marcgac"
+      }
+    }
+  ]
+}
+
+21. Geographic code and term
+<subject>
+  <geographic authority="lcsh">United States</geographic>
+  <geographicCode authority="iso3166">us</geographicCode>
+</subject>
+{
+  "subject": [
+    {
+      "parallelValue": [
+        {
+          "value": "United States",
+          "source": {
+            "code": "lcsh"
+          }
+        },
+        {
+          "code": "us",
+          "source": {
+            "code": "iso3166"
+          }
+        }
+      ],
+      "type": "place"
+    }
+  ]
+}
+
+22. Temporal subject with encoding
+<subject>
+  <temporal encoding="w3cdtf">1922-05-15</temporal>
+</subject>
+{
+  "subject": [
+    {
+      "value": "1922-05-15",
+      "encoding": {
+        "code": "w3cdtf"
+      },
+      "type": "time"
+    }
+  ]
+}
+
+23. Temporal subject with range
+<subject>
+  <temporal encoding="w3cdtf" point="start">1890-06-11</temporal>
+  <temporal encoding="w3cdtf" point="end">1894-03-19</temporal>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "1890-06-11",
+          "type": "start"
+        },
+        {
+          "value": "1894-03-19",
+          "type": "end"
+        }
+      ],
+      "encoding": {
+        "code": "w3cdtf"
+      },
+      "type": "time"
+    }
+  ]
+}
+
+24. Multilingual subject
+<subject lang="eng" altRepGroup="1">
+  <topic>French New Wave</topic>
+</subject>
+<subject lang="fre" altRepGroup="1">
+  <topic>Nouvelle Vague</topic>
+</subject>
+{
+  "subject": [
+    {
+      "parallelValue": [
+        {
+          "value": "French New Wave",
+          "language": [
+            {
+              "code": "eng"
+            }
+          ]
+        },
+        {
+          "value": "Nouvelle Vague",
+          "language": [
+            {
+              "code": "fre"
+            }
+          ]
+        }
+      ],
+      "type": "topic"
+    }
+  ]
+}
+
+25. Musical genre as topic
+<subject authority="lcsh">
+  <topic>String quartets</topic>
+</subject>
+{
+  "subject": [
+    {
+      "value": "String quartets",
+      "type": "topic"
+    },
+    "source": {
+      "code": "lcsh"
+    }
+  ]
+}
+
+26. Display label
+<subject displayLabel="This is about">
+  <topic>Stuff</topic>
+</subject>
+{
+  "subject": [
+    {
+      "value": "Stuff",
+      "type": "topic",
+      "displayLabel": "This is about"
+    }
+  ]
+}

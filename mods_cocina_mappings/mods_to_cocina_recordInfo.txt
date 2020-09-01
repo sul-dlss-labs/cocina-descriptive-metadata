@@ -36,16 +36,16 @@
           {
             "code": "CSt",
             "uri": "http://id.loc.gov/vocabulary/organizations/cst",
-            "type": "organization",
-            "role": [
-              {
-                "value": "original cataloging agency"
-              }
-            ],
             "source": {
               "code": "marcorg",
               "uri": "http://id.loc.gov/vocabulary/organizations/"
             }
+          }
+        ],
+        "type": "organization",
+        "role": [
+          {
+            "value": "original cataloging agency"
           }
         ]
       }
@@ -126,16 +126,16 @@ NB: Standard may need to be applied on a value by value basis rather than to the
           {
             "code": "CSt",
             "uri": "http://id.loc.gov/vocabulary/organizations/cst",
-            "type": "organization",
-            "role": [
-              {
-                "value": "original cataloging agency"
-              }
-            ],
             "source": {
               "code": "marcorg",
               "uri": "http://id.loc.gov/vocabulary/organizations/"
             }
+          }
+        ],
+        "type": "organization",
+        "role": [
+          {
+            "value": "original cataloging agency"
           }
         ]
       }
@@ -159,15 +159,16 @@ NB: Standard may need to be applied on a value by value basis rather than to the
       "name": [
         {
           "code": "CSt",
-          "type": "organization",
-          "role": [
-            {
-              "value": "original cataloging agency"
-            }
-          ],
+
           "source": {
             "code": "marcorg"
           }
+        }
+      ],
+      "type": "organization",
+      "role": [
+        {
+          "value": "original cataloging agency"
         }
       ]
     },

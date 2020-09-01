@@ -33,7 +33,7 @@
             {
                 "value": "Photographs",
                 "type": "genre",
-                "URI": "http://vocab.getty.edu/page/aat/300046300"
+                "uri": "http://vocab.getty.edu/page/aat/300046300"
             },
             {
                 "value": "1 photograph",
@@ -96,7 +96,7 @@
             },
             {
                 "value": "Oakland (Calif.)",
-                "type": "geographic",
+                "type": "place",
                 "uri": "http://id.loc.gov/authorities/names/n79118971"
             }
         ]
