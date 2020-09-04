@@ -155,7 +155,7 @@ How to ID: titleInfo type="translated"
 
 5. Transliterated title (title is value)
 How to ID: presence of titleInfo transliteration attribute (may need to manually review all records with a titleInfo script element to catch additional instances)
-<titleInfo usage="primary" language="rus" script="Cyrl" altRepGroup="0">
+<titleInfo usage="primary" lang="rus" script="Cyrl" altRepGroup="0">
   <title>Война и миръ</title>
 </titleInfo>
 <titleInfo type="translated" language="rus" script="Latn" transliteration="ALA-LC Romanization Tables" altRepGroup="0">
@@ -278,7 +278,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
   <title>Berliner Mauer Kunst</title>
 </titleInfo>
 <titleInfo type="translated" lang="eng" altRepGroup="0">
-  <title>Berlin's wall art<title>
+  <title>Berlin's wall art</title>
 </titleInfo>
 <titleInfo type="translated" lang="spa" altRepGroup="0">
   <title>Arte en el muro de Berlin</title>
