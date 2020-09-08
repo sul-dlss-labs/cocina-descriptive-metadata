@@ -35,11 +35,11 @@ How to ID: multiple subelements in titleInfo
         },
         {
           "value": "volume 5",
-          "type": "part"
+          "type": "part number"
         },
         {
           "value": "special issue",
-          "type": "part"
+          "type": "part name"
         },
         {
           "note": [

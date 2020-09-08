@@ -124,8 +124,8 @@
                 {
                     "properties": {
                         "value": {
-                            "description": "String value of the descriptive element.",
-                            "type": "string"
+                            "description": "String or integer value of the descriptive element.",
+                            "type": ["string", "integer"]
                         },
                         "type": {
                             "description": "Type of value provided by the descriptive element.",
