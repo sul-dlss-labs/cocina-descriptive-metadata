@@ -165,7 +165,11 @@
                             "description": "Other information related to the descriptive element.",
                             "type": "array",
                             "items": {"$ref": "#/definitions/DescriptiveValue"}
-                        }
+                        },
+			"language": {
+			    "description": "The language of the descriptive element value.",
+			    "$ref": "#/definitions/Language"
+			}
                     }
                 }
             ]
@@ -229,7 +233,7 @@
             ]
         },
         "Language": {
-            "description": "Languages, scripts, symbolic systems, and notations used in all or part of a resource.",
+            "description": "Languages, scripts, symbolic systems, and notations used in all or part of a resource or metadata value.",
             "type": "object",
             "allOf": [
                 {"$ref": "#/definitions/DescriptiveValue"},
