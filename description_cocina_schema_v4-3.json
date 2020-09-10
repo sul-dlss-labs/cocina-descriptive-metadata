@@ -169,14 +169,14 @@
                             "type": "array",
                             "items": {"$ref": "#/definitions/DescriptiveValue"}
                         },
-                        "language": {
+                        "valueLanguage": {
                             "description": "The language of the descriptive element value.",
                             "type": "object",
                             "allOf": [
                                 {"$ref": "#/definitions/Standard"},
                                 {
                                     "properties": {
-                                        "script": {
+                                        "valueScript": {
                                             "description": "An alphabet or other notation used to represent a language or other symbolic system of the descriptive element value.",
                                             "$ref": "#/definitions/Standard"
                                         }
@@ -383,6 +383,9 @@
                                 },
                                 {
                                     "required": ["structuredValue"]
+                                },
+                                {
+                                    "require": ["parallelValue"]
                                 }
                             ]
                         }
