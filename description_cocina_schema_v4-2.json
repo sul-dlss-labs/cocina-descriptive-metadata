@@ -383,6 +383,9 @@
                                 },
                                 {
                                     "required": ["structuredValue"]
+                                },
+                                {
+                                    "require": ["parallelValue"]
                                 }
                             ]
                         }
