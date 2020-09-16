@@ -653,7 +653,7 @@ Option B
       "parallelValue": [
         {
           "value": "French New Wave",
-          "language": [
+          "valueLanguage": [
             {
               "code": "eng"
             }
@@ -661,7 +661,7 @@ Option B
         },
         {
           "value": "Nouvelle Vague",
-          "language": [
+          "valueLanguage": [
             {
               "code": "fre"
             }

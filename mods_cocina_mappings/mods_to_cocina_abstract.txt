@@ -19,13 +19,13 @@
       "parallelValue": [
         {
           "value": "This is an abstract.",
-          "language": [
+          "valueLanguage": [
             {
               "code": "eng",
               "source": {
                 "code": "iso639-2b"
               },
-              "script": {
+              "valueScript": {
                 "code": "Latn",
                 "source": {
                   "code": "iso15924"
@@ -36,13 +36,13 @@
         },
         {
           "value": "Это аннотация.",
-          "language": [
+          "valueLanguage": [
             {
               "code": "rus",
               "source": {
                 "code": "iso639-2b"
               },
-              "script": {
+              "valueScript": {
                 "code": "Cyrl",
                 "source": {
                   "code": "iso15924"

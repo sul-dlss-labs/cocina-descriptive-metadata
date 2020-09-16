@@ -81,7 +81,7 @@ Genre
       "parallelValue": [
         {
           "value": "photographs",
-          "language": [
+          "valueLanguage": [
             {
               "code": "eng",
               "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
@@ -89,7 +89,7 @@ Genre
                 "code": "iso639-2b",
                 "uri": "http://id.loc.gov/vocabulary/iso639-2/"
               },
-              "script": {
+              "valueScript": {
                 "code": "Latn",
                 "source": {
                   "value": "ISO 15924"
@@ -100,7 +100,7 @@ Genre
         },
         {
           "value": "фотографии",
-          "language": [
+          "valueLanguage": [
             {
               "code": "rus",
               "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
@@ -108,7 +108,7 @@ Genre
                 "code": "iso639-2b",
                 "uri": "http://id.loc.gov/vocabulary/iso639-2/"
               },
-              "script": {
+              "valueScript": {
                 "code": "Cyrl",
                 "source": {
                   "value": "ISO 15924"

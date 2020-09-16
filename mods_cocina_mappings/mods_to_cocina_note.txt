@@ -28,7 +28,7 @@
       "parallelValue": [
         {
           "value": "This is a note.",
-          "language": [
+          "valueLanguage": [
             {
               "code": "eng",
               "source": {
@@ -39,7 +39,7 @@
         },
         {
           "value": "C'est une note.",
-          "language": [
+          "valueLanguage": [
             {
               "code": "fre",
               "source": {
