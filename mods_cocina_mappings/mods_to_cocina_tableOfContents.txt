@@ -39,13 +39,13 @@
       "parallelValue": [
         {
           "value": "Chapter 1. Chapter 2. Chapter 3.",
-          "language": [
+          "valueLanguage": [
             {
               "code": "eng",
               "source": {
                 "code": "iso639-2b"
               },
-              "script": {
+              "valueScript": {
                 "code": "Latn",
                 "source": {
                   "code": "iso15924"
