@@ -227,9 +227,53 @@ How to ID: titleInfo type="uniform"
       "status": "primary"
     },
     {
-      "value": "Shakespeare, William, 1564-1616. Hamlet",
+      "structuredValue": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "name"
+        },
+        {
+          "value": "Hamlet",
+          "type": "title"
+        }
+      ],
       "type": "uniform",
       "uri": "http://id.loc.gov/authorities/names/n80008522"
+    }
+  ]
+}
+
+6.1 Uniform title with multiple namePart subelements
+<titleInfo type="uniform" nameTitleGroup="1">
+  <title>Princesse jaune. Vocal score</title>
+</titleInfo>
+<name type="personal" usage="primary" nameTitleGroup="1">
+  <namePart type="family">Saint-Sa&#xEB;ns</namePart>
+  <namePart type="given">Camille</namePart>
+  <namePart type="date">1835-1921</namePart>
+</name>
+{
+  "title": [
+    {
+      "structuredValue": [
+        {
+          "value": "Saint-Sa&#xEB;ns",
+          "type": "surname"
+        },
+        {
+          "value": "Camille",
+          "type": "forename"
+        },
+        {
+          "value": "1835-1921",
+          "type": "life dates"
+        },
+        {
+          "value": "Princesse jaune. Vocal score",
+          "type": "title"
+        }
+      ],
+      "type": "uniform"
     }
   ]
 }
