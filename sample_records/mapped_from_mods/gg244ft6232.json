@@ -15,7 +15,24 @@
                 "status": "primary"
             },
             {
-                "value": "Madama Butterfly. Vocal score",
+                "structuredValue": [
+                    {
+                        "value": "Puccini, Giacomo",
+                        "type": "name"
+                    },
+                    {
+                        "value": "1858-1924",
+                        "type": "life dates"
+                    },
+                    {
+                        "value": "Madama Butterfly",
+                        "type": "title"
+                    },
+                    {
+                        "value": "Vocal score",
+                        "type": "version"
+                    }
+                ],
                 "type": "uniform"
             }
         ],
