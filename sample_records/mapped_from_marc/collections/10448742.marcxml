@@ -1,0 +1,102 @@
+<record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>01892nam a2200313uu 4500</leader>
+    <controlfield tag="001">a10448742</controlfield>
+    <controlfield tag="003">SIRSI</controlfield>
+    <controlfield tag="005">20200718050001.0</controlfield>
+    <controlfield tag="008">140415s1896 xxub ||||||||||||| |d</controlfield>
+    <datafield ind1=" " ind2=" " tag="040">
+        <subfield code="a">CSt</subfield>
+        <subfield code="b">eng</subfield>
+        <subfield code="c">CSt</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="100">
+        <subfield code="a">Blum, George W.</subfield>
+        <subfield code=" ">UNAUTHORIZED</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="4" tag="245">
+        <subfield code="a">The Cyclers&apos; Guide and Road Book of California Containing Map of
+            California in relief with principal Roads, Seven Sectional Maps showing all available
+            Roads for Cyclers from Chico to San Diego, and a Map of Golden Gate Park. 1896. Price,
+            One Dollar. Compiled and Published by Geo. W. Blum, 330 Pine St., S.F. Edward Denny
+            &amp; Co., Agents. (on verso) Copyrighted 1895 By Geo. W. Blum, San Francisco,
+            Cal.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+        <subfield code="a">San Francisco :</subfield>
+        <subfield code="b">Geo. W. Blum,</subfield>
+        <subfield code="c">1896.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+        <subfield code="a">1 volume :</subfield>
+        <subfield code="b">8 maps ;</subfield>
+        <subfield code="c">19 x 11 cm.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+        <subfield code="a">text</subfield>
+        <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="337">
+        <subfield code="a">unmediated</subfield>
+        <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="338">
+        <subfield code="a">volume</subfield>
+        <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+        <subfield code="a">Early bicycle guide. Phillips dates this as (1895). The large folding map
+            titled &quot;Map of California Roads For Cyclers&quot; shows the state in relief, and is
+            very attractive (usually missing in most copies). Bound with blue cloth covers with
+            &quot;The Cycler&apos;s Guide and Road Book&quot; in gold on cover.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+        <subfield code="a">Guide Book.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+        <subfield code="a">References: P11340.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="590">
+        <subfield code="a">Pub list no.: 1592.000.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="650">
+        <subfield code="a">Bicycle.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="651">
+        <subfield code="a">California.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="690">
+        <subfield code="a">The David Rumsey Map Collection.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="596">
+        <subfield code="a">13</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="1" tag="856">
+        <subfield code="u">http://purl.stanford.edu/cp799hh4428</subfield>
+        <subfield code="x">SDR-PURL</subfield>
+        <subfield code="x">item</subfield>
+        <subfield code="x">file:kq126jw7402%2F1592A.jp2</subfield>
+        <subfield code="x">collection:xh235dd9059::David Rumsey Map Collection at Stanford
+            University Libraries</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+        <subfield code="u"
+            >https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no=&quot;1592.000&quot;%20LIMIT:RUMSEY~8~1&amp;sort=Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="916">
+        <subfield code="a">DATE CATALOGED</subfield>
+        <subfield code="b">NEVER</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="999">
+        <subfield code="a">XX(10448742.2)</subfield>
+        <subfield code="w">LC</subfield>
+        <subfield code="c">1</subfield>
+        <subfield code="i">36105223378543</subfield>
+        <subfield code="k">INPROCESS</subfield>
+        <subfield code="l">W7-STKS</subfield>
+        <subfield code="m">RUMSEYMAP</subfield>
+        <subfield code="r">Y</subfield>
+        <subfield code="s">Y</subfield>
+        <subfield code="t">LCKSTK-EXP</subfield>
+        <subfield code="u">4/24/2014</subfield>
+    </datafield>
+</record>

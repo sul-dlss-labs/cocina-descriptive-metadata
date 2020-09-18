@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <titles>
+    <title>Data and code for Aalto et al. "Models with environmental drivers offer a plausible mechanism for the rapid spread of infectious disease outbreaks in marine organisms" published in Scientific Reports in 2020.</title>
+  </titles>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Aalto, Emilius</creatorName>
+      <givenName>Emilius</givenName>
+      <familyName>Aalto</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">De Leo, Giulio</creatorName>
+      <givenName>Giulio</givenName>
+      <familyName>De Leo</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Micheli, Fiorenza</creatorName>
+      <givenName>Fiorenza</givenName>
+      <familyName>Micheli</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Raimondi, Peter</creatorName>
+      <givenName>Peter</givenName>
+      <familyName>Raimondi</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Bograd, Steven</creatorName>
+      <givenName>Steven</givenName>
+      <familyName>Bograd</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Hazen, Elliott</creatorName>
+      <givenName>Elliott</givenName>
+      <familyName>Hazen</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Jacox, Michael</creatorName>
+      <givenName>Michael</givenName>
+      <familyName>Jacox</familyName>
+    </creator>
+  </creators>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>National Science Foundation</funderName>
+      <awardNumber>1212124</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>National Science Foundation</funderName>
+      <awardNumber>1736830</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>National Science Foundation</funderName>
+      <awardNumber>1735607</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>National Science Foundation</funderName>
+      <awardNumber>1831893</awardNumber>
+    </fundingReference>
+  </fundingReferences>
+  <resourceType resourceTypeGeneral="Dataset">Quantitative Data</resourceType>
+  <publisher>Stanford Digital Repository</publisher>
+  <publicationYear>2020</publicationYear>
+  <dates>
+    <date dateType="Created">2017/2019</date>
+  </dates>
+  <descriptions>
+    <description descriptionType="Abstract">The first signs of sea star wasting disease (SSWD) epidemic occurred in just few months in 2013 along the entire North American Pacific coast. Disease dynamics did not manifest as the typical travelling wave of reaction-diffusion epidemiological model, suggesting that other environmental factors might have played some role. To help explore how external factors might trigger disease, we built a coupled oceanographic-epidemiological model and contrasted three hypotheses on the influence of temperature on disease transmission and pathogenicity. Models that linked mortality to sea surface temperature gave patterns more consistent with observed data on sea star wasting disease, which suggests that environmental stress could explain why some marine diseases seem to spread so fast and have region-wide impacts on host populations.</description>
+  </descriptions>
+  <subjects>
+    <subject xml:lang="en-US">Biology</subject>
+    <subject xml:lang="en-US">Hopkins Marine Station</subject>
+    <subject xml:lang="en-US">wasting disease</subject>
+    <subject xml:lang="en-US">epidemic</subject>
+    <subject xml:lang="en-US">marine pathogens</subject>
+    <subject xml:lang="en-US">environmental trigger</subject>
+    <subject xml:lang="en-US">thermal stress</subject>
+    <subject xml:lang="en-US">Pisaster ochraceus</subject>
+  </subjects>
+  <identifier identifierType="DOI">10.25740/RQ831RT1470</identifier>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PURL">https://purl.stanford.edu/rq831rt1470</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo">10.1038/s41598-020-62118-4</relatedIdentifier>
+  </relatedIdentifiers>
+  <rightsList>
+    <rights>CC BY-NC Attribution-NonCommercial</rights>
+  </rightsList>
+</resource>

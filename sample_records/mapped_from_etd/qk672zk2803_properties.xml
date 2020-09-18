@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<fields>
+    <dissertation_id>0000007516</dissertation_id>
+    <title>Adaptive Guidance for Online Learning Environments</title>
+    <etd_type>Dissertation</etd_type>
+    <documentaccess>No</documentaccess>
+    <schoolname>School of Engineering</schoolname>
+    <degreeconfyr>2020</degreeconfyr>
+    <univid>05807886</univid>
+    <sunetid>jbassen</sunetid>
+    <degree>Ph.D.</degree>
+    <name>Bassen, Jonathan Spencer</name>
+    <provost>Stacey F. Bent</provost>
+    <ps_career>Graduate</ps_career>
+    <ps_program>Computer Science</ps_program>
+    <department>Computer Science</department>
+    <ps_plan>Computer Science</ps_plan>
+    <major>Computer Science</major>
+    <citation_verified>true</citation_verified>
+    <abstract>In the last decade, online learning platforms have dramatically increased access to educational materials, and replaced and supplemented traditional co-located instruction. Throughout this shift, instructors have struggled with how best to create and deploy materials to online platforms and understand their effectiveness when scaled across hundreds or thousands of learners. To address these complementary problems, this thesis introduces new systems and methods for both learning analytics and adaptive instruction. In OARS, we demonstrate a real-time learning analytics system deployed across more than ten online courses with tens of thousands of learners. We then report on the value of learning analytics from the perspective of course instructors. Learning from these perspectives, we next introduce a system for adaptively scheduling educational activities through reinforcement learning (RL). Without any skill labels, this model learns how to assign educational activities in a way that maximizes learning gains while minimizing redundant work. Finally, in a randomized controlled experiment, we show that our RL scheduling algorithm helped to improve the educational experience for online learners by reducing the number of learning activities required to produce the same learning gains.</abstract>
+    <abstract_provided>true</abstract_provided>
+    <permissions_provided>true</permissions_provided>
+    <containscopyright>false</containscopyright>
+    <permission_files_uploaded>false</permission_files_uploaded>
+    <cclicense>0</cclicense>
+    <cclicensetype>no Creative Commons (CC) license</cclicensetype>
+    <cc_license_selected>true</cc_license_selected>
+    <sulicense>true</sulicense>
+    <rights_selected>true</rights_selected>
+    <dissertation_uploaded>true</dissertation_uploaded>
+    <embargo>immediately</embargo>
+    <external_visibility>100</external_visibility>
+    <submit_date>1583979731</submit_date>
+    <readerapproval>Approved</readerapproval>
+    <readercomment> </readercomment>
+    <readeractiondttm>03/11/2020 19:45:23</readeractiondttm>
+    <regapproval>Approved</regapproval>
+    <regcomment> </regcomment>
+    <regactiondttm>03/12/2020 11:34:42</regactiondttm>
+</fields>

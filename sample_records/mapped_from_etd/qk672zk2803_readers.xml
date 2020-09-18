@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<readers>
+    <reader>
+        <sunetid>jcm</sunetid>
+        <prefix/>
+        <name>Mitchell, John</name>
+        <suffix/>
+        <type>int</type>
+        <univid>02657948</univid>
+        <readerrole>Advisor</readerrole>
+        <finalreader>Yes</finalreader>
+    </reader>
+    <reader>
+        <sunetid>cpiech</sunetid>
+        <prefix/>
+        <name>Piech, Chris</name>
+        <suffix/>
+        <type>int</type>
+        <univid>05410951</univid>
+        <readerrole>Reader</readerrole>
+        <finalreader>No</finalreader>
+    </reader>
+    <reader>
+        <sunetid>cthille</sunetid>
+        <prefix/>
+        <name>Thille, Candace</name>
+        <suffix/>
+        <type>int</type>
+        <univid>05183557</univid>
+        <readerrole>Reader</readerrole>
+        <finalreader>No</finalreader>
+    </reader>
+</readers>

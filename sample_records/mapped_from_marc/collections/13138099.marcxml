@@ -1,0 +1,89 @@
+<record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>02352cpm a2200265 4500</leader>
+    <controlfield tag="001">a13138099</controlfield>
+    <controlfield tag="003">SIRSI</controlfield>
+    <controlfield tag="005">20200718050001.0</controlfield>
+    <controlfield tag="008">180208i20172018cau 000 0 eng u</controlfield>
+    <datafield ind1="1" ind2="0" tag="245">
+        <subfield code="a">Stanford Women in Politics, Records,</subfield>
+        <subfield code="f">2017-2018.</subfield>
+    </datafield>
+    <datafield ind1="2" ind2=" " tag="110">
+        <subfield code="a">Stanford Women in Politics.</subfield>
+        <subfield code=" ">UNAUTHORIZED</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+        <subfield code="a">CSt</subfield>
+        <subfield code="c">CSt</subfield>
+        <subfield code="e">dacs</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="099">
+        <subfield code="b">SC1443</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+        <subfield code="a">4.1</subfield>
+        <subfield code="f">megabytes (9 files)</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+        <subfield code="a">Special Collections and University Archives materials are stored offsite
+            and must be paged 48 hours in advance. For more information on paging collections, see
+            the department&apos;s website: http://library.stanford.edu/spc.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="506">
+        <subfield code="a">The materials are open for research use; materials must be requested at
+            least 48 hours in advance of intended use. Audio-visual materials are not available in
+            original format, and must be reformatted to a digital use copy.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="520">
+        <subfield code="a">Includes posters are from SWIP’s invited speakers, teach-in events, and
+            co-hosted events.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="524">
+        <subfield code="a">Stanford Women in Politics, Records (SC1443). Dept. of Special
+            Collections and University Archives, Stanford University Libraries, Stanford,
+            Calif.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="540">
+        <subfield code="a">All requests to reproduce, publish, quote from, or otherwise use
+            collection materials must be submitted in writing to the Head of Special Collections and
+            University Archives, Stanford University Libraries, Stanford, California 94304-6064.
+            Consent is given on behalf of Special Collections as the owner of the physical items and
+            is not intended to include or imply permission from the copyright owner. Such permission
+            must be obtained from the copyright owner, heir(s) or assigns. Restrictions also apply
+            to digital representations of the original materials. Use of digital files is restricted
+            to research and educational purposes.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="541">
+        <subfield code="a">Transferred by Stanford Women in Politics, 2018.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="545">
+        <subfield code="a">Stanford Women in Politics (SWIP) is a non-partisan organization founded
+            in 2016 by Hattie Gawande, Kinsey Morrison, and Shivani Pampati and the founding board
+            for anyone interested in learning about and supporting women in politics and creating a
+            community for this work on campus.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="596">
+        <subfield code="a">21</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="1" tag="856">
+        <subfield code="u">http://purl.stanford.edu/xq955mh6671</subfield>
+        <subfield code="x">SDR-PURL</subfield>
+        <subfield code="x">collection</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="916">
+        <subfield code="a">DATE CATALOGED</subfield>
+        <subfield code="b">NEVER</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="999">
+        <subfield code="a">SC1443</subfield>
+        <subfield code="w">ALPHANUM</subfield>
+        <subfield code="c">1</subfield>
+        <subfield code="i">13138099-2001</subfield>
+        <subfield code="l">U-ARCHIVES</subfield>
+        <subfield code="m">SPEC-COLL</subfield>
+        <subfield code="r">Y</subfield>
+        <subfield code="s">Y</subfield>
+        <subfield code="t">STKS</subfield>
+        <subfield code="u">3/18/2019</subfield>
+    </datafield>
+</record>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+  <titles>
+    <title>Data Appendices for _Close Reading with Computers_, published by Stanford University Press</title>
+  </titles>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Eve, Martin Paul</creatorName>
+      <givenName>Martin Paul</givenName>
+      <familyName>Eve</familyName>
+    </creator>
+  </creators>
+  <resourceType resourceTypeGeneral="Dataset">Quantitative Data</resourceType>
+  <publisher>Stanford Digital Repository</publisher>
+  <publicationYear>2019</publicationYear>
+  <dates>
+    <date dateType="Created">May 15, 2018/January 30-2019</date>
+  </dates>
+  <descriptions>
+    <description descriptionType="Abstract">"Supplementary data files for the book by Martin Paul Eve, _Close Reading With Computers: Textual Scholarship, Computational Formalism, and David Mitchell’s Cloud Atlas_ (Stanford, CA: Stanford University Press, 2019).Digital Appendix 1: Data for Chapter Two.This appendix is a JavaScript Object Notation (JSON) file that is used to generate Figure 2 using the SankeyTextualVariant software.Digital Appendix 2: Data for Chapter Three.* The data used to generate figures 5 through 13.* The data used to make the claims about Melville’s texts.* The part-of-speech tagging outputs of Cloud Atlas E.Digital Appendix 3: Data for Chapter Four.This appendix contains the data used to generate figures 14 through 16."</description>
+  </descriptions>
+  <subjects>
+    <subject xml:lang="en-US">textual scholarship</subject>
+    <subject xml:lang="en-US">computational formalism</subject>
+    <subject xml:lang="en-US">SankeyTextualVariant</subject>
+    <subject xml:lang="en-US">JSON</subject>
+    <subject xml:lang="en-US">David Mitchell</subject>
+    <subject xml:lang="en-US">Cloud Atlas</subject>
+    <subject xml:lang="en-US">Melville</subject>
+    <subject xml:lang="en-US">Stanford University Press</subject>
+  </subjects>
+  <identifier identifierType="DOI">10.25740/BD095JT2882</identifier>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PURL">https://purl.stanford.edu/bd095jt2882</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="ISBN" relationType="IsSupplementTo">9781503606999</relatedIdentifier>
+  </relatedIdentifiers>
+  <rightsList>
+    <rights>Creative Commons Attribution 3.0 Unported License</rights>
+  </rightsList>
+</resource>

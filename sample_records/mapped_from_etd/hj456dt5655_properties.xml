@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<fields>
+    <abstract>My dissertation is a combination of three papers that I worked on at various stages of my doctoral studies at Stanford University Graduate School of Business. The central of theme of these papers is dynamic optimality with adjustment costs and gradualness in various economic environments. In all of these papers, I shared various tasks and responsibilities of the research with my coauthors. In Chapter 1, together with Ryota Iijima, I study a model of gradual adjustment in games, in which players can flexibly adjust and monitor their positions up until a deadline. Players' terminal and flow payoffs are influenced by their positions. I show that, unlike in one-shot games, the equilibrium is unique for a broad class of terminal payoffs when players' actions are flexible enough in the presence of (possibly small) noise. In a team-production model, the unique equilibrium selects an outcome that is approximately efficient when adjustment friction is small. I also examine the welfare implications of such gradualness in applications, including team production, hold-up problems, and dynamic contests. In Chapter 2, together with Christopher Hennessy and Ilya Streublaev, I study dynamic capital structure choice with a time-varying tax rate. Absent theoretical guidance, empiricists have been forced to rely upon numerical comparative statics from constant tax rate models in formulating testable implications of tradeoff theory in the context of natural experiments. I fill the theoretical void by solving in closed-form a dynamic tradeoff theoretic model in which corporate taxes follow a (two-state) Markov process with exogenous rate changes. I simulate ideal difference-in-differences estimations, finding that constant tax rate models offer poor guidance regarding testable implications. While constant rate models predict large symmetric responses to rate changes, my model with stochastic tax rates predicts small, asymmetric, and often statistically insignificant responses. Under plausible parameterizations with decade-long regimes, the true underlying theory -- that taxes matter -- is incorrectly rejected in about half of the simulated natural experiments. Moreover, tax response coefficients are actually smaller in simulated economies with larger tax-induced welfare losses. In Chapter 3, which is also joint work with Ryota Iijima, I consider a class of games in which players commonly observe noisy shocks and gradually adjust their actions without observing information about their opponents' behavior. Under a form of richness of the noise process, I prove equilibrium uniqueness when players' adjustment is flexible enough. In the case of potential games, the unique equilibrium approximates the global maximizer of the potential as the friction vanishes.</abstract>
+    <cclicense>4</cclicense>
+    <cclicensetype>CC Attribution Non-Commercial license</cclicensetype>
+    <containscopyright>false</containscopyright>
+    <degree>Ph.D.</degree>
+    <degreeconfyr>2017</degreeconfyr>
+    <department>Business Administration</department>
+    <dissertation_id>0000005406</dissertation_id>
+    <documentaccess>No</documentaccess>
+    <embargo>immediately</embargo>
+    <etd_type>Dissertation</etd_type>
+    <external_visibility>20</external_visibility>
+    <major>Business Administration</major>
+    <name>Kasahara, Akitada</name>
+    <prefix/>
+    <provost>Patricia J. Gumport</provost>
+    <ps_career>Graduate School of Business</ps_career>
+    <ps_plan>Business Administration</ps_plan>
+    <ps_program>Business Administration</ps_program>
+    <ps_subplan>Finance</ps_subplan>
+    <readeractiondttm>06/02/2017 20:33:37</readeractiondttm>
+    <readerapproval>Approved</readerapproval>
+    <readercomment/>
+    <regactiondttm>06/07/2017 11:05:47</regactiondttm>
+    <regapproval>Approved</regapproval>
+    <regcomment>Congratulations!</regcomment>
+    <schoolname>Graduate School of Business</schoolname>
+    <sub>deadline: 2017-06-07</sub>
+    <submit_date>1496425544</submit_date>
+    <suffix>Jr</suffix>
+    <sulicense>true</sulicense>
+    <sunetid>akitadak</sunetid>
+    <term>1176</term>
+    <title>Essays on Game Theory and Corporate Finance</title>
+    <univid>05797391</univid>
+</fields>

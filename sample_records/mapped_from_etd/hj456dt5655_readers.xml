@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<readers>
+    <reader>
+        <suffix/>
+        <univid>03079696</univid>
+        <finalreader>Yes</finalreader>
+        <name>Duffie, Darrell</name>
+        <sunetid>duffie</sunetid>
+        <prefix/>
+        <readerrole>Advisor</readerrole>
+        <type>int</type>
+    </reader>
+    <reader>
+        <suffix/>
+        <univid>05357617</univid>
+        <finalreader>No</finalreader>
+        <name>Strebulaev, Ilya A</name>
+        <sunetid>ilyas1</sunetid>
+        <prefix/>
+        <readerrole>Co-Adv</readerrole>
+        <type>int</type>
+    </reader>
+    <reader>
+        <suffix/>
+        <univid>09924523</univid>
+        <finalreader>No</finalreader>
+        <name>Zwiebel, Jeffrey</name>
+        <sunetid>zwiebel</sunetid>
+        <prefix/>
+        <readerrole>Reader</readerrole>
+        <type>int</type>
+    </reader>
+</readers>

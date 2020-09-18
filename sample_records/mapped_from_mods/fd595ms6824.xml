@@ -1,0 +1,61 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+    <titleInfo>
+        <title>Data for "Physiological constraints on body size distributions in Crocodyliformes"</title>
+    </titleInfo>
+    <originInfo>
+        <dateCreated point="start" keyDate="yes" encoding="w3cdtf">2016-07</dateCreated>
+        <dateCreated point="end" encoding="w3cdtf">2019-04</dateCreated>
+    </originInfo>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <abstract>These data were used to produce the figures and analyses presented in the paper by Gearty and Payne, published in 2019.</abstract>
+    <note type="preferred citation" displayLabel="Preferred Citation">Gearty, William and Payne, Jonathan L. (2019). Data for "Physiological constraints on body size distributions in Crocodyliformes". Stanford Digital Repository. Available at: https://purl.stanford.edu/fd595ms6824</note>
+    <note type="citation/reference" displayLabel="Related Publication">Gearty, William, and Jonathan L. Payne. 2020. "Physiological constraints on body size distributions in crocodyliformes." Evolution. https://doi.org/10.1111/evo.13901</note>
+    <note type="contact" displayLabel="Contact">wgearty@stanford.edu</note>
+    <relatedItem>
+        <titleInfo>
+            <title>Published journal article</title>
+        </titleInfo>
+        <location>
+            <url>https://onlinelibrary.wiley.com/doi/full/10.1111/evo.13901</url>
+        </location>
+    </relatedItem>
+    <genre>dataset</genre>
+    <subject>
+        <topic>Department of Geological Sciences</topic>
+    </subject>
+    <subject>
+        <topic>Body Size</topic>
+    </subject>
+    <subject>
+        <topic>Paleobiology</topic>
+    </subject>
+    <subject>
+        <topic>Physiology</topic>
+    </subject>
+    <subject>
+        <topic>Crocodiles</topic>
+    </subject>
+    <name type="personal">
+        <namePart>Gearty, William</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">Author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Payne, Jonathan L</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">Advisor</roleTerm>
+        </role>
+    </name>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Stanford Research Data</title>
+        </titleInfo>
+        <location>
+            <url>https://purl.stanford.edu/md919gh6774</url>
+        </location>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">User agrees that, where applicable, content will not be used to identify or to otherwise infringe the privacy or confidentiality rights of individuals. Content distributed via the Stanford Digital Repository may be subject to additional license and use restrictions applied by the depositor.</accessCondition>
+    <accessCondition type="license">CC by: CC BY Attribution</accessCondition>
+</mods>

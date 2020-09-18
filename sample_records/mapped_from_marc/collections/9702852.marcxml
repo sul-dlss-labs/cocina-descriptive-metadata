@@ -1,0 +1,203 @@
+<record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>03604cgmaa22005053a 4500</leader>
+    <controlfield tag="001">a9702852</controlfield>
+    <controlfield tag="003">SIRSI</controlfield>
+    <controlfield tag="005">20200718050001.0</controlfield>
+    <controlfield tag="008">120906i20082010 000 0 eng d</controlfield>
+    <datafield ind1=" " ind2=" " tag="040">
+        <subfield code="a">CSt</subfield>
+        <subfield code="c">CSt</subfield>
+        <subfield code="e">dacs</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="099">
+        <subfield code="b">SC0938</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="245">
+        <subfield code="a">Stanford Pioneers in Science [videorecording],</subfield>
+        <subfield code="f">2008-2010.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+        <subfield code="a">1.25</subfield>
+        <subfield code="f">linear feet (4 boxes)</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="506">
+        <subfield code="a">The materials are open for research use; materials must be requested at
+            least 48 hours in advance of intended use.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="506">
+        <subfield code="a">Audio-visual materials are not available in original format, and must be
+            reformatted to a digital use copy.</subfield>
+    </datafield>
+    <datafield ind1="2" ind2=" " tag="520">
+        <subfield code="a">The Stanford Pioneers in Science video lecture series includes
+            videorecordings on DVCAM, MiniDV, and DVD. Also included are printed press releases for
+            some events. This series documents the accomplishments of some of Stanford
+            University&apos;s most celebrated scientists.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="524">
+        <subfield code="a">Stanford Pioneers in Science (SC0938). Dept. of Special Collections and
+            University Archives, Stanford University Libraries, Stanford, Calif.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="540">
+        <subfield code="a">All requests to reproduce, publish, quote from, or otherwise use
+            collection materials must be submitted in writing to the Head of Special Collections and
+            University Archives, Stanford University Libraries, Stanford, California 94304-6064.
+            Consent is given on behalf of Special Collections as the owner of the physical items and
+            is not intended to include or imply permission from the copyright owner. Such permission
+            must be obtained from the copyright owner, heir(s) or assigns. See:
+            http://library.stanford.edu/depts/spc/pubserv/permissions.html. Restrictions also apply
+            to digital representations of the original materials. Use of digital files is restricted
+            to research and educational purposes.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="545">
+        <subfield code="a">Inaugurated in 2008-09, this series honors the lives and accomplishments
+            of Stanford University’s most celebrated scientists—faculty members who have been
+            awarded Nobel Prizes, National Medals of Science or Technology, and MacArthur
+            Fellowships.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+        <subfield code="a">History of Science.</subfield>
+        <subfield code=" ">UNAUTHORIZED</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+        <subfield code="a">Nobel Prize winners.</subfield>
+        <subfield code=" ">^A1914900</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+        <subfield code="a">Science.</subfield>
+        <subfield code=" ">^A1058794</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+        <subfield code="a">Science and industry.</subfield>
+        <subfield code=" ">^A1058846</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="655">
+        <subfield code="a">Videorecordings.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Berg, Paul,</subfield>
+        <subfield code="d">1926-</subfield>
+        <subfield code=" ">^A912853</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Cohen, Stanley N.</subfield>
+        <subfield code=" ">^A1391130</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Djerassi, Carl</subfield>
+        <subfield code=" ">^A124408</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Drell, Sidney D.</subfield>
+        <subfield code="q">(Sidney David),</subfield>
+        <subfield code="d">1926-2016</subfield>
+        <subfield code=" ">^A334991</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Durham, William H.</subfield>
+        <subfield code=" ">^A132852</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Koller, Daphne.</subfield>
+        <subfield code=" ">^A2365899</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Kornberg, Roger D.</subfield>
+        <subfield code=" ">^A1300458</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Osheroff, Douglas D.</subfield>
+        <subfield code=" ">^A2463193</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Richter, Burton,</subfield>
+        <subfield code="d">1931-2018</subfield>
+        <subfield code=" ">^A2508410</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Sapolsky, Robert M.</subfield>
+        <subfield code=" ">^A613909</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Sharpe, William F.</subfield>
+        <subfield code=" ">^A103885</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Suppes, Patrick,</subfield>
+        <subfield code="d">1922-2014</subfield>
+        <subfield code=" ">^A151384</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="596">
+        <subfield code="a">21</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="2" tag="856">
+        <subfield code="3">Finding aid</subfield>
+        <subfield code="u">http://www.oac.cdlib.org/findaid/ark:/13030/c8vq31qg/</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="1" tag="856">
+        <subfield code="u">http://purl.stanford.edu/qr384zb7234</subfield>
+        <subfield code="x">SDR-PURL</subfield>
+        <subfield code="x">item</subfield>
+        <subfield code="x">collection:qn470vm9075::Stanford Pioneers in Science</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="1" tag="856">
+        <subfield code="u">http://purl.stanford.edu/ts011js4818</subfield>
+        <subfield code="x">SDR-PURL</subfield>
+        <subfield code="x">collection</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="916">
+        <subfield code="a">DATE CATALOGED</subfield>
+        <subfield code="b">NEVER</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="999">
+        <subfield code="a">SC0938 BOX 1</subfield>
+        <subfield code="w">ALPHANUM</subfield>
+        <subfield code="c">1</subfield>
+        <subfield code="i">36105116226866</subfield>
+        <subfield code="d">11/23/2016</subfield>
+        <subfield code="l">UARCH-30</subfield>
+        <subfield code="m">SPEC-COLL</subfield>
+        <subfield code="r">Y</subfield>
+        <subfield code="s">Y</subfield>
+        <subfield code="t">NONCIRC</subfield>
+        <subfield code="u">9/6/2012</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="999">
+        <subfield code="a">SC0938 BOX 2</subfield>
+        <subfield code="w">ALPHANUM</subfield>
+        <subfield code="c">1</subfield>
+        <subfield code="i">36105116226874</subfield>
+        <subfield code="d">12/9/2016</subfield>
+        <subfield code="l">UARCH-30</subfield>
+        <subfield code="m">SPEC-COLL</subfield>
+        <subfield code="r">Y</subfield>
+        <subfield code="s">Y</subfield>
+        <subfield code="t">NONCIRC</subfield>
+        <subfield code="u">9/6/2012</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="999">
+        <subfield code="a">SC0938 HALF BOX 3</subfield>
+        <subfield code="w">ALPHANUM</subfield>
+        <subfield code="c">1</subfield>
+        <subfield code="i">36105116226882</subfield>
+        <subfield code="d">12/9/2016</subfield>
+        <subfield code="l">UARCH-30</subfield>
+        <subfield code="m">SPEC-COLL</subfield>
+        <subfield code="r">Y</subfield>
+        <subfield code="s">Y</subfield>
+        <subfield code="t">NONCIRC</subfield>
+        <subfield code="u">9/6/2012</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="999">
+        <subfield code="a">SC0938 2017-319 CARD BOX 1</subfield>
+        <subfield code="w">ALPHANUM</subfield>
+        <subfield code="c">1</subfield>
+        <subfield code="i">36105125845870</subfield>
+        <subfield code="l">UARCH-30</subfield>
+        <subfield code="m">SPEC-COLL</subfield>
+        <subfield code="r">Y</subfield>
+        <subfield code="s">Y</subfield>
+        <subfield code="t">NONCIRC</subfield>
+        <subfield code="u">4/5/2018</subfield>
+    </datafield>
+</record>
