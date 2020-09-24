@@ -143,7 +143,7 @@
                                     "type": "university",
                                     "uri": "http://id.loc.gov/authorities/names/n79054636",
                                     "source": {
-                                        "code": "lcnaf",
+                                        "code": "naf",
                                         "uri": "http://id.loc.gov/authorities/names/"
                                     }
                                 },
@@ -199,7 +199,7 @@
                             "value": "Stanford University",
                             "uri": "http://id.loc.gov/authorities/names/n79054636",
                             "source": {
-                                "code": "lcnaf",
+                                "code": "naf",
                                 "uri": "http://id.loc.gov/authorities/names/"
                             }
                         }
@@ -237,7 +237,7 @@
                     "value": "Stanford (Calif.)",
                     "uri": "http://id.loc.gov/authorities/names/n50046557",
                     "source": {
-                        "code": "lcnaf",
+                        "code": "naf",
                         "uri": "http://id.loc.gov/authorities/names/"
                     }
                 },
@@ -258,7 +258,7 @@
                             "value": "Stanford University",
                             "uri": "http://id.loc.gov/authorities/names/n79054636",
                             "source": {
-                                "code": "lcnaf",
+                                "code": "naf",
                                 "uri": "http://id.loc.gov/authorities/names/"
                             }
                         }
