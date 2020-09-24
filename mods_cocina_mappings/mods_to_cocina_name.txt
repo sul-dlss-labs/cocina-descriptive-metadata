@@ -349,9 +349,9 @@ Names
           "parallelValue": [
             {
               "value": "Булгаков, Михаил Афанасьевич",
-              "language": [
+              "valueLanguage": [
                 {
-                  "script": {
+                  "valueScript": {
                     "code": "Cyrl",
                     "source": {
                       "code": "iso15924"
@@ -362,9 +362,9 @@ Names
             },
             {
               "value": "Bulgakov, Mikhail Afanasʹevich",
-              "language": [
+              "valueLanguage": [
                 {
-                  "script": {
+                  "valueScript": {
                     "code": "Latn",
                     "source": {
                       "code": "iso15924"
@@ -389,9 +389,9 @@ Names
           "parallelValue": [
             {
               "value": "Олеша, Юрий Карлович",
-              "language": [
+              "valueLanguage": [
                 {
-                  "script": {
+                  "valueScript": {
                     "code": "Cyrl",
                     "source": {
                       "code": "iso15924"
@@ -402,9 +402,9 @@ Names
             },
             {
               "value": "Olesha, I︠U︡riĭ Karlovich",
-              "language": [
+              "valueLanguage": [
                 {
-                  "script": {
+                  "valueScript": {
                     "code": "Latn",
                     "source": {
                       "code": "iso15924"
@@ -449,9 +449,9 @@ Names
                   "type": "surname"
                 }
               ],
-              "language": [
+              "valueLanguage": [
                 {
-                  "script": {
+                  "valueScript": {
                     "code": "Cyrl",
                     "source": {
                       "value": "ISO 15924"
@@ -471,9 +471,9 @@ Names
                   "type": "surname"
                 }
               ],
-              "language": [
+              "valueLanguage": [
                 {
-                  "script": {
+                  "valueScript": {
                     "code": "Latn",
                     "source": {
                       "value": "ISO 15924"

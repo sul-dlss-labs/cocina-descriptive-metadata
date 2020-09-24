@@ -760,13 +760,13 @@ Version B (from replayable spreadsheet, incorrect MODS)
               "standard": {
                 "value": "ALA-LC Romanization Tables"
               },
-              "language": [
+              "valueLanguage": [
                 {
                   "code": "rus",
                   "source": {
                     "code": "iso639-2b"
                   },
-                  "script": {
+                  "valueScript": {
                     "code": "Latn",
                     "source": {
                       "code": "iso15924"
@@ -807,13 +807,13 @@ Version B (from replayable spreadsheet, incorrect MODS)
           "name": [
             {
               "value": "СФУ",
-              "language": [
+              "valueLanguage": [
                 {
                   "code": "rus",
                   "source": {
                     "code": "iso639-2b"
                   },
-                  "script": {
+                  "valueScript": {
                     "code": "Cyrl",
                     "source": {
                       "code": "iso15924"
@@ -1041,9 +1041,9 @@ Version B (from replayable spreadsheet, incorrect MODS)
           "parallelValue": [
             {
               "value": "Kyōto-shi",
-              "language": [
+              "valueLanguage": [
                 {
-                  "script": {
+                  "valueScript": {
                     "value": "Latn",
                     "source": {
                       "code": "iso15924"
@@ -1054,9 +1054,9 @@ Version B (from replayable spreadsheet, incorrect MODS)
             },
             {
               "value": "京都市",
-              "language": [
+              "valueLanguage": [
                 {
-                  "script": {
+                  "valueScript": {
                     "value": "Hani",
                     "source": {
                       "code": "iso15924"
@@ -1082,9 +1082,9 @@ Version B (from replayable spreadsheet, incorrect MODS)
               "parallelValue": [
                 {
                   "value": "Rinsen Shoten",
-                  "language": [
+                  "valueLanguage": [
                     {
-                      "script": {
+                      "valueScript": {
                         "code": "Latn",
                         "source": {
                           "code": "iso15924"
@@ -1095,9 +1095,9 @@ Version B (from replayable spreadsheet, incorrect MODS)
                 },
                 {
                   "value": "臨川書店",
-                  "language": [
+                  "valueLanguage": [
                     {
-                      "script": {
+                      "valueScript": {
                         "code": "Hani",
                         "source": {
                           "code": "iso15924"
