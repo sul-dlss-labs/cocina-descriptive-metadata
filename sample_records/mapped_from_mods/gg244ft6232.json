@@ -17,18 +17,20 @@
             {
                 "structuredValue": [
                     {
-                        "structuredValue": [
-                            {
-                                "value": "Puccini, Giacomo",
-                                "type": "name"
-                            },
-                            {
-                                "value": "1858-1924",
-                                "type": "date"
-                            }
-                        ],
-                        "value": "Madama Butterfly. Vocal score",
+                        "value": "Puccini, Giacomo",
+                        "type": "name"
+                    },
+                    {
+                        "value": "1858-1924",
+                        "type": "life dates"
+                    },
+                    {
+                        "value": "Madama Butterfly",
                         "type": "title"
+                    },
+                    {
+                        "value": "Vocal score",
+                        "type": "version"
                     }
                 ],
                 "type": "uniform"
@@ -41,7 +43,7 @@
                         "structuredValue": [
                             {
                                 "value": "Puccini, Giacomo",
-                                "type": "name"
+                                "type": "inverted full name"
                             },
                             {
                                 "value": "1858-1924",
@@ -59,7 +61,7 @@
                         "structuredValue": [
                             {
                                 "value": "Illica, Luigi",
-                                "type": "name"
+                                "type": "inverted full name"
                             },
                             {
                                 "value": "1857-1919",
@@ -82,7 +84,7 @@
                         "structuredValue": [
                             {
                                 "value": "Giacosa, Giuseppe",
-                                "type": "name"
+                                "type": "inverted full name"
                             },
                             {
                                 "value": "1847-1906",
@@ -101,7 +103,10 @@
             },
             {
                 "name": [
-                    {"value": "Carignani, Carlo"}
+                    {
+                        "value": "Carignani, Carlo",
+                        "type": "inverted full name"
+                    }
                 ],
                 "type": "person"
             },
@@ -111,7 +116,7 @@
                         "structuredValue": [
                             {
                                 "value": "Belasco, David",
-                                "type": "name"
+                                "type": "inverted full name"
                             },
                             {
                                 "value": "1853-1931",
@@ -119,7 +124,8 @@
                             }
                         ]
                     }
-                ]
+                ],
+                "type": "person"
             }
         ],
         "form": [
@@ -216,7 +222,7 @@
                                 "structuredValue": [
                                     {
                                         "value": "Belasco, David",
-                                        "type": "name"
+                                        "type": "inverted full name"
                                     },
                                     {
                                         "value": "1853-1931",
@@ -230,7 +236,7 @@
                 ]
             },
             {
-                "type": "series",
+                "type": "in series",
                 "title": [
                     {"value": "Vocal music. Selections"}
                 ],
@@ -241,7 +247,7 @@
                                 "structuredValue": [
                                     {
                                         "value": "Puccini, Giacomo",
-                                        "type": "name"
+                                        "type": "inverted full name"
                                     },
                                     {
                                         "value": "1858-1924",
@@ -258,7 +264,7 @@
         "identifier": [
             {
                 "value": "M041370644",
-                "source": {"code": "ismn"}
+                "type": "ISMN"
             },
             {
                 "value": "110000 Ricordi",

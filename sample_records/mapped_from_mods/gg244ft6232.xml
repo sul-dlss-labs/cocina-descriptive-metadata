@@ -1,0 +1,92 @@
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+    <titleInfo>
+        <title>Madama Butterfly</title>
+        <subTitle>tragedia giapponese in tre atti / di Luigi Illica e Giuseppe Giacosa (da John L. Long e David Belasco) ; [musica] Giacomo Puccini ; ridizione per canto e pianofote di Carlo Carignani ; a cura di Mario Parenti (1964)</subTitle>
+    </titleInfo>
+    <titleInfo type="uniform" nameTitleGroup="1">
+        <title>Madama Butterfly. Vocal score Vocal score</title>
+    </titleInfo>
+    <name type="personal" usage="primary" nameTitleGroup="1">
+        <namePart>Puccini, Giacomo</namePart>
+        <namePart type="date">1858-1924</namePart>
+    </name>
+    <name type="personal">
+        <namePart>Illica, Luigi</namePart>
+        <namePart type="date">1857-1919</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">lbt</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Giacosa, Giuseppe</namePart>
+        <namePart type="date">1847-1906</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="code">lbt</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Carignani, Carlo.</namePart>
+    </name>
+    <name type="personal">
+        <namePart>Parenti, Mario.</namePart>
+    </name>
+    <name type="personal">
+        <namePart>Belasco, David</namePart>
+        <namePart type="date">1853-1931</namePart>
+    </name>
+    <typeOfResource>notated music</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm type="code" authority="marccountry">it</placeTerm>
+        </place>
+        <place>
+            <placeTerm type="text">Milan</placeTerm>
+        </place>
+        <publisher>Ricordi</publisher>
+        <dateIssued>[1996], c1907</dateIssued>
+        <dateIssued encoding="marc">1996</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">ita</languageTerm>
+    </language>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>1 vocal score ; 27 cm.</extent>
+    </physicalDescription>
+    <note type="statement of responsibility" altRepGroup="00"/>
+    <note>"Prima rappresentazione: Milano, Teatro all Scala, 17 Febbraio 1904".</note>
+    <subject authority="lcsh">
+        <topic>Operas</topic>
+        <genre>Vocal scores with piano</genre>
+    </subject>
+    <classification authority="lcc">M1503.P</classification>
+    <relatedItem>
+        <titleInfo>
+            <title>Madame Butterfly</title>
+        </titleInfo>
+        <name type="personal">
+            <namePart>Belasco, David,</namePart>
+            <namePart type="date">1853-1931</namePart>
+        </name>
+    </relatedItem>
+    <relatedItem type="series">
+        <titleInfo>
+            <title>Vocal music. Selections</title>
+        </titleInfo>
+        <name type="personal">
+            <namePart>Puccini, Giacomo</namePart>
+            <namePart type="date">1858-1924</namePart>
+        </name>
+    </relatedItem>
+    <identifier type="ismn">M041370644</identifier>
+    <identifier type="music plate">110000 Ricordi</identifier>
+    <recordInfo>
+        <descriptionStandard>aacr</descriptionStandard>
+        <recordContentSource authority="marcorg">CSt</recordContentSource>
+        <recordCreationDate encoding="marc">070830</recordCreationDate>
+        <recordIdentifier>a6914736</recordIdentifier>
+        <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4_SDR.xsl (Version 1.2.5 2013/08/11)</recordOrigin>
+    </recordInfo>
+    <accessCondition type="useAndReproduction">Property rights reside with the repository. Literary rights reside with the creators of the documents or their heirs. To obtain permission to access, publish or reproduce this content, please contact the Stanford Digital Repository (http://sdr.stanford.edu/contact).</accessCondition>
+</mods>

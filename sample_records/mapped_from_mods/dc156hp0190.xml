@@ -1,0 +1,262 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.loc.gov/mods/v3" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <titleInfo>
+        <title>2012 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart>Fouhey, David</namePart>
+        <affiliation>Electrical Engineering and Computer Science Department, University of Michigan</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0001-5028-5161</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Jin, Meng</namePart>
+        <affiliation>SETI Institute</affiliation>
+        <affiliation>Lockheed Martin Solar &amp; Astrophysics Laboratory</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0002-9672-3873</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Cheung, Mark</namePart>
+        <affiliation>Lockheed Martin Solar &amp; Astrophysics Laboratory</affiliation>
+        <affiliation>Hansen Experimental Physics Laboratory, Stanford University</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0003-2110-9753</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Munoz-Jaramillo, Abndres</namePart>
+        <affiliation>Southwest Research Institute</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0002-4716-0840</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Galvez, Richard</namePart>
+        <affiliation>Center for Data Science, New York University</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0002-4780-9566</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Thomas, Rajat</namePart>
+        <affiliation>Department of Psychiatry, University of Amsterdam</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0002-5362-4816</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Wright, Paul</namePart>
+        <affiliation>SUPA School of Physics and Astronomy, University of Glasgow</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0001-9021-611X</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Szenicer, Alexander</namePart>
+        <affiliation>University of Oxford, Department of Earth Sciences</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0002-4829-5739</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Bobra, Monica G.</namePart>
+        <affiliation>Hansen Experimental Physics Laboratory, Stanford University</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0002-5662-9604</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Liu, Yang</namePart>
+        <affiliation>Hansen Experimental Physics Laboratory, Stanford University</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0002-0671-689X</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart>Mason, James</namePart>
+        <affiliation>NASA Goddard Space Flight Center</affiliation>
+        <nameIdentifier type="orcid">https://orcid.org/0000-0002-3783-5509</nameIdentifier>
+        <role>
+            <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+        </role>
+    </name>
+    <name type="corporate">
+        <namePart>Lockheed Martin</namePart>
+    </name>
+    <name type="corporate">
+        <namePart>IBM</namePart>
+    </name>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <genre authority="local">dataset</genre>
+    <genre>quantitative data</genre>
+    <originInfo>
+        <dateCreated encoding="w3cdtf">2018</dateCreated>
+        <dateIssued keyDate="yes" encoding="w3cdtf">2018</dateIssued>
+    </originInfo>
+    <abstract>We present a curated dataset from the NASA Solar Dynamics Observatory (SDO) mission in a format suitable for machine learning research. Beginning from level 1 scientific products we have processed various instrumental corrections, downsampled to manageable spatial and temporal resolutions, and synchronized observations spatially and temporally. We anticipate this curated dataset will facilitate machine learning research in heliophysics and the physical sciences generally, increasing the scientific return of the SDO mission. This work is a deliverable of the 2018 NASA Frontier Development Lab program. This page includes data from 2012. Data from 2010, 2011, and 2013-2018 are also available. See links to related items elsewhere on this page.</abstract>
+    <note type="preferred citation" displayLabel="Preferred citation">Fouhey, David and Jin, Meng and Cheung, Mark and Munoz-Jaramillo, Andres and Galvez, Richard and Thomas, Rajat and Wright, Paul and Szenicer, Alexander and Bobra, Monica G. and Liu, Yang and Mason, James. (2018). 2012 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly. Stanford Digital Repository. Available at: https://purl.stanford.edu/dc156hp0190 https://doi.org/10.25740/1vyz-b592</note>
+    <note displayLabel="Funding information">NASA Solar Dynamics Observatory/Atmospheric Imaging Assembly NNG04EA00C</note>
+    <note displayLabel="Funding information">NASA Frontier Development Lab NNX14AT27A</note>
+    <subject>
+        <topic>NASA</topic>
+    </subject>
+    <subject>
+        <topic>Solar Dynamics Observatory (SDO)</topic>
+    </subject>
+    <subject>
+        <topic>Atmospheric Imaging Assembly (AIA)</topic>
+    </subject>
+    <subject>
+        <topic>Helioseismic and Magnetic Imager (HMI)</topic>
+    </subject>
+    <subject>
+        <topic>Extreme Ultraviolet Variability Experiment (EVE)</topic>
+    </subject>
+    <subject>
+        <topic>Heliophysics</topic>
+    </subject>
+    <subject>
+        <topic>Astronomy</topic>
+    </subject>
+    <subject>
+        <topic>Sun</topic>
+    </subject>
+    <subject>
+        <topic>Solar Irradiance</topic>
+    </subject>
+    <subject>
+        <topic>Solar Magnetic Field</topic>
+    </subject>
+    <subject>
+        <topic>Solar EUV</topic>
+    </subject>
+    <subject>
+        <topic>Machine Learning</topic>
+    </subject>
+    <subject>
+        <topic>Computer Vision</topic>
+    </subject>
+    <subject>
+        <topic>Deep Learning</topic>
+    </subject>
+    <subject>
+        <topic>Python</topic>
+    </subject>
+    <identifier type="doi" displayLabel="DOI">https://doi.org/10.25740/1vyz-b592</identifier>
+    <location>
+        <url usage="primary display">https://purl.stanford.edu/dc156hp0190</url>
+    </location>
+    <relatedItem type="preceding">
+        <titleInfo>
+            <title>2010 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly</title>
+        </titleInfo>
+        <identifier type="doi">https://doi.org/10.25740/ppax-bf07</identifier>
+        <location>
+            <url>https://purl.stanford.edu/vk217bh4910</url>
+        </location>
+    </relatedItem>
+    <relatedItem type="preceding">
+        <titleInfo>
+            <title>2011 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly</title>
+        </titleInfo>
+        <identifier type="doi">https://doi.org/10.25740/sb4q-wj06</identifier>
+        <location>
+            <url>https://purl.stanford.edu/jc488jb7715</url>
+        </location>
+    </relatedItem>
+    <relatedItem type="succeeding">
+        <titleInfo>
+            <title>2013 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly</title>
+        </titleInfo>
+        <location>
+            <url>https://purl.stanford.edu/km388vz4371</url>
+        </location>
+        <identifier type="doi">https://doi.org/10.25740/2zme-3q44</identifier>
+    </relatedItem>
+    <relatedItem type="succeeding">
+        <titleInfo>
+            <title>2014 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly</title>
+        </titleInfo>
+        <location>
+            <url>https://purl.stanford.edu/sr325xz9271</url>
+        </location>
+        <identifier type="doi">https://doi.org/10.25740/3jhw-x180</identifier>
+    </relatedItem>
+    <relatedItem type="succeeding">
+        <titleInfo>
+            <title>2015 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly</title>
+        </titleInfo>
+        <location>
+            <url>https://purl.stanford.edu/qw012qy2533</url>
+        </location>
+        <identifier type="doi">https://doi.org/10.25740/0fbp-re41</identifier>
+    </relatedItem>
+    <relatedItem type="succeeding">
+        <titleInfo>
+            <title>2016 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly</title>
+        </titleInfo>
+        <location>
+            <url>https://purl.stanford.edu/vf806tr8954</url>
+        </location>
+        <identifier type="doi">https://doi.org/10.25740/64cr-bc95</identifier>
+    </relatedItem>
+    <relatedItem type="succeeding">
+        <titleInfo>
+            <title>2017 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly</title>
+        </titleInfo>
+        <location>
+            <url>https://purl.stanford.edu/kp222tm1554</url>
+        </location>
+        <identifier type="doi">https://doi.org/10.25740/c8bw-ar96</identifier>
+    </relatedItem>
+    <relatedItem type="succeeding">
+        <titleInfo>
+            <title>2018 Machine Learning Data Set for NASA's Solar Dynamics Observatory - Atmospheric Imaging Assembly</title>
+        </titleInfo>
+        <location>
+            <url>https://purl.stanford.edu/nk828sc2920</url>
+        </location>
+        <identifier type="doi">https://doi.org/10.25740/pknx-5s37</identifier>
+    </relatedItem>
+    <recordInfo>
+        <languageOfCataloging>
+            <languageTerm type="text" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2" valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">English</languageTerm>
+            <languageTerm type="code" authority="iso639-2b" authorityURI="http://id.loc.gov/vocabulary/iso639-2" valueURI="http://id.loc.gov/vocabulary/iso639-2/eng">eng</languageTerm>
+        </languageOfCataloging>
+        <recordContentSource authority="marcorg" authorityURI="http://id.loc.gov/vocabulary/organizations" valueURI="http://id.loc.gov/vocabulary/organizations/cst">CSt</recordContentSource>
+    </recordInfo>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Stanford Research Data</title>
+        </titleInfo>
+        <location>
+            <url>https://purl.stanford.edu/md919gh6774</url>
+        </location>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">User agrees that, where applicable, content will not be used to identify or to otherwise infringe the privacy or confidentiality rights of individuals. Content distributed via the Stanford Digital Repository may be subject to additional license and use restrictions applied by the depositor.</accessCondition>
+    <accessCondition type="license">CC by: CC BY Attribution</accessCondition>
+</mods>

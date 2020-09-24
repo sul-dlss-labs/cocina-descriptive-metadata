@@ -1,0 +1,323 @@
+{
+    "Description": {
+        "marcEncodedData": [
+            {
+                "value": "02227cem a2200409Ii 4500",
+                "type": "leader"
+            },
+            {
+                "value": "a12270923",
+                "type": "001"
+            },
+            {
+                "value": "SIRSI",
+                "type": "003"
+            },
+            {
+                "value": "20200718050001.0",
+                "type": "005"
+            },
+            {
+                "value": "m q m ",
+                "type": "006"
+            },
+            {
+                "value": "az canzn",
+                "type": "007"
+            },
+            {
+                "value": "co ag|||||||||",
+                "type": "007"
+            },
+            {
+                "value": "130725s2018 cau a q 0 eng d",
+                "type": "008"
+            }
+        ],
+        "title": [
+            {
+                "structuredValue": [
+                    {
+                        "value": "Grave Reform in Modern China",
+                        "type": "main title"
+                    },
+                    {
+                        "value": "[geospatial datasets]",
+                        "type": "subtitle"
+                    },
+                    {
+                        "note": [
+                            {
+                                "value": "0",
+                                "type": "nonsorting character count"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "contributor": [
+            {
+                "name": [
+                    {
+                        "value": "Mullaney, Tom",
+                        "type": "inverted full name"
+                    }
+                ],
+                "type": "person"
+            },
+            {
+                "name": [
+                    {
+                        "value": "Henriot, Christian",
+                        "type": "inverted full name"
+                    }
+                ],
+                "type": "person",
+                "identifier": [
+                    {
+                        "value": "A777097",
+                        "type": "Symphony authority file identifier"
+                    }
+                ]
+            },
+            {
+                "name": [
+                    {
+                        "value": "Snyder-Reinke, Jeffrey, 1969-",
+                        "type": "inverted full name"
+                    }
+                ],
+                "type": "person"
+            },
+            {
+                "name": [
+                    {
+                        "value": "Stanford University. Center for Interdisciplinary Digital Research",
+                        "type": "name in direct order"
+                    }
+                ],
+                "type": "organization"
+            }
+        ],
+        "event": [
+            {
+                "type": "publication",
+                "location": [
+                    {"value": "Stanford, Ca."}
+                ],
+                "contributor": [
+                    {
+                        "name": [
+                            {"value": "Stanford University. Center for Interdisciplinary Digital Research"}
+                        ]
+                    }
+                ],
+                "date": [
+                    {"value": "2018"}
+                ]
+            }
+        ],
+        "form": [
+            {
+                "value": "cartographic dataset",
+                "type": "content type",
+                "code": "crd",
+                "source": {"code": "rdacontent"}
+            },
+            {
+                "value": "Vector",
+                "type": "GIS direct reference method"
+            },
+            {
+                "value": "Shapefile",
+                "type": "GIS data format"
+            },
+            {
+                "value": "Geographic information systems data",
+                "type": "genre",
+                "source": {"value": "local"}
+            },
+            {
+                "value": "Geospatial data",
+                "type": "genre",
+                "source": {"code": "lcgft"},
+                "identifier": [
+                    {
+                        "value": "A2950629",
+                        "type": "Symphony authority file identifier"
+                    }
+                ]
+            }
+        ],
+        "language": [
+            {
+                "code": "eng",
+                "source": {"code": "iso639-2b"}
+            },
+            {
+                "code": "chi",
+                "source": {"code": "iso639-2b"}
+            },
+            {
+                "note": [
+                    {"value": "not a translation"}
+                ]
+            }
+        ],
+        "note": [
+            {
+                "value": "Grave Reform in Modern China is a digital humanities initiative based at Stanford that is building an interactive spatial and textual analysis platform to examine the phenomenon of grave relocation in modern China, a campaign that has led to the exhumation and reburial of 10 million corpses in the past decade alone, and has transformed China\u2019s graveyards into sites of acute personal, social, political, and economic contestation.",
+                "type": "summary"
+            }
+        ],
+        "access": [
+            {
+                "url": [
+                    {
+                        "value": "https://earthworks.stanford.edu/?f%5Bdc_publisher_s%5D%5B%5D=Stanford+University.+Center+for+Interdisciplinary+Research&amp;f%5Bdct_provenance_s%5D%5B%5D=Stanford&amp;q=%22Grave+Reform+in+Modern+China%22",
+                        "note": [
+                            {
+                                "value": "View this collection in EarthWorks",
+                                "type": "link text"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "subject": [
+            {
+                "parallelValue": [
+                    {
+                        "structuredValue": [
+                            {
+                                "value": "E0732649",
+                                "type": "west"
+                            },
+                            {
+                                "value": "E1350509",
+                                "type": "east"
+                            },
+                            {
+                                "value": "N0533329",
+                                "type": "north"
+                            },
+                            {
+                                "value": "N0061907",
+                                "type": "south"
+                            }
+                        ]
+                    },
+                    {"value": "(E 73°26ʹ49ʺ--E 135°05ʹ09ʺ/N 53°33ʹ29ʺ--N 6°19ʹ07ʺ)"}
+                ],
+                "type": "bounding box coordinates"
+            },
+            {
+                "structuredValue": [
+                    {
+                        "value": "0.000001",
+                        "type": "latitude resolution"
+                    },
+                    {
+                        "value": "0.000001",
+                        "type": "longitude resolution"
+                    },
+                    {
+                        "value": "Decimal Degrees",
+                        "type": "unit"
+                    },
+                    {
+                        "value": "World Geodetic System 1984 (WGS-84)",
+                        "type": "ellipsoid name"
+                    },
+                    {
+                        "value": "6378137.000000",
+                        "type": "semi-major axis"
+                    },
+                    {
+                        "value": "298.257224",
+                        "type": "denominator of flattening ratio"
+                    },
+                    {
+                        "note": [
+                            {
+                                "value": "horizontal coordinate system",
+                                "type": "geospatial reference dimension"
+                            },
+                            {
+                                "value": "geodetic model",
+                                "type": "geospatial reference method"
+                            }
+                        ]
+                    }
+                ],
+                "type": "geospatial reference data"
+            },
+            {
+                "code": "a-cc---",
+                "type": "place",
+                "source": {"code": "marcgac"}
+            },
+            {
+                "structuredValue": [
+                    {
+                        "value": "G7821.E2 2010",
+                        "type": "classification number"
+                    },
+                    {
+                        "value": ".C5",
+                        "type": "item number"
+                    }
+                ],
+                "type": "classification",
+                "source": {"value": "Library of Congress Classification"},
+                "note": [
+                    {"value": "assigned by agency other than Library of Congress"}
+                ]
+            },
+            {
+                "value": "7821",
+                "type": "geographic classification",
+                "source": {"value": "Library of Congress Classification"}
+            },
+            {
+                "structuredValue": [
+                    {
+                        "value": "China",
+                        "type": "place"
+                    },
+                    {
+                        "value": "Cemeteries",
+                        "type": "topic"
+                    }
+                ],
+                "source": {"code": "lcsh"},
+                "identifier": [
+                    {
+                        "value": "A121028",
+                        "type": "Symphony authority file identifier"
+                    }
+                ]
+            },
+            {
+                "value": "Geographic information systems data",
+                "type": "genre",
+                "source": {"value": "local"}
+            },
+            {
+                "value": "Geospatial data",
+                "type": "genre",
+                "source": {"code": "lcgft"}
+            }
+        ],
+        "adminMetadata": {
+            "identifier": [
+                {
+                    "value": "(OCoLC)853717580",
+                    "type": "other system control number"
+                }
+            ]
+        }
+    }
+}

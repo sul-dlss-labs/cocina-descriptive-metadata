@@ -4,9 +4,7 @@
   "identifier": [
     {
       "value": "1234 5678 9203",
-      "source": {
-        "code": "isbn"
-      }
+      "type": "ISBN"
     }
   ]
 }

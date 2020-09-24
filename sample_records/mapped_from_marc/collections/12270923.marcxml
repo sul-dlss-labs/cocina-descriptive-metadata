@@ -1,0 +1,132 @@
+<record xmlns="http://www.loc.gov/MARC21/slim">
+    <leader>02227cem a2200409Ii 4500</leader>
+    <controlfield tag="001">a12270923</controlfield>
+    <controlfield tag="003">SIRSI</controlfield>
+    <controlfield tag="005">20200718050001.0</controlfield>
+    <controlfield tag="006">m q m </controlfield>
+    <controlfield tag="007">az canzn</controlfield>
+    <controlfield tag="007">co ag|||||||||</controlfield>
+    <controlfield tag="008">130725s2018 cau a q 0 eng d</controlfield>
+    <datafield ind1="0" ind2=" " tag="034">
+        <subfield code="d">E0732649</subfield>
+        <subfield code="e">E1350509</subfield>
+        <subfield code="f">N0533329</subfield>
+        <subfield code="g">N0061907</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="035">
+        <subfield code="a">(OCoLC)853717580</subfield>
+    </datafield>
+    <datafield ind1="0" ind2=" " tag="041">
+        <subfield code="a">eng</subfield>
+        <subfield code="a">chi</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="043">
+        <subfield code="a">a-cc---</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="4" tag="050">
+        <subfield code="a">G7821.E2 2010</subfield>
+        <subfield code="b">.C5</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="052">
+        <subfield code="a">7821</subfield>
+    </datafield>
+    <datafield ind1="0" ind2="0" tag="245">
+        <subfield code="a">Grave Reform in Modern China:</subfield>
+        <subfield code="b">[geospatial datasets]</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="255">
+        <subfield code="c">(E 73°26ʹ49ʺ--E 135°05ʹ09ʺ/N 53°33ʹ29ʺ--N 6°19ʹ07ʺ).</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="1" tag="264">
+        <subfield code="a">Stanford, Ca. :</subfield>
+        <subfield code="b">Stanford University. Center for Interdisciplinary Digital
+            Research,</subfield>
+        <subfield code="c">2018.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="336">
+        <subfield code="a">cartographic dataset</subfield>
+        <subfield code="b">crd</subfield>
+        <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield ind1="0" ind2="5" tag="342">
+        <subfield code="c">0.000001</subfield>
+        <subfield code="d">0.000001</subfield>
+        <subfield code="b">Decimal Degrees</subfield>
+        <subfield code="q">World Geodetic System 1984 (WGS-84)</subfield>
+        <subfield code="r">6378137.000000</subfield>
+        <subfield code="s">298.257224</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="352">
+        <subfield code="a">Vector ;</subfield>
+        <subfield code="q">Shapefile.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="520">
+        <subfield code="a">Grave Reform in Modern China is a digital humanities initiative based at
+            Stanford that is building an interactive spatial and textual analysis platform to
+            examine the phenomenon of grave relocation in modern China, a campaign that has led to
+            the exhumation and reburial of 10 million corpses in the past decade alone, and has
+            transformed China’s graveyards into sites of acute personal, social, political, and
+            economic contestation.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+        <subfield code="a">China</subfield>
+        <subfield code="x">Cemeteries</subfield>
+        <subfield code=" ">^A121028</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+        <subfield code="a">Geographic information systems data</subfield>
+        <subfield code="2">local</subfield>
+        <subfield code=" ">UNAUTHORIZED</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+        <subfield code="a">Geospatial data</subfield>
+        <subfield code="2">lcgft</subfield>
+        <subfield code=" ">^A2950629</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Mullaney, Tom</subfield>
+        <subfield code=" ">UNAUTHORIZED</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Henriot, Christian</subfield>
+        <subfield code=" ">^A777097</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Snyder-Reinke, Jeffrey, 1969-</subfield>
+        <subfield code=" ">UNAUTHORIZED</subfield>
+    </datafield>
+    <datafield ind1="2" ind2=" " tag="710">
+        <subfield code="a">Stanford University. Center for Interdisciplinary Digital
+            Research.</subfield>
+        <subfield code=" ">UNAUTHORIZED</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="1" tag="856">
+        <subfield code="y">View this collection in EarthWorks</subfield>
+        <subfield code="u"
+            >https://earthworks.stanford.edu/?f%5Bdc_publisher_s%5D%5B%5D=Stanford+University.+Center+for+Interdisciplinary+Research&amp;f%5Bdct_provenance_s%5D%5B%5D=Stanford&amp;q=%22Grave+Reform+in+Modern+China%22</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="596">
+        <subfield code="a">22</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="1" tag="856">
+        <subfield code="u">http://purl.stanford.edu/hw327pj4436</subfield>
+        <subfield code="x">SDR-PURL</subfield>
+        <subfield code="x">collection</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="916">
+        <subfield code="a">DATE CATALOGED</subfield>
+        <subfield code="b">NEVER</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="999">
+        <subfield code="a">INTERNET RESOURCE</subfield>
+        <subfield code="w">ASIS</subfield>
+        <subfield code="c">1</subfield>
+        <subfield code="i">12270923-1001</subfield>
+        <subfield code="l">INTERNET</subfield>
+        <subfield code="m">SUL</subfield>
+        <subfield code="r">Y</subfield>
+        <subfield code="s">Y</subfield>
+        <subfield code="t">SUL</subfield>
+        <subfield code="u">12/13/2017</subfield>
+    </datafield>
+</record>

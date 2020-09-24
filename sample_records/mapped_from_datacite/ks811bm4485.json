@@ -1,0 +1,304 @@
+{
+    "Description": {
+        "title": [
+            {"value": "Core Course Companions and Curriculum Opportunities, Bachelor of Science in Bioengineering, Stanford University, 2018"}
+        ],
+        "contributor": [
+            {
+                "name": [
+                    {
+                        "parallelValue": [
+                            {
+                                "value": "Siavash, Ahrar",
+                                "type": "inverted full name"
+                            },
+                            {
+                                "structuredValue": [
+                                    {
+                                        "value": "Ahrar",
+                                        "type": "forename"
+                                    },
+                                    {
+                                        "value": "Siavash",
+                                        "type": "surname"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "type": "person",
+                "role": [
+                    {
+                        "value": "creator",
+                        "source": {
+                            "value": "DataCite",
+                            "version": "4"
+                        }
+                    }
+                ],
+                "status": 1
+            },
+            {
+                "name": [
+                    {
+                        "parallelValue": [
+                            {
+                                "value": "Brand, Veronica R.",
+                                "type": "inverted full name"
+                            },
+                            {
+                                "structuredValue": [
+                                    {
+                                        "value": "Veronica R.",
+                                        "type": "forename"
+                                    },
+                                    {
+                                        "value": "Brand",
+                                        "type": "surname"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "type": "person",
+                "role": [
+                    {
+                        "value": "creator",
+                        "source": {
+                            "value": "DataCite",
+                            "version": "4"
+                        }
+                    }
+                ],
+                "status": 2
+            },
+            {
+                "name": [
+                    {
+                        "parallelValue": [
+                            {
+                                "value": "Rogers, Kara H.",
+                                "type": "inverted full name"
+                            },
+                            {
+                                "structuredValue": [
+                                    {
+                                        "value": "Kara H.",
+                                        "type": "forename"
+                                    },
+                                    {
+                                        "value": "Rogers",
+                                        "type": "surname"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "type": "person",
+                "role": [
+                    {
+                        "value": "creator",
+                        "source": {
+                            "value": "DataCite",
+                            "version": "4"
+                        }
+                    }
+                ],
+                "status": 3
+            },
+            {
+                "name": [
+                    {
+                        "parallelValue": [
+                            {
+                                "value": "Venook, Ross D.",
+                                "type": "inverted full name"
+                            },
+                            {
+                                "structuredValue": [
+                                    {
+                                        "value": "Ross D.",
+                                        "type": "forename"
+                                    },
+                                    {
+                                        "value": "Venook",
+                                        "type": "surname"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "type": "person",
+                "role": [
+                    {
+                        "value": "creator",
+                        "source": {
+                            "value": "DataCite",
+                            "version": "4"
+                        }
+                    }
+                ],
+                "status": 4
+            },
+            {
+                "name": [
+                    {
+                        "parallelValue": [
+                            {
+                                "value": "Endy, Drew",
+                                "type": "inverted full name"
+                            },
+                            {
+                                "structuredValue": [
+                                    {
+                                        "value": "Drew",
+                                        "type": "forename"
+                                    },
+                                    {
+                                        "value": "Endy",
+                                        "type": "surname"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "type": "person",
+                "role": [
+                    {
+                        "value": "creator",
+                        "source": {
+                            "value": "DataCite",
+                            "version": "4"
+                        }
+                    }
+                ],
+                "status": 5
+            }
+        ],
+        "form": [
+            {
+                "value": "Technical Report",
+                "type": "resource type"
+            },
+            {
+                "value": "Text",
+                "type": "resource type",
+                "source": {
+                    "value": "DataCite Resource Types",
+                    "version": "4"
+                }
+            }
+        ],
+        "event": [
+            {
+                "type": "publication",
+                "contributor": [
+                    {
+                        "name": [
+                            {"value": "Stanford Digital Repository"}
+                        ]
+                    }
+                ],
+                "date": [
+                    {
+                        "value": "2019",
+                        "encoding": {"code": "w3cdtf"}
+                    }
+                ]
+            }
+        ],
+        "note": [
+            {
+                "value": "Bioengineering as an academic practice has developed and renewed itself in three waves, each of which remain important and contribute to human flourishing. Historically, the first wave was powered by the application of established engineering methods to human needs, primarily found in the medical clinic or agricultural field. The second wave arose in response to the emergence of tools for collecting overwhelming amounts of quantitative data about living systems, initially DNA sequence-based but increasingly diverse in type and complexity. The third wave began with the invention of genetic engineering a generation ago and is accelerating towards realizing operational mastery of living matter from both an analytical and synthetic perspective.Both the Stanford Bioengineering department and our undergraduate major arose after the emergence of all three waves. We started fresh in terms of organization and activities. We celebrate all opportunities to contribute to human flourishing, regardless of precedent or extrinsic framing. We both believe and can articulate that \"enough is known already of the diverse applications of biology for us to recognize the birth of a coherent body of technique, which we call bioengineering... Whether living matter is used for manufacturing, medicine, music, or other purposes, the structure of bioengineering practice is much the same.1 Additionally and practically, we can clearly describe how the physical materials bioengineers encounter and work with, biology, are qualitatively distinct from other types of materials now mastered by other fields of engineering, as is needed to frame a distinct discipline and resulting course of study. Practically, our bioengineering major was approved in perpetuity by the Stanford University Faculty Senate in 2015. We engage ~100 students per year in our introductory courses. Each course is led by idiosyncratic faculty working alone or in pairs, all of whom enjoy full autonomy in terms of both course content and delivery. Our thriving department culture and collegiality allow us to coordinate and make adjustments over time. Collectively, our current offerings arose by implementing a third set of improvements to a second major revision of our program (i.e., 'version 2c'). Having just completed the analysis presented herein, the first of its kind, we anticipate the next six months will involve discussions regarding whether a third revision to the program is warranted and practical (i.e., 'version 3').Biology as both a science and technology is profound and practically powerful. Working together to learn how to best advance the practice of bioengineering education should be a collective endeavour. What should bioengineers learn? How should they learn it? Who should have the option of becoming a bioengineer? To enable all to learn and work together we are making all of our materials and analysis herein freely available. We ask only that you share your thoughts, critiques, suggestions, and wishes, in return. Let's be great together!",
+                "type": "summary",
+                "note": [
+                    {
+                        "type": "type",
+                        "value": "Abstract",
+                        "source": {
+                            "value": "DataCite Description Types",
+                            "version": "4"
+                        }
+                    }
+                ]
+            }
+        ],
+        "subject": [
+            {
+                "value": "Education",
+                "valueLanguage": {
+                    "code": "en-US",
+                    "source": {"value": "XML Language Tags"}
+                }
+            },
+            {
+                "value": "bioengineering",
+                "valueLanguage": {
+                    "code": "en-US",
+                    "source": {"value": "XML Language Tags"}
+                }
+            },
+            {
+                "value": "undergraduate",
+                "valueLanguage": {
+                    "code": "en-US",
+                    "source": {"value": "XML Language Tags"}
+                }
+            },
+            {
+                "value": "discipline",
+                "valueLanguage": {
+                    "code": "en-US",
+                    "source": {"value": "XML Language Tags"}
+                }
+            },
+            {
+                "value": "21st century",
+                "valueLanguage": {
+                    "code": "en-US",
+                    "source": {"value": "XML Language Tags"}
+                }
+            },
+            {
+                "value": "education",
+                "valueLanguage": {
+                    "code": "en-US",
+                    "source": {"value": "XML Language Tags"}
+                }
+            },
+            {
+                "value": "learning",
+                "valueLanguage": {
+                    "code": "en-US",
+                    "source": {"value": "XML Language Tags"}
+                }
+            },
+            {
+                "value": "engineering",
+                "valueLanguage": {
+                    "code": "en-US",
+                    "source": {"value": "XML Language Tags"}
+                }
+            },
+            {
+                "value": "curriculum",
+                "valueLanguage": {
+                    "code": "en-US",
+                    "source": {"value": "XML Language Tags"}
+                }
+            }
+        ],
+        "identifier": [
+            {
+                "value": "10.25740/KS811BM4485",
+                "type": "DOI"
+            }
+        ],
+        "purl": "https://purl.stanford.edu/ks811bm4485"
+    }
+}

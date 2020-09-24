@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <titles>
+    <title>Core Course Companions and Curriculum Opportunities, Bachelor of Science in Bioengineering, Stanford University, 2018</title>
+  </titles>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Siavash, Ahrar</creatorName>
+      <givenName>Ahrar</givenName>
+      <familyName>Siavash</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Brand, Veronica R.</creatorName>
+      <givenName>Veronica R.</givenName>
+      <familyName>Brand</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Rogers, KaraH.</creatorName>
+      <givenName>KaraH.</givenName>
+      <familyName>Rogers</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Venook, Ross D.</creatorName>
+      <givenName>Ross D.</givenName>
+      <familyName>Venook</familyName>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Endy, Drew</creatorName>
+      <givenName>Drew</givenName>
+      <familyName>Endy</familyName>
+    </creator>
+  </creators>
+  <resourceType resourceTypeGeneral="Text">Technical Report</resourceType>
+  <publisher>Stanford Digital Repository</publisher>
+  <publicationYear>2019</publicationYear>
+  <descriptions>
+    <description descriptionType="Abstract">Bioengineering as an academic practice has developed and renewed itself in three waves, each of which remain important and contribute to human flourishing. Historically, the first wave was powered by the application of established engineering methods to human needs, primarily found in the medical clinic or agricultural field. The second wave arose in response to the emergence of tools for collecting overwhelming amounts of quantitative data about living systems, initially DNA sequence-based but increasingly diverse in type and complexity. The third wave began with the invention of genetic engineering a generation ago and is accelerating towards realizing operational mastery of living matter from both an analytical and synthetic perspective.Both the Stanford Bioengineering department and our undergraduate major arose after the emergence of all three waves. We started fresh in terms of organization and activities. We celebrate all opportunities to contribute to human flourishing, regardless of precedent or extrinsic framing. We both believe and can articulate that "enough is known already of the diverse applications of biology for us to recognize the birth of a coherent body of technique, which we call bioengineering... Whether living matter is used for manufacturing, medicine, music, or other purposes, the structure of bioengineering practice is much the same.1 Additionally and practically, we can clearly describe how the physical materials bioengineers encounter and work with, biology, are qualitatively distinct from other types of materials now mastered by other fields of engineering, as is needed to frame a distinct discipline and resulting course of study. Practically, our bioengineering major was approved in perpetuity by the Stanford University Faculty Senate in 2015. We engage ~100 students per year in our introductory courses. Each course is led by idiosyncratic faculty working alone or in pairs, all of whom enjoy full autonomy in terms of both course content and delivery. Our thriving department culture and collegiality allow us to coordinate and make adjustments over time. Collectively, our current offerings arose by implementing a third set of improvements to a second major revision of our program (i.e., 'version 2c'). Having just completed the analysis presented herein, the first of its kind, we anticipate the next six months will involve discussions regarding whether a third revision to the program is warranted and practical (i.e., 'version 3').Biology as both a science and technology is profound and practically powerful. Working together to learn how to best advance the practice of bioengineering education should be a collective endeavour. What should bioengineers learn? How should they learn it? Who should have the option of becoming a bioengineer? To enable all to learn and work together we are making all of our materials and analysis herein freely available. We ask only that you share your thoughts, critiques, suggestions, and wishes, in return. Let's be great together!</description>
+  </descriptions>
+  <subjects>
+    <subject xml:lang="en-US">Education</subject>
+    <subject xml:lang="en-US">bioengineering</subject>
+    <subject xml:lang="en-US">undergraduate</subject>
+    <subject xml:lang="en-US">discipline</subject>
+    <subject xml:lang="en-US">21st century</subject>
+    <subject xml:lang="en-US">education</subject>
+    <subject xml:lang="en-US">learning</subject>
+    <subject xml:lang="en-US">engineering</subject>
+    <subject xml:lang="en-US">curriculum</subject>
+  </subjects>
+  <identifier identifierType="DOI">10.25740/KS811BM4485</identifier>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="PURL">https://purl.stanford.edu/ks811bm4485</alternateIdentifier>
+  </alternateIdentifiers>
+</resource>
