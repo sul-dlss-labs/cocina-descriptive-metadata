@@ -24,7 +24,7 @@
       "value": "image/jpeg",
       "type": "media type",
       "source": {
-        "value": "IANA media type terms"
+        "value": "IANA media types"
       }
     },
     {
