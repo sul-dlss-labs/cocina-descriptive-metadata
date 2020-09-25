@@ -257,7 +257,7 @@ How to ID: titleInfo type="uniform"
     {
       "structuredValue": [
         {
-          "value": "Saint-Sa&#xEB;ns",
+          "value": "Saint-Saëns",
           "type": "surname"
         },
         {
