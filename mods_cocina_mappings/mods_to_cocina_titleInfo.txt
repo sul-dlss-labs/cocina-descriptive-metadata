@@ -110,14 +110,12 @@ How to ID: titleInfo type="translated"
             }
           ],
           "status": "primary",
-          "valueLanguage": [
-            {
-              "code": "fre",
-              "source": {
-                "code": "iso639-2b"
-              }
+          "valueLanguage": {
+            "code": "fre",
+            "source": {
+              "code": "iso639-2b"
             }
-          ]
+          }
         },
         {
           "structuredValue": [
@@ -139,14 +137,12 @@ How to ID: titleInfo type="translated"
             }
           ],
           "type": "translated",
-          "valueLanguage": [
-            {
-              "code": "eng",
-              "source": {
-                "code": "iso639-2b"
-              }
+          "valueLanguage": {
+            "code": "eng",
+            "source": {
+              "code": "iso639-2b"
             }
-          ]
+          }
         }
       ]
     }
@@ -168,37 +164,33 @@ How to ID: presence of titleInfo transliteration attribute (may need to manually
         {
           "value": "Война и миръ",
           "status": "primary",
-          "valueLanguage": [
-            {
-              "code": "rus",
+          "valueLanguage": {
+            "code": "rus",
+            "source": {
+              "code": "iso639-2b"
+            },
+            "valueScript": {
+              "code": "Cyrl",
               "source": {
-                "code": "iso639-2b"
-              },
-              "valueScript": {
-                "code": "Cyrl",
-                "source": {
-                  "code": "iso15924"
-                }
+                "code": "iso15924"
               }
             }
-          ]
+          }
         },
         {
           "value": "Voĭna i mir",
-          "valueLanguage": [
-            {
-              "code": "rus",
+          "valueLanguage": {
+            "code": "rus",
+            "source": {
+              "code": "iso639-2b"
+            },
+            "valueScript": {
+              "code": "Latn",
               "source": {
-                "code": "iso639-2b"
-              },
-              "valueScript": {
-                "code": "Latn",
-                "source": {
-                  "code": "iso15924"
-                }
+                "code": "iso15924"
               }
             }
-          ],
+          },
           "type": "transliterated",
           "standard": {
             "value": "ALA-LC Romanization Tables"
@@ -333,36 +325,30 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
       "parallelValue": [
         {
           "value": "Berliner Mauer Kunst",
-          "valueLanguage": [
-            {
-              "code": "ger",
-              "source": {
-                "code": "iso639-2b"
-              }
+          "valueLanguage": {
+            "code": "ger",
+            "source": {
+              "code": "iso639-2b"
             }
-          ]
+          }
         },
         {
           "value": "Berlin's wall art",
-          "valueLanguage": [
-            {
-              "code": "eng",
-              "source": {
-                "code": "iso639-2b"
-              }
+          "valueLanguage": {
+            "code": "eng",
+            "source": {
+              "code": "iso639-2b"
             }
-          ]
+          }
         },
         {
           "value": "Arte en el muro de Berlin",
-          "valueLanguage": [
-            {
-              "code": "spa",
-              "source": {
-                "code": "iso639-2b"
-              }
+          "valueLanguage": {
+            "code": "spa",
+            "source": {
+              "code": "iso639-2b"
             }
-          ]
+          }
         }
       ],
       "type": "parallel",
