@@ -7,9 +7,9 @@
     ],
     "contributor": [
         {
-            "parallelValue": [
+            "name": [
                 {
-                    "name": [
+                    "parallelValue": [
                         {
                             "value": "Kasahara, Akitada, Jr",
                             "type": "inverted full name"
