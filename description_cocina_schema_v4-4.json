@@ -339,8 +339,7 @@
                     "type": "string"
                 },
                 "access": {
-                    "type": "array",
-                    "items": {"$ref": "#/definitions/DescriptiveAccessMetadata"}
+                    "$ref": "#/definitions/DescriptiveAccessMetadata"
                 }
             }
         },
