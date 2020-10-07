@@ -161,6 +161,11 @@
                             "description": "Encoding schemas, standards, or syntax to which the value conforms.",
                             "$ref": "#/definitions/Standard"
                         },
+                        "identifier": {
+                            "description": "Identifiers for the value",
+                            "type": "array",
+                            "items": {"$ref": "#/definitions/DescriptiveValue"}
+                        },
                         "source": {"$ref": "#/definitions/Source"},
                         "displayLabel": {
                             "description": "The preferred display label to use for the descriptive element in access systems.",
@@ -251,6 +256,11 @@
                             "type": "array",
                             "items": {"$ref": "#/definitions/DescriptiveValue"}
                         },
+                        "identifier": {
+                            "description": "Identifiers for the value",
+                            "type": "array",
+                            "items": {"$ref": "#/definitions/DescriptiveValue"}
+                        },
                         "note": {
                             "description": "Other information about the event.",
                             "type": "array",
@@ -329,6 +339,10 @@
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
+                "standard": {
+                    "description": "Descriptive or content standards to which the value conforms.",
+                    "$ref": "#/definitions/Standard"
+                },
                 "subject": {
                     "description": "Terms associated with the intellectual content of the related resource.",
                     "type": "array",
@@ -338,9 +352,7 @@
                     "description": "Stanford persistent URL associated with the related resource.",
                     "type": "string"
                 },
-                "access": {
-                    "$ref": "#/definitions/DescriptiveAccessMetadata"
-                }
+                "access": {"$ref": "#/definitions/DescriptiveAccessMetadata"}
             }
         },
         "Source": {
