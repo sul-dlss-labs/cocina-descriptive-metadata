@@ -756,7 +756,7 @@ Version B (from replayable spreadsheet, incorrect MODS)
           "name": [
             {
               "value": "Institut russkoĭ literatury (Pushkinskiĭ Dom)",
-              "type": "transliterated",
+              "type": "transliteration",
               "standard": {
                 "value": "ALA-LC Romanization Tables"
               },
