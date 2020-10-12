@@ -172,7 +172,7 @@ Option B
 }
 
 8. Name subject with authority
-<subject authority="lcsh">
+<subject authority="naf">
   <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79046044">
     <namePart>Sayers, Dorothy L. (Dorothy Leigh), 1893-1957</namePart>
   </name>
