@@ -10,7 +10,7 @@
 }
 
 2. Multilingual abstract
-<abstract lang="eng" script="Latn" altRepGroup="1">This is an abstract</abstract>
+<abstract lang="eng" script="Latn" altRepGroup="1">This is an abstract.</abstract>
 <abstract lang="rus" script="Cyrl" altRepGroup="1">Это аннотация.</abstract>
 {
   "note": [
