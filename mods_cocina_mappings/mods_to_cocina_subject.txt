@@ -528,7 +528,7 @@ Option B
 19. Cartographic subject
 <subject>
   <cartographics>
-    <coordinates>E 72°--E 148°/N 13°--N 18°</coordinates>
+    <coordinates>E 72&#xB0;--E 148&#xB0;/N 13&#xB0;--N 18&#xB0;</coordinates>
     <scale>1:22,000,000</scale>
     <projection>Conic proj</projection>
   </cartographics>
