@@ -1119,6 +1119,46 @@ Version B (from replayable spreadsheet, incorrect MODS)
             }
           ]
         }
+      ],
+      "date": [
+        {
+          "parallelValue": [
+            {
+              "value": "Heisei 8 [1996]",
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Latn",
+                  "source": {
+                    "code": "iso15924"
+                  }
+                }
+              }
+            },
+            {
+              "value": "1996",
+              "encoding": {
+                "code": "marc"
+              }
+            },
+            {
+              "value": "平成 8 [1996]",
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Hani",
+                  "source": {
+                    "code": "iso15924"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "note": [
+        {
+          "value": "monographic",
+          "type": "issuance"
+        }
       ]
     }
   ]
