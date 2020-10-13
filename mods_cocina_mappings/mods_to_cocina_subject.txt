@@ -653,19 +653,15 @@ Option B
       "parallelValue": [
         {
           "value": "French New Wave",
-          "valueLanguage": [
-            {
-              "code": "eng"
-            }
-          ]
+          "valueLanguage": {
+            "code": "eng"
+          }
         },
         {
           "value": "Nouvelle Vague",
-          "valueLanguage": [
-            {
-              "code": "fre"
-            }
-          ]
+          "valueLanguage": {
+            "code": "fre"
+          }
         }
       ],
       "type": "topic"
