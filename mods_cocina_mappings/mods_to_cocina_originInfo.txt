@@ -1025,9 +1025,9 @@ Version B (from replayable spreadsheet, incorrect MODS)
 </originInfo>
 <originInfo script="Hani" altRepGroup="1">
   <place>
-    <placeTerm type="text">京都市 :</placeTerm>
+    <placeTerm type="text">京都市</placeTerm>
   </place>
-  <publisher>臨川書店,</publisher>
+  <publisher>臨川書店</publisher>
   <dateIssued>平成 8 [1996]</dateIssued>
 </originInfo>
 {
