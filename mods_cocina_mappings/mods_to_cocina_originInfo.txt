@@ -1029,7 +1029,7 @@ Version B (from replayable spreadsheet, incorrect MODS)
   <place>
     <placeTerm type="text">京都市</placeTerm>
   </place>
-  <publisher>臨川書店,</publisher>
+  <publisher>臨川書店</publisher>
   <dateIssued>平成 8 [1996]</dateIssued>
 </originInfo>
 {
