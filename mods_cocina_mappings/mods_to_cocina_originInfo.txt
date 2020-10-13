@@ -760,20 +760,18 @@ Version B (from replayable spreadsheet, incorrect MODS)
               "standard": {
                 "value": "ALA-LC Romanization Tables"
               },
-              "valueLanguage": [
-                {
-                  "code": "rus",
+              "valueLanguage": {
+                "code": "rus",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Latn",
                   "source": {
-                    "code": "iso639-2b"
-                  },
-                  "valueScript": {
-                    "code": "Latn",
-                    "source": {
-                      "code": "iso15924"
-                    }
+                    "code": "iso15924"
                   }
                 }
-              ]
+              }
             }
           ],
           "type": "organization",
