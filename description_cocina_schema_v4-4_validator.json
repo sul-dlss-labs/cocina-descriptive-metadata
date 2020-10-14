@@ -548,6 +548,10 @@
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
+                "version": {
+                    "description": "The version of the value source.",
+                    "type": "string"
+                },
                 "source": {"$ref": "#/definitions/Source"}
             }
         },
