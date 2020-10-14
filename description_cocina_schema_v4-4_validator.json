@@ -489,7 +489,11 @@
                     "description": "Stanford persistent URL associated with the related resource.",
                     "type": "string"
                 },
-                "access": {"$ref": "#/definitions/DescriptiveAccessMetadata"}
+                "access": {"$ref": "#/definitions/DescriptiveAccessMetadata"},
+                "version": {
+                    "description": "The version of the value source.",
+                    "type": "string"
+                }
             }
         },
         "Source": {
