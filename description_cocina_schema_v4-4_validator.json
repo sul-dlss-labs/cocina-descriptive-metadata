@@ -226,7 +226,7 @@
                     "$ref": "#/definitions/Standard"
                 },
                 "identifier": {
-                    "description": "Identifiers for the value",
+                    "description": "Identifiers for the value.",
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
@@ -321,7 +321,7 @@
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
                 "identifier": {
-                    "description": "Identifiers for the value",
+                    "description": "Identifiers for the event.",
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
@@ -477,7 +477,7 @@
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
                 "standard": {
-                    "description": "Descriptive or content standards to which the value conforms.",
+                    "description": "Descriptive or content standards to which the related resource conforms.",
                     "$ref": "#/definitions/Standard"
                 },
                 "subject": {
