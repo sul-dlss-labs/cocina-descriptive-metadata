@@ -678,9 +678,9 @@ Option B
     {
       "value": "String quartets",
       "type": "topic"
-    },
-    "source": {
-      "code": "lcsh"
+      "source": {
+        "code": "lcsh"
+      }
     }
   ]
 }
