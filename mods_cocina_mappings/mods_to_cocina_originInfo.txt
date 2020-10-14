@@ -455,6 +455,7 @@ Dates
 }
 
 20. Julian calendar
+MODS 3.6 and before:
 <originInfo>
   <dateOther type="Julian">1544-02-02</dateOther>
 </originInfo>
@@ -475,6 +476,28 @@ Dates
     }
   ]
 }
+MODS 3.7:
+<originInfo>
+  <dateCreated calendar="Julian">1544-02-02</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "1544-02-02",
+          "note": [
+            {
+              "value": "Julian",
+              "type": "calendar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 
 21. Date range, no start point
 <originInfo>
@@ -483,6 +506,7 @@ Dates
 {
   "event": [
     {
+      "type": "publication",
       "date": [
         {
           "value": "1980",
@@ -500,6 +524,7 @@ Dates
 {
   "event": [
     {
+      "type": "publication",
       "date": [
         {
           "value": "1975",
@@ -517,6 +542,7 @@ Dates
 {
   "event": [
     {
+      "type": "creation",
       "date": [
         {
           "value": "19uu",
