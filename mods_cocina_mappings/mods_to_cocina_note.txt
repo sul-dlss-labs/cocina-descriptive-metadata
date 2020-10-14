@@ -28,25 +28,21 @@
       "parallelValue": [
         {
           "value": "This is a note.",
-          "valueLanguage": [
-            {
-              "code": "eng",
-              "source": {
-                "code": "iso639-2b"
-              }
+          "valueLanguage": {
+            "code": "eng",
+            "source": {
+              "code": "iso639-2b"
             }
-          ]
+          }
         },
         {
           "value": "C'est une note.",
-          "valueLanguage": [
-            {
-              "code": "fre",
-              "source": {
-                "code": "iso639-2b"
-              }
+          "valueLanguage": {
+            "code": "fre",
+            "source": {
+              "code": "iso639-2b"
             }
-          ]
+          }
         }
       ]
     }
