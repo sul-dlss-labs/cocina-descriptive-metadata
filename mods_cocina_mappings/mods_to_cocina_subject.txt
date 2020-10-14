@@ -350,8 +350,8 @@ Option B
 
 14. Name-title subject with authority plus authority for name
 <subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n97075542">
-  <name type="personal">
-    <namePart authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50025011">Dunnett, Dorothy</namePart>
+  <name authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50025011" type="personal">
+    <namePart>Dunnett, Dorothy</namePart>
   </name>
   <titleInfo>
     <title>Lymond chronicles</title>
