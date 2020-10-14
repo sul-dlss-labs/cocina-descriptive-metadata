@@ -21,7 +21,7 @@
 
 3. Multilingual note
 <note lang="eng" altReptGroup="1">This is a note.</note>
-<note lang="fre" altRepGroup="1">C'est une note.</note.
+<note lang="fre" altRepGroup="1">C'est une note.</note>
 {
   "note": [
     {
