@@ -491,7 +491,7 @@
                 },
                 "access": {"$ref": "#/definitions/DescriptiveAccessMetadata"},
                 "version": {
-                    "description": "The version of the value source.",
+                    "description": "The version of the related resource.",
                     "type": "string"
                 }
             }
