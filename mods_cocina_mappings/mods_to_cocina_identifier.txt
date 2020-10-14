@@ -15,7 +15,7 @@
   "identifier": [
     {
       "type": "URI",
-      "value": "https://www.wikidata/wiki/Q146"
+      "value": "https://www.wikidata.org/wiki/Q146"
     }
   ]
 }
