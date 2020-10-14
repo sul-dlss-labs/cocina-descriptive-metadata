@@ -95,11 +95,11 @@ Names
             },
             {
               "value": "Terry",
-              "type": "given name"
+              "type": "forename"
             },
             {
               "value": "Castle",
-              "type": "family name"
+              "type": "surname"
             },
             {
               "value": "1953-",
@@ -152,7 +152,7 @@ Names
           "structuredValue": [
             {
               "value": "Elizabeth",
-              "type": "given name"
+              "type": "forename"
             },
             {
               "value": "II",
@@ -372,7 +372,7 @@ Names
                   }
                 }
               ],
-              "type": "transliterated",
+              "type": "transliteration",
               "standard": {
                 "value": "ALA-LC Romanization Tables"
               }
@@ -412,7 +412,7 @@ Names
                   }
                 }
               ],
-              "type": "transliterated",
+              "type": "transliteration",
               "standard": {
                 "value": "ALA-LC Romanization Tables"
               }
@@ -442,11 +442,11 @@ Names
               "structuredValue": [
                 {
                   "value": "Михаил Афанасьевич",
-                  "type": "given name"
+                  "type": "forename"
                 },
                 {
                   "value": "Булгаков",
-                  "type": "family name"
+                  "type": "surname"
                 }
               ],
               "valueLanguage": [
@@ -464,11 +464,11 @@ Names
               "structuredValue": [
                 {
                   "value": "Mikhail Afanasʹevich",
-                  "type": "given name"
+                  "type": "forename"
                 },
                 {
                   "value": "Bulgakov",
-                  "type": "family name"
+                  "type": "surname"
                 }
               ],
               "valueLanguage": [
@@ -481,7 +481,7 @@ Names
                   }
                 }
               ],
-              "type": "transliterated",
+              "type": "transliteration",
               "standard": {
                 "value": "ALA-LC Romanization Tables"
               }

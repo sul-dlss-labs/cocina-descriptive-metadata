@@ -34,7 +34,7 @@
           "type": "extent"
         }
       ],
-      "type": "series"
+      "type": "in series"
     }
 
   ]

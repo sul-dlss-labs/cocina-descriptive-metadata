@@ -120,9 +120,9 @@ Option B
 }
 
 6. Multi-term topic subject with authority for both set and terms
-<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh12345">
-  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh23456">Horses</topic>
-  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURi="http://id.loc.gov/authorities/subjects/sh34567">History</topic>
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh12345">
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh23456">Horses</topic>
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh34567">History</topic>
 </subject>
 {
   "subject": [
@@ -216,7 +216,7 @@ Option B
 }
 
 10. Name subject with additional terms, authority for set
-<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85120951">
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh85120951">
   <name type="personal">
     <namePart>Shakespeare, William, 1564-1616</namePart>
   </name>
@@ -246,10 +246,10 @@ Option B
 
 11. Name subject with additional terms, authority for terms
 <subject authority="lcsh">
-  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n78095332">
+  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n78095332">
     <namePart>Shakespeare, William, 1564-1616</namePart>
   </name>
-  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh99005711">Homes and haunts</topic>
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh99005711">Homes and haunts</topic>
 </subject>
 {
   "subject": [
@@ -279,8 +279,8 @@ Option B
 }
 
 12. Name subject with additional terms, authority for terms and set
-<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85120951">
-  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n78095332">
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh85120951">
+  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n78095332">
     <namePart>Shakespeare, William, 1564-1616</namePart>
   </name>
   <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh99005711">Homes and haunts</topic>
@@ -385,7 +385,7 @@ Option B
 }
 
 15. Name-title subject with additional terms including genre subdivision, authority for set
-<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85120809">
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh85120809">
   <name type="personal">
     <namePart>Shakespeare, William, 1564-1616</namePart>
   </name>
@@ -428,13 +428,13 @@ Option B
 
 16. Name-title subject with additional terms including genre subdivision, authority for terms
 <subject authority="lcsh">
-  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n78095332">
+  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n78095332">
     <namePart>Shakespeare, William, 1564-1616</namePart>
   </name>
-  <titleInfo authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n80008522">
+  <titleInfo authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n80008522">
     <title>Hamlet</title>
   </titleInfo>
-  <genre authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh99001362">Bibliographies</genre>
+  <genre authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh99001362">Bibliographies</genre>
 </subject>
 {
   "subject": [
@@ -528,7 +528,7 @@ Option B
 19. Cartographic subject
 <subject>
   <cartographics>
-    <coordinates>E 72°--E 148°/N 13°--N 18°</coordinates>
+    <coordinates>E 72&#xB0;--E 148&#xB0;/N 13&#xB0;--N 18&#xB0;</coordinates>
     <scale>1:22,000,000</scale>
     <projection>Conic proj</projection>
   </cartographics>
@@ -653,19 +653,15 @@ Option B
       "parallelValue": [
         {
           "value": "French New Wave",
-          "valueLanguage": [
-            {
-              "code": "eng"
-            }
-          ]
+          "valueLanguage": {
+            "code": "eng"
+          }
         },
         {
           "value": "Nouvelle Vague",
-          "valueLanguage": [
-            {
-              "code": "fre"
-            }
-          ]
+          "valueLanguage": {
+            "code": "fre"
+          }
         }
       ],
       "type": "topic"

@@ -633,7 +633,7 @@ Place
   <place>
     <placeTerm type="text" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">California</placeTerm>
     <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">cau</placeTerm>
-  <place>
+  </place>
 </originInfo>
 {
   "event": [
@@ -756,24 +756,22 @@ Version B (from replayable spreadsheet, incorrect MODS)
           "name": [
             {
               "value": "Institut russkoĭ literatury (Pushkinskiĭ Dom)",
-              "type": "transliterated",
+              "type": "transliteration",
               "standard": {
                 "value": "ALA-LC Romanization Tables"
               },
-              "valueLanguage": [
-                {
-                  "code": "rus",
+              "valueLanguage": {
+                "code": "rus",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Latn",
                   "source": {
-                    "code": "iso639-2b"
-                  },
-                  "valueScript": {
-                    "code": "Latn",
-                    "source": {
-                      "code": "iso15924"
-                    }
+                    "code": "iso15924"
                   }
                 }
-              ]
+              }
             }
           ],
           "type": "organization",
@@ -1027,9 +1025,9 @@ Version B (from replayable spreadsheet, incorrect MODS)
 </originInfo>
 <originInfo script="Hani" altRepGroup="1">
   <place>
-    <placeTerm type="text">京都市 :</placeTerm>
+    <placeTerm type="text">京都市</placeTerm>
   </place>
-  <publisher>臨川書店,</publisher>
+  <publisher>臨川書店</publisher>
   <dateIssued>平成 8 [1996]</dateIssued>
 </originInfo>
 {
@@ -1120,6 +1118,46 @@ Version B (from replayable spreadsheet, incorrect MODS)
               }
             }
           ]
+        }
+      ],
+      "date": [
+        {
+          "parallelValue": [
+            {
+              "value": "Heisei 8 [1996]",
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Latn",
+                  "source": {
+                    "code": "iso15924"
+                  }
+                }
+              }
+            },
+            {
+              "value": "1996",
+              "encoding": {
+                "code": "marc"
+              }
+            },
+            {
+              "value": "平成 8 [1996]",
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Hani",
+                  "source": {
+                    "code": "iso15924"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "note": [
+        {
+          "value": "monographic",
+          "type": "issuance"
         }
       ]
     }
