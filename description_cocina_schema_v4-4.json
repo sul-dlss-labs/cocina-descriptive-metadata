@@ -241,6 +241,10 @@
                             "description": "Description of the event (creation, publication, etc.).",
                             "type": "string"
                         },
+                        "displayLabel": {
+                            "description": "The preferred display label to use for the event in access systems.",
+                            "type": "string"
+                        },
                         "date": {
                             "description": "Dates associated with the event.",
                             "type": "array",
