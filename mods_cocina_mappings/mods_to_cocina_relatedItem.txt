@@ -55,13 +55,13 @@
         {
           "value": "Supplement"
         }
+      ],
+      "note": [
+        {
+          "value": "Additional data.",
+          "type": "summary"
+        }
       ]
-    }
-  ],
-  "note": [
-    {
-      "value": "Additional data.",
-      "type": "summary"
     }
   ]
 }
