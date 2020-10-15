@@ -1,540 +1,547 @@
 {
-    "Description": {
-        "identifier": [
-            {
-                "value": "10.5072/example-full",
-                "type": "DOI"
-            }
-        ],
-        "contributor": [
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "Miller, Elizabeth",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Elizabeth",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "Miller",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "type": "personal",
-                "identifier": [
-                    {
-                        "value": "0000-0001-5000-0007",
-                        "type": "ORCID",
-                        "source": {"uri": "http://orcid.org/"}
-                    }
-                ],
-                "note": [
-                    {
-                        "value": "DataCite",
-                        "uri": "https://ror.org/04wxnsj81",
-                        "source": {"name": "ROR"}
-                    }
-                ],
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4.3"
-                        }
-                    }
-                ],
-                "status": 1
-            },
-            {
-                "name": "Ontario Ministry of Natural Resources and Forestry",
-                "type": "organization",
-                "valueLanguage": {
-                    "code": "en",
-                    "source": {"value": "XML Language Tags"}
-                },
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4.3"
-                        }
-                    }
-                ],
-                "status": 2
-            },
-            {
-                "name": "Université du Québec à Montréal",
-                "type": "organization",
-                "valueLanguage": {
-                    "code": "fr",
-                    "source": {"value": "XML Language Tags"}
-                },
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4.3"
-                        }
-                    }
-                ],
-                "status": 3
-            },
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "Starr, Joan",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Joan",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "Starr",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "type": "personal",
-                "identifier": [
-                    {
-                        "value": "0000-0002-7285-027X",
-                        "type": "ORCID",
-                        "source": {"uri": "http://orcid.org/"}
-                    }
-                ],
-                "note": [
-                    {
-                        "value": "California Digital Library",
-                        "type": "affiliation",
-                        "uri": "https://ror.org/03yrm5c26",
-                        "source": {"name": "ROR"}
-                    }
-                ],
-                "role": [
-                    {
-                        "value": "contributor",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4.3"
-                        }
-                    },
-                    {
-                        "value": "ProjectLeader",
-                        "source": {
-                            "value": "DataCite Contributor Types",
-                            "version": "4.3"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "International Joint Commission",
-                "type": "organization",
-                "valueLanguage": {
-                    "code": "en",
-                    "source": {"value": "XML Language Tags"}
-                },
-                "role": [
-                    {
-                        "value": "contributor",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4.3"
-                        }
-                    },
-                    {
-                        "value": "Sponsor",
-                        "source": {
-                            "value": "DataCite Contributor Types",
-                            "version": "4.3"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "United States Geological Survey",
-                "type": "organization",
-                "valueLanguage": {
-                    "code": "en",
-                    "source": {"value": "XML Language Tags"}
-                },
-                "role": [
-                    {
-                        "value": "contributor",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4.3"
-                        }
-                    },
-                    {
-                        "value": "Producer",
-                        "source": {
-                            "value": "DataCite Contributor Types",
-                            "version": "4.3"
-                        }
-                    }
-                ]
-            }
-        ],
-        "title": [
-            {
-                "structuredValue": [
-                    {
-                        "value": "Full DataCite XML Example",
-                        "type": "main title"
-                    },
-                    {
-                        "value": "Demonstration of DataCite Properties",
-                        "type": "subtitle"
-                    }
-                ],
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            }
-        ],
-        "event": [
-            {
-                "type": "publication",
-                "contributor": [
-                    {
-                        "name": "National Research Council of Canada",
-                        "valueLanguage": {
-                            "code": "en",
-                            "source": {"value": "XML Language Tags"}
-                        }
-                    }
-                ],
-                "date": [
-                    {
-                        "value": "2014",
-                        "encoding": {"code": "w3cdtf"}
-                    }
-                ]
-            },
-            {
-                "type": "update",
-                "date": [
-                    {
-                        "value": "2017-09-13",
-                        "encoding": {"code": "w3cdtf"},
-                        "note": [
-                            {
-                                "value": "Updated with 4.3 properties",
-                                "type": "date information"
-                            },
-                            {
-                                "value": "Updated",
-                                "type": "date type",
-                                "source": {
-                                    "value": "DataCite Date Types",
-                                    "version": "4.3"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "funding",
-                "contributor": [
-                    {
-                        "name": [
-                            {"value": "National Science Foundation"}
-                        ],
-                        "identifier": [
-                            {
-                                "value": "https://doi.org/10.13039/100000001",
-                                "type": "Crossref Funder ID"
-                            }
-                        ]
-                    }
-                ],
-                "identifier": [
-                    {
-                        "value": "CBET-106",
-                        "type": "award number"
-                    }
-                ],
-                "note": [
-                    {
-                        "value": "Full DataCite XML Example",
-                        "type": "award name"
-                    }
-                ]
-            }
-        ],
-        "subject": [
-            {
-                "value": "000 computer science",
-                "type": "classification",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                },
-                "source": {
-                    "code": "dewey",
-                    "uri": "http://dewey.info/"
-                }
-            },
-            {
-                "parallelValue": [
-                    {
-                        "value": "Atlantic Ocean",
-                        "type": "place"
-                    },
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "-67.302",
-                                "type": "longitude"
-                            },
-                            {
-                                "value": "31.233",
-                                "type": "latitude"
-                            }
-                        ],
-                        "type": "point coordinates",
-                        "encoding": {"value": "decimal"}
-                    },
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "-71.032",
-                                "type": "west"
-                            },
-                            {
-                                "value": "-68.211",
-                                "type": "east"
-                            },
-                            {
-                                "value": "41.090",
-                                "type": "south"
-                            },
-                            {
-                                "value": "42.893",
-                                "type": "north"
-                            }
-                        ],
-                        "type": "bounding box coordinates",
-                        "encoding": {"value": "decimal"}
-                    },
-                    {
-                        "structuredValue": [
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "41.991",
-                                        "type": "latitude"
-                                    },
-                                    {
-                                        "value": "-71.032",
-                                        "type": "longitude"
-                                    }
-                                ],
-                                "type": "point coordinates"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "42.893",
-                                        "type": "latitude"
-                                    },
-                                    {
-                                        "value": "-69.622",
-                                        "type": "longitude"
-                                    }
-                                ],
-                                "type": "point coordinates"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "41.991",
-                                        "type": "latitude"
-                                    },
-                                    {
-                                        "value": "-68.211",
-                                        "type": "longitude"
-                                    }
-                                ],
-                                "type": "point coordinates"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "41.090",
-                                        "type": "latitude"
-                                    },
-                                    {
-                                        "value": "-69.622",
-                                        "type": "longitude"
-                                    }
-                                ],
-                                "type": "point coordinates"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "41.991",
-                                        "type": "latitude"
-                                    },
-                                    {
-                                        "value": "-71.032",
-                                        "type": "longitude"
-                                    }
-                                ],
-                                "type": "point coordinates"
-                            }
-                        ],
-                        "type": "polygon coordinates",
-                        "encoding": {"value": "decimal"}
-                    }
-                ]
-            }
-        ],
-        "language": [
-            {
-                "code": "en-US",
-                "source": {"value": "XML Language Tags"}
-            }
-        ],
-        "form": [
-            {
-                "value": "Software",
-                "type": "resource type"
-            },
-            {
-                "value": "XML",
-                "type": "resource type",
-                "source": {
-                    "value": "DataCite Resource Types",
-                    "version": "4.3"
-                }
-            },
-            {
-                "value": "4 kB",
-                "type": "extent"
-            },
-            {
-                "value": "application/xml",
-                "type": "media type",
-                "source": {"value": "IANA Media Types"}
-            }
-        ],
-        "access": {
-            "url": [
+    "identifier": [
+        {
+            "value": "10.5072/example-full",
+            "type": "DOI"
+        }
+    ],
+    "contributor": [
+        {
+            "name": [
                 {
-                    "value": "https://schema.datacite.org/meta/kernel-4.3/example/datacite-example-full-v4.3.xml",
-                    "type": "alternate"
+                    "parallelValue": [
+                        {
+                            "value": "Miller, Elizabeth",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Elizabeth",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "Miller",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "personal",
+            "identifier": [
+                {
+                    "value": "0000-0001-5000-0007",
+                    "type": "ORCID",
+                    "source": {"uri": "http://orcid.org/"}
                 }
             ],
             "note": [
                 {
-                    "uri": "http://creativecommons.org/publicdomain/zero/1.0/",
-                    "type": "license",
-                    "identifier": [
-                        {"value": "CC0 1.0"}
-                    ],
-                    "valueLanguage": {
-                        "code": "en-US",
-                        "source": {"value": "XML Language Tags"}
-                    },
+                    "value": "DataCite",
+                    "uri": "https://ror.org/04wxnsj81",
+                    "source": {"value": "ROR"}
+                }
+            ],
+            "role": [
+                {
+                    "value": "creator",
                     "source": {
-                        "value": "SPDX",
-                        "uri": "https://spdx.org/licenses/"
+                        "value": "DataCite",
+                        "version": "4.3"
+                    }
+                }
+            ],
+            "status": 1
+        },
+        {
+            "name": [
+            {
+                "value": "Ontario Ministry of Natural Resources and Forestry",             
+                "valueLanguage": {
+                    "code": "en",
+                    "source": {"value": "XML Language Tags"}
+                }
+                }
+                ],
+            "type": "organization",
+            "role": [
+                {
+                    "value": "creator",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4.3"
+                    }
+                }
+            ],
+            "status": 2
+        },
+        {
+            "name": [
+                {
+                    "value": "Université du Québec à Montréal",
+                    "valueLanguage": {
+                        "code": "fr",
+                        "source": {"value": "XML Language Tags"}
+                    }
+                }
+            ],
+            "type": "organization",
+            "role": [
+                {
+                    "value": "creator",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4.3"
+                    }
+                }
+            ],
+            "status": 3
+        },
+        {
+            "name": [
+                {
+                    "parallelValue": [
+                        {
+                            "value": "Starr, Joan",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Joan",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "Starr",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "personal",
+            "identifier": [
+                {
+                    "value": "0000-0002-7285-027X",
+                    "type": "ORCID",
+                    "source": {"uri": "http://orcid.org/"}
+                }
+            ],
+            "note": [
+                {
+                    "value": "California Digital Library",
+                    "type": "affiliation",
+                    "uri": "https://ror.org/03yrm5c26",
+                    "source": {"value": "ROR"}
+                }
+            ],
+            "role": [
+                {
+                    "value": "contributor",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4.3"
+                    }
+                },
+                {
+                    "value": "ProjectLeader",
+                    "source": {
+                        "value": "DataCite Contributor Types",
+                        "version": "4.3"
                     }
                 }
             ]
         },
-        "relatedResource": [
-            {
-                "type": "described by",
-                "access": {
-                    "url": [
-                        {"value": "https://data.datacite.org/application/citeproc+json/10.5072/example-full"}
+        {
+            "name": [{"value": "International Joint Commission",
+                        "valueLanguage": {
+                "code": "en",
+                "source": {"value": "XML Language Tags"}
+            }}],
+            "type": "organization",
+            "role": [
+                {
+                    "value": "contributor",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4.3"
+                    }
+                },
+                {
+                    "value": "Sponsor",
+                    "source": {
+                        "value": "DataCite Contributor Types",
+                        "version": "4.3"
+                    }
+                }
+            ]
+        },
+        {
+            "name": [{"value": "United States Geological Survey",
+                        "valueLanguage": {
+                "code": "en",
+                "source": {"value": "XML Language Tags"}}}],
+            "type": "organization",
+            "role": [
+                {
+                    "value": "contributor",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4.3"
+                    }
+                },
+                {
+                    "value": "Producer",
+                    "source": {
+                        "value": "DataCite Contributor Types",
+                        "version": "4.3"
+                    }
+                }
+            ]
+        }
+    ],
+    "title": [
+        {
+            "structuredValue": [
+                {
+                    "value": "Full DataCite XML Example",
+                    "type": "main title"
+                },
+                {
+                    "value": "Demonstration of DataCite Properties",
+                    "type": "subtitle"
+                }
+            ],
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        }
+    ],
+    "event": [
+        {
+            "type": "publication",
+            "contributor": [
+                {
+                    "name": [
+                    {"value": "National Research Council of Canada",                     
+                    "valueLanguage": {
+                        "code": "en",
+                        "source": {"value": "XML Language Tags"}
+                    }}]
+
+                }
+            ],
+            "date": [
+                {
+                    "value": "2014",
+                    "encoding": {"code": "w3cdtf"}
+                }
+            ]
+        },
+        {
+            "type": "update",
+            "date": [
+                {
+                    "value": "2017-09-13",
+                    "encoding": {"code": "w3cdtf"},
+                    "note": [
+                        {
+                            "value": "Updated with 4.3 properties",
+                            "type": "date information"
+                        },
+                        {
+                            "value": "Updated",
+                            "type": "date type",
+                            "source": {
+                                "value": "DataCite Date Types",
+                                "version": "4.3"
+                            }
+                        }
                     ]
-                },
-                "standard": {
-                    "code": "citeproc+json",
-                    "uri": "https://github.com/citation-style-language/schema/raw/master/csl-data.json"
-                },
-                "note": [
-                    {
-                        "type": "type",
-                        "value": "HasMetadata",
-                        "source": {
-                            "value": "DataCite Related Identifier Types",
-                            "version": "4.3"
+                }
+            ]
+        },
+        {
+            "type": "funding",
+            "contributor": [
+                {
+                    "name": [
+                        {"value": "National Science Foundation"}
+                    ],
+                    "identifier": [
+                        {
+                            "value": "https://doi.org/10.13039/100000001",
+                            "type": "Crossref Funder ID"
                         }
-                    }
-                ]
+                    ]
+                }
+            ],
+            "identifier": [
+                {
+                    "value": "CBET-106",
+                    "type": "award number"
+                }
+            ],
+            "note": [
+                {
+                    "value": "Full DataCite XML Example",
+                    "type": "award name"
+                }
+            ]
+        }
+    ],
+    "subject": [
+        {
+            "value": "000 computer science",
+            "type": "classification",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
             },
-            {
-                "type": "reviewed by",
-                "identifier": [
-                    {
-                        "value": "arXiv:0706.0001",
-                        "type": "arXiv"
-                    }
-                ],
-                "note": [
-                    {
-                        "type": "type",
-                        "value": "IsReviewedBy",
-                        "source": {
-                            "value": "DataCite Related Identifier Types",
-                            "version": "4.3"
+            "source": {
+                "code": "dewey",
+                "uri": "http://dewey.info/"
+            }
+        },
+        {
+            "parallelValue": [
+                {
+                    "value": "Atlantic Ocean",
+                    "type": "place"
+                },
+                {
+                    "structuredValue": [
+                        {
+                            "value": "-67.302",
+                            "type": "longitude"
+                        },
+                        {
+                            "value": "31.233",
+                            "type": "latitude"
                         }
-                    }
-                ]
+                    ],
+                    "type": "point coordinates",
+                    "encoding": {"value": "decimal"}
+                },
+                {
+                    "structuredValue": [
+                        {
+                            "value": "-71.032",
+                            "type": "west"
+                        },
+                        {
+                            "value": "-68.211",
+                            "type": "east"
+                        },
+                        {
+                            "value": "41.090",
+                            "type": "south"
+                        },
+                        {
+                            "value": "42.893",
+                            "type": "north"
+                        }
+                    ],
+                    "type": "bounding box coordinates",
+                    "encoding": {"value": "decimal"}
+                },
+                {
+                    "structuredValue": [
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "41.991",
+                                    "type": "latitude"
+                                },
+                                {
+                                    "value": "-71.032",
+                                    "type": "longitude"
+                                }
+                            ],
+                            "type": "point coordinates"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "42.893",
+                                    "type": "latitude"
+                                },
+                                {
+                                    "value": "-69.622",
+                                    "type": "longitude"
+                                }
+                            ],
+                            "type": "point coordinates"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "41.991",
+                                    "type": "latitude"
+                                },
+                                {
+                                    "value": "-68.211",
+                                    "type": "longitude"
+                                }
+                            ],
+                            "type": "point coordinates"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "41.090",
+                                    "type": "latitude"
+                                },
+                                {
+                                    "value": "-69.622",
+                                    "type": "longitude"
+                                }
+                            ],
+                            "type": "point coordinates"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "41.991",
+                                    "type": "latitude"
+                                },
+                                {
+                                    "value": "-71.032",
+                                    "type": "longitude"
+                                }
+                            ],
+                            "type": "point coordinates"
+                        }
+                    ],
+                    "type": "polygon coordinates",
+                    "encoding": {"value": "decimal"}
+                }
+            ]
+        }
+    ],
+    "language": [
+        {
+            "code": "en-US",
+            "source": {"value": "XML Language Tags"}
+        }
+    ],
+    "form": [
+        {
+            "value": "Software",
+            "type": "resource type"
+        },
+        {
+            "value": "XML",
+            "type": "resource type",
+            "source": {
+                "value": "DataCite Resource Types",
+                "version": "4.3"
+            }
+        },
+        {
+            "value": "4 kB",
+            "type": "extent"
+        },
+        {
+            "value": "application/xml",
+            "type": "media type",
+            "source": {"value": "IANA Media Types"}
+        }
+    ],
+    "access": {
+        "url": [
+            {
+                "value": "https://schema.datacite.org/meta/kernel-4.3/example/datacite-example-full-v4.3.xml",
+                "type": "alternate"
             }
         ],
         "note": [
             {
-                "value": "4.3",
-                "type": "version"
-            },
-            {
-                "value": "XML example of all DataCite Metadata Schema v4.3 properties.",
-                "type": "summary",
+                "uri": "http://creativecommons.org/publicdomain/zero/1.0/",
+                "type": "license",
+                "identifier": [
+                    {"value": "CC0 1.0"}
+                ],
                 "valueLanguage": {
                     "code": "en-US",
                     "source": {"value": "XML Language Tags"}
                 },
-                "note": [
-                    {
-                        "type": "type",
-                        "value": "Abstract",
-                        "source": {
-                            "value": "DataCite Description Types",
-                            "version": "4.3"
-                        }
-                    }
-                ]
+                "source": {
+                    "value": "SPDX",
+                    "uri": "https://spdx.org/licenses/"
+                }
             }
         ]
-    }
+    },
+    "relatedResource": [
+        {
+            "type": "described by",
+            "access": {
+                "url": [
+                    {"value": "https://data.datacite.org/application/citeproc+json/10.5072/example-full"}
+                ]
+            },
+            "standard": {
+                "code": "citeproc+json",
+                "uri": "https://github.com/citation-style-language/schema/raw/master/csl-data.json"
+            },
+            "note": [
+                {
+                    "type": "type",
+                    "value": "HasMetadata",
+                    "source": {
+                        "value": "DataCite Related Identifier Types",
+                        "version": "4.3"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "reviewed by",
+            "identifier": [
+                {
+                    "value": "arXiv:0706.0001",
+                    "type": "arXiv"
+                }
+            ],
+            "note": [
+                {
+                    "type": "type",
+                    "value": "IsReviewedBy",
+                    "source": {
+                        "value": "DataCite Related Identifier Types",
+                        "version": "4.3"
+                    }
+                }
+            ]
+        }
+    ],
+    "note": [
+        {
+            "value": "4.3",
+            "type": "version"
+        },
+        {
+            "value": "XML example of all DataCite Metadata Schema v4.3 properties.",
+            "type": "summary",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            },
+            "note": [
+                {
+                    "type": "type",
+                    "value": "Abstract",
+                    "source": {
+                        "value": "DataCite Description Types",
+                        "version": "4.3"
+                    }
+                }
+            ]
+        }
+    ]
 }

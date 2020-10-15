@@ -1,192 +1,190 @@
 {
-    "Description": {
-        "title": [
-            {"value": "Data Appendices for _Close Reading with Computers_, published by Stanford University Press"}
-        ],
-        "contributor": [
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "Eve, Martin Paul",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Martin Paul",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "Eve",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        "form": [
-            {
-                "value": "Quantitative Data",
-                "type": "resource type"
-            },
-            {
-                "value": "Dataset",
-                "type": "resource type",
-                "source": {
-                    "value": "DataCite Resource Types",
-                    "version": "4"
-                }
-            }
-        ],
-        "event": [
-            {
-                "type": "publication",
-                "contributor": [
-                    {
-                        "name": [
-                            {"value": "Stanford Digital Repository"}
-                        ]
-                    }
-                ],
-                "date": [
-                    {
-                        "value": "2019",
-                        "encoding": {"code": "w3cdtf"}
-                    }
-                ]
-            },
-            {
-                "type": "creation",
-                "date": [
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "May 15, 2018",
-                                "type": "start"
-                            },
-                            {
-                                "value": "January 30-2019",
-                                "type": "end"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        "note": [
-            {
-                "value": "\"Supplementary data files for the book by Martin Paul Eve, _Close Reading With Computers: Textual Scholarship, Computational Formalism, and David Mitchell\u2019s Cloud Atlas_ (Stanford, CA: Stanford University Press, 2019).Digital Appendix 1: Data for Chapter Two.This appendix is a JavaScript Object Notation (JSON) file that is used to generate Figure 2 using the SankeyTextualVariant software.Digital Appendix 2: Data for Chapter Three.* The data used to generate figures 5 through 13.* The data used to make the claims about Melville\u2019s texts.* The part-of-speech tagging outputs of Cloud Atlas E.Digital Appendix 3: Data for Chapter Four.This appendix contains the data used to generate figures 14 through 16.\"",
-                "type": "summary",
-                "note": [
-                    {
-                        "type": "type",
-                        "value": "Abstract",
-                        "source": {
-                            "value": "DataCite Description Types",
-                            "version": "4"
-                        }
-                    }
-                ]
-            }
-        ],
-        "subject": [
-            {
-                "value": "textual scholarship",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "computational formalism",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "SankeyTextualVariant",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "JSON",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "David Mitchell",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "Cloud Atlas",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "Melville",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "Stanford University Press",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            }
-        ],
-        "identifier": [
-            {
-                "value": "10.25740/BD095JT2882",
-                "type": "DOI"
-            }
-        ],
-        "purl": "https://purl.stanford.edu/bd095jt2882",
-        "relatedResource": [
-            {
-                "type": "supplement to",
-                "identifier": [
-                    {
-                        "value": "9781503606999",
-                        "type": "ISBN"
-                    }
-                ],
-                "note": [
-                    {
-                        "type": "type",
-                        "value": "IsSupplementTo",
-                        "source": {
-                            "value": "DataCite Related Identifier Types",
-                            "version": "4"
-                        }
-                    }
-                ]
-            }
-        ],
-        "access": {
-            "note": [
+    "title": [
+        {"value": "Data Appendices for _Close Reading with Computers_, published by Stanford University Press"}
+    ],
+    "contributor": [
+        {
+            "name": [
                 {
-                    "value": "Creative Commons Attribution 3.0 Unported License",
-                    "type": "license"
+                    "parallelValue": [
+                        {
+                            "value": "Eve, Martin Paul",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Martin Paul",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "Eve",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
+    ],
+    "form": [
+        {
+            "value": "Quantitative Data",
+            "type": "resource type"
+        },
+        {
+            "value": "Dataset",
+            "type": "resource type",
+            "source": {
+                "value": "DataCite Resource Types",
+                "version": "4"
+            }
+        }
+    ],
+    "event": [
+        {
+            "type": "publication",
+            "contributor": [
+                {
+                    "name": [
+                        {"value": "Stanford Digital Repository"}
+                    ]
+                }
+            ],
+            "date": [
+                {
+                    "value": "2019",
+                    "encoding": {"code": "w3cdtf"}
+                }
+            ]
+        },
+        {
+            "type": "creation",
+            "date": [
+                {
+                    "structuredValue": [
+                        {
+                            "value": "May 15, 2018",
+                            "type": "start"
+                        },
+                        {
+                            "value": "January 30-2019",
+                            "type": "end"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "note": [
+        {
+            "value": "\"Supplementary data files for the book by Martin Paul Eve, _Close Reading With Computers: Textual Scholarship, Computational Formalism, and David Mitchell\u2019s Cloud Atlas_ (Stanford, CA: Stanford University Press, 2019).Digital Appendix 1: Data for Chapter Two.This appendix is a JavaScript Object Notation (JSON) file that is used to generate Figure 2 using the SankeyTextualVariant software.Digital Appendix 2: Data for Chapter Three.* The data used to generate figures 5 through 13.* The data used to make the claims about Melville\u2019s texts.* The part-of-speech tagging outputs of Cloud Atlas E.Digital Appendix 3: Data for Chapter Four.This appendix contains the data used to generate figures 14 through 16.\"",
+            "type": "summary",
+            "note": [
+                {
+                    "type": "type",
+                    "value": "Abstract",
+                    "source": {
+                        "value": "DataCite Description Types",
+                        "version": "4"
+                    }
+                }
+            ]
+        }
+    ],
+    "subject": [
+        {
+            "value": "textual scholarship",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "computational formalism",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "SankeyTextualVariant",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "JSON",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "David Mitchell",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "Cloud Atlas",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "Melville",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "Stanford University Press",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        }
+    ],
+    "identifier": [
+        {
+            "value": "10.25740/BD095JT2882",
+            "type": "DOI"
+        }
+    ],
+    "purl": "https://purl.stanford.edu/bd095jt2882",
+    "relatedResource": [
+        {
+            "type": "supplement to",
+            "identifier": [
+                {
+                    "value": "9781503606999",
+                    "type": "ISBN"
+                }
+            ],
+            "note": [
+                {
+                    "type": "type",
+                    "value": "IsSupplementTo",
+                    "source": {
+                        "value": "DataCite Related Identifier Types",
+                        "version": "4"
+                    }
+                }
+            ]
+        }
+    ],
+    "access": {
+        "note": [
+            {
+                "value": "Creative Commons Attribution 3.0 Unported License",
+                "type": "license"
+            }
+        ]
     }
 }

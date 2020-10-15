@@ -1,359 +1,363 @@
 {
-    "Description": {
-        "marcEncodedData": [
-            {
-                "value": "03604cgmaa22005053a 4500",
-                "type": "leader"
-            },
-            {
-                "value": "a9702852",
-                "type": "001"
-            },
-            {
-                "value": "SIRSI",
-                "type": "003"
-            },
-            {
-                "value": "20200718050001.0",
-                "type": "005"
-            },
-            {
-                "value": "120906i20082010 000 0 eng d",
-                "type": "008"
-            }
-        ],
-        "title": [
-            {
-                "structuredValue": [
-                    {
-                        "value": "Stanford Pioneers in Science [videorecording]",
-                        "type": "main title"
-                    },
-                    {
-                        "value": "2008-2010",
-                        "type": "inclusive dates"
-                    }
-                ],
-                "status": "primary"
-            }
-        ],
-        "contributor": [
-            {
-                "name": [
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "Berg, Paul",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "value": "1926-",
-                                "type": "life dates"
-                            }
-                        ]
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "value": "Cohen, Stanley N.",
-                        "type": "inverted full name"
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "value": "Djerassi, Carl",
-                        "type": "inverted full name"
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "Drell, Sidney D.",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "value": "Sidney David",
-                                "type": "fuller form of name"
-                            },
-                            {
-                                "value": "1926-2016",
-                                "type": "life dates"
-                            }
-                        ]
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "value": "Durham, William H.",
-                        "type": "inverted full name"
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "value": "Koller, Daphne.",
-                        "type": "inverted full name"
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "value": "Kornberg, Roger D.",
-                        "type": "inverted full name"
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "value": "Osheroff, Douglas D.",
-                        "type": "inverted full name"
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "Richter, Burton",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "value": "1931-2018",
-                                "type": "life dates"
-                            }
-                        ]
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "value": "Sapolsky, Robert M.",
-                        "type": "inverted full name"
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "value": "Sharpe, William F.",
-                        "type": "inverted full name"
-                    }
-                ],
-                "type": "person"
-            },
-            {
-                "name": [
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "Suppes, Patrick",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "value": "1922-2014",
-                                "type": "life dates"
-                            }
-                        ]
-                    }
-                ],
-                "type": "person"
-            }
-        ],
-        "event": [
-            {
-                "type": "production",
-                "date": [
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "2008",
-                                "type": "start"
-                            },
-                            {
-                                "value": "2010",
-                                "type": "end"
-                            }
-                        ],
-                        "encoding": {"code": "marc"},
-                        "type": "inclusive"
-                    }
-                ]
-            }
-        ],
-        "form": [
-            {
-                "structuredValue": [
-                    {
-                        "value": "1.25",
-                        "type": "measurement value"
-                    },
-                    {
-                        "value": "linear feet",
-                        "type": "unit of measurement"
-                    }
-                ],
-                "type": "extent",
-                "appliesTo": "physical object"
-            },
-            {
-                "structuredValue": [
-                    {
-                        "value": "4",
-                        "type": "measurement value"
-                    },
-                    {
-                        "value": "boxes",
-                        "type": "unit of measurement"
-                    }
-                ],
-                "type": "extent",
-                "appliesTo": "physical object"
-            },
-            {
-                "value": "Videorecordings",
-                "type": "genre"
-            },
-            {
-                "value": "archival collection",
-                "type": "resource type"
-            }
-        ],
-        "language": [
-            {
-                "code": "eng",
-                "source": {"code": "iso639-2b"}
-            }
-        ],
-        "access": [
-            {
-                "note": [
-                    {
-                        "value": "The materials are open for research use; materials must be requested at least 48 hours in advance of intended use.",
-                        "type": "access restriction",
-                        "appliesTo": "physical object"
-                    },
-                    {
-                        "value": "Audio-visual materials are not available in original format, and must be reformatted to a digital use copy.",
-                        "type": "access restriction",
-                        "appliesTo": "physical object"
-                    },
-                    {
-                        "value": "All requests to reproduce, publish, quote from, or otherwise use collection materials must be submitted in writing to the Head of Special Collections and University Archives, Stanford University Libraries, Stanford, California 94304-6064. Consent is given on behalf of Special Collections as the owner of the physical items and is not intended to include or imply permission from the copyright owner. Such permission must be obtained from the copyright owner, heir(s) or assigns. See: http://library.stanford.edu/depts/spc/pubserv/permissions.html. Restrictions also apply to digital representations of the original materials. Use of digital files is restricted to research and educational purposes.",
-                        "type": "use and reproduction"
-                    }
-                ]
-            }
-        ],
+    "marcEncodedData": [
+        {
+            "value": "03604cgmaa22005053a 4500",
+            "type": "leader"
+        },
+        {
+            "value": "a9702852",
+            "type": "001"
+        },
+        {
+            "value": "SIRSI",
+            "type": "003"
+        },
+        {
+            "value": "20200718050001.0",
+            "type": "005"
+        },
+        {
+            "value": "120906i20082010 000 0 eng d",
+            "type": "008"
+        }
+    ],
+    "title": [
+        {
+            "structuredValue": [
+                {
+                    "value": "Stanford Pioneers in Science [videorecording]",
+                    "type": "main title"
+                },
+                {
+                    "value": "2008-2010",
+                    "type": "inclusive dates"
+                }
+            ],
+            "status": "primary"
+        }
+    ],
+    "contributor": [
+        {
+            "name": [
+                {
+                    "structuredValue": [
+                        {
+                            "value": "Berg, Paul",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "value": "1926-",
+                            "type": "life dates"
+                        }
+                    ]
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "value": "Cohen, Stanley N.",
+                    "type": "inverted full name"
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "value": "Djerassi, Carl",
+                    "type": "inverted full name"
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "structuredValue": [
+                        {
+                            "value": "Drell, Sidney D.",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "value": "Sidney David",
+                            "type": "fuller form of name"
+                        },
+                        {
+                            "value": "1926-2016",
+                            "type": "life dates"
+                        }
+                    ]
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "value": "Durham, William H.",
+                    "type": "inverted full name"
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "value": "Koller, Daphne.",
+                    "type": "inverted full name"
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "value": "Kornberg, Roger D.",
+                    "type": "inverted full name"
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "value": "Osheroff, Douglas D.",
+                    "type": "inverted full name"
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "structuredValue": [
+                        {
+                            "value": "Richter, Burton",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "value": "1931-2018",
+                            "type": "life dates"
+                        }
+                    ]
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "value": "Sapolsky, Robert M.",
+                    "type": "inverted full name"
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "value": "Sharpe, William F.",
+                    "type": "inverted full name"
+                }
+            ],
+            "type": "person"
+        },
+        {
+            "name": [
+                {
+                    "structuredValue": [
+                        {
+                            "value": "Suppes, Patrick",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "value": "1922-2014",
+                            "type": "life dates"
+                        }
+                    ]
+                }
+            ],
+            "type": "person"
+        }
+    ],
+    "event": [
+        {
+            "type": "production",
+            "date": [
+                {
+                    "structuredValue": [
+                        {
+                            "value": "2008",
+                            "type": "start"
+                        },
+                        {
+                            "value": "2010",
+                            "type": "end"
+                        }
+                    ],
+                    "encoding": {"code": "marc"},
+                    "type": "inclusive"
+                }
+            ]
+        }
+    ],
+    "form": [
+        {
+            "structuredValue": [
+                {
+                    "value": "1.25",
+                    "type": "measurement value"
+                },
+                {
+                    "value": "linear feet",
+                    "type": "unit of measurement"
+                }
+            ],
+            "type": "extent",
+            "appliesTo": [
+                {"value": "physical object"}
+            ]
+        },
+        {
+            "structuredValue": [
+                {
+                    "value": "4",
+                    "type": "measurement value"
+                },
+                {
+                    "value": "boxes",
+                    "type": "unit of measurement"
+                }
+            ],
+            "type": "extent",
+            "appliesTo": [
+                {"value": "physical object"}
+            ]
+        },
+        {
+            "value": "Videorecordings",
+            "type": "genre"
+        },
+        {
+            "value": "archival collection",
+            "type": "resource type"
+        }
+    ],
+    "language": [
+        {
+            "code": "eng",
+            "source": {"code": "iso639-2b"}
+        }
+    ],
+    "access": {
         "note": [
             {
-                "value": "The Stanford Pioneers in Science video lecture series includes videorecordings on DVCAM, MiniDV, and DVD. Also included are printed press releases for some events. This series documents the accomplishments of some of Stanford University&apos;s most celebrated scientists.",
-                "type": "scope and content"
+                "value": "The materials are open for research use; materials must be requested at least 48 hours in advance of intended use.",
+                "type": "access restriction",
+                "appliesTo": [
+                    {"value": "physical object"}
+                ]
             },
             {
-                "value": "Stanford Pioneers in Science (SC0938). Dept. of Special Collections and University Archives, Stanford University Libraries, Stanford, Calif.",
-                "type": "preferred citation"
+                "value": "Audio-visual materials are not available in original format, and must be reformatted to a digital use copy.",
+                "type": "access restriction",
+                "appliesTo": [
+                    {"value": "physical object"}
+                ]
             },
             {
-                "value": "Inaugurated in 2008-09, this series honors the lives and accomplishments of Stanford University&apos;s most celebrated scientists\u2014faculty members who have been awarded Nobel Prizes, National Medals of Science or Technology, and MacArthur Fellowships.",
-                "type": "biographical/historical"
+                "value": "All requests to reproduce, publish, quote from, or otherwise use collection materials must be submitted in writing to the Head of Special Collections and University Archives, Stanford University Libraries, Stanford, California 94304-6064. Consent is given on behalf of Special Collections as the owner of the physical items and is not intended to include or imply permission from the copyright owner. Such permission must be obtained from the copyright owner, heir(s) or assigns. See: http://library.stanford.edu/depts/spc/pubserv/permissions.html. Restrictions also apply to digital representations of the original materials. Use of digital files is restricted to research and educational purposes.",
+                "type": "use and reproduction"
             }
-        ],
-        "identifier": [
-            {
-                "value": "SC938",
-                "type": "call number"
-            }
-        ],
-        "subject": [
-            {
-                "value": "History of Science",
-                "type": "topic"
-            },
-            {
-                "value": "Nobel Prize winners",
-                "type": "topic"
-            },
-            {
-                "value": "Science",
-                "type": "topic"
-            },
-            {
-                "value": "Science and industry",
-                "type": "topic"
-            },
-            {
-                "value": "Videorecordings",
-                "type": "genre",
-                "source": {"code": "lcsh"}
-            }
-        ],
-        "purl": "http://purl.stanford.edu/qr384zb7234",
-        "relatedResource": [
-            {
-                "type": "described by",
-                "access": [
+        ]
+    },
+    "note": [
+        {
+            "value": "The Stanford Pioneers in Science video lecture series includes videorecordings on DVCAM, MiniDV, and DVD. Also included are printed press releases for some events. This series documents the accomplishments of some of Stanford University&apos;s most celebrated scientists.",
+            "type": "scope and content"
+        },
+        {
+            "value": "Stanford Pioneers in Science (SC0938). Dept. of Special Collections and University Archives, Stanford University Libraries, Stanford, Calif.",
+            "type": "preferred citation"
+        },
+        {
+            "value": "Inaugurated in 2008-09, this series honors the lives and accomplishments of Stanford University&apos;s most celebrated scientists\u2014faculty members who have been awarded Nobel Prizes, National Medals of Science or Technology, and MacArthur Fellowships.",
+            "type": "biographical/historical"
+        }
+    ],
+    "identifier": [
+        {
+            "value": "SC938",
+            "type": "call number"
+        }
+    ],
+    "subject": [
+        {
+            "value": "History of Science",
+            "type": "topic"
+        },
+        {
+            "value": "Nobel Prize winners",
+            "type": "topic"
+        },
+        {
+            "value": "Science",
+            "type": "topic"
+        },
+        {
+            "value": "Science and industry",
+            "type": "topic"
+        },
+        {
+            "value": "Videorecordings",
+            "type": "genre",
+            "source": {"code": "lcsh"}
+        }
+    ],
+    "purl": "http://purl.stanford.edu/qr384zb7234",
+    "relatedResource": [
+        {
+            "type": "described by",
+            "access": {
+                "url": [
                     {
-                        "url": "http://www.oac.cdlib.org/findaid/ark:/13030/c8vq31qg/",
+                        "value": "http://www.oac.cdlib.org/findaid/ark:/13030/c8vq31qg/",
                         "displayLabel": "Finding aid"
                     }
                 ]
             }
-        ],
-        "adminMetadata": {
-            "contributor": [
-                {
-                    "name": [
-                        {
-                            "code": "CSt",
-                            "uri": "http://id.loc.gov/vocabulary/organizations/cst",
-                            "source": {
-                                "code": "marcorg",
-                                "uri": "http://id.loc.gov/vocabulary/organizations"
-                            }
-                        }
-                    ],
-                    "role": [
-                        {"value": "original cataloging agency"},
-                        {"value": "transcribing agency"}
-                    ]
-                }
-            ],
-            "standard": [
-                {
-                    "code": "dacs",
-                    "source": {"value": "Descriptive Convention Source Codes"}
-                }
-            ],
-            "identifier": [
-                {
-                    "value": "9702852",
-                    "type": "Symphony catkey"
-                }
-            ]
         }
+    ],
+    "adminMetadata": {
+        "contributor": [
+            {
+                "name": [
+                    {
+                        "code": "CSt",
+                        "uri": "http://id.loc.gov/vocabulary/organizations/cst",
+                        "source": {
+                            "code": "marcorg",
+                            "uri": "http://id.loc.gov/vocabulary/organizations"
+                        }
+                    }
+                ],
+                "role": [
+                    {"value": "original cataloging agency"},
+                    {"value": "transcribing agency"}
+                ]
+            }
+        ],
+        "standard": {
+            "code": "dacs",
+            "source": {"value": "Descriptive Convention Source Codes"}
+        },
+        "identifier": [
+            {
+                "value": "9702852",
+                "type": "Symphony catkey"
+            }
+        ]
     }
 }

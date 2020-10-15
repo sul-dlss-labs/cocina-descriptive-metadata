@@ -7,9 +7,9 @@
     ],
     "contributor": [
         {
-            "parallelValue": [
+            "name": [
                 {
-                    "name": [
+                    "parallelValue": [
                         {
                             "value": "Kasahara, Akitada, Jr",
                             "type": "inverted full name"
@@ -400,7 +400,7 @@
                 },
                 {
                     "value": "Ph.D.",
-                    "type": "degree"
+                    "type": "degree type"
                 },
                 {
                     "value": "Stanford University",

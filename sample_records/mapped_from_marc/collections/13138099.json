@@ -1,195 +1,192 @@
 {
-    "catkey": "13138099",
-    "Description": {
-        "marcEncodedData": [
-            {
-                "value": "02352cpm a2200265 4500",
-                "type": "leader"
-            },
-            {
-                "value": "a13138099",
-                "type": "001"
-            },
-            {
-                "value": "SIRSI",
-                "type": "003"
-            },
-            {
-                "value": "20200718050001.0",
-                "type": "005"
-            },
-            {
-                "value": "180208i20172018cau 000 0 eng u",
-                "type": "008"
-            }
-        ],
-        "title": [
-            {
-                "structuredValue": [
-                    {
-                        "value": "Stanford Women in Politics, Records",
-                        "type": "main title"
-                    },
-                    {
-                        "value": "2017-2018",
-                        "type": "inclusive dates"
-                    }
-                ],
-                "status": "primary"
-            }
-        ],
-        "contributor": [
-            {
-                "type": "organization",
-                "name": [
-                    {
-                        "value": "Stanford Women in Politics",
-                        "type": "name in direct order"
-                    }
-                ],
-                "status": "primary"
-            }
-        ],
-        "event": [
-            {
-                "type": "production",
-                "location": [
-                    {
-                        "code": "cau",
-                        "source": {"code": "marccountry"}
-                    }
-                ],
-                "date": [
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "2017",
-                                "type": "start"
-                            },
-                            {
-                                "value": "2018",
-                                "type": "end"
-                            }
-                        ],
-                        "encoding": {"code": "marc"},
-                        "type": "inclusive dates"
-                    }
-                ]
-            }
-        ],
-        "identifier": [
-            {
-                "value": "SC1443",
-                "type": "call number"
-            }
-        ],
-        "form": [
-            {
-                "structuredValue": [
-                    {
-                        "value": "4.1",
-                        "type": "measurement value"
-                    },
-                    {
-                        "value": "megabytes",
-                        "type": "unit of measurement"
-                    }
-                ],
-                "type": "extent"
-            },
-            {
-                "structuredValue": [
-                    {
-                        "value": "9",
-                        "type": "measurement value"
-                    },
-                    {
-                        "value": "files",
-                        "type": "unit of measurement"
-                    }
-                ],
-                "type": "extent"
-            },
-            {
-                "value": "archival collection",
-                "type": "resource type"
-            }
-        ],
-        "language": [
-            {
-                "code": "eng",
-                "source": {"code": "iso639-2b"}
-            }
-        ],
-        "access": [
-            {
-                "note": [
-                    {
-                        "value": "Special Collections and University Archives materials are stored offsite and must be paged 48 hours in advance. For more information on paging collections, see the department&apos;s website: http://library.stanford.edu/spc.",
-                        "appliesTo": "physical object"
-                    },
-                    {
-                        "value": "The materials are open for research use; materials must be requested at least 48 hours in advance of intended use. Audio-visual materials are not available in original format, and must be reformatted to a digital use copy.",
-                        "type": "access restriction",
-                        "appliesTo": "physical object"
-                    },
-                    {
-                        "value": "All requests to reproduce, publish, quote from, or otherwise use collection materials must be submitted in writing to the Head of Special Collections and University Archives, Stanford University Libraries, Stanford, California 94304-6064. Consent is given on behalf of Special Collections as the owner of the physical items and is not intended to include or imply permission from the copyright owner. Such permission must be obtained from the copyright owner, heir(s) or assigns. Restrictions also apply to digital representations of the original materials. Use of digital files is restricted to research and educational purposes.",
-                        "type": "use and reproduction"
-                    }
-                ]
-            }
-        ],
-        "note": [
-            {
-                "value": "Includes posters are from SWIP\u2019s invited speakers, teach-in events, and co-hosted events.",
-                "type": "summary"
-            },
-            {
-                "value": "Stanford Women in Politics, Records (SC1443). Dept. of Special Collections and University Archives, Stanford University Libraries, Stanford, Calif.",
-                "type": "preferred citation"
-            },
-            {
-                "value": "Transferred by Stanford Women in Politics, 2018.",
-                "type": "acquisition"
-            },
-            {
-                "value": "Stanford Women in Politics (SWIP) is a non-partisan organization founded in 2016 by Hattie Gawande, Kinsey Morrison, and Shivani Pampati and the founding board for anyone interested in learning about and supporting women in politics and creating a community for this work on campus.",
-                "type": "biographical/historical"
-            }
-        ],
-        "purl": "http://purl.stanford.edu/xq955mh6671",
-        "adminMetadata": {
-            "contributor": [
+    "marcEncodedData": [
+        {
+            "value": "02352cpm a2200265 4500",
+            "type": "leader"
+        },
+        {
+            "value": "a13138099",
+            "type": "001"
+        },
+        {
+            "value": "SIRSI",
+            "type": "003"
+        },
+        {
+            "value": "20200718050001.0",
+            "type": "005"
+        },
+        {
+            "value": "180208i20172018cau 000 0 eng u",
+            "type": "008"
+        }
+    ],
+    "title": [
+        {
+            "structuredValue": [
                 {
-                    "name": [
+                    "value": "Stanford Women in Politics, Records",
+                    "type": "main title"
+                },
+                {
+                    "value": "2017-2018",
+                    "type": "inclusive dates"
+                }
+            ],
+            "status": "primary"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "organization",
+            "name": [
+                {
+                    "value": "Stanford Women in Politics",
+                    "type": "name in direct order"
+                }
+            ],
+            "status": "primary"
+        }
+    ],
+    "event": [
+        {
+            "type": "production",
+            "location": [
+                {
+                    "code": "cau",
+                    "source": {"code": "marccountry"}
+                }
+            ],
+            "date": [
+                {
+                    "structuredValue": [
                         {
-                            "code": "CSt",
-                            "uri": "http://id.loc.gov/vocabulary/organizations/cst",
-                            "source": {
-                                "code": "marcorg",
-                                "uri": "http://id.loc.gov/vocabulary/organizations"
-                            }
+                            "value": "2017",
+                            "type": "start"
+                        },
+                        {
+                            "value": "2018",
+                            "type": "end"
                         }
                     ],
-                    "role": [
-                        {"value": "original cataloging agency"},
-                        {"value": "transcribing agency"}
-                    ]
-                }
-            ],
-            "standard": [
-                {
-                    "code": "dacs",
-                    "source": {"value": "Descriptive Convention Source Codes"}
-                }
-            ],
-            "identifier": [
-                {
-                    "value": "13138099",
-                    "type": "Symphony catkey"
+                    "encoding": {"code": "marc"},
+                    "type": "inclusive dates"
                 }
             ]
         }
+    ],
+    "identifier": [
+        {
+            "value": "SC1443",
+            "type": "call number"
+        }
+    ],
+    "form": [
+        {
+            "structuredValue": [
+                {
+                    "value": "4.1",
+                    "type": "measurement value"
+                },
+                {
+                    "value": "megabytes",
+                    "type": "unit of measurement"
+                }
+            ],
+            "type": "extent"
+        },
+        {
+            "structuredValue": [
+                {
+                    "value": "9",
+                    "type": "measurement value"
+                },
+                {
+                    "value": "files",
+                    "type": "unit of measurement"
+                }
+            ],
+            "type": "extent"
+        },
+        {
+            "value": "archival collection",
+            "type": "resource type"
+        }
+    ],
+    "language": [
+        {
+            "code": "eng",
+            "source": {"code": "iso639-2b"}
+        }
+    ],
+    "access": {
+        "note": [
+            {
+                "value": "Special Collections and University Archives materials are stored offsite and must be paged 48 hours in advance. For more information on paging collections, see the department&apos;s website: http://library.stanford.edu/spc.",
+                "appliesTo": [
+                    {"value": "physical object"}
+                ]
+            },
+            {
+                "value": "The materials are open for research use; materials must be requested at least 48 hours in advance of intended use. Audio-visual materials are not available in original format, and must be reformatted to a digital use copy.",
+                "type": "access restriction",
+                "appliesTo": [
+                    {"value": "physical object"}
+                ]
+            },
+            {
+                "value": "All requests to reproduce, publish, quote from, or otherwise use collection materials must be submitted in writing to the Head of Special Collections and University Archives, Stanford University Libraries, Stanford, California 94304-6064. Consent is given on behalf of Special Collections as the owner of the physical items and is not intended to include or imply permission from the copyright owner. Such permission must be obtained from the copyright owner, heir(s) or assigns. Restrictions also apply to digital representations of the original materials. Use of digital files is restricted to research and educational purposes.",
+                "type": "use and reproduction"
+            }
+        ]
+    },
+    "note": [
+        {
+            "value": "Includes posters are from SWIP\u2019s invited speakers, teach-in events, and co-hosted events.",
+            "type": "summary"
+        },
+        {
+            "value": "Stanford Women in Politics, Records (SC1443). Dept. of Special Collections and University Archives, Stanford University Libraries, Stanford, Calif.",
+            "type": "preferred citation"
+        },
+        {
+            "value": "Transferred by Stanford Women in Politics, 2018.",
+            "type": "acquisition"
+        },
+        {
+            "value": "Stanford Women in Politics (SWIP) is a non-partisan organization founded in 2016 by Hattie Gawande, Kinsey Morrison, and Shivani Pampati and the founding board for anyone interested in learning about and supporting women in politics and creating a community for this work on campus.",
+            "type": "biographical/historical"
+        }
+    ],
+    "purl": "http://purl.stanford.edu/xq955mh6671",
+    "adminMetadata": {
+        "contributor": [
+            {
+                "name": [
+                    {
+                        "code": "CSt",
+                        "uri": "http://id.loc.gov/vocabulary/organizations/cst",
+                        "source": {
+                            "code": "marcorg",
+                            "uri": "http://id.loc.gov/vocabulary/organizations"
+                        }
+                    }
+                ],
+                "role": [
+                    {"value": "original cataloging agency"},
+                    {"value": "transcribing agency"}
+                ]
+            }
+        ],
+        "standard": {
+            "code": "dacs",
+            "source": {"value": "Descriptive Convention Source Codes"}
+        },
+        "identifier": [
+            {
+                "value": "13138099",
+                "type": "Symphony catkey"
+            }
+        ]
     }
 }

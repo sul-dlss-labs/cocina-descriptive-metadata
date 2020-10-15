@@ -1,170 +1,166 @@
 {
-    "Description": {
-        "marcEncodedData": [
+    "marcEncodedData": [
+        {
+            "value": "01892nam a2200313uu 4500",
+            "type": "leader"
+        },
+        {
+            "value": "a10448742",
+            "type": "001"
+        },
+        {
+            "value": "SIRSI",
+            "type": "003"
+        },
+        {
+            "value": "20200718050001.0",
+            "type": "005"
+        },
+        {
+            "value": "140415s1896 xxub ||||||||||||| |d",
+            "type": "008"
+        }
+    ],
+    "title": [
+        {
+            "structuredValue": [
+                {
+                    "value": "The",
+                    "type": "nonsorting characters"
+                },
+                {
+                    "value": "Cyclers&apos; Guide and Road Book of California Containing Map of California in relief with principal Roads, Seven Sectional Maps showing all available Roads for Cyclers from Chico to San Diego, and a Map of Golden Gate Park. 1896. Price, One Dollar. Compiled and Published by Geo. W. Blum, 330 Pine St., S.F. Edward Denny &amp; Co., Agents. (on verso) Copyrighted 1895 By Geo. W. Blum, San Francisco, Cal.",
+                    "type": "main title"
+                }
+            ],
+            "note": [
+                {
+                    "value": "4",
+                    "type": "nonsorting character count"
+                }
+            ],
+            "status": "primary"
+        }
+    ],
+    "contributor": [
+        {
+            "name": [
+                {
+                    "value": "Blum, George W.",
+                    "type": "inverted full name"
+                }
+            ],
+            "type": "person",
+            "status": "primary"
+        }
+    ],
+    "event": [
+        {
+            "type": "publication",
+            "location": [
+                {"value": "San Francisco"}
+            ],
+            "contributor": [
+                {
+                    "name": [
+                        {"value": "Geo. W. Blum"}
+                    ],
+                    "role": [
+                        {"value": "publisher"}
+                    ]
+                }
+            ],
+            "date": [
+                {"value": "1896"}
+            ]
+        }
+    ],
+    "form": [
+        {
+            "value": "1 volume",
+            "type": "extent"
+        },
+        {
+            "value": "8 maps",
+            "type": "other physical details"
+        },
+        {
+            "value": "19 x 11 cm",
+            "type": "dimensions"
+        },
+        {
+            "value": "text",
+            "type": "content type",
+            "source": {"code": "rdacontent"}
+        },
+        {
+            "value": "unmediated",
+            "type": "media",
+            "source": {"code": "rdamedia"}
+        },
+        {
+            "value": "volume",
+            "type": "carrier",
+            "source": {"code": "rdacarrier"}
+        }
+    ],
+    "note": [
+        {"value": "Early bicycle guide. Phillips dates this as (1895). The large folding map titled &quot;Map of California Roads For Cyclers&quot; shows the state in relief, and is very attractive (usually missing in most copies). Bound with blue cloth covers with &quot;The Cycler&apos;s Guide and Road Book&quot; in gold on cover."},
+        {"value": "Guide Book."},
+        {"value": "References: P11340."},
+        {
+            "value": "Pub list no.: 1592.000.",
+            "status": "local"
+        }
+    ],
+    "subject": [
+        {
+            "value": "Bicycle",
+            "type": "topic"
+        },
+        {
+            "value": "California",
+            "type": "place"
+        },
+        {
+            "value": "The David Rumsey Map Collection",
+            "type": "topic",
+            "source": {"value": "local"}
+        }
+    ],
+    "purl": "http://purl.stanford.edu/cp799hh4428",
+    "access": {
+        "url": [
             {
-                "value": "01892nam a2200313uu 4500",
-                "type": "leader"
-            },
-            {
-                "value": "a10448742",
-                "type": "001"
-            },
-            {
-                "value": "SIRSI",
-                "type": "003"
-            },
-            {
-                "value": "20200718050001.0",
-                "type": "005"
-            },
-            {
-                "value": "140415s1896 xxub ||||||||||||| |d",
-                "type": "008"
+                "value": "https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no=&quot;1592.000&quot;%20LIMIT:RUMSEY~8~1&amp;sort=Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No",
+                "type": "alternate"
             }
-        ],
-        "title": [
-            {
-                "structuredValue": [
-                    {
-                        "value": "The",
-                        "type": "nonsorting characters"
-                    },
-                    {
-                        "value": "Cyclers&apos; Guide and Road Book of California Containing Map of California in relief with principal Roads, Seven Sectional Maps showing all available Roads for Cyclers from Chico to San Diego, and a Map of Golden Gate Park. 1896. Price, One Dollar. Compiled and Published by Geo. W. Blum, 330 Pine St., S.F. Edward Denny &amp; Co., Agents. (on verso) Copyrighted 1895 By Geo. W. Blum, San Francisco, Cal.",
-                        "type": "main title"
-                    }
-                ],
-                "note": [
-                    {
-                        "value": "4",
-                        "type": "nonsorting character count"
-                    }
-                ],
-                "status": "primary"
-            }
-        ],
+        ]
+    },
+    "adminMetadata": {
         "contributor": [
             {
                 "name": [
                     {
-                        "value": "Blum, George W.",
-                        "type": "inverted full name"
-                    }
-                ],
-                "type": "person",
-                "status": "primary"
-            }
-        ],
-        "event": [
-            {
-                "type": "publication",
-                "location": [
-                    {"value": "San Francisco"}
-                ],
-                "contributor": [
-                    {
-                        "name": [
-                            {"value": "Geo. W. Blum"}
-                        ],
-                        "role": [
-                            {"value": "publisher"}
-                        ]
-                    }
-                ],
-                "date": [
-                    {"value": "1896"}
-                ]
-            }
-        ],
-        "form": [
-            {
-                "value": "1 volume",
-                "type": "extent"
-            },
-            {
-                "value": "8 maps",
-                "type": "other physical details"
-            },
-            {
-                "value": "19 x 11 cm",
-                "type": "dimensions"
-            },
-            {
-                "value": "text",
-                "type": "content type",
-                "source": {"code": "rdacontent"}
-            },
-            {
-                "value": "unmediated",
-                "type": "media",
-                "source": {"code": "rdamedia"}
-            },
-            {
-                "value": "volume",
-                "type": "carrier",
-                "source": {"code": "rdacarrier"}
-            }
-        ],
-        "note": [
-            {"value": "Early bicycle guide. Phillips dates this as (1895). The large folding map titled &quot;Map of California Roads For Cyclers&quot; shows the state in relief, and is very attractive (usually missing in most copies). Bound with blue cloth covers with &quot;The Cycler&apos;s Guide and Road Book&quot; in gold on cover."},
-            {"value": "Guide Book."},
-            {"value": "References: P11340."},
-            {
-                "value": "Pub list no.: 1592.000.",
-                "status": "local"
-            }
-        ],
-        "subject": [
-            {
-                "value": "Bicycle",
-                "type": "topic"
-            },
-            {
-                "value": "California",
-                "type": "place"
-            },
-            {
-                "value": "The David Rumsey Map Collection",
-                "type": "topic",
-                "source": {"value": "local"}
-            }
-        ],
-        "purl": "http://purl.stanford.edu/cp799hh4428",
-        "access": [
-            {
-                "url": [
-                    {
-                        "value": "https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no=&quot;1592.000&quot;%20LIMIT:RUMSEY~8~1&amp;sort=Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No",
-                        "type": "alternate"
-                    }
-                ]
-            }
-        ],
-        "adminMetadata": {
-            "contributor": [
-                {
-                    "name": [
-                        {
-                            "code": "CSt",
-                            "uri": "http://id.loc.gov/vocabulary/organizations/cst",
-                            "source": {
-                                "code": "marcorg",
-                                "uri": "http://id.loc.gov/vocabulary/organizations"
-                            }
+                        "code": "CSt",
+                        "uri": "http://id.loc.gov/vocabulary/organizations/cst",
+                        "source": {
+                            "code": "marcorg",
+                            "uri": "http://id.loc.gov/vocabulary/organizations"
                         }
-                    ],
-                    "role": [
-                        {"value": "original cataloging agency"},
-                        {"value": "transcribing agency"}
-                    ]
-                }
-            ],
-            "language": [
-                {
-                    "code": "eng",
-                    "source": {"code": "iso639-2b"}
-                }
-            ]
-        }
+                    }
+                ],
+                "role": [
+                    {"value": "original cataloging agency"},
+                    {"value": "transcribing agency"}
+                ]
+            }
+        ],
+        "language": [
+            {
+                "code": "eng",
+                "source": {"code": "iso639-2b"}
+            }
+        ]
     }
 }

@@ -1,486 +1,485 @@
 {
-    "Description": {
-        "title": [
-            {"value": "Data and code for Aalto et al. \"Models with environmental drivers offer a plausible mechanism for the rapid spread of infectious disease outbreaks in marine organisms\" published in Scientific Reports in 2020"}
-        ],
-        "contributor": [
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "Aalto, Emilius",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Emilius",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "Aalto",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "type": "person",
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4"
-                        }
-                    }
-                ],
-                "status": 1
-            },
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "De Leo, Giulio",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Giulio",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "De Leo",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "type": "person",
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4"
-                        }
-                    }
-                ],
-                "status": 2
-            },
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "Micheli, Fiorenza",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Fiorenza",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "Micheli",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "type": "person",
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4"
-                        }
-                    }
-                ],
-                "status": 3
-            },
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "Raimondi, Peter",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Peter",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "Raimondi",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "type": "person",
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4"
-                        }
-                    }
-                ],
-                "status": 4
-            },
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "Bograd, Steven",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Steven",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "Bograd",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "type": "person",
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4"
-                        }
-                    }
-                ],
-                "status": 5
-            },
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "Hazen, Elliott",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Elliott",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "Hazen",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "type": "person",
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4"
-                        }
-                    }
-                ],
-                "status": 6
-            },
-            {
-                "name": [
-                    {
-                        "parallelValue": [
-                            {
-                                "value": "Jacox, Michael",
-                                "type": "inverted full name"
-                            },
-                            {
-                                "structuredValue": [
-                                    {
-                                        "value": "Michael",
-                                        "type": "forename"
-                                    },
-                                    {
-                                        "value": "Jacox",
-                                        "type": "surname"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "type": "person",
-                "role": [
-                    {
-                        "value": "creator",
-                        "source": {
-                            "value": "DataCite",
-                            "version": "4"
-                        }
-                    }
-                ],
-                "status": 7
-            }
-        ],
-        "event": [
-            {
-                "type": "funding",
-                "contributor": [
-                    {"value": "National Science Foundation"}
-                ],
-                "identifier": [
-                    {
-                        "value": "1212124",
-                        "type": "award number"
-                    }
-                ]
-            },
-            {
-                "type": "funding",
-                "contributor": [
-                    {
-                        "name": [
-                            {"value": "National Science Foundation"}
-                        ],
-                        "role": [
-                            {"value": "funder"}
-                        ]
-                    }
-                ],
-                "identifier": [
-                    {
-                        "value": "1736830",
-                        "type": "award number"
-                    }
-                ]
-            },
-            {
-                "type": "funding",
-                "contributor": [
-                    {
-                        "name": [
-                            {"value": "National Science Foundation"}
-                        ],
-                        "role": [
-                            {"value": "funder"}
-                        ]
-                    }
-                ],
-                "identifier": [
-                    {
-                        "value": "1735607",
-                        "type": "award number"
-                    }
-                ]
-            },
-            {
-                "type": "funding",
-                "contributor": [
-                    {
-                        "name": [
-                            {"value": "National Science Foundation"}
-                        ],
-                        "role": [
-                            {"value": "funder"}
-                        ]
-                    }
-                ],
-                "identifier": [
-                    {
-                        "value": "1831893",
-                        "type": "award number"
-                    }
-                ]
-            },
-            {
-                "type": "publication",
-                "contributor": [
-                    {
-                        "name": [
-                            {"value": "Stanford Digital Repository"}
-                        ],
-                        "role": [
-                            {"value": "publisher"}
-                        ]
-                    }
-                ],
-                "date": [
-                    {
-                        "value": "2020",
-                        "encoding": {"code": "w3cdtf"}
-                    }
-                ]
-            },
-            {
-                "type": "creation",
-                "date": [
-                    {
-                        "structuredValue": [
-                            {
-                                "value": "2017",
-                                "type": "start"
-                            },
-                            {
-                                "value": "2019",
-                                "type": "end"
-                            }
-                        ],
-                        "encoding": {"code": "w3cdtf"}
-                    }
-                ]
-            }
-        ],
-        "form": [
-            {
-                "value": "Quantitative Data",
-                "type": "resource type"
-            },
-            {
-                "value": "Dataset",
-                "type": "resource type",
-                "source": {
-                    "value": "DataCite Resource Types",
-                    "version": "4"
-                }
-            }
-        ],
-        "note": [
-            {
-                "value": "The first signs of sea star wasting disease (SSWD) epidemic occurred in just few months in 2013 along the entire North American Pacific coast. Disease dynamics did not manifest as the typical travelling wave of reaction-diffusion epidemiological model, suggesting that other environmental factors might have played some role. To help explore how external factors might trigger disease, we built a coupled oceanographic-epidemiological model and contrasted three hypotheses on the influence of temperature on disease transmission and pathogenicity. Models that linked mortality to sea surface temperature gave patterns more consistent with observed data on sea star wasting disease, which suggests that environmental stress could explain why some marine diseases seem to spread so fast and have region-wide impacts on host populations.",
-                "type": "summary",
-                "note": [
-                    {
-                        "type": "type",
-                        "value": "Abstract",
-                        "source": {
-                            "value": "DataCite Description Types",
-                            "version": "4"
-                        }
-                    }
-                ]
-            }
-        ],
-        "subject": [
-            {
-                "value": "Biology",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "Hopkins Marine Station",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "wasting disease",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "epidemic",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "marine pathogens",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "environmental trigger",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "thermal stress",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            },
-            {
-                "value": "Pisaster ochraceus",
-                "valueLanguage": {
-                    "code": "en-US",
-                    "source": {"value": "XML Language Tags"}
-                }
-            }
-        ],
-        "identifier": [
-            {
-                "value": "10.25740/RQ831RT1470",
-                "type": "DOI"
-            }
-        ],
-        "purl": "https://purl.stanford.edu/rq831rt1470",
-        "relatedResource": [
-            {
-                "type": "supplement to",
-                "identifier": [
-                    {
-                        "value": "10.1038/s41598-020-62118-4",
-                        "type": "DOI"
-                    }
-                ],
-                "note": [
-                    {
-                        "type": "type",
-                        "value": "IsSupplementTo",
-                        "source": {
-                            "value": "DataCite Related Identifier Types",
-                            "version": "4"
-                        }
-                    }
-                ]
-            }
-        ],
-        "access": {
-            "note": [
+    "title": [
+        {"value": "Data and code for Aalto et al. \"Models with environmental drivers offer a plausible mechanism for the rapid spread of infectious disease outbreaks in marine organisms\" published in Scientific Reports in 2020"}
+    ],
+    "contributor": [
+        {
+            "name": [
                 {
-                    "value": "CC BY-NC Attribution-NonCommercial",
-                    "type": "license"
+                    "parallelValue": [
+                        {
+                            "value": "Aalto, Emilius",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Emilius",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "Aalto",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "person",
+            "role": [
+                {
+                    "value": "creator",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4"
+                    }
+                }
+            ],
+            "status": 1
+        },
+        {
+            "name": [
+                {
+                    "parallelValue": [
+                        {
+                            "value": "De Leo, Giulio",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Giulio",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "De Leo",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "person",
+            "role": [
+                {
+                    "value": "creator",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4"
+                    }
+                }
+            ],
+            "status": 2
+        },
+        {
+            "name": [
+                {
+                    "parallelValue": [
+                        {
+                            "value": "Micheli, Fiorenza",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Fiorenza",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "Micheli",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "person",
+            "role": [
+                {
+                    "value": "creator",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4"
+                    }
+                }
+            ],
+            "status": 3
+        },
+        {
+            "name": [
+                {
+                    "parallelValue": [
+                        {
+                            "value": "Raimondi, Peter",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Peter",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "Raimondi",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "person",
+            "role": [
+                {
+                    "value": "creator",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4"
+                    }
+                }
+            ],
+            "status": 4
+        },
+        {
+            "name": [
+                {
+                    "parallelValue": [
+                        {
+                            "value": "Bograd, Steven",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Steven",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "Bograd",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "person",
+            "role": [
+                {
+                    "value": "creator",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4"
+                    }
+                }
+            ],
+            "status": 5
+        },
+        {
+            "name": [
+                {
+                    "parallelValue": [
+                        {
+                            "value": "Hazen, Elliott",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Elliott",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "Hazen",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "person",
+            "role": [
+                {
+                    "value": "creator",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4"
+                    }
+                }
+            ],
+            "status": 6
+        },
+        {
+            "name": [
+                {
+                    "parallelValue": [
+                        {
+                            "value": "Jacox, Michael",
+                            "type": "inverted full name"
+                        },
+                        {
+                            "structuredValue": [
+                                {
+                                    "value": "Michael",
+                                    "type": "forename"
+                                },
+                                {
+                                    "value": "Jacox",
+                                    "type": "surname"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "person",
+            "role": [
+                {
+                    "value": "creator",
+                    "source": {
+                        "value": "DataCite",
+                        "version": "4"
+                    }
+                }
+            ],
+            "status": 7
+        }
+    ],
+    "event": [
+        {
+            "type": "funding",
+            "contributor": [{
+            "name": [
+                {"value": "National Science Foundation"}
+            ],
+            "identifier": [
+                {
+                    "value": "1212124",
+                    "type": "award number"
+                }
+            ]
+        }]},
+        {
+            "type": "funding",
+            "contributor": [
+                {
+                    "name": [
+                        {"value": "National Science Foundation"}
+                    ],
+                    "role": [
+                        {"value": "funder"}
+                    ]
+                }
+            ],
+            "identifier": [
+                {
+                    "value": "1736830",
+                    "type": "award number"
+                }
+            ]
+        },
+        {
+            "type": "funding",
+            "contributor": [
+                {
+                    "name": [
+                        {"value": "National Science Foundation"}
+                    ],
+                    "role": [
+                        {"value": "funder"}
+                    ]
+                }
+            ],
+            "identifier": [
+                {
+                    "value": "1735607",
+                    "type": "award number"
+                }
+            ]
+        },
+        {
+            "type": "funding",
+            "contributor": [
+                {
+                    "name": [
+                        {"value": "National Science Foundation"}
+                    ],
+                    "role": [
+                        {"value": "funder"}
+                    ]
+                }
+            ],
+            "identifier": [
+                {
+                    "value": "1831893",
+                    "type": "award number"
+                }
+            ]
+        },
+        {
+            "type": "publication",
+            "contributor": [
+                {
+                    "name": [
+                        {"value": "Stanford Digital Repository"}
+                    ],
+                    "role": [
+                        {"value": "publisher"}
+                    ]
+                }
+            ],
+            "date": [
+                {
+                    "value": "2020",
+                    "encoding": {"code": "w3cdtf"}
+                }
+            ]
+        },
+        {
+            "type": "creation",
+            "date": [
+                {
+                    "structuredValue": [
+                        {
+                            "value": "2017",
+                            "type": "start"
+                        },
+                        {
+                            "value": "2019",
+                            "type": "end"
+                        }
+                    ],
+                    "encoding": {"code": "w3cdtf"}
                 }
             ]
         }
+    ],
+    "form": [
+        {
+            "value": "Quantitative Data",
+            "type": "resource type"
+        },
+        {
+            "value": "Dataset",
+            "type": "resource type",
+            "source": {
+                "value": "DataCite Resource Types",
+                "version": "4"
+            }
+        }
+    ],
+    "note": [
+        {
+            "value": "The first signs of sea star wasting disease (SSWD) epidemic occurred in just few months in 2013 along the entire North American Pacific coast. Disease dynamics did not manifest as the typical travelling wave of reaction-diffusion epidemiological model, suggesting that other environmental factors might have played some role. To help explore how external factors might trigger disease, we built a coupled oceanographic-epidemiological model and contrasted three hypotheses on the influence of temperature on disease transmission and pathogenicity. Models that linked mortality to sea surface temperature gave patterns more consistent with observed data on sea star wasting disease, which suggests that environmental stress could explain why some marine diseases seem to spread so fast and have region-wide impacts on host populations.",
+            "type": "summary",
+            "note": [
+                {
+                    "type": "type",
+                    "value": "Abstract",
+                    "source": {
+                        "value": "DataCite Description Types",
+                        "version": "4"
+                    }
+                }
+            ]
+        }
+    ],
+    "subject": [
+        {
+            "value": "Biology",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "Hopkins Marine Station",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "wasting disease",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "epidemic",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "marine pathogens",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "environmental trigger",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "thermal stress",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        },
+        {
+            "value": "Pisaster ochraceus",
+            "valueLanguage": {
+                "code": "en-US",
+                "source": {"value": "XML Language Tags"}
+            }
+        }
+    ],
+    "identifier": [
+        {
+            "value": "10.25740/RQ831RT1470",
+            "type": "DOI"
+        }
+    ],
+    "purl": "https://purl.stanford.edu/rq831rt1470",
+    "relatedResource": [
+        {
+            "type": "supplement to",
+            "identifier": [
+                {
+                    "value": "10.1038/s41598-020-62118-4",
+                    "type": "DOI"
+                }
+            ],
+            "note": [
+                {
+                    "type": "type",
+                    "value": "IsSupplementTo",
+                    "source": {
+                        "value": "DataCite Related Identifier Types",
+                        "version": "4"
+                    }
+                }
+            ]
+        }
+    ],
+    "access": {
+        "note": [
+            {
+                "value": "CC BY-NC Attribution-NonCommercial",
+                "type": "license"
+            }
+        ]
     }
 }
