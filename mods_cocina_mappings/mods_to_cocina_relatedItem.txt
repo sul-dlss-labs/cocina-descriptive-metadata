@@ -7,7 +7,7 @@
     <namePart>Dunnett, Dorothy</namePart>
   </name>
   <physicalDescription>
-    <extent>6 vols.
+    <extent>6 vols.</extent>
   </physicalDescription>
 </relatedItem>
 {
