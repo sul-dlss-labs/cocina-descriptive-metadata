@@ -145,6 +145,7 @@ NB: Standard may need to be applied on a value by value basis rather than to the
 
 3. Converted from MARC
 <recordInfo>
+  <descriptionStandard>aacr</descriptionStandard>
   <recordContentSource authority="marcorg">CSt</recordContentSource>
   <recordCreationDate encoding="marc">180305</recordCreationDate>
   <recordIdentifier source="SIRSI">a12374669</recordIdentifier>
@@ -185,6 +186,9 @@ NB: Standard may need to be applied on a value by value basis rather than to the
         ]
       }
     ],
+    "standard": {
+      "code": "aacr"
+    },
     "identifier": [
       {
         "value": "a12374669",
