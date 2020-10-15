@@ -362,7 +362,7 @@ Option B
       ],
       "uri": "http://id.loc.gov/authorities/names/n97075542",
       "source": {
-        "code": "naf",
+        "code": "lcsh",
         "uri": "http://id.loc.gov/authorities/names/"
       }
     }
