@@ -156,23 +156,25 @@ NB: Standard may need to be applied on a value by value basis rather than to the
 </recordInfo>
 {
   "adminMetadata": {
-    "contributor": {
-      "name": [
-        {
-          "code": "CSt",
+    "contributor": [
+      {
+        "name": [
+          {
+            "code": "CSt",
 
-          "source": {
-            "code": "marcorg"
+            "source": {
+              "code": "marcorg"
+            }
           }
-        }
-      ],
-      "type": "organization",
-      "role": [
-        {
-          "value": "original cataloging agency"
-        }
-      ]
-    },
+        ],
+        "type": "organization",
+        "role": [
+          {
+            "value": "original cataloging agency"
+          }
+        ]
+      }
+    ],
     "event": [
       {
         "type": "creation",
