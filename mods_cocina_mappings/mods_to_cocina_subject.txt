@@ -192,6 +192,31 @@ Option B
   ]
 }
 
+7b. Name subject with multiple namePart elements
+<subject authority="lcsh">
+  <name type="personal">
+    <namePart>Nakahama, Manjir&#x14D;</namePart>
+    <namePart type="date">1827-1898</namePart>
+  </name>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Nakahama, Manjir&#x14D;",
+          "type": "inverted full name"
+        },
+        {
+          "value": "1827-1898",
+          "type": "life dates"
+        }
+      ],
+      "type": "person"
+    }
+  ]
+}
+
 8. Name subject with authority
 <subject authority="lcsh">
   <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79046044">
