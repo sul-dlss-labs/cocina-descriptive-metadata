@@ -193,6 +193,8 @@ Option B
 }
 
 7b. Name subject with multiple namePart elements
+For mapping purposes, the name type is "name" if a more specific name type cannot be discerned.
+Example 1:
 <subject authority="lcsh">
   <name type="personal">
     <namePart>Nakahama, Manjir&#x14D;</namePart>
@@ -204,7 +206,7 @@ Option B
     {
       "structuredValue": [
         {
-          "value": "Nakahama, Manjir&#x14D;",
+          "value": "Nakahama, Manjirō",
           "type": "inverted full name"
         },
         {
@@ -212,7 +214,37 @@ Option B
           "type": "life dates"
         }
       ],
-      "type": "person"
+      "type": "person",
+      "source": {
+        "code": "lcsh"
+      }
+    }
+  ]
+}
+Example 2:
+<subject authority="lcsh">
+  <name type="personal">
+    <namePart>Saki</namePart>
+    <namePart type="date">1870-1916</namePart>
+  </name>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "value": "Saki",
+          "type": "name"
+        },
+        {
+          "value": "1870-1916",
+          "type": "life dates"
+        }
+      ],
+      "type": "person",
+      "source": {
+        "code": "lcsh"
+      }
     }
   ]
 }
