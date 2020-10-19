@@ -74,7 +74,7 @@ Names
 
 5. Name with additional subelements
 <name type="personal" usage="primary">
-  <namePart type="terms of address">Dr.</namePart>
+  <namePart type="termsOfAddress">Dr.</namePart>
   <namePart type="given">Terry</namePart>
   <namePart type="family">Castle</namePart>
   <namePart type="date">1953-</namePart>
@@ -140,7 +140,7 @@ Names
 6. Name with ordinal
 <name type="personal" usage="primary">
   <namePart type="given">Elizabeth</namePart>
-  <namePart type="terms of address">II</namePart>
+  <namePart type="termsOfAddress">II</namePart>
 </name>
 {
   "contributor": [
