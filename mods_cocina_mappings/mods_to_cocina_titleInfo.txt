@@ -240,7 +240,11 @@ How to ID: titleInfo type="uniform"
         }
       ],
       "type": "uniform",
-      "uri": "http://id.loc.gov/authorities/names/n80008522"
+      "uri": "http://id.loc.gov/authorities/names/n80008522",
+      "source": {
+        "uri": "http://id.loc.gov/authorities/names/",
+        "code": "naf"
+      }
     }
   ]
 }
