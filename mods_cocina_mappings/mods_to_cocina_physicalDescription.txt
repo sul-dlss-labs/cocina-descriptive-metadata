@@ -95,6 +95,7 @@
   "form": [
     {
       "value": "mezzotints (prints)",
+      "type": "form",
       "uri": "http://vocab.getty.edu/aat/300041356",
       "source": {
         "code": "aat",
