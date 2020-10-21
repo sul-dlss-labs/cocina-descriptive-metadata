@@ -589,17 +589,26 @@ MODS 3.7:
   ]
 }
 
-26. originInfo eventType differs from date type
+26. Multiple date types with event type
 <originInfo eventType="publication">
-  <copyrightDate>1980</copyrightDate>
+  <dateIssued>1955</dateIssued>
+  <copyrightDate>1940</copyrightDate>
 </originInfo>
 {
   "event": [
     {
+      "type": "publication",
+      "date": [
+        {
+          "value": "1955"
+        }
+      ]
+    },
+    {
       "type": "copyright",
       "date": [
         {
-          "value": "1980"
+          "value": "1940"
         }
       ]
     }
