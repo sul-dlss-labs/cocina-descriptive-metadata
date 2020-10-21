@@ -589,18 +589,65 @@ MODS 3.7:
   ]
 }
 
-26. Multiple date types with event type
+26. originInfo eventType differs from date type
 <originInfo eventType="publication">
-  <dateIssued>1955</dateIssued>
-  <copyrightDate>1940</copyrightDate>
+  <copyrightDate>1980</copyrightDate>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "copyright",
+      "value": "1980"
+    }
+  ]
+}
+
+26b. originInfo eventType differs from date type, converted from MARC record with multiple 264s
+<originInfo>
+   <place>
+      <placeTerm type="code" authority="marccountry">ru</placeTerm>
+   </place>
+   <dateIssued encoding="marc">2019</dateIssued>
+   <copyrightDate encoding="marc">2018</copyrightDate>
+   <issuance>monographic</issuance>
+</originInfo>
+<originInfo eventType="publication">
+   <place>
+      <placeTerm type="text">Moskva</placeTerm>
+   </place>
+   <publisher>Izdatelʹstvo "Vesʹ Mir"</publisher>
+   <dateIssued>2019</dateIssued>
+</originInfo>
+<originInfo eventType="copyright notice">
+   <copyrightDate>©2018</copyrightDate>
 </originInfo>
 {
   "event": [
     {
       "type": "publication",
+      "location": [
+        {
+          "code": "ru",
+          "source": {
+            "code": "marccountry"
+          }
+        }
+      ],
       "date": [
         {
-          "value": "1955"
+          "value": "2019",
+          "encoding": {
+            "code": "marc"
+          }
+        }
+      ],
+      "note": [
+        {
+          "value": "monographic",
+          "type": "issuance",
+          "source": {
+            "value": "MODS issuance terms"
+          }
         }
       ]
     },
@@ -608,7 +655,40 @@ MODS 3.7:
       "type": "copyright",
       "date": [
         {
-          "value": "1940"
+          "value": "2018",
+          "encoding": {
+            "code": "marc"
+          }
+        }
+      ]
+    },
+    {
+      "type": "publication",
+      "location": [
+        {
+          "value": "Moskva"
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Izdatelʹstvo \"Vesʹ Mir\""
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2019"
+        }
+      ]
+    },
+    {
+      "type": "copyright",
+      "date": [
+        {
+          "value": "©2018"
         }
       ]
     }
