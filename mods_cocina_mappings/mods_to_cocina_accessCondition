@@ -1,0 +1,64 @@
+1. Restriction on access
+Example A:
+<accessCondition type="restriction on access">Available to Stanford researchers only.</accessCondition>
+{
+  "access": {
+    "note": [
+      {
+        "value": "Available to Stanford researchers only.",
+        "type": "access restriction"
+      }
+    ]
+  }
+}
+Example B:
+<accessCondition type="restrictionOnAccess">Available to Stanford researchers only.</accessCondition>
+{
+  "access": {
+    "note": [
+      {
+        "value": "Available to Stanford researchers only.",
+        "type": "access restriction"
+      }
+    ]
+  }
+}
+
+2. Restriction on use and reproduction
+Example A:
+<accessCondition type="use and reproduction">User agrees that, where applicable, content will not be used to identify or to otherwise infringe the privacy or confidentiality rights of individuals. Content distributed via the Stanford Digital Repository may be subject to additional license and use restrictions applied by the depositor.</accessCondition>
+{
+  "access": {
+    "note": [
+      {
+        "value": "User agrees that, where applicable, content will not be used to identify or to otherwise infringe the privacy or confidentiality rights of individuals. Content distributed via the Stanford Digital Repository may be subject to additional license and use restrictions applied by the depositor.",
+        "type": "use and reproduction"
+      }
+    ]
+  }
+}
+Example B:
+<accessCondition type="useAndReproduction">User agrees that, where applicable, content will not be used to identify or to otherwise infringe the privacy or confidentiality rights of individuals. Content distributed via the Stanford Digital Repository may be subject to additional license and use restrictions applied by the depositor.</accessCondition>
+{
+  "access": {
+    "note": [
+      {
+        "value": "User agrees that, where applicable, content will not be used to identify or to otherwise infringe the privacy or confidentiality rights of individuals. Content distributed via the Stanford Digital Repository may be subject to additional license and use restrictions applied by the depositor.",
+        "type": "use and reproduction"
+      }
+    ]
+  }
+}
+
+3. License
+<accessCondition type="license">CC by: CC BY Attribution</accessCondition>
+{
+  "access": {
+    "note": [
+      {
+        "value": "CC by: CC BY Attribution",
+        "type": "license"
+      }
+    ]
+  }
+}
