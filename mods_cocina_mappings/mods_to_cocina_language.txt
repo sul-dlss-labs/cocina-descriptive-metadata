@@ -135,11 +135,19 @@
   "language": [
     {
       "value": "English",
-      "appliesTo": "liner notes"
+      "appliesTo": [
+        {
+          "value": "liner notes"
+        }
+      ]
     },
     {
       "value": "German",
-      "appliesTo": "libretto"
+      "appliesTo": [
+        {
+          "value": "libretto"
+        }
+      ]
     }
   ]
 }
