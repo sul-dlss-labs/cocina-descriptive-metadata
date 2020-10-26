@@ -198,6 +198,24 @@ Names
   ]
 }
 
+7b. Role without namePart value
+<name>
+  <namePart/>
+  <role>
+    <roleTerm authority="marcrelator" type="text">author</roleTerm>
+  </role>
+</name>
+[no COCINA output]
+
+7c. Role attribute without roleTerm or namePart value
+<name>
+  <namePart/>
+  <role>
+    <roleTerm authority="marcrelator" type="text"/>
+  </role>
+</name>
+[no COCINA output]
+
 8. Name with authority
 <name type="personal" usage="primary" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79046044">
   <namePart>Sayers, Dorothy L. (Dorothy Leigh), 1893-1957</namePart>
