@@ -279,7 +279,8 @@ How to ID: titleInfo type="uniform"
           "type": "title"
         }
       ],
-      "type": "uniform"
+      "type": "uniform",
+      "status": "primary"
     }
   ]
 }
