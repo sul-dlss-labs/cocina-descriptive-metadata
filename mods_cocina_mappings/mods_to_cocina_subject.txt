@@ -780,3 +780,16 @@ Example 2:
     }
   ]
 }
+
+27. Subject with occupation subelement
+<subject>
+  <occupation>Typesetters</occupation>
+</subject>
+{
+  "subject": [
+    {
+      "value": "Typesetters",
+      "type": "occupation"
+    }
+  ]
+}
