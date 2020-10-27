@@ -161,6 +161,19 @@
                 "code": "eng",
                 "source": {"code": "iso639-2b"}
             }
+        ],
+        "event": [
+            {
+                "type": "modification",
+                "date": [
+                    {
+                        "value": "20200718050001.0",
+                        "encoding": {
+                            "code": "iso8601"
+                        }
+                    }
+                ]
+            }
         ]
     }
 }

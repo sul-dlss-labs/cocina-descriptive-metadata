@@ -187,6 +187,19 @@
                 "value": "13138099",
                 "type": "Symphony catkey"
             }
+        ],
+        "event": [
+            {
+                "type": "modification",
+                "date": [
+                    {
+                        "value": "20200718050001.0",
+                        "encoding": {
+                            "code": "iso8601"
+                        }
+                    }
+                ]
+            }
         ]
     }
 }

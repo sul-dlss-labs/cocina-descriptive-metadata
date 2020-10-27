@@ -315,6 +315,19 @@
                 "value": "(OCoLC)853717580",
                 "type": "other system control number"
             }
+        ],
+        "event": [
+            {
+                "type": "modification",
+                "date": [
+                    {
+                        "value": "20200718050001.0",
+                        "encoding": {
+                          "code": "iso8601"
+                        }
+                    }
+                ]
+            }
         ]
     }
 }
