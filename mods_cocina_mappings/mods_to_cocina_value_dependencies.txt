@@ -1,0 +1,9 @@
+1. In most cases the presence of an attribute value without an element value means the element should be dropped as informationless. The exceptions are:
+  a. The typeOfResource attributes 'manuscript' and 'collection'.
+  b. The attribute 'valueURI' applied to any element.
+  c. The attribute 'xlink:href' applied to any element.
+
+2. In some cases the lack of a subelement value means that the entire element should be ignored, even if other subelements have value. These dependencies are:
+  a. If no //name/namePart, //name/etal, name valueURI attribute, or name xlink:href attribute, ignore role and affiliation.
+
+3. The name subelement etal is used without a value (<etal/>). It should be retained in mappings.
