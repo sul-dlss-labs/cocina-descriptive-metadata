@@ -677,3 +677,53 @@ Names
     }
   ]
 }
+
+15. Name with valueURI only (authority URI)
+<name valueURI="https://id.loc.gov/authorities/names/123">
+  <affiliation>Stanford</affiliation>
+</name>
+{
+  "contributor": [
+    "name": [
+      {
+        "uri": "https://id.loc.gov/authorities/names/123"
+      },
+      "note": [
+        {
+          "value": "Stanford",
+          "type": "affiliation"
+        }
+      ]
+    ]
+  ]
+}
+
+16. Name with nameIdentifier only (RWO URI)
+<name>
+  <nameIdentifier type="orcid">0000-0000-0000</nameIdentifier>
+  <role>
+    <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+  </role>
+</name>
+{
+  "contributor": [
+    {
+      "identifier": [
+        {
+          "value": "0000-0000-0000",
+          "source": {
+            "code": "orcid"
+          }
+        }
+      ],
+      "role": [
+        {
+          "code": "aut",
+          "source": {
+            "code": "marcrelator"
+          }
+        }
+      ]
+    }
+  ]
+}
