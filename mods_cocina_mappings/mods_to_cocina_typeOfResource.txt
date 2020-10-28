@@ -77,7 +77,7 @@ Type of resource
 }
 
 5. Attribute without value
-<typeOfResource manuscipt="yes" />
+<typeOfResource manuscript="yes" />
 {
   "form": [
     {
