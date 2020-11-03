@@ -168,8 +168,71 @@ https://docs.google.com/spreadsheets/d/1EiGgVqtb6PUJE2cI_jhqnAoiQkiwZtar4tF7NHwS
   ]
 }
 <genre type="H2 type">Data</genre>
-<genre type="H2 subtype">GIS>
+<genre type="H2 subtype"</genre>
 <genre authority="lcgft" valueURI=""http://id.loc.gov/authorities/genreForms/gf2011026294">Geographic information systems</genre>
 <genre>dataset</genre>
 <typeOfResource>cartographic</typeOfResource>
 <typeOfResource>software, multimedia</typeOfResource>
+
+5. Software - Code, Documentation (multiple subtypes)
+{
+  "form": [
+    {
+      "structuredValue": [
+        {
+          "value": "Software",
+          "type": "type"
+        },
+        {
+          "value": "Code",
+          "type": "subtype"
+        },
+        {
+          "value": "Documentation",
+          "type": "subtype"
+        }
+      ],
+      "source": {
+        "value": "Stanford self-deposit resource types"
+      },
+      "type": "resource type"
+    },
+    {
+      "value": "programs (computer)",
+      "type": "genre",
+      "uri": "http://vocab.getty.edu/page/aat/300312188",
+      "source": {
+        "code": "aat"
+      }
+    },
+    {
+      "value": "technical manuals",
+      "type": "genre",
+      "uri": "http://vocab.getty.edu/aat/300026413",
+      "source": {
+        "code": "aat"
+      }
+    },
+    {
+      "value": "software, multimedia",
+      "type": "resource type",
+      "source": {
+        "value": "MODS resource types"
+      }
+    },
+    {
+      "value": "text",
+      "type": "resource type",
+      "source": {
+        "value": "MODS resource types"
+      }
+    }
+  ]
+}
+<genre type="H2 type">Software</genre>
+<genre type="H2 subtype">Code</genre>
+<genre type="H2 subtype">Documentation</genre>
+<genre authority="aat" valueURI="http://vocab.getty.edu/page/aat/300312188">programs (computer)</genre>
+<genre authority="aat" valueURI="http://vocab.getty.edu/aat/300026413">technical manuals</genre>
+<typeOfResource>software, multimedia</typeOfResource>
+<typeOfResource>text</typeOfResource>
