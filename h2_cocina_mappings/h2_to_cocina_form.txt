@@ -142,7 +142,7 @@ https://docs.google.com/spreadsheets/d/1EiGgVqtb6PUJE2cI_jhqnAoiQkiwZtar4tF7NHwS
     {
       "value": "Geographic information systems",
       "type": "genre",
-      "uri": "http://id.loc.gov/authorities/genreForms/gf2011026294"
+      "uri": "http://id.loc.gov/authorities/genreForms/gf2011026294",
       "source": {
         "code": "lcgft"
       }
