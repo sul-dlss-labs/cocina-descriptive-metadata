@@ -97,6 +97,33 @@ Dates
   ]
 }
 
+5b. dateOther without type
+<originInfo displayLabel="Acquisition date">
+  <dateOther keyDate="yes" encoding="w3cdtf">1970-11-23</dateOther>
+</originInfo>
+Should throw a fatal error if dateOther is only date element within originInfo and originInfo does not have an eventType attribute.
+
+5c. dateOther with eventType
+<originInfo eventType="acquisition">
+  <dateOther keyDate="yes" encoding="w3cdtf">1970-11-23</dateOther>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "acquisition",
+      "date": [
+        {
+          "value": "1970-11-23",
+          "status": "primary",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    }
+  ]
+}
+
 6. Date range
 <originInfo>
   <dateCreated keyDate="yes" point="start">1920</dateCreated>
