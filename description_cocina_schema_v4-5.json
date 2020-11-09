@@ -140,14 +140,7 @@
                         },
                         "status": {
                             "description": "Status of the descriptive element value relative to other instances of the element.",
-<<<<<<< HEAD
                             "type": "string"
-=======
-                            "type": [
-                                "string",
-                                "integer"
-                            ]
->>>>>>> e162604efb0fce8b0240aa40ee88d11e8ecd7b15
                         },
                         "code": {
                             "description": "Code value of the descriptive element.",
@@ -304,14 +297,7 @@
                 },
                 "status": {
                     "description": "Status of the related resource relative to other related resources.",
-<<<<<<< HEAD
                     "type": "string"
-=======
-                    "type": [
-                        "string",
-                        "integer"
-                    ]
->>>>>>> e162604efb0fce8b0240aa40ee88d11e8ecd7b15
                 },
                 "displayLabel": {
                     "description": "The preferred display label to use for the related resource in access systems.",
@@ -369,13 +355,10 @@
                 "version": {
                     "description": "The version of the related resource.",
                     "type": "string"
-<<<<<<< HEAD
                 },
                 "order": {
                     "description": "The order of the related resource in a series of related resources.",
                     "type": "integer"
-=======
->>>>>>> e162604efb0fce8b0240aa40ee88d11e8ecd7b15
                 }
             }
         },
