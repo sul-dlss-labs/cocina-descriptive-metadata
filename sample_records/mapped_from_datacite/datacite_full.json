@@ -53,12 +53,12 @@
                     }
                 }
             ],
-            "status": 1
+            "order": 1
         },
         {
             "name": [
             {
-                "value": "Ontario Ministry of Natural Resources and Forestry",             
+                "value": "Ontario Ministry of Natural Resources and Forestry",
                 "valueLanguage": {
                     "code": "en",
                     "source": {"value": "XML Language Tags"}
@@ -75,7 +75,7 @@
                     }
                 }
             ],
-            "status": 2
+            "order": 2
         },
         {
             "name": [
@@ -97,7 +97,7 @@
                     }
                 }
             ],
-            "status": 3
+            "order": 3
         },
         {
             "name": [
@@ -227,7 +227,7 @@
             "contributor": [
                 {
                     "name": [
-                    {"value": "National Research Council of Canada",                     
+                    {"value": "National Research Council of Canada",
                     "valueLanguage": {
                         "code": "en",
                         "source": {"value": "XML Language Tags"}
