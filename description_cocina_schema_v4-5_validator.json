@@ -20,10 +20,7 @@
                 },
                 "status": {
                     "description": "Status of the contributor relative to other parallel contributors (e.g. the primary author among a group of contributors).",
-                    "type": [
-                        "string",
-                        "integer"
-                    ]
+                    "type": "string"
                 },
                 "role": {
                     "description": "Relationships of the contributor to the resource or to an event in its history.",
@@ -39,6 +36,10 @@
                     "description": "Other information associated with the contributor.",
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
+                },
+                "order": {
+                    "description": "Place of contributor in order of authorship for resource.",
+                    "type": "integer"
                 }
             }
         },
@@ -128,10 +129,7 @@
                 },
                 "status": {
                     "description": "Status of the descriptive element value relative to other instances of the element.",
-                    "type": [
-                        "string",
-                        "integer"
-                    ]
+                    "type": "string"
                 },
                 "code": {
                     "description": "Code value of the descriptive element.",
@@ -203,10 +201,7 @@
                 },
                 "status": {
                     "description": "Status of the descriptive element value relative to other instances of the element.",
-                    "type": [
-                        "string",
-                        "integer"
-                    ]
+                    "type": "string"
                 },
                 "code": {
                     "description": "Code value of the descriptive element.",
@@ -344,10 +339,7 @@
             "properties": {
                 "value": {
                     "description": "String or integer value of the descriptive element.",
-                    "type": [
-                        "string",
-                        "integer"
-                    ]
+                    "type": "string"
                 },
                 "type": {
                     "description": "Type of value provided by the descriptive element.",
@@ -355,10 +347,7 @@
                 },
                 "status": {
                     "description": "Status of the descriptive element value relative to other instances of the element.",
-                    "type": [
-                        "string",
-                        "integer"
-                    ]
+                    "type": "string"
                 },
                 "code": {
                     "description": "Code value of the descriptive element.",
@@ -432,10 +421,7 @@
                 },
                 "status": {
                     "description": "Status of the related resource relative to other related resources.",
-                    "type": [
-                        "string",
-                        "integer"
-                    ]
+                    "type": "string"
                 },
                 "displayLabel": {
                     "description": "The preferred display label to use for the related resource in access systems.",
@@ -493,6 +479,10 @@
                 "version": {
                     "description": "The version of the related resource.",
                     "type": "string"
+                },
+                "order": {
+                    "description": "The order of the related resource in a series of related resources.",
+                    "type": "integer"
                 }
             }
         },
@@ -584,10 +574,7 @@
                 },
                 "status": {
                     "description": "Status of the descriptive element value relative to other instances of the element.",
-                    "type": [
-                        "string",
-                        "integer"
-                    ]
+                    "type": "string"
                 },
                 "code": {
                     "description": "Code value of the descriptive element.",
