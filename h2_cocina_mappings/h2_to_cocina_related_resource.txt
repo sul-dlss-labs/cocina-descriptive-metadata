@@ -15,11 +15,17 @@ Stanford University (Stanford, CA.). (2020). May 2020 dataset. Atmospheric Press
 }
 
 2. Related link
+"A paper"
 https://www.example.com/paper.html
 {
   "relatedResource": [
     {
       "type": "related to",
+      "title": [
+        {
+          "value": "A paper"
+        }
+      ],
       "access": {
         "url": [
           {
