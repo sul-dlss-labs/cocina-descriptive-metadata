@@ -1,0 +1,752 @@
+Full role mapping: https://docs.google.com/spreadsheets/d/1CvEd_NODprNhM2D9VfvJBFs1jfAMEUr0kDxXHe2HkL4/edit?usp=sharing
+
+Rules for "order" and "primary":
+1. First entered contributor is always status: "primary"
+2. "Order" is included if the total count of (personal names) + (organizations with role author or contributing author) is more than one
+3. "Order" is applied in the order in which the names are entered in H2, starting with 1
+4. Organizations with roles other than author or contributing author are ignored in the numbering, and do not receive an "order" property
+5. The datatype of "order" is integer
+
+1. Person contributor with single mapped role
+Stanford, Jane. Data collector.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Stanford, Jane",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Data collector",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "compiler",
+          "code": "com",
+          "uri": "http://id.loc.gov/vocabulary/relators/com",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "DataCollector",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+2. Person contributor with multiple roles, one maps to DataCite creator property
+Stanford, Jane. Author and principal investigator.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Stanford, Jane",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "Principal investigator",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "research team head",
+          "code": "rth",
+          "uri": "http://id.loc.gov/vocabulary/relators/rth",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        },
+        {
+          "value": "ProjectLeader",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+3. Organization contributor with role
+Stanford University. Host institution.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Stanford University"
+        }
+      ],
+      "type": "organization",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Host institution",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "host institution",
+          "code": "his",
+          "uri": "http://id.loc.gov/vocabulary/relators/his",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "HostingInstitution",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+4. Organization contributor with multiple roles
+Stanford University. Sponsor and issuing body.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Stanford University"
+        }
+      ],
+      "type": "organization",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Sponsor",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "sponsor",
+          "code": "spn",
+          "uri": "http://id.loc.gov/vocabulary/relators/spn",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Sponsor",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        },
+        {
+          "value": "Issuing body",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "issuing body",
+          "code": "isb",
+          "uri": "http://id.loc.gov/vocabulary/relators/isb",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Distributor",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+5. Conference as contributor
+LDCX. Conference.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "LDCX"
+        }
+      ],
+      "type": "conference",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Conference",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        }
+      ]
+    }
+  ],
+  "form": [
+    {
+      "value": "Event",
+      "type": "resource types",
+      "source": {
+        "value": "DataCite resource types"
+      }
+    }
+  ]
+}
+
+6. Event as contributor
+Concert. Event.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Concert"
+        }
+      ],
+      "type": "event",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Event",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        }
+      ]
+    }
+  ],
+  "form": [
+    {
+      "value": "Event",
+      "type": "resource types",
+      "source": {
+        "value": "DataCite resource types"
+      }
+    }
+  ]
+}
+
+7. Multiple contributors - person
+Stanford, Jane. Author.
+Stanford, Leland. Author.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Stanford, Jane",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "status": "primary",
+      "order": 1,
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Stanford, Leland",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "order": 2,
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+8. Multiple contributors - person and organization
+Stanford, Jane. Author.
+Stanford University. Sponsor.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Stanford, Jane",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Stanford University"
+        }
+      ],
+      "type": "organization",
+      "role": [
+        {
+          "value": "Sponsor",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "sponsor",
+          "code": "spn",
+          "uri": "http://id.loc.gov/vocabulary/relators/spn",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Sponsor",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+9. Multiple person contributors + organization as author
+Stanford, Jane. Author.
+Stanford University. Author.
+Stanford, Leland. Author.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Stanford, Jane",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "status": "primary",
+      "order": 1,
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Stanford University"
+        }
+      ],
+      "type": "organization",
+      "order": 2,
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Stanford, Leland",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "order": 3,
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+10. Multiple person contributors + organization as non-author
+Stanford, Jane. Author.
+Stanford University. Sponsor.
+Stanford, Leland. Author.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Stanford, Jane",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "status": "primary",
+      "order": 1,
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Stanford University"
+        }
+      ],
+      "type": "organization",
+      "role": [
+        {
+          "value": "Sponsor",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "sponsor",
+          "code": "spn",
+          "uri": "http://id.loc.gov/vocabulary/relators/spn",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Sponsor",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Stanford, Leland",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "order": 2,
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+11. Funder
+Stanford University. Funder.
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Stanford University"
+        }
+      ],
+      "type": "organization",
+      "role": [
+        {
+          "value": "Funder",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "funder",
+          "code": "fnd",
+          "uri": "http://id.loc.gov/vocabulary/relators/fnd",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+12. Publisher and publication date entered by user
+Stanford University Press. Publisher.
+Publication date: Aug. 20, 2020
+{
+  "event": [
+    {
+      "type": "publication",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University Press"
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            },
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2020-08-20",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+13. Publisher entered by user, no publication date
+Stanford University Press. Publisher.
+{
+  "event": [
+    {
+      "type": "publication",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University Press"
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            },
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
