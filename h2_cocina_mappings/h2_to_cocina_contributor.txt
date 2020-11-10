@@ -46,6 +46,13 @@ Stanford, Jane. Data collector.
     }
   ]
 }
+<name type="personal" usage="primary">
+  <namePart>Stanford, Jane</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/com">com</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/com">compiler</roleTerm>
+  </role>
+</name>
 
 2. Person contributor with multiple roles, one maps to DataCite creator property
 Stanford, Jane. Author and principal investigator.
@@ -107,6 +114,17 @@ Stanford, Jane. Author and principal investigator.
     }
   ]
 }
+<name type="personal" usage="primary">
+  <namePart>Stanford, Jane</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+  </role>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/rth">rth</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/rth">research team head</roleTerm>
+  </role>
+</name>
 
 3. Organization contributor with role
 Stanford University. Host institution.
@@ -146,6 +164,13 @@ Stanford University. Host institution.
     }
   ]
 }
+<name type="corporate" usage="primary">
+  <namePart>Stanford University</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/his">his</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/his">host institution</roleTerm>
+  </role>
+</name>
 
 4. Organization contributor with multiple roles
 Stanford University. Sponsor and issuing body.
@@ -206,6 +231,17 @@ Stanford University. Sponsor and issuing body.
     }
   ]
 }
+<name type="corporate" usage="primary">
+  <namePart>Stanford University</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/spn">spn</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/spn">sponsor</roleTerm>
+  </role>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/isb">isb</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/isb">issuing body</roleTerm>
+  </role>
+</name>
 
 5. Conference as contributor
 LDCX. Conference.
@@ -239,6 +275,9 @@ LDCX. Conference.
     }
   ]
 }
+<name type="conference" usage="primary">
+  <namePart>LDCX</namePart>
+</name>
 
 6. Event as contributor
 Concert. Event.
@@ -272,6 +311,9 @@ Concert. Event.
     }
   ]
 }
+<name type="corporate" usage="primary">
+  <namePart>Concert</namePart>
+</name>
 
 7. Multiple contributors - person
 Stanford, Jane. Author.
@@ -347,6 +389,20 @@ Stanford, Leland. Author.
     }
   ]
 }
+<name type="personal" usage="primary">
+  <namePart>Stanford, Jane</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+  </role>
+</name>
+<name type="personal">
+  <namePart>Stanford, Leland</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+  </role>
+</name>
 
 8. Multiple contributors - person and organization
 Stanford, Jane. Author.
@@ -419,6 +475,20 @@ Stanford University. Sponsor.
     }
   ]
 }
+<name type="personal" usage="primary">
+  <namePart>Stanford, Jane</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+  </role>
+</name>
+<name type="corporate">
+  <namePart>Stanford University</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/spn">spn</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/spn">sponsor</roleTerm>
+  </role>
+</name>
 
 9. Multiple person contributors + organization as author
 Stanford, Jane. Author.
@@ -527,6 +597,27 @@ Stanford, Leland. Author.
     }
   ]
 }
+<name type="personal" usage="primary">
+  <namePart>Stanford, Jane</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+  </role>
+</name>
+<name type="corporate">
+  <namePart>Stanford University</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+  </role>
+</name>
+<name type="personal">
+  <namePart>Stanford, Leland</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+  </role>
+</name>
 
 10. Multiple person contributors + organization as non-author
 Stanford, Jane. Author.
@@ -634,7 +725,27 @@ Stanford, Leland. Author.
     }
   ]
 }
-
+<name type="personal" usage="primary">
+  <namePart>Stanford, Jane</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+  </role>
+</name>
+<name type="corporate">
+  <namePart>Stanford University</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/spn">spn</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/spn">sponsor</roleTerm>
+  </role>
+</name>
+<name type="personal">
+  <namePart>Stanford, Leland</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+  </role>
+</name>
 
 11. Funder
 Stanford University. Funder.
@@ -647,6 +758,7 @@ Stanford University. Funder.
         }
       ],
       "type": "organization",
+      "status": "primary",
       "role": [
         {
           "value": "Funder",
@@ -667,6 +779,13 @@ Stanford University. Funder.
     }
   ]
 }
+<name type="corporate">
+  <namePart>Stanford University</namePart>
+  <role>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/fnd">fnd</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/fnd">funder</roleTerm>
+  </role>
+</name>
 
 12. Publisher and publication date entered by user
 Stanford University Press. Publisher.
@@ -713,6 +832,10 @@ Publication date: Aug. 20, 2020
     }
   ]
 }
+<originInfo eventType="publication">
+  <publisher>Stanford University Press</publisher>
+  <dateIssued keyDate="yes" encoding="w3cdtf">2020-08-20</dateIssued>
+</originInfo>
 
 13. Publisher entered by user, no publication date
 Stanford University Press. Publisher.
@@ -750,3 +873,6 @@ Stanford University Press. Publisher.
     }
   ]
 }
+<originInfo eventType="publication">
+  <publisher>Stanford University Press</publisher>
+</originInfo>
