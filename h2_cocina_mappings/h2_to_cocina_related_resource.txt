@@ -1,0 +1,32 @@
+1. Related citation
+Stanford University (Stanford, CA.). (2020). May 2020 dataset. Atmospheric Pressure. Professor Maya Aguirre. Department of Earth Sciences, Stanford University.
+{
+  "relatedResource": [
+    {
+      "type": "related to",
+      "note": [
+        {
+          "value": "Stanford University (Stanford, CA.). (2020). May 2020 dataset. Atmospheric Pressure. Professor Maya Aguirre. Department of Earth Sciences, Stanford University.",
+          "type": "preferred citation"
+        }
+      ]
+    }
+  ]
+}
+
+2. Related link
+https://www.example.com/paper.html
+{
+  "relatedResource": [
+    {
+      "type": "related to",
+      "access": {
+        "url": [
+          {
+            "value": "https://www.example.com/paper.html"
+          }
+        ]
+      }
+    }
+  ]
+}
