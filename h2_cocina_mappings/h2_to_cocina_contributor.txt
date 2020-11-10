@@ -273,58 +273,7 @@ Concert. Event.
   ]
 }
 
-7. Contributor with ORCID
-Stanford, Jane. Author. 0000-0000-0000-0000.
-{
-  "contributor": [
-    {
-      "name": [
-        {
-          "value": "Stanford, Jane",
-          "type": "inverted full name"
-        }
-      ],
-      "type": "person",
-      "status": "primary",
-      "identifier": [
-        {
-          "value": "0000-0000-0000-0000",
-          "uri": "https://orcid.org/0000-0000-0000-0000",
-          "type": "ORCID",
-          "source": {
-            "code": "orcid",
-            "uri": "https://orcid.org/"
-          }
-        }
-      ],
-      "role": [
-        {
-          "value": "Author",
-          "source": {
-            "value": "Stanford self-deposit contributor types"
-          }
-        },
-        {
-          "value": "author",
-          "code": "aut",
-          "uri": "http://id.loc.gov/vocabulary/relators/aut",
-          "source": {
-            "code": "marcrelator",
-            "uri": "http://id.loc.gov/vocabulary/relators/"
-          }
-        },
-        {
-          "value": "Creator",
-          "source": {
-            "value": "DataCite properties"
-          }
-        }
-      ]
-    }
-  ]
-}
-
-8. Multiple contributors - person
+7. Multiple contributors - person
 Stanford, Jane. Author.
 Stanford, Leland. Author.
 {
@@ -399,7 +348,7 @@ Stanford, Leland. Author.
   ]
 }
 
-9. Multiple contributors - person and organization
+8. Multiple contributors - person and organization
 Stanford, Jane. Author.
 Stanford University. Sponsor.
 {
@@ -471,7 +420,7 @@ Stanford University. Sponsor.
   ]
 }
 
-10. Multiple person contributors + organization as author
+9. Multiple person contributors + organization as author
 Stanford, Jane. Author.
 Stanford University. Author.
 Stanford, Leland. Author.
@@ -579,7 +528,7 @@ Stanford, Leland. Author.
   ]
 }
 
-11. Multiple person contributors + organization as non-author
+10. Multiple person contributors + organization as non-author
 Stanford, Jane. Author.
 Stanford University. Sponsor.
 Stanford, Leland. Author.
@@ -687,7 +636,7 @@ Stanford, Leland. Author.
 }
 
 
-12. Funder
+11. Funder
 Stanford University. Funder.
 {
   "contributor": [
@@ -719,7 +668,7 @@ Stanford University. Funder.
   ]
 }
 
-13. Publisher and publication date entered by user
+12. Publisher and publication date entered by user
 Stanford University Press. Publisher.
 Publication date: Aug. 20, 2020
 {
@@ -765,7 +714,7 @@ Publication date: Aug. 20, 2020
   ]
 }
 
-14. Publisher entered by user, no publication date
+13. Publisher entered by user, no publication date
 Stanford University Press. Publisher.
 {
   "event": [
