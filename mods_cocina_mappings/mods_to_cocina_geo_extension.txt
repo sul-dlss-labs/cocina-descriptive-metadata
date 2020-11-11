@@ -172,8 +172,7 @@
         "value": "decimal"
       },
       "standard": {
-        "code": "EPSG:4326",
-        "type": "coordinate reference system"
+        "code": "EPSG:4326"
       }
     },
     {
@@ -246,8 +245,7 @@
         "value": "decimal"
       },
       "standard": {
-        "code": "EPSG:4326",
-        "type": "coordinate reference system"
+        "code": "EPSG:4326"
       }
     }
   ]
@@ -312,8 +310,7 @@
         "value": "decimal"
       },
       "standard": {
-        "code": "EPSG:4326",
-        "type": "coordinate reference system"
+        "code": "EPSG:4326"
       }
     }
   ]
@@ -378,8 +375,7 @@
         "value": "decimal"
       },
       "standard": {
-        "code": "EPSG:4326",
-        "type": "coordinate reference system"
+        "code": "EPSG:4326"
       }
     }
   ]
@@ -447,8 +443,7 @@
         "value": "decimal"
       },
       "standard": {
-        "code": "EPSG:4326",
-        "type": "coordinate reference system"
+        "code": "EPSG:4326"
       }
     },
     {
