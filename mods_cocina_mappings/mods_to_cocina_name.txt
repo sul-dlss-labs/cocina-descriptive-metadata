@@ -727,3 +727,57 @@ Names
     }
   ]
 }
+
+
+17. Name with life dates and type
+<name type="personal">
+  <namePart>Sayers, Dorothy L. (Dorothy Leigh)</namePart>
+  <namePart type="date">1893-1957</namePart>
+<name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "structuredValue": [
+            {
+              "value": "Sayers, Dorothy L. (Dorothy Leigh)",
+              "type": "name"
+            },
+            {
+              "value": "1893-1957",
+              "type": "life dates"
+            }
+          ]
+        }
+      ],
+      "type": "person"
+    }
+  ]
+}
+
+18. Name with life dates and type
+<name>
+  <namePart>Sayers, Dorothy L. (Dorothy Leigh)</namePart>
+  <namePart type="date">1893-1957</namePart>
+<name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "structuredValue": [
+            {
+              "value": "Sayers, Dorothy L. (Dorothy Leigh)",
+              "type": "name"
+            },
+            {
+              "value": "1893-1957",
+              "type": "life dates"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
