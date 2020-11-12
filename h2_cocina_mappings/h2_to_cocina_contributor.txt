@@ -126,6 +126,7 @@ Stanford, Jane. Author and principal investigator.
   </role>
 </name>
 
+
 3. Organization contributor with role
 Stanford University. Host institution.
 {
@@ -168,7 +169,7 @@ Stanford University. Host institution.
   <namePart>Stanford University</namePart>
   <role>
     <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/his">his</roleTerm>
-    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/his">host institution</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/his">hosting institution</roleTerm>
   </role>
 </name>
 
@@ -278,6 +279,7 @@ LDCX. Conference.
 <name type="conference" usage="primary">
   <namePart>LDCX</namePart>
 </name>
+
 
 6. Event as contributor
 Concert. Event.
@@ -482,7 +484,7 @@ Stanford University. Sponsor.
     <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
   </role>
 </name>
-<name type="corporate">
+<name type="personal">
   <namePart>Stanford University</namePart>
   <role>
     <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/spn">spn</roleTerm>
@@ -758,7 +760,6 @@ Stanford University. Funder.
         }
       ],
       "type": "organization",
-      "status": "primary",
       "role": [
         {
           "value": "Funder",
@@ -779,7 +780,7 @@ Stanford University. Funder.
     }
   ]
 }
-<name type="corporate">
+<name type="corporate" usage="primary">
   <namePart>Stanford University</namePart>
   <role>
     <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/fnd">fnd</roleTerm>
