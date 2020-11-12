@@ -726,8 +726,8 @@ Place
 
 27. Place - text (authorized)
 <originInfo>
-  <place authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">
-    <placeTerm type="text">Stanford (Calif.)</placeTerm>
+  <place>
+    <placeTerm type="text" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">Stanford (Calif.)</placeTerm>
   </place>
 </originInfo>
 {
