@@ -1,7 +1,7 @@
 1. Point coordinates
 <extension displayLabel="geo">
   <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gmd="http://www.isotc211.org/2005/gmd">
-    <rdf:Description rdf:about="http://www.stanford.edu/kk138ps4721">
+    <rdf:Description rdf:about="http://purl.stanford.edu/kk138ps4721">
       <dc:format>image/jpeg</dc:format>
       <dc:type>Image</dc:type>
       <gmd:centerPoint>
