@@ -227,7 +227,7 @@ How to ID: titleInfo type="uniform"
       "structuredValue": [
         {
           "value": "Shakespeare, William, 1564-1616",
-          "type": "person"
+          "type": "name"
           "uri": "http://id.loc.gov/authorities/names/n78095332",
           "source": {
             "uri": "http://id.loc.gov/authorities/names/",
@@ -279,8 +279,7 @@ How to ID: titleInfo type="uniform"
           "type": "title"
         }
       ],
-      "type": "uniform",
-      "status": "primary"
+      "type": "uniform"
     }
   ]
 }
@@ -366,8 +365,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
           }
         }
       ],
-      "type": "parallel",
-      "status": "primary"
+      "type": "parallel"
     }
   ]
 }
@@ -462,8 +460,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
           "value": "the classic commentary to Shulchan aruch Orach chayim, comprising the laws of daily Jewish conduct",
           "type": "subtitle"
         }
-      ],
-      "status": "primary"
+      ]
     },
     {
       "parallelValue": [
