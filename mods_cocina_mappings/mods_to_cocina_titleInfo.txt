@@ -227,7 +227,7 @@ How to ID: titleInfo type="uniform"
       "structuredValue": [
         {
           "value": "Shakespeare, William, 1564-1616",
-          "type": "person"
+          "type": "name"
           "uri": "http://id.loc.gov/authorities/names/n78095332",
           "source": {
             "uri": "http://id.loc.gov/authorities/names/",
