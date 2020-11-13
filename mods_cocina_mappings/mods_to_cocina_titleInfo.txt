@@ -279,8 +279,7 @@ How to ID: titleInfo type="uniform"
           "type": "title"
         }
       ],
-      "type": "uniform",
-      "status": "primary"
+      "type": "uniform"
     }
   ]
 }
@@ -366,8 +365,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
           }
         }
       ],
-      "type": "parallel",
-      "status": "primary"
+      "type": "parallel"
     }
   ]
 }
