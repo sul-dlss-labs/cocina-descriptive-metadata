@@ -462,8 +462,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
           "value": "the classic commentary to Shulchan aruch Orach chayim, comprising the laws of daily Jewish conduct",
           "type": "subtitle"
         }
-      ],
-      "status": "primary"
+      ]
     },
     {
       "parallelValue": [
