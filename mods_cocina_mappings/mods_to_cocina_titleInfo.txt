@@ -436,16 +436,16 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
 <titleInfo type="uniform" nameTitleGroup="1" altRepGroup="01>
   <title>Mishnah berurah. English & Hebrew</title>
 </titleInfo>
-<name type="personal" usage="primary" altRepGroup="01" nameTitleGroup="1">
+<name type="personal" usage="primary" altRepGroup="02" nameTitleGroup="1">
   <namePart>Israel Meir</namePart>
   <namePart type="termsOfAddress">ha-Kohen</namePart>
   <namePart type="date">1838-1933</namePart>
 </name>
-<name type="personal" usage="primary" altRepGroup="02" script="" nameTitleGroup="1">
+<name type="personal" usage="primary" altRepGroup="02" script="" nameTitleGroup="2">
   <namePart>Israel Meir in Hebrew characters</namePart>
   <namePart type="date">1838-1933</namePart>
 </name>
-<titleInfo type="uniform" nameTitleGroup="1" altRepGroup="02" script="">
+<titleInfo type="uniform" nameTitleGroup="2" altRepGroup="01" script="">
   <title>Mishnah berurah in Hebrew characters</title>
 </titleInfo>
 {
