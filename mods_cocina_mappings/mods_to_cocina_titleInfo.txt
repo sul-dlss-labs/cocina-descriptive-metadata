@@ -433,7 +433,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
   <title>Mishnah berurah</title>
   <subTitle>the classic commentary to Shulchan aruch Orach chayim, comprising the laws of daily Jewish conduct</subTitle>
 </titleInfo>
-<titleInfo type="uniform" nameTitleGroup="1" altRepGroup="02">
+<titleInfo type="uniform" nameTitleGroup="1" altRepGroup="01>
   <title>Mishnah berurah. English & Hebrew</title>
 </titleInfo>
 <name type="personal" usage="primary" altRepGroup="01" nameTitleGroup="1">
@@ -441,7 +441,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
   <namePart type="termsOfAddress">ha-Kohen</namePart>
   <namePart type="date">1838-1933</namePart>
 </name>
-<name type="personal" usage="primary" altRepGroup="01" script="" nameTitleGroup="1">
+<name type="personal" usage="primary" altRepGroup="02" script="" nameTitleGroup="1">
   <namePart>Israel Meir in Hebrew characters</namePart>
   <namePart type="date">1838-1933</namePart>
 </name>
