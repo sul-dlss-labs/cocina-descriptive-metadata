@@ -715,19 +715,40 @@ MODS 3.7:
     },
     {
       "type": "copyright",
-      "date": [
+      "note": [
         {
-          "value": "©2018"
+          "value": "©2018",
+          "type": "copyright statement"
         }
       ]
     }
   ]
 }
+<originInfo eventType="publication">
+   <place>
+      <placeTerm type="code" authority="marccountry">ru</placeTerm>
+   </place>
+   <dateIssued encoding="marc">2019</dateIssued>
+   <issuance>monographic</issuance>
+</originInfo>
+<originInfo eventType="copyright">
+  <copyrightDate encoding="marc">2018</copyrightDate>
+</originInfo>
+<originInfo eventType="publication">
+   <place>
+      <placeTerm type="text">Moskva</placeTerm>
+   </place>
+   <publisher>Izdatelʹstvo "Vesʹ Mir"</publisher>
+   <dateIssued>2019</dateIssued>
+</originInfo>
+<originInfo eventType="copyright notice">
+   <copyrightDate>©2018</copyrightDate>
+</originInfo>
 
 Place
 
 27. Place - text (authorized)
-<originInfo>
+<originInfo eventType="publication">
   <place authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">
     <placeTerm type="text">Stanford (Calif.)</placeTerm>
   </place>
@@ -735,6 +756,7 @@ Place
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "value": "Stanford (Calif.)",
@@ -750,7 +772,7 @@ Place
 }
 
 28. Place - code
-<originInfo>
+<originInfo eventType="publication">
   <place>
     <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">cau</placeTerm>
   <place>
@@ -758,6 +780,7 @@ Place
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "code": "cau",
@@ -773,7 +796,7 @@ Place
 }
 
 29. Place - text and code for same place
-<originInfo>
+<originInfo type="publication">
   <place>
     <placeTerm type="text" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">California</placeTerm>
     <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">cau</placeTerm>
@@ -782,6 +805,7 @@ Place
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "value": "California",
@@ -799,7 +823,7 @@ Place
 
 30. Place - text and code for different places
 Version A (converted from MARC, standard MODS)
-<originInfo>
+<originInfo eventType="publication">
   <place>
     <placeTerm type="code" authority="marccountry">enk</placeTerm>
   </place>
@@ -810,6 +834,7 @@ Version A (converted from MARC, standard MODS)
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "code": "enk",
@@ -826,7 +851,7 @@ Version A (converted from MARC, standard MODS)
 }
 Version B (from replayable spreadsheet, incorrect MODS)
 The authority value goes with the code term and the authorityURI and valueURI values go with the text term.
-<originInfo>
+<originInfo eventType="publication">
   <place>
     <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">cau</placeTerm>
     <placeTerm type="text" authority="marccountry" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">Stanford (Calif.)</placeTerm>
@@ -835,6 +860,7 @@ The authority value goes with the code term and the authorityURI and valueURI va
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "code": "cau",
@@ -1308,7 +1334,7 @@ The authority value goes with the code term and the authorityURI and valueURI va
 }
 
 40. originInfo with displayLabel
-<originInfo displayLabel="Origin">
+<originInfo displayLabel="Origin" eventType="creation">
   <place>
     <placeTerm type="text">Stanford (Calif.)</placeTerm>
   </place>
@@ -1316,6 +1342,7 @@ The authority value goes with the code term and the authorityURI and valueURI va
 {
   "event": [
     {
+      "type": "creation",
       "displayLabel": "Origin",
       "location": [
         {
