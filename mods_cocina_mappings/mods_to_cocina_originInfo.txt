@@ -475,6 +475,12 @@ Dates
     }
   ]
 }
+<originInfo eventType="publication">
+  <dateIssued>1955</dateIssued>
+</originInfo>
+<originInfo eventType="copyright">
+  <copyrightDate>1940</copyrightDate>
+</originInfo>
 
 20. Julian calendar
 MODS 3.6 and before:
