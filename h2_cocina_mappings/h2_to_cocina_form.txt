@@ -236,3 +236,27 @@ https://docs.google.com/spreadsheets/d/1EiGgVqtb6PUJE2cI_jhqnAoiQkiwZtar4tF7NHwS
 <genre authority="aat" valueURI="http://vocab.getty.edu/aat/300026413">technical manuals</genre>
 <typeOfResource>software, multimedia</typeOfResource>
 <typeOfResource>text</typeOfResource>
+
+6. Other - Dance notation (Other type with user-entered subtype)
+{
+  "form": [
+    {
+      "structuredValue": [
+        {
+          "value": "Other",
+          "type": "type"
+        },
+        {
+          "value": "Dance notation",
+          "type": "subtype"
+        }
+      ],
+      "type": "resource type",
+      "source": {
+        "value": "Stanford self-deposit user-supplied terms"
+      }
+    }
+  ]
+}
+<genre type="H2 type">Other</genre>
+<genre type="H2 subtype">Dance notation</genre>

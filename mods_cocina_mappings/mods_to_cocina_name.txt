@@ -752,3 +752,108 @@ OK to omit type: pseudonym in MODS mapping.
     }
   ]
 }
+
+17. Full name with additional subelements
+<name type="personal" usage="primary">
+  <namePart>Sarmiento, Domingo Faustino</namePart>
+  <namePart type="date">1811-1888</namePart>
+</name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "structuredValue": [
+            {
+              "value": "Sarmiento, Domingo Faustino",
+              "type": "name"
+            },
+            {
+              "value": "1811-1888",
+              "type": "life dates"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+18. Name with active date - year
+If date starts with "active," use type "activity dates" and drop "active" from date value
+<name type="personal">
+  <namePart>Yao, Zongyi</namePart>
+  <namePart type="date">Active 1618</namePart>
+</name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "structuredValue": [
+            {
+              "value": "Yao, Zongyi",
+              "type": "name"
+            },
+            {
+              "value": "1618",
+              "type": "activity dates"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+19. Name with active date - century
+<name type="personal">
+  <namePart>Inoue, Kaian</namePart>
+  <namePart type="date">Active 18th century</namePart>
+</name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "structuredValue": [
+            {
+              "value": "Inoue, Kaian",
+              "type": "name"
+            },
+            {
+              "value": "18th century",
+              "type": "activity dates"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+20. Name with approximate date
+<name type="personal">
+  <namePart>Lassus, Rudolph de</namePart>
+  <namePart type="date">approximately 1563-1625</namePart>
+</name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "structuredValue": [
+            {
+              "value": "Lassus, Rudolph de",
+              "type": "name"
+            },
+            {
+              "value": "approximately 1563-1625",
+              "type": "life dates"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

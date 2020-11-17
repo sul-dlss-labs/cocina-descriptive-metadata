@@ -1,0 +1,187 @@
+Note: The QA FAST search API does not currently return the value type, which is required to be able to map to MODS. The QA FAST fetch API, which searches by ID rather than by term, does return this information.
+
+
+1. FAST topic
+Marine biology
+{
+  "subject": [
+    {
+      "value": "Marine biology",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/1009447",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ]
+}
+<subject>
+  <topic authority="fast" authorityURI="http://id.worldcat.org/fast/" valueURI="http://id.worldcat.org/fast/1009447">Marine biology</topic>
+</subject>
+
+2. FAST personal name
+Anning, Mary, 1799-1847
+{
+  "subject": [
+    {
+      "value": "Anning, Mary, 1799-1847",
+      "type": "person",
+      "uri": "http://id.worldcat.org/fast/270223",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ]
+}
+<subject>
+  <name type="personal" authority="fast" authorityURI="http://id.worldcat.org/fast/" valueURI="http://id.worldcat.org/fast/270223">
+    <namePart>Anning, Mary, 1799-1847</namePart>
+  </name>
+</subject>
+
+3. FAST corporate name
+United States. National Oceanic and Atmospheric Administration
+{
+  "subject": [
+    {
+      "value": "United States. National Oceanic and Atmospheric Administration",
+      "type": "organization",
+      "uri": "http://id.worldcat.org/fast/529308",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ]
+}
+<subject>
+  <name type="corporate" authority="fast" authorityURI="http://id.worldcat.org/fast/" valueURI="http://id.worldcat.org/fast/529308">
+    <namePart>United States. National Oceanic and Atmospheric Administration</namePart>
+  </name>
+</subject>
+
+4. FAST meeting name
+International Conference on Port and Ocean Engineering Under Arctic Conditions
+{
+  "subject": [
+    {
+      "value": "International Conference on Port and Ocean Engineering Under Arctic Conditions",
+      "type": "conference",
+      "uri": "http://id.worldcat.org/fast/1405317",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ]
+}
+<subject>
+  <name type="conference" authority="fast" authorityURI="http://id.worldcat.org/fast/" valueURI="http://id.worldcat.org/fast/1405317">
+    <namePart>International Conference on Port and Ocean Engineering Under Arctic Conditions</namePart>
+  </name>
+</subject>
+
+5. FAST geographic name
+Pacific Ocean
+{
+  "subject": [
+    {
+      "value": "Pacific Ocean",
+      "type": "place",
+      "uri": "http://id.worldcat.org/fast/1243528",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ]
+}
+<subject>
+  <geographic authority="fast" authorityURI="http://id.worldcat.org/fast/" valueURI="http://id.worldcat.org/fast/1243528">Pacific Ocean</geographic>
+</subject>
+
+6. FAST event
+International Year of the Ocean (1998)
+{
+  "subject": [
+    {
+      "value": "International Year of the Ocean (1998)",
+      "type": "event",
+      "uri": "http://id.worldcat.org/fast/976704",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ]
+}
+<subject>
+  <topic authority="fast" authorityURI="http://id.worldcat.org/fast/" valueURI="http://id.worldcat.org/fast/976704">International Year of the Ocean (1998)</topic>
+</subject>
+
+7. FAST title
+Missa Ave Maris Stella (Josquin, des Prez)
+{
+  "subject": [
+    {
+      "value": "Missa Ave Maris Stella (Josquin, des Prez)",
+      "type": "title",
+      "uri": "http://id.worldcat.org/fast/1399391",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ]
+}
+<subject>
+  <titleInfo authority="fast" authorityURI="http://id.worldcat.org/fast/" valueURI="http://id.worldcat.org/fast/1399391">
+    <title>Missa Ave Maris Stella (Josquin, des Prez)</title>
+  </titleInfo>
+</subject>
+
+8. FAST time period
+1689-1725
+{
+  "subject": [
+    {
+      "value": "1689-1725",
+      "type": "time",
+      "uri": "http://id.worldcat.org/fast/1355694",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ]
+}
+<subject>
+  <temporal authority="fast" authorityURI="http://id.worldcat.org/fast/" valueURI="http://id.worldcat.org/fast/1355694">1689-1725</temporal>
+</subject>
+
+9. FAST form/genre
+Watercolors
+{
+  "subject": [
+    {
+      "value": "Watercolors",
+      "type": "genre",
+      "uri": "http://id.worldcat.org/fast/1986272",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ]
+}
+<subject>
+  <genre authority="fast" authorityURI="http://id.worldcat.org/fast/" valueURI="http://id.worldcat.org/fast/1986272>Watercolors</genre>
+</subject>
+
+10. Non-fast term
+Brooding sea-stars
+<subject>
+  <topic>Brooding sea-stars</topic>
+</subject>

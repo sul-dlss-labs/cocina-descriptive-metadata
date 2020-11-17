@@ -76,12 +76,13 @@ Dates
 }
 
 5. Single dateOther
-<originInfo>
+<originInfo eventType="publication">
   <dateOther type="Islamic">1441 AH</dateOther>
 </originInfo>
 {
   "event": [
     {
+      "type": "publication",
       "date": [
         {
           "value": "1441 AH",
@@ -91,6 +92,27 @@ Dates
               "type": "date type"
             }
           ]
+        }
+      ]
+    }
+  ]
+}
+
+5b. dateOther in Gregorian calendar
+<originInfo eventType="acquisition" displayLabel="Acquisition date">
+  <dateOther encoding="w3cdtf">1992</dateOther>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "acquisition",
+      "displayLabel": "Acquisition date",
+      "date": [
+        {
+          "value": "1992",
+          "encoding": {
+            "code": "w3cdtf"
+          }
         }
       ]
     }
@@ -456,12 +478,13 @@ Dates
 
 20. Julian calendar
 MODS 3.6 and before:
-<originInfo>
+<originInfo eventType="production">
   <dateOther type="Julian">1544-02-02</dateOther>
 </originInfo>
 {
   "event": [
     {
+      "type": "creation",
       "date": [
         {
           "value": "1544-02-02",
@@ -477,7 +500,7 @@ MODS 3.6 and before:
   ]
 }
 MODS 3.7:
-<originInfo>
+<originInfo eventType="production">
   <dateCreated calendar="Julian">1544-02-02</dateCreated>
 </originInfo>
 {

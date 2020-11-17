@@ -1,7 +1,7 @@
 1. Point coordinates
 <extension displayLabel="geo">
   <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gmd="http://www.isotc211.org/2005/gmd">
-    <rdf:Description rdf:about="http://www.stanford.edu/kk138ps4721">
+    <rdf:Description rdf:about="http://purl.stanford.edu/kk138ps4721">
       <dc:format>image/jpeg</dc:format>
       <dc:type>Image</dc:type>
       <gmd:centerPoint>
@@ -178,7 +178,7 @@
     {
       "value": "Antarctica",
       "type": "coverage",
-      "language": {
+      "valueLanguage": {
         "code": "eng"
       },
       "uri": "http://sws.geonames.org/6255152/"
@@ -449,21 +449,21 @@
     {
       "value": "California, Northern",
       "type": "coverage",
-      "language": {
+      "valueLanguage": {
         "code": "eng"
       }
     },
     {
       "value": "Jackson Demonstration State Forest (Calif.)",
       "type": "coverage",
-      "language": {
+      "valueLanguage": {
         "code": "eng"
       }
     },
     {
       "value": ""Mendocino County (Calif.)",
       "type": "coverage",
-      "language": {
+      "valueLanguage": {
         "code": "eng"
       },
       "uri": "http://sws.geonames.org/5372163/"
