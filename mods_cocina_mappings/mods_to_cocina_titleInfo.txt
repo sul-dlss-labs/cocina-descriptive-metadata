@@ -208,6 +208,7 @@ How to ID: presence of titleInfo transliteration attribute (may need to manually
 
 6. Uniform title with authority
 How to ID: titleInfo type="uniform"
+It's not shown here, but the name element would also map to contributor as well as forming part of the name-title authority.
 <titleInfo usage="primary">
   <title>Hamlet</title>
 </titleInfo>
