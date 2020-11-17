@@ -819,6 +819,7 @@ Version A (converted from MARC, standard MODS)
   ]
 }
 Version B (from replayable spreadsheet, incorrect MODS)
+The authority value goes with the code term and the authorityURI and valueURI values go with the text term.
 <originInfo>
   <place>
     <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">cau</placeTerm>
