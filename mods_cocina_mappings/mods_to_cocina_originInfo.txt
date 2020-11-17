@@ -944,34 +944,32 @@ The authority value goes with the code term and the authorityURI and valueURI va
           "name": [
             {
               "value": "СФУ",
-              "valueLanguage": [
-                {
-                  "code": "rus",
+              "valueLanguage": {
+                "code": "rus",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Cyrl",
                   "source": {
-                    "code": "iso639-2b"
-                  },
-                  "valueScript": {
-                    "code": "Cyrl",
-                    "source": {
-                      "code": "iso15924"
-                    }
+                    "code": "iso15924"
                   }
                 }
-              ]
+              }
             }
           ],
-          "type": "organization"
-        }
-      ],
-      "role": [
-        {
-          "value": "publisher",
-          "code": "pbl",
-          "uri": "http://id.loc.gov/vocabulary/relators/pbl",
-          "source": {
-            "code": "marcrelator",
-            "uri": "http://id.loc.gov/vocabulary/relators/"
-          }
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
         }
       ]
     }
