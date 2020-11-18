@@ -56,6 +56,9 @@ Stanford, Jane. Data collector.
 
 2. Person contributor with multiple roles, one maps to DataCite creator property
 Stanford, Jane. Author and principal investigator.
+
+NOTE: deduping of names to get multiple roles under a single contributor has been officially postponed by Amy and Arcadia
+
 {
   "contributor": [
     {
@@ -175,6 +178,9 @@ Stanford University. Host institution.
 
 4. Organization contributor with multiple roles
 Stanford University. Sponsor and issuing body.
+
+NOTE: deduping of names to get multiple roles under a single contributor has been officially postponed by Amy and Arcadia
+
 {
   "contributor": [
     {
