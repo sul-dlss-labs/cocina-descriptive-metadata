@@ -45,14 +45,12 @@ How to ID: multiple subelements in titleInfo
         {
           "value": "special issue",
           "type": "part name"
-        },
+        }
+      ],
+      "note": [
         {
-          "note": [
-            {
-              "value": 4,
-              "type": "nonsorting character count"
-            }
-          ]
+          "value": 4,
+          "type": "nonsorting character count"
         }
       ]
     }
