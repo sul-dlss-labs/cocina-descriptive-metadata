@@ -1,0 +1,290 @@
+{
+  "title": [
+    {
+      "value": "The ChucK Audio Programming Language"
+    }
+  ],
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Wang, Ge",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "2008",
+          "qualifier": "approximate",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    },
+    {
+      "type": "release",
+      "date": [
+        {
+          "value": "2014-04-09",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University",
+              "uri": "http://id.loc.gov/authorities/names/n79054636",
+              "source": {
+                "code": "naf",
+                "uri": "http://id.loc.gov/authorities/names/"
+              }
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            },
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "type": "summary",
+      "displayLabel": "Abstract",
+      "value": "The computer has long been considered an extremely attractive tool for creating, manipulating, and analyzing sound. Its precision, possibilities for new timbres, and potential for fantastical automation make it a compelling platform for expression and experimentation -- but only to the extent that we are able to express to the computer what to do, and how to do it. To this end, the programming language has perhaps served as the most general, and yet most precise and intimate interface between humans and computers. Furthermore, &#x201C;domain-specific&#x201D; languages can bring additional expressiveness, conciseness, and perhaps even different ways of thinking to their users.&#xD;"
+    },
+    {
+      "type": "preferred citation",
+      "value": "Ge Wang. The ChucK Audio Programming Language: A Strongly-timed and On-the-fly Environ/mentality. PhD Thesis, Princeton University, 2008."
+    }
+  ],
+  "access": {
+    "accessContact": [
+      {
+        "value": "ge@ccrma.stanford.edu",
+        "type": "email",
+        "displayLabel": "Contact"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
+    ]
+  },
+  "purl": "https://purl.stanford.edu/jv545yc8727",
+  "form": [
+    {
+      "structuredValue": [
+        {
+          "value": "Text",
+          "type": "type"
+        },
+        {
+          "value": "Thesis",
+          "type": "subtype"
+        }
+      ],
+      "source": {
+        "value": "Stanford self-deposit resource types"
+      },
+      "type": "resource type"
+    },
+    {
+      "value": "text",
+      "type": "resource type",
+      "source": {
+        "value": "MODS resource types"
+      }
+    },
+    {
+      "value": "academic theses",
+      "type": "genre",
+      "uri": "http://id.loc.gov/authorities/genreForms/gf2014026039",
+      "source": {
+        "code": "aat",
+        "uri": "http://vocab.getty.edu/aat/"
+      }
+    }
+  ],
+  "subject": [
+    {
+      "value": "chuck",
+      "type": "topic"
+    },
+    {
+      "value": "Programming languages (Electronic computers)",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/1078704",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "audio",
+      "type": "topic"
+    },
+    {
+      "value": "Music",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/1030269",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "synthesis",
+      "type": "topic"
+    },
+    {
+      "value": "strongly-timed",
+      "type": "topic"
+    },
+    {
+      "value": "concurrent",
+      "type": "topic"
+    },
+    {
+      "value": "on-the-fly",
+      "type": "topic"
+    },
+    {
+      "value": "Princeton University",
+      "type": "organization",
+      "uri": "http://id.worldcat.org/fast/532857",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "Computer science",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/872451",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ],
+  "relatedResource": [
+    {
+      "type": "related to",
+      "title": [
+        {
+          "value": "ChucK Homepage"
+        }
+      ],
+      "access": {
+        "url": [
+          {
+            "value": "http://chuck.stanford.edu/"
+          }
+        ]
+      }
+    }
+  ],
+  "adminMetadata": {
+    "contributor": [
+      {
+        "name": [
+          {
+            "value": "Wang, Ge"
+          }
+        ],
+        "type": "person",
+        "role": [
+          {
+            "value": "creator",
+            "code": "cre",
+            "source": {
+              "code": "marcrelator",
+              "uri": "http://id.loc.gov/vocabulary/relators/"
+            }
+          }
+        ]
+      }
+    ],
+    "event": [
+      {
+        "type": "creation",
+        "date": [
+          {
+            "value": "2014-04-08",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      },
+      {
+        "type": "modification",
+        "date": [
+          {
+            "value": "2014-10-22",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      }
+    ],
+    "note": [
+      {
+        "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      }
+    ]
+  }
+}

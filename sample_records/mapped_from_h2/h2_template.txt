@@ -1,0 +1,19 @@
+Deposit type
+File name
+File description
+Title of deposit
+Contact email
+Author/contributor name and role
+Publication date
+Creation date - single date or date range
+Abstract
+Keywords
+Work types
+Citation
+Related work - citation
+Related work - link title and URL
+Release date
+Record creation date
+Record modification date
+Access
+License

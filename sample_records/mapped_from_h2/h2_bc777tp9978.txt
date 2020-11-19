@@ -1,0 +1,50 @@
+Deposit type
+Text
+
+File name
+00002337_mixed.pdf
+
+File description
+GATT Bibliography. Thirteenth Supplement. January - December 1967
+
+Title of deposit
+GATT Bibliography. Thirteenth Supplement. January - December 1967
+
+Contact email
+gatt-archive-info@lists.stanford.edu
+
+Author/contributor name and role
+GATT Secretariat, Information and Library Services. Organization - Author.
+
+Publication date
+1968-01
+
+Creation date - single date or date range
+
+Abstract
+The GATT Bibliography was first published in March 1954. It lists books, pamphlets, articles in periodicals, newspaper reports and editorials, including texts of lectures which refer to the General Agreement on Tariffs and Trade.&#xD;&#xD;The purpose of the list is to provide sources of reference for historians, researchers and students on the operation of the GATT. It should be noted, however, that the publications prepared by the GATT secretariat are not included. These are contained in the Publications List issued every year by the Information and Library Services of the GATT secretariat.&#xD;&#xD;The Bibliography is divided into a chronological listing of references to the GATT, grouped in alphabetical order month after month, during the period under review.</abstract>
+
+Keywords
+GATT
+Bibliography
+Tariff
+General Agreement on Tariffs and Trade
+GATT Digital Library
+
+Work types
+Government document
+
+Citation
+GATT Secretariat, Information and Library Services. (1968). GATT Bibliography: Thirteenth Supplement. January - December 1967. Stanford Digital Repository. Available at: https://purl.stanford.edu/bc777tp9978
+
+Related work - citation
+
+Related work - link title and URL
+
+Release date
+2018-10-25
+
+Record creation date
+2018-10-25
+
+Record modification date

@@ -1,0 +1,364 @@
+{
+  "title": [
+    {
+      "value": "Generation Anthropocene: Conserving Culture Through Biodiversity"
+    }
+  ],
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Zambrano, Luis",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Interviewee",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "interviewee",
+          "code": "ive",
+          "uri": "http://id.loc.gov/vocabulary/relators/ive",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Other",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Osborne, Michael",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "role": [
+        {
+          "value": "Interviewer",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "Producer",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "interviewer",
+          "code": "ive",
+          "uri": "http://id.loc.gov/vocabulary/relators/ivr",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "producer",
+          "code": "pro",
+          "uri": "http://id.loc.gov/vocabulary/relators/pro",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Other",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Traer, Miles",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "role": [
+        {
+          "value": "Producer",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "producer",
+          "code": "pro",
+          "uri": "http://id.loc.gov/vocabulary/relators/pro",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Other",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Chang, Leslie",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "person",
+      "role": [
+        {
+          "value": "Producer",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "producer",
+          "code": "pro",
+          "uri": "http://id.loc.gov/vocabulary/relators/pro",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Other",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "2012-09-04",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    },
+    {
+      "type": "release",
+      "date": [
+        {
+          "value": "2016-02-29",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University",
+              "uri": "http://id.loc.gov/authorities/names/n79054636",
+              "source": {
+                "code": "naf",
+                "uri": "http://id.loc.gov/authorities/names/"
+              }
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            },
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "type": "summary",
+      "displayLabel": "Abstract",
+      "value": "Conservation biologist Luis Zambrano discusses his work in wetland and ecosystem restoration in Mexico City and a rare salamander threatened by development (the Axolotl).  Seriously, if you like looking at cute things, google the Axolotl.  In fact, this rare salamander embodies a particularly powerful cultural symbol, leading to an interesting discussion of the Anthropocene as a cultural boundary. Guest: Luis Zambrano. Interviewer: Michael Osborne. Producers: Michael Osborne, Miles Traer, and Leslie Chang."
+    },
+    {
+      "type": "preferred citation",
+      "value": "Zambrano, Luis, Osborne, Michael, Traer, Miles, and Chang, Leslie. (2012). Generation Anthropocene: Conserving Culture Through Biodiversity. Stanford Digital Repository. Available at: http://purl.stanford.edu/bc275mm5153"
+    }
+  ],
+  "access": {
+    "accessContact": [
+      {
+        "value": "genanthropocene@gmail.com",
+        "type": "email",
+        "displayLabel": "Contact"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
+    ]
+  },
+  "purl": "https://purl.stanford.edu/bc275mm5153",
+  "form": [
+    {
+      "structuredValue": [
+        {
+          "value": "Sound",
+          "type": "type"
+        },
+        {
+          "value": "Interview",
+          "type": "subtype"
+        }
+      ],
+      "source": {
+        "value": "Stanford self-deposit resource types"
+      },
+      "type": "resource type"
+    },
+    {
+      "value": "sound recording",
+      "type": "resource type",
+      "source": {
+        "value": "MODS resource types"
+      }
+    },
+    {
+      "value": "Interviews",
+      "type": "genre",
+      "uri": "http://id.loc.gov/authorities/genreForms/gf2014026115",
+      "source": {
+        "code": "lcgft",
+        "uri": "http://id.loc.gov/authorities/genreForms/"
+      }
+    }
+  ],
+  "subject": [
+    {
+      "value": "Generation Anthropocene",
+      "type": "topic"
+    },
+    {
+      "value": "Stanford University",
+      "type": "organization",
+      "uri": "http://id.worldcat.org/fast/532770",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "Luis Zambrano",
+      "type": "topic"
+    },
+    {
+      "value": "Urbanization",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/1162722",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "Aztecs",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/824720",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    }
+  ],
+  "relatedResource": [
+    {
+      "type": "related to",
+      "title": [
+        {
+          "value": "Generation Anthropocene Website: Conserving Culture Through Biodiversity"
+        }
+      ],
+      "access": {
+        "url": [
+          {
+            "value": "http://www.stanford.edu/group/anthropocene/cgi-bin/wordpress/luis-zambrano-gonzalez-conservation-biologist-for-universidad-nacional-autonoma-de-mexico/"
+          }
+        ]
+      }
+    }
+  ],
+  "adminMetadata": {
+    "contributor": [
+      {
+        "name": [
+          {
+            "value": "Duong, KH"
+          }
+        ],
+        "type": "person",
+        "role": [
+          {
+            "value": "creator",
+            "code": "cre",
+            "source": {
+              "code": "marcrelator",
+              "uri": "http://id.loc.gov/vocabulary/relators/"
+            }
+          }
+        ]
+      }
+    ],
+    "event": [
+      {
+        "type": "creation",
+        "date": [
+          {
+            "value": "2016-02-18",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      }
+    ],
+    "note": [
+      {
+        "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      }
+    ]
+  }
+}
