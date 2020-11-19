@@ -769,6 +769,7 @@ Stanford University. Funder.
         }
       ],
       "type": "organization",
+      "status": "primary",
       "role": [
         {
           "value": "Funder",
