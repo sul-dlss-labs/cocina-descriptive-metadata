@@ -490,7 +490,7 @@ Stanford University. Sponsor.
     <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
   </role>
 </name>
-<name type="personal">
+<name type="corporate">
   <namePart>Stanford University</namePart>
   <role>
     <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/spn">spn</roleTerm>
