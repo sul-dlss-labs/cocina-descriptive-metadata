@@ -321,6 +321,9 @@ Concert. Event.
 }
 <name type="corporate" usage="primary">
   <namePart>Concert</namePart>
+  <role>
+    <roleTerm type="text">Event</roleTerm>
+  </role>
 </name>
 
 7. Multiple contributors - person
