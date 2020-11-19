@@ -352,6 +352,12 @@
                     "type": "string"
                 },
                 "access": {"$ref": "#/definitions/DescriptiveAccessMetadata"},
+                "relatedResource": {
+                    "description": "Other resources associated with the related resource.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/RelatedResource"}
+                },
+                "adminMetadata": {"$ref": "#/definitions/DescriptiveAdminMetadata"},
                 "version": {
                     "description": "The version of the related resource.",
                     "type": "string"
