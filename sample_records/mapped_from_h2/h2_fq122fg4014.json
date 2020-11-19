@@ -169,6 +169,13 @@
         "code": "aat",
         "uri": "http://vocab.getty.edu/aat/"
       }
+    },
+    {
+      "value": "Text",
+      "type": "resource type",
+      "source": {
+        "value": "DataCite resource types"
+      }
     }
   ],
   "subject": [

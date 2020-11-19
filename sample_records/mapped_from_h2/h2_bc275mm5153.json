@@ -264,6 +264,13 @@
         "code": "lcgft",
         "uri": "http://id.loc.gov/authorities/genreForms/"
       }
+    },
+    {
+      "value": "Audiovisual",
+      "type": "resource type",
+      "source": {
+        "value": "DataCite resource types"
+      }
     }
   ],
   "subject": [

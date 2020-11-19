@@ -154,6 +154,13 @@
         "code": "aat",
         "uri": "http://vocab.getty.edu/aat/"
       }
+    },
+    {
+      "value": "Audiovisual",
+      "type": "resource type",
+      "source": {
+        "value": "DataCite resource types"
+      }
     }
   ],
   "subject": [
