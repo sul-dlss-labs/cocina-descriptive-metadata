@@ -505,3 +505,36 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
     }
   ]
 }
+
+19. Title with xml:space="preserve"
+<titleInfo>
+  <nonSort xml:space="preserve">A </nonSort>
+  <title>broken journey</title>
+  <subTitle>memoir of Mrs. Beatty, wife of Rev. William Beatty, Indian missionary</subTitle>
+</titleInfo>
+{
+  "title": [
+    {
+      "structuredValue": [
+        {
+          "value": "A",
+          "type": "nonsorting characters"
+        },
+        {
+          "value": "broken journey",
+          "type": "main title"
+        },
+        {
+          "value": "memoir of Mrs. Beatty, wife of Rev. William Beatty, Indian missionary",
+          "type": "subtitle"
+        }
+      ],
+      "note": [
+        {
+          "value": 2,
+          "type": "nonsorting character count"
+        }
+      ]
+    }
+  ]
+}
