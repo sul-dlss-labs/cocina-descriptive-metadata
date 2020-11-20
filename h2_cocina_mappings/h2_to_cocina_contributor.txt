@@ -1,11 +1,5 @@
 Full role mapping: https://docs.google.com/spreadsheets/d/1CvEd_NODprNhM2D9VfvJBFs1jfAMEUr0kDxXHe2HkL4/edit?usp=sharing
 
-Rules for "order" and "primary":
-1. First entered contributor is always status: "primary"
-2. "Order" is included if the total count of (personal names) + (organizations with role author or contributing author) is more than one
-3. "Order" is applied in the order in which the names are entered in H2, starting with 1
-4. Organizations with roles other than author or contributing author are ignored in the numbering, and do not receive an "order" property
-5. The datatype of "order" is integer
 
 1. Person contributor with single mapped role
 Stanford, Jane. Data collector.
@@ -337,7 +331,6 @@ Stanford, Leland. Author.
       ],
       "type": "person",
       "status": "primary",
-      "order": 1,
       "role": [
         {
           "value": "Author",
@@ -370,7 +363,6 @@ Stanford, Leland. Author.
         }
       ],
       "type": "person",
-      "order": 2,
       "role": [
         {
           "value": "Author",
@@ -513,7 +505,6 @@ Stanford, Leland. Author.
       ],
       "type": "person",
       "status": "primary",
-      "order": 1,
       "role": [
         {
           "value": "Author",
@@ -545,7 +536,6 @@ Stanford, Leland. Author.
         }
       ],
       "type": "organization",
-      "order": 2,
       "role": [
         {
           "value": "Author",
@@ -578,7 +568,6 @@ Stanford, Leland. Author.
         }
       ],
       "type": "person",
-      "order": 3,
       "role": [
         {
           "value": "Author",
@@ -642,7 +631,6 @@ Stanford, Leland. Author.
       ],
       "type": "person",
       "status": "primary",
-      "order": 1,
       "role": [
         {
           "value": "Author",
@@ -706,7 +694,6 @@ Stanford, Leland. Author.
         }
       ],
       "type": "person",
-      "order": 2,
       "role": [
         {
           "value": "Author",
