@@ -1,0 +1,47 @@
+Deposit type
+Text
+
+File name
+File description
+
+Title of deposit
+A Woman's Guide to Stanford
+
+Contact email
+universityarchives@stanford.edu
+
+Author/contributor name and role
+Stanford University. Organization - Publisher.
+
+Publication date
+
+Creation date - single date or date range
+1985-1986
+
+Abstract
+Publication documenting women's issues at Stanford.
+
+Keywords
+Women college students
+Women's rights
+Feminism
+Gender studies
+
+Work types
+Book
+
+Citation
+A Woman's Guide to Stanford. Stanford Digital Repository. Available at: http://purl.stanford.edu/fq122fg4014
+
+Related work - citation
+Related work - link title and URL
+
+Release date
+2017-05-16
+
+Record creation date
+2017-05-16
+
+Record modification date
+Access
+License

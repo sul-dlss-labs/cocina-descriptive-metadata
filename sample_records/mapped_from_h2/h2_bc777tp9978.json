@@ -1,0 +1,242 @@
+{
+  "title": [
+    {
+      "value": "GATT Bibliography. Thirteenth Supplement. January - December 1967"
+    }
+  ],
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "GATT Secretariat, Information and Library Services"
+        }
+      ],
+      "type": "organization",
+      "status": "primary",
+      "role": [
+        {
+          "value": "Author",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "author",
+          "code": "aut",
+          "uri": "http://id.loc.gov/vocabulary/relators/aut",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "Creator",
+          "source": {
+            "value": "DataCite properties"
+          }
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "type": "publication",
+      "date": [
+        {
+          "value": "1968-01",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    },
+    {
+      "type": "release",
+      "date": [
+        {
+          "value": "2018-10-25",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University",
+              "uri": "http://id.loc.gov/authorities/names/n79054636",
+              "source": {
+                "code": "naf",
+                "uri": "http://id.loc.gov/authorities/names/"
+              }
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            },
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "type": "summary",
+      "displayLabel": "Abstract",
+      "value": "The GATT Bibliography was first published in March 1954. It lists books, pamphlets, articles in periodicals, newspaper reports and editorials, including texts of lectures which refer to the General Agreement on Tariffs and Trade.&#xD;&#xD;The purpose of the list is to provide sources of reference for historians, researchers and students on the operation of the GATT. It should be noted, however, that the publications prepared by the GATT secretariat are not included. These are contained in the Publications List issued every year by the Information and Library Services of the GATT secretariat.&#xD;&#xD;The Bibliography is divided into a chronological listing of references to the GATT, grouped in alphabetical order month after month, during the period under review."
+    },
+    {
+      "type": "preferred citation",
+      "value": "GATT Secretariat, Information and Library Services. (1968). GATT Bibliography: Thirteenth Supplement. January - December 1967. Stanford Digital Repository. Available at: https://purl.stanford.edu/bc777tp9978"
+    }
+  ],
+  "access": {
+    "accessContact": [
+      {
+        "value": "gatt-archive-info@lists.stanford.edu",
+        "type": "email",
+        "displayLabel": "Contact"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
+    ]
+  },
+  "purl": "https://purl.stanford.edud/bc777tp9978",
+  "form": [
+    {
+      "structuredValue": [
+        {
+          "value": "Text",
+          "type": "type"
+        },
+        {
+          "value": "Government document",
+          "type": "subtype"
+        }
+      ],
+      "source": {
+        "value": "Stanford self-deposit resource types"
+      },
+      "type": "resource type"
+    },
+    {
+      "value": "text",
+      "type": "resource type",
+      "source": {
+        "value": "MODS resource types"
+      }
+    },
+    {
+      "value": "government records",
+      "type": "genre",
+      "uri": "http://vocab.getty.edu/aat/300027777",
+      "source": {
+        "code": "aat",
+        "uri": "http://vocab.getty.edu/aat/"
+      }
+    },
+    {
+      "value": "Text",
+      "type": "resource type",
+      "source": {
+        "value": "DataCite resource types"
+      }
+    }
+  ],
+  "subject": [
+    {
+      "value": "GATT",
+      "type": "topic"
+    },
+    {
+      "value": "Bibliographies",
+      "type": "genre",
+      "uri": "http://id.worldcat.org/fast/1919895",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "Tariff",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/1143154",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "General Agreement on Tariffs and Trade",
+      "type": "organization",
+      "uri": "http://id.worldcat.org/fast/530676",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "GATT Digital Library",
+      "type": "topic"
+    }
+  ],
+  "adminMetadata": {
+    "contributor": [
+      {
+        "name": [
+          {
+            "value": "Kasianovich, Kris"
+          }
+        ],
+        "type": "person",
+        "role": [
+          {
+            "value": "creator",
+            "code": "cre",
+            "source": {
+              "code": "marcrelator",
+              "uri": "http://id.loc.gov/vocabulary/relators/"
+            }
+          }
+        ]
+      }
+    ],
+    "event": [
+      {
+        "type": "creation",
+        "date": [
+          {
+            "value": "2018-10-25",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      }
+    ],
+    "note": [
+      {
+        "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      }
+    ]
+  }
+}

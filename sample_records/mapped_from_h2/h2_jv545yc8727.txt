@@ -1,0 +1,61 @@
+Depositor
+Wang, Ge
+
+Deposit type
+Text
+
+File name
+File description
+
+Title of deposit
+The ChucK Audio Programming Language
+
+Contact email
+ge@ccrma.stanford.edu
+
+Author/contributor name and role
+Wang, Ge. Person - Author.
+
+Publication date
+
+Creation date - single date or date range
+2008 - approximate
+
+Abstract
+The computer has long been considered an extremely attractive tool for creating, manipulating, and analyzing sound. Its precision, possibilities for new timbres, and potential for fantastical automation make it a compelling platform for expression and experimentation -- but only to the extent that we are able to express to the computer what to do, and how to do it. To this end, the programming language has perhaps served as the most general, and yet most precise and intimate interface between humans and computers. Furthermore, &#x201C;domain-specific&#x201D; languages can bring additional expressiveness, conciseness, and perhaps even different ways of thinking to their users.&#xD;
+
+Keywords
+chuck
+programming language
+audio
+music
+synthesis
+strongly-timed
+concurrent
+on-the-fly
+Princeton University
+computer science
+
+Work types
+Thesis
+
+Citation
+Ge Wang. The ChucK Audio Programming Language: A Strongly-timed and On-the-fly Environ/mentality.&#xD;
+PhD Thesis, Princeton University, 2008.
+
+Related work - citation
+
+Related work - link title and URL
+ChucK Homepage - http://chuck.stanford.edu/
+
+Record creation date
+2014-04-08
+
+Record modification date
+2014-10-22
+
+Release date
+2014-04-09
+
+Access
+License

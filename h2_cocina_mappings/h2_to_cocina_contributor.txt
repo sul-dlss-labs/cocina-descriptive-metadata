@@ -56,6 +56,9 @@ Stanford, Jane. Data collector.
 
 2. Person contributor with multiple roles, one maps to DataCite creator property
 Stanford, Jane. Author and principal investigator.
+
+NOTE: deduping of names to get multiple roles under a single contributor has been officially postponed by Amy and Arcadia
+
 {
   "contributor": [
     {
@@ -169,12 +172,15 @@ Stanford University. Host institution.
   <namePart>Stanford University</namePart>
   <role>
     <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/his">his</roleTerm>
-    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/his">hosting institution</roleTerm>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/his">host institution</roleTerm>
   </role>
 </name>
 
 4. Organization contributor with multiple roles
 Stanford University. Sponsor and issuing body.
+
+NOTE: deduping of names to get multiple roles under a single contributor has been officially postponed by Amy and Arcadia
+
 {
   "contributor": [
     {
@@ -315,6 +321,9 @@ Concert. Event.
 }
 <name type="corporate" usage="primary">
   <namePart>Concert</namePart>
+  <role>
+    <roleTerm type="text">Event</roleTerm>
+  </role>
 </name>
 
 7. Multiple contributors - person
@@ -484,7 +493,7 @@ Stanford University. Sponsor.
     <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
   </role>
 </name>
-<name type="personal">
+<name type="corporate">
   <namePart>Stanford University</namePart>
   <role>
     <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/spn">spn</roleTerm>
@@ -760,6 +769,7 @@ Stanford University. Funder.
         }
       ],
       "type": "organization",
+      "status": "primary",
       "role": [
         {
           "value": "Funder",
@@ -827,7 +837,8 @@ Publication date: Aug. 20, 2020
           "value": "2020-08-20",
           "encoding": {
             "code": "w3cdtf"
-          }
+          },
+          "status": "primary"
         }
       ]
     }

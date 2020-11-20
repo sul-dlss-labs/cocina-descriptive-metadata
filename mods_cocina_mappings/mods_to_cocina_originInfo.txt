@@ -76,12 +76,13 @@ Dates
 }
 
 5. Single dateOther
-<originInfo>
+<originInfo eventType="publication">
   <dateOther type="Islamic">1441 AH</dateOther>
 </originInfo>
 {
   "event": [
     {
+      "type": "publication",
       "date": [
         {
           "value": "1441 AH",
@@ -97,24 +98,18 @@ Dates
   ]
 }
 
-5b. dateOther without type
-<originInfo displayLabel="Acquisition date">
-  <dateOther keyDate="yes" encoding="w3cdtf">1970-11-23</dateOther>
-</originInfo>
-Should throw a fatal error if dateOther is only date element within originInfo and originInfo does not have an eventType attribute.
-
-5c. dateOther with eventType
-<originInfo eventType="acquisition">
-  <dateOther keyDate="yes" encoding="w3cdtf">1970-11-23</dateOther>
+5b. dateOther in Gregorian calendar
+<originInfo eventType="acquisition" displayLabel="Acquisition date">
+  <dateOther encoding="w3cdtf">1992</dateOther>
 </originInfo>
 {
   "event": [
     {
       "type": "acquisition",
+      "displayLabel": "Acquisition date",
       "date": [
         {
-          "value": "1970-11-23",
-          "status": "primary",
+          "value": "1992",
           "encoding": {
             "code": "w3cdtf"
           }
@@ -480,15 +475,22 @@ Should throw a fatal error if dateOther is only date element within originInfo a
     }
   ]
 }
+<originInfo eventType="publication">
+  <dateIssued>1955</dateIssued>
+</originInfo>
+<originInfo eventType="copyright">
+  <copyrightDate>1940</copyrightDate>
+</originInfo>
 
 20. Julian calendar
 MODS 3.6 and before:
-<originInfo>
+<originInfo eventType="production">
   <dateOther type="Julian">1544-02-02</dateOther>
 </originInfo>
 {
   "event": [
     {
+      "type": "creation",
       "date": [
         {
           "value": "1544-02-02",
@@ -504,7 +506,7 @@ MODS 3.6 and before:
   ]
 }
 MODS 3.7:
-<originInfo>
+<originInfo eventType="production">
   <dateCreated calendar="Julian">1544-02-02</dateCreated>
 </originInfo>
 {
@@ -713,14 +715,35 @@ MODS 3.7:
     },
     {
       "type": "copyright",
-      "date": [
+      "note": [
         {
-          "value": "©2018"
+          "value": "©2018",
+          "type": "copyright statement"
         }
       ]
     }
   ]
 }
+<originInfo eventType="publication">
+   <place>
+      <placeTerm type="code" authority="marccountry">ru</placeTerm>
+   </place>
+   <dateIssued encoding="marc">2019</dateIssued>
+   <issuance>monographic</issuance>
+</originInfo>
+<originInfo eventType="copyright">
+  <copyrightDate encoding="marc">2018</copyrightDate>
+</originInfo>
+<originInfo eventType="publication">
+   <place>
+      <placeTerm type="text">Moskva</placeTerm>
+   </place>
+   <publisher>Izdatelʹstvo "Vesʹ Mir"</publisher>
+   <dateIssued>2019</dateIssued>
+</originInfo>
+<originInfo eventType="copyright notice">
+   <copyrightDate>©2018</copyrightDate>
+</originInfo>
 
 Place
 
@@ -733,6 +756,7 @@ Place
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "value": "Stanford (Calif.)",
@@ -748,7 +772,7 @@ Place
 }
 
 28. Place - code
-<originInfo>
+<originInfo eventType="publication">
   <place>
     <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">cau</placeTerm>
   <place>
@@ -756,6 +780,7 @@ Place
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "code": "cau",
@@ -771,7 +796,7 @@ Place
 }
 
 29. Place - text and code for same place
-<originInfo>
+<originInfo type="publication">
   <place>
     <placeTerm type="text" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">California</placeTerm>
     <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/vocabulary/countries/" valueURI="http://id.loc.gov/vocabulary/countries/cau">cau</placeTerm>
@@ -780,6 +805,7 @@ Place
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "value": "California",
@@ -797,7 +823,7 @@ Place
 
 30. Place - text and code for different places
 Version A (converted from MARC, standard MODS)
-<originInfo>
+<originInfo eventType="publication">
   <place>
     <placeTerm type="code" authority="marccountry">enk</placeTerm>
   </place>
@@ -808,6 +834,7 @@ Version A (converted from MARC, standard MODS)
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "code": "enk",
@@ -823,7 +850,8 @@ Version A (converted from MARC, standard MODS)
   ]
 }
 Version B (from replayable spreadsheet, incorrect MODS)
-<originInfo>
+The authority value goes with the code term and the authorityURI and valueURI values go with the text term.
+<originInfo eventType="publication">
   <place>
     <placeTerm type="code" authority="marccountry" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">cau</placeTerm>
     <placeTerm type="text" authority="marccountry" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n50046557">Stanford (Calif.)</placeTerm>
@@ -832,6 +860,7 @@ Version B (from replayable spreadsheet, incorrect MODS)
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "code": "cau",
@@ -947,34 +976,32 @@ Version B (from replayable spreadsheet, incorrect MODS)
           "name": [
             {
               "value": "СФУ",
-              "valueLanguage": [
-                {
-                  "code": "rus",
+              "valueLanguage": {
+                "code": "rus",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Cyrl",
                   "source": {
-                    "code": "iso639-2b"
-                  },
-                  "valueScript": {
-                    "code": "Cyrl",
-                    "source": {
-                      "code": "iso15924"
-                    }
+                    "code": "iso15924"
                   }
                 }
-              ]
+              }
             }
           ],
-          "type": "organization"
-        }
-      ],
-      "role": [
-        {
-          "value": "publisher",
-          "code": "pbl",
-          "uri": "http://id.loc.gov/vocabulary/relators/pbl",
-          "source": {
-            "code": "marcrelator",
-            "uri": "http://id.loc.gov/vocabulary/relators/"
-          }
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
         }
       ]
     }
@@ -1307,7 +1334,7 @@ Version B (from replayable spreadsheet, incorrect MODS)
 }
 
 40. originInfo with displayLabel
-<originInfo displayLabel="Origin">
+<originInfo displayLabel="Origin" eventType="creation">
   <place>
     <placeTerm type="text">Stanford (Calif.)</placeTerm>
   </place>
@@ -1315,6 +1342,7 @@ Version B (from replayable spreadsheet, incorrect MODS)
 {
   "event": [
     {
+      "type": "creation",
       "displayLabel": "Origin",
       "location": [
         {
