@@ -14,6 +14,7 @@
   "adminMetadata": {
     "language": [
       {
+        "status": "primary",
         "value": "English",
         "status": "primary",
         "code": "eng",
@@ -66,7 +67,6 @@
     ]
   }
 }
-NB: Standard may need to be applied on a value by value basis rather than to the whole record
 
 2. Multilingual
 <recordInfo>

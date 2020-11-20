@@ -202,6 +202,7 @@ How to ID: presence of titleInfo transliteration attribute (may need to manually
 
 6. Uniform title with authority
 How to ID: titleInfo type="uniform"
+It's not shown here, but the name element would also map to contributor as well as forming part of the name-title authority.
 <titleInfo usage="primary">
   <title>Hamlet</title>
 </titleInfo>
@@ -499,6 +500,26 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
     }
   ]
 }
+Only change in round-trip mapping is dropping empty script attributes. In the round-trip 'name usage="primary"' would come from the COCINA contributor property, not the title property, which is why it's not in the COCINA title mapping above, but still in the MODS below.
+<titleInfo>
+  <title>Mishnah berurah</title>
+  <subTitle>the classic commentary to Shulchan aruch Orach chayim, comprising the laws of daily Jewish conduct</subTitle>
+</titleInfo>
+<titleInfo type="uniform" nameTitleGroup="1" altRepGroup="01>
+  <title>Mishnah berurah. English & Hebrew</title>
+</titleInfo>
+<name type="personal" usage="primary" altRepGroup="02" nameTitleGroup="1">
+  <namePart>Israel Meir</namePart>
+  <namePart type="termsOfAddress">ha-Kohen</namePart>
+  <namePart type="date">1838-1933</namePart>
+</name>
+<name type="personal" usage="primary" altRepGroup="02" nameTitleGroup="2">
+  <namePart>Israel Meir in Hebrew characters</namePart>
+  <namePart type="date">1838-1933</namePart>
+</name>
+<titleInfo type="uniform" nameTitleGroup="2" altRepGroup="01">
+  <title>Mishnah berurah in Hebrew characters</title>
+</titleInfo>
 
 19. Title with xml:space="preserve"
 <titleInfo>

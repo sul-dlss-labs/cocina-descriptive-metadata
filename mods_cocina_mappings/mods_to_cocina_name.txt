@@ -142,6 +142,7 @@ Names
   <namePart type="given">Elizabeth</namePart>
   <namePart type="termsOfAddress">II</namePart>
 </name>
+Use "term of address" for "ordinal" if type of term cannot be determined from source data.
 {
   "contributor": [
     {
@@ -228,6 +229,13 @@ Names
     }
   ]
 }
+<name type="personal" usage="primary">
+  <namePart>Dunnett, Dorothy</namePart>
+  <role>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+  </role>
+</name>
 
 7c. Role code only
 <name type="personal" usage="primary">
@@ -259,6 +267,13 @@ Names
     }
   ]
 }
+<name type="personal" usage="primary">
+  <namePart>Dunnett, Dorothy</namePart>
+  <role>
+    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+    <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+  </role>
+</name>
 
 7d. Role with valueURI as the only authority attribute
 <name type="personal" usage="primary">
@@ -320,6 +335,13 @@ Names
     }
   ]
 }
+<name type="personal" usage="primary">
+  <namePart>Dunnett, Dorothy</namePart>
+  <role>
+    <roleTerm type="text" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
+    <roleTerm type="code" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
+  </role>
+</name>
 
 7f. Role without namePart value
 <name>
@@ -455,6 +477,7 @@ Names
 <name type="personal">
   <namePart>Tey, Josephine</namePart>
 </name>
+Omit "type": "pseudonym" when mapping from MODS.
 {
   "contributor": [
     {
@@ -567,6 +590,7 @@ Names
 }
 
 12. Transliterated name with parts (name as structuredValue)
+This example is for reference only - doesn't need to be mapped.
 <name usage="primary" type="personal" script="Cyrl" altRepGroup="0">
   <namePart>Булгаков, Михаил Афанасьевич</namePart>
 </name>
@@ -660,6 +684,7 @@ Names
 }
 
 14. Name with display label
+OK to omit type: pseudonym in MODS mapping.
 <name type="personal" displayLabel="Pseudonym">
   <namePart>Westmacott, Mary</namePart>
 </name>

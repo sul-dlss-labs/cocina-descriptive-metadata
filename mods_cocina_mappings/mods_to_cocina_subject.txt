@@ -59,6 +59,9 @@ Option B
     }
   ]
 }
+<subject authority="lcsh">
+  <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh85021262">Cats</topic>
+</subject>
 
 4. Multi-term topic subject with authority for set
 <subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/" valueURI="http://id.loc.gov/authorities/subjects/sh85021263">
@@ -463,6 +466,7 @@ Example 2:
 }
 
 15. Name-title subject with additional terms including genre subdivision, authority for set
+Authority is not applied to form because the term may be a subject subdivision, with a different term for being used alone.
 <subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85120809">
   <name type="personal">
     <namePart>Shakespeare, William, 1564-1616</namePart>
@@ -503,6 +507,16 @@ Example 2:
     }
   ]
 }
+<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85120809">
+  <name type="personal">
+    <namePart>Shakespeare, William, 1564-1616</namePart>
+  </name>
+  <titleInfo>
+    <title>Hamlet</title>
+  </titleInfo>
+  <genre>Bibliographies</genre>
+</subject>
+<genre>Bibliographies</genre>
 
 16. Name-title subject with additional terms including genre subdivision, authority for terms
 <subject authority="lcsh">
@@ -555,6 +569,16 @@ Example 2:
     }
   ]
 }
+<subject authority="lcsh">
+  <name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n78095332">
+    <namePart>Shakespeare, William, 1564-1616</namePart>
+  </name>
+  <titleInfo authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n80008522">
+    <title>Hamlet</title>
+  </titleInfo>
+  <genre authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh99001362">Bibliographies</genre>
+</subject>
+<genre>Bibliographies</genre>
 
 17. Geographic subject subdivision
 <subject>
@@ -604,6 +628,7 @@ Example 2:
 }
 
 19. Cartographic subject
+Omit encoding for mapping purposes.
 <subject>
   <cartographics>
     <coordinates>E 72°--E 148°/N 13°--N 18°</coordinates>

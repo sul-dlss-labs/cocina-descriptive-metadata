@@ -51,6 +51,7 @@
 {
   "relatedResource": [
     {
+      "type": "related to",
       "title": [
         {
           "value": "Supplement"
@@ -75,6 +76,7 @@
 {
   "relatedResource": [
     {
+      "type": "related to",
       "access": {
         "url": [
           {
@@ -100,6 +102,7 @@
 {
   "relatedResource": [
     {
+      "type": "related to",
       "title": [
         {
           "value": "Related item 1"
@@ -107,6 +110,7 @@
       ]
     },
     {
+      "type": "related to",
       "title": [
         {
           "value": "Related item 2"
@@ -125,6 +129,7 @@
 {
   "relatedResource": [
     {
+      "type": "related to",
       "title": [
         {
           "value": "Supplement"

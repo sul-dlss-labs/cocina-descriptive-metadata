@@ -23,6 +23,8 @@ Example B:
     ]
   }
 }
+Maps back to:
+<accessCondition type="restriction on access">Available to Stanford researchers only.</accessCondition>
 
 2. Restriction on use and reproduction
 Example A:
@@ -49,6 +51,8 @@ Example B:
     ]
   }
 }
+Maps back to:
+<accessCondition type="use and reproduction">User agrees that, where applicable, content will not be used to identify or to otherwise infringe the privacy or confidentiality rights of individuals. Content distributed via the Stanford Digital Repository may be subject to additional license and use restrictions applied by the depositor.</accessCondition>
 
 3. License
 <accessCondition type="license">CC by: CC BY Attribution</accessCondition>
