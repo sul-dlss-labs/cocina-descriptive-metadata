@@ -16,6 +16,7 @@
       {
         "status": "primary",
         "value": "English",
+        "status": "primary",
         "code": "eng",
         "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
         "source": {

@@ -45,14 +45,12 @@ How to ID: multiple subelements in titleInfo
         {
           "value": "special issue",
           "type": "part name"
-        },
+        }
+      ],
+      "note": [
         {
-          "note": [
-            {
-              "value": 4,
-              "type": "nonsorting character count"
-            }
-          ]
+          "value": 4,
+          "type": "nonsorting character count"
         }
       ]
     }
@@ -526,3 +524,36 @@ Only change in round-trip mapping is dropping empty script attributes. In the ro
 <titleInfo type="uniform" nameTitleGroup="2" altRepGroup="01">
   <title>Mishnah berurah in Hebrew characters</title>
 </titleInfo>
+
+19. Title with xml:space="preserve"
+<titleInfo>
+  <nonSort xml:space="preserve">A </nonSort>
+  <title>broken journey</title>
+  <subTitle>memoir of Mrs. Beatty, wife of Rev. William Beatty, Indian missionary</subTitle>
+</titleInfo>
+{
+  "title": [
+    {
+      "structuredValue": [
+        {
+          "value": "A",
+          "type": "nonsorting characters"
+        },
+        {
+          "value": "broken journey",
+          "type": "main title"
+        },
+        {
+          "value": "memoir of Mrs. Beatty, wife of Rev. William Beatty, Indian missionary",
+          "type": "subtitle"
+        }
+      ],
+      "note": [
+        {
+          "value": 2,
+          "type": "nonsorting character count"
+        }
+      ]
+    }
+  ]
+}

@@ -321,6 +321,9 @@ Concert. Event.
 }
 <name type="corporate" usage="primary">
   <namePart>Concert</namePart>
+  <role>
+    <roleTerm type="text">Event</roleTerm>
+  </role>
 </name>
 
 7. Multiple contributors - person
@@ -766,6 +769,7 @@ Stanford University. Funder.
         }
       ],
       "type": "organization",
+      "status": "primary",
       "role": [
         {
           "value": "Funder",
@@ -833,7 +837,8 @@ Publication date: Aug. 20, 2020
           "value": "2020-08-20",
           "encoding": {
             "code": "w3cdtf"
-          }
+          },
+          "status": "primary"
         }
       ]
     }
