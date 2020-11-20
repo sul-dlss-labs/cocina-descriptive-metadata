@@ -1,5 +1,9 @@
 Full role mapping: https://docs.google.com/spreadsheets/d/1CvEd_NODprNhM2D9VfvJBFs1jfAMEUr0kDxXHe2HkL4/edit?usp=sharing
 
+First contributor entered in H2 receives "status": "primary", which maps to "usage=primary" in MODS. This attribute indicates that
+a) Systems should use this name as sort key when sorting by author
+b) MARC mappings should put this name in the 100 field as main author
+c) Other applications where a single name must be chosen for a purpose (such as constructing a citation using "et al.") should use this name.
 
 1. Person contributor with single mapped role
 Stanford, Jane. Data collector.
