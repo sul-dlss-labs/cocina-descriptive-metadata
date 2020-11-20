@@ -1334,7 +1334,7 @@ The authority value goes with the code term and the authorityURI and valueURI va
 }
 
 40. originInfo with displayLabel
-<originInfo displayLabel="Origin" eventType="creation">
+<originInfo displayLabel="Origin" eventType="production">
   <place>
     <placeTerm type="text">Stanford (Calif.)</placeTerm>
   </place>
