@@ -1,0 +1,53 @@
+Deposit type
+Sound
+
+File name
+File description
+
+Title of deposit
+Generation Anthropocene: Conserving Culture Through Biodiversity
+
+Contact email
+genanthropocene@gmail.com
+
+Author/contributor name and role
+Zambrano, Luis. Person - Interviewee.
+Osborne, Michael. Person - Interviewer. Person - Producer.
+Traer, Miles. Person - Producer.
+Chang, Leslie. Person - Producer.
+
+Publication date
+Creation date - single date or date range
+2012-09-04
+
+Abstract
+Conservation biologist Luis Zambrano discusses his work in wetland and ecosystem restoration in Mexico City and a rare salamander threatened by development (the Axolotl).  Seriously, if you like looking at cute things, google the Axolotl.  In fact, this rare salamander embodies a particularly powerful cultural symbol, leading to an interesting discussion of the Anthropocene as a cultural boundary. Guest: Luis Zambrano. Interviewer: Michael Osborne. Producers: Michael Osborne, Miles Traer, and Leslie Chang.
+
+Keywords
+Generation Anthropocene
+Stanford
+Luis Zambrano
+urbanization
+Aztec
+
+Work types
+Interview
+
+Citation
+Zambrano, Luis, Osborne, Michael, Traer, Miles, and Chang, Leslie. (2012). Generation Anthropocene: Conserving Culture Through Biodiversity. Stanford Digital Repository. Available at: http://purl.stanford.edu/bc275mm5153
+
+Related work - citation
+
+Related work - link title and URL
+Generation Anthropocene Website: Conserving Culture Through Biodiversity
+http://www.stanford.edu/group/anthropocene/cgi-bin/wordpress/luis-zambrano-gonzalez-conservation-biologist-for-universidad-nacional-autonoma-de-mexico/
+
+Release date
+2016-02-29
+
+Record creation date
+2016-02-18
+
+Record modification date
+Access
+License

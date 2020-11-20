@@ -1,0 +1,255 @@
+{
+  "title": [
+    {
+      "value": "A Woman's Guide to Stanford"
+    }
+  ],
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "1985",
+              "type": "start"
+            },
+            {
+              "value": "1986",
+              "type": "end"
+            }
+          ],
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    },
+    {
+      "type": "publication",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University"
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            },
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            },
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "release",
+      "date": [
+        {
+          "value": "2017-05-16",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University",
+              "uri": "http://id.loc.gov/authorities/names/n79054636",
+              "source": {
+                "code": "naf",
+                "uri": "http://id.loc.gov/authorities/names/"
+              }
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            },
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            },
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "type": "summary",
+      "displayLabel": "Abstract",
+      "value": "Publication documenting women's issues at Stanford."
+    },
+    {
+      "type": "preferred citation",
+      "value": "A Woman's Guide to Stanford. Stanford Digital Repository. Available at: http://purl.stanford.edu/fq122fg4014"
+    }
+  ],
+  "access": {
+    "accessContact": [
+      {
+        "value": "universityarchives@stanford.edu",
+        "type": "email",
+        "displayLabel": "Contact"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
+    ]
+  },
+  "purl": "https://purl.stanford.edu/fq122fg4014",
+  "form": [
+    {
+      "structuredValue": [
+        {
+          "value": "Text",
+          "type": "type"
+        },
+        {
+          "value": "Book",
+          "type": "subtype"
+        }
+      ],
+      "type": "resource type",
+      "source": {
+        "value": "Stanford self-deposit resource types"
+      }
+    },
+    {
+      "value": "text",
+      "type": "resource type",
+      "source": {
+        "value": "MODS resource types"
+      }
+    },
+    {
+      "value": "books",
+      "type": "genre",
+      "uri": "http://vocab.getty.edu/aat/300028051",
+      "source": {
+        "code": "aat",
+        "uri": "http://vocab.getty.edu/aat/"
+      }
+    },
+    {
+      "value": "Text",
+      "type": "resource type",
+      "source": {
+        "value": "DataCite resource types"
+      }
+    }
+  ],
+  "subject": [
+    {
+      "value": "Women college students",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/1177452",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "Women's rights",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/1178818",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "Feminism",
+      "type": "topic",
+      "uri": "http://id.worldcat.org/fast/922671",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "Gender studies",
+      "type": "topic"
+    }
+  ],
+  "adminMetadata": {
+    "contributor": [
+      {
+        "name": [
+          {
+            "value": "Hartwig, Daniel"
+          }
+        ],
+        "type": "person",
+        "role": [
+          {
+            "value": "creator",
+            "code": "cre",
+            "source": {
+              "code": "marcrelator",
+              "uri": "http://id.loc.gov/vocabulary/relators/"
+            }
+          }
+        ]
+      }
+    ],
+    "event": [
+      {
+        "type": "creation",
+        "date": [
+          {
+            "value": "2017-05-16",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      }
+    ],
+    "note": [
+      {
+        "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "title": [
+    {
+      "value": ""
+    }
+  ],
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "",
+          "type": "inverted full name"
+        }
+      ],
+      "type": "",
+      "role": [
+        {
+          "value": "",
+          "source": {
+            "value": "Stanford self-deposit contributor types"
+          }
+        },
+        {
+          "value": "",
+          "code": "",
+          "uri": "",
+          "source": {
+            "code": "marcrelator",
+            "uri": "http://id.loc.gov/vocabulary/relators/"
+          }
+        },
+        {
+          "value": "",
+          "source": {
+            "value": "DataCite contributor types"
+          }
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "type": "",
+      "date": [
+        {
+          "value": "",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "",
+              "uri": "",
+              "source": {
+                "code": "",
+                "uri": ""
+              }
+            }
+          ],
+          "type": "",
+          "role": [
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            },
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            },
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "release",
+      "date": [
+        {
+          "value": "",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University",
+              "uri": "http://id.loc.gov/authorities/names/n79054636",
+              "source": {
+                "code": "naf",
+                "uri": "http://id.loc.gov/authorities/names/"
+              }
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            },
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            },
+            {
+              "value": "Publisher",
+              "source": {
+                "value": "Stanford self-deposit contributor types"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "type": "summary",
+      "displayLabel": "Abstract",
+      "value": ""
+    },
+    {
+      "type": "preferred citation",
+      "value": ""
+    }
+  ],
+  "access": {
+    "accessContact": [
+      {
+        "value": "",
+        "type": "email",
+        "displayLabel": "Contact"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
+    ]
+  },
+  "purl": "",
+  "form": [
+    {
+      "structuredValue": [
+        {
+          "value": "",
+          "type": "type"
+        },
+        {
+          "value": "",
+          "type": "subtype"
+        }
+      ],
+      "type": "resource type",
+      "source": {
+        "value": "Stanford self-deposit resource types"
+      }
+    },
+    {
+      "value": "",
+      "type": "resource type",
+      "source": {
+        "value": "MODS resource types"
+      }
+    },
+    {
+      "value": "",
+      "type": "genre",
+      "uri": "",
+      "source": {
+        "code": "",
+        "uri": ""
+      }
+    }
+  ],
+  "subject": [
+    {
+      "value": "",
+      "type": "",
+      "uri": "",
+      "source": {
+        "code": "fast",
+        "uri": "http://id.worldcat.org/fast/"
+      }
+    },
+    {
+      "value": "",
+      "type": ""
+    }
+  ],
+  "relatedResource": [
+    {
+      "type": "related to",
+      "title": [
+        {
+          "value": ""
+        }
+      ],
+      "access": {
+        "url": [
+          {
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "related to",
+      "note": [
+        {
+          "value": "",
+          "type": "preferred citation"
+        }
+      ]
+    }
+  ],
+  "adminMetadata": {
+    "contributor": [
+      {
+        "name": [
+          {
+            "value": ""
+          }
+        ],
+        "type": "person",
+        "role": [
+          {
+            "value": "creator",
+            "code": "cre",
+            "source": {
+              "code": "marcrelator",
+              "uri": "http://id.loc.gov/vocabulary/relators/"
+            }
+          }
+        ]
+      }
+    ],
+    "event": [
+      {
+        "type": "creation",
+        "date": [
+          {
+            "value": "",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      },
+      {
+        "type": "modification",
+        "date": [
+          {
+            "value": "",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      }
+    ],
+    "note": [
+      {
+        "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      }
+    ]
+  }
+}
