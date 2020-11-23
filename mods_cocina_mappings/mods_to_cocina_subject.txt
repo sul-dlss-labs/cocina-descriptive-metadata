@@ -820,3 +820,40 @@ Omit encoding for mapping purposes.
     }
   ]
 }
+
+28. Name subject with parts and genre subdivision
+<subject authority="lcsh">
+  <name type="personal">
+    <namePart>Debord, Guy</namePart>
+    <namePart type="date">1931-1994</namePart>
+  </name>
+  <topic>Criticism and interpretation</topic>
+</subject>
+{
+  "subject": [
+    {
+      "structuredValue": [
+        {
+          "structuredValue": [
+            {
+              "value": "Debord, Guy",
+              "type": "name"
+            },
+            {
+              "value": "1931-1994",
+              "type": "life dates"
+            }
+          ],
+          "type": "person"
+        },
+        {
+          "value": "Criticism and interpretation",
+          "type": "genre"
+        }
+      ],
+      "source": {
+        "code": "lcsh"
+      }
+    }
+  ]
+}
