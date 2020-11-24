@@ -848,7 +848,7 @@ Omit encoding for mapping purposes.
         },
         {
           "value": "Criticism and interpretation",
-          "type": "genre"
+          "type": "topic"
         }
       ],
       "source": {
