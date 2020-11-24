@@ -139,3 +139,152 @@
     }
   ]
 }
+
+6. Related item with recordInfo
+<relatedItem type="original">
+  <titleInfo>
+    <title>This item is related</title>
+  </titleInfo>
+  <recordInfo>
+    <descriptionStandard>aacr2</descriptionStandard>
+    <recordContentSource authority="marcorg">GPO</recordContentSource>
+    <recordCreationDate encoding="marc">780512</recordCreationDate>
+    <recordIdentifier source="SUL catalog key">6766105</recordIdentifier>
+    <recordIdentifier source="oclc">3888071</recordIdentifier>
+  </recordInfo>
+</relatedItem>
+{
+  "relatedResource": [
+    {
+      "type": "has original version",
+      "title": [
+        {
+          "value": "This item is related"
+        }
+      ],
+      "adminMetadata": {
+        "standard": {
+          "code": "aacr2"
+        },
+        "contributor": [
+          {
+            "name": [
+              {
+                "code": "GPO",
+                "source": {
+                  "code": "marcorg"
+                }
+              }
+            ],
+            "type": "organization",
+            "role": [
+              {
+                "value": "original cataloging agency"
+              }
+            ]
+          }
+        ],
+        "event": [
+          {
+            "type": "creation",
+            "date": [
+              {
+                "value": "780512",
+                "encoding": {
+                  "code": "marc"
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "value": "6766105",
+            "source": {
+              "value": "SUL catalog key"
+            }
+          },
+          {
+            "value": "3888071",
+            "source": {
+              "code": "oclc"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
+7. Related item with otherType - invalid
+<relatedItem type="otherFormat" otherType="Online version:" displayLabel="Online version:">
+  <titleInfo>
+    <title>Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften. Mathematisch-Naturwissenschaftliche Classe. Abt. 2, Mathematik, Physik, Chemie, Physiologie, Meteorologie, physische Geographie und Astronomie</title>
+  </titleInfo>
+</relatedItem>
+ERROR - otherType attribute can't be used if type is present
+
+7b. Related item with otherType - valid
+otherType can't map to 'type' because a) it's not necessarily in the type vocabulary mapping and b) it has associated authority attributes that can't be represented in 'type'
+<relatedItem otherType="has part" otherTypeURI="http://purl.org/dc/terms/hasPart" otherTypeAuth="DCMI">
+  <titleInfo>
+    <title>A related resource</title>
+  </titleInfo>
+</relatedItem>
+{
+  "relatedResource": [
+    {
+      "type": "related to",
+      "title": [
+        {
+          "value": "A related resource"
+        }
+      ],
+      "note": [
+        {
+          "type": "other relation type",
+          "value": "has part",
+          "uri": "http://purl.org/dc/terms/hasPart",
+          "source": {
+            "value": "DCMI"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+8. Related item with related item
+<relatedItem type="constituent">
+  <titleInfo>
+    <title>[Unidentified sextet] [incomplete]</title>
+  </titleInfo>
+  <relatedItem type="host" displaylabel="Concert title">
+    <titleInfo>
+      <title>Silver Saturday Blues</title>
+    </titleInfo>
+  </relatedItem>
+</relatedItem>
+{
+  "relatedResource": [
+    {
+      "type": "has part",
+      "title": [
+        {
+          "value": "[Unidentified sextet] [incomplete]"
+        }
+      ],
+      "relatedResource": [
+        {
+          "type": "part of",
+          "displayLabel": "Concert title",
+          "title": [
+            {
+              "value": "Silver Saturday Blues"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
