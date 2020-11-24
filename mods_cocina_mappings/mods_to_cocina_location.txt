@@ -138,3 +138,33 @@
     ]
   }
 }
+
+9. Physical location with language and script
+<location>
+  <physicalLocation type="repository" authority="naf" valueURI="http://id.loc.gov/authorities/names/no2014019980" lang="eng" script="Latn">Stanford University. Libraries. Department of Special Collections and University Archives</physicalLocation>
+</location>
+{
+  "access": {
+    "physicalLocation": [
+      {
+        "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
+        "valueLanguage": {
+          "code": "eng",
+          "source": {
+            "code": "iso639-2b"
+          },
+          "valueScript": {
+            "code": "Latn",
+            "source": {
+              "code": "iso15924"
+            }
+          }
+        },
+        "uri": "http://id.loc.gov/authorities/names/no2014019980",
+        "source": {
+          "code": "naf"
+        }
+      }
+    ]
+  }
+}
