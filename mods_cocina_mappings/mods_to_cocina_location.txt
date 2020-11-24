@@ -118,3 +118,23 @@
     ]
   }
 }
+
+8. URL with note
+<location>
+  <url displayLabel="Coverage: V. 1 (Jan. 1922)-" note="Online table of contents from PCI available to Stanford-affiliated users:">https://stanford.idm.oclc.org/login?url=http://gateway.proquest.com/openurl?ctx_ver=Z39.88-2003&amp;ctx_fmt=ori:format:pl:ebnf:context&amp;rft_val_fmt=ori:format:pl:ebnf:journal&amp;res_id=xri:pci-us&amp;rft_id=xri:pci:1180&amp;res_dat=xri:pqil:res_ver=0.1</url>
+</location>
+{
+  "access": {
+    "url": [
+      {
+        "value": "https://stanford.idm.oclc.org/login?url=http://gateway.proquest.com/openurl?ctx_ver=Z39.88-2003&amp;ctx_fmt=ori:format:pl:ebnf:context&amp;rft_val_fmt=ori:format:pl:ebnf:journal&amp;res_id=xri:pci-us&amp;rft_id=xri:pci:1180&amp;res_dat=xri:pqil:res_ver=0.1",
+        "displayLabel": "Coverage: V. 1 (Jan. 1922)-",
+        "note": [
+          {
+            "value": "Online table of contents from PCI available to Stanford-affiliated users:"
+          }
+        ]
+      }
+    ]
+  }
+}
