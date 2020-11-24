@@ -30,3 +30,17 @@
     }
   ]
 }
+
+4. Invalid identifier
+<identifier type="lccn" invalid="yes">sn 87042262</identifier>
+{
+  "identifier": [
+    {
+      "value": "sn 87042262",
+      "status": "invalid",
+      "source": {
+        "code": "lccn"
+      }
+    }
+  ]
+}
