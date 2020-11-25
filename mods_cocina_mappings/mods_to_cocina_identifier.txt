@@ -39,7 +39,7 @@
       "value": "sn 87042262",
       "status": "invalid",
       "source": {
-        "code": "lccn"
+        "code": "LCCN"
       }
     }
   ]
