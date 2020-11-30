@@ -145,7 +145,7 @@
 </location>
 {
   "access": {
-    "physicalLocation": [
+    "accessContact": [
       {
         "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
         "valueLanguage": {
