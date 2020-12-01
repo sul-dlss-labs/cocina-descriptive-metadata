@@ -221,3 +221,64 @@
     ]
   }
 }
+
+12. Multiple locations and URLs with usage="primary display"
+<location>
+  <url usage="primary display" note="Available to Stanford-affiliated users at READEX:">http://infoweb.newsbank.com/?db=SERIAL</url>
+</location>
+<location>
+  <url note="Available to Stanford-affiliated users at:">http://web.lexis-nexis.com/congcomp/form/cong/s_pubadvanced.html?srcboxes=SSMaps&amp;srcboxes=SerialSet</url>
+</location>
+<location>
+  <url>http://purl.access.gpo.gov/GPO/LPS839</url>
+</location>
+<location>
+  <physicalLocation>Stanford University Libraries</physicalLocation>
+  <url>http://purl.stanford.edu/cy979mw6316</url>
+</location>
+{
+  "purl": "http://purl.stanford.edu/cy979mw6316",
+  "access": {
+    "url": [
+      {
+        "value": "http://infoweb.newsbank.com/?db=SERIAL",
+        "note": [
+          {
+            "value": "Available to Stanford-affiliated users at READEX:"
+          }
+        ]
+      },
+      {
+        "value": "http://web.lexis-nexis.com/congcomp/form/cong/s_pubadvanced.html?srcboxes=SSMaps&amp;srcboxes=SerialSet",
+        "note": [
+          {
+            "value": "Available to Stanford-affiliated users at:"
+          }
+        ]
+      },
+      {
+        "value": "http://purl.access.gpo.gov/GPO/LPS839"
+      }
+    ],
+    "physicalLocation": [
+      {
+        "value": "Stanford University Libraries"
+      }
+    ]
+  }
+}
+<location>
+  <url note="Available to Stanford-affiliated users at READEX:">http://infoweb.newsbank.com/?db=SERIAL</url>
+</location>
+<location>
+  <url note="Available to Stanford-affiliated users at:">http://web.lexis-nexis.com/congcomp/form/cong/s_pubadvanced.html?srcboxes=SSMaps&amp;srcboxes=SerialSet</url>
+</location>
+<location>
+  <url>http://purl.access.gpo.gov/GPO/LPS839</url>
+</location>
+<location>
+  <url usage="primary display">http://purl.stanford.edu/cy979mw6316</url>
+</location>
+<location>
+  <physicalLocation>Stanford University Libraries</physicalLocation>
+</location>
