@@ -168,3 +168,30 @@
     ]
   }
 }
+
+10. Physical location with type "discovery"
+<location>
+  <physicalLocation type="repository" authority="naf" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives.</physicalLocation>
+  <physicalLocation type="discovery">VICTOR\PLUS_PHOTOS_DAN\PLUS_TARD_PHOTOS_DAN_20071017\IMG_0852.JPG</physicalLocation>
+  <url usage="primary display">http://purl.stanford.edu/hn970dy7259</url>
+</location>
+{
+  "purl": "http://purl.stanford.edu/hn970dy7259",
+  "access": {
+    "accessContact": [
+      {
+        "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
+        "uri": "http://id.loc.gov/authorities/names/no2014019980",
+        "source": {
+          "code": "naf"
+        }
+      }
+    ],
+    "physicalLocation": [
+      {
+        "value": "VICTOR\PLUS_PHOTOS_DAN\PLUS_TARD_PHOTOS_DAN_20071017\IMG_0852.JPG",
+        "type": "discovery"
+      }
+    ]
+  }
+}
