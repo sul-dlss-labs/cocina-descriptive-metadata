@@ -195,3 +195,29 @@
     ]
   }
 }
+
+11. Physical location with display label
+<location>
+  <physicalLocation type="repository" displayLabel="Repository" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives</physicalLocation>
+  <physicalLocation>Call Number: SC0340, Accession 2005-101, Box: 51, Folder: 3</physicalLocation>
+</location>
+{
+  "access": {
+    "accessContact": [
+      {
+        "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
+        "uri": "http://id.loc.gov/authorities/names/no2014019980",
+        "displayLabel": "Repository",
+        "source": {
+          "code": "naf",
+          "uri": "http://id.loc.gov/authorities/names/"
+        }
+      }
+    ],
+    "physicalLocation": [
+      {
+        "value": "Call Number: SC0340, Accession 2005-101, Box: 51, Folder: 3"
+      }
+    ]
+  }
+}
