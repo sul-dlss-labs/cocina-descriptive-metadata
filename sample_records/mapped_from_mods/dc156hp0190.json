@@ -20,7 +20,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0001-5028-5161",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -53,7 +53,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0002-9672-3873",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -86,7 +86,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0003-2110-9753",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -115,7 +115,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0002-4716-0840",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -144,7 +144,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0002-4780-9566",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -173,7 +173,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0002-5362-4816",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -202,7 +202,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0001-9021-611X",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -231,7 +231,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0002-4829-5739",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -260,7 +260,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0002-5662-9604",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -289,7 +289,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0002-0671-689X",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -318,7 +318,7 @@
             "identifier": [
                 {
                     "uri": "https://orcid.org/0000-0002-3783-5509",
-                    "source": {"code": "orcid"}
+                    "type": "ORCID"
                 }
             ],
             "role": [
@@ -468,7 +468,7 @@
     "identifier": [
         {
             "uri": "https://doi.org/10.25740/ppax-bf07",
-            "source": {"code": "doi"}
+            "type": "DOI"
         }
     ],
     "purl": "https://purl.stanford.edu/vk217bh4910",
@@ -481,7 +481,7 @@
             "identifier": [
                 {
                     "uri": "https://doi.org/10.25740/ppax-bf07",
-                    "source": {"code": "doi"}
+                    "type": "DOI"
                 }
             ],
             "purl": "https://purl.stanford.edu/vk217bh4910"
@@ -494,7 +494,7 @@
             "identifier": [
                 {
                     "uri": "https://doi.org/10.25740/sb4q-wj06",
-                    "source": {"code": "doi"}
+                    "type": "DOI"
                 }
             ],
             "purl": "https://purl.stanford.edu/jc488jb7715"
@@ -507,7 +507,7 @@
             "identifier": [
                 {
                     "uri": "https://doi.org/10.25740/2zme-3q44",
-                    "source": {"code": "doi"}
+                    "type": "DOI"
                 }
             ],
             "purl": "https://purl.stanford.edu/km388vz4371"
@@ -520,7 +520,7 @@
             "identifier": [
                 {
                     "uri": "https://doi.org/10.25740/3jhw-x180",
-                    "source": {"code": "doi"}
+                    "type": "DOI"
                 }
             ],
             "purl": "https://purl.stanford.edu/sr325xz9271"
@@ -533,7 +533,7 @@
             "identifier": [
                 {
                     "uri": "https://doi.org/10.25740/0fbp-re41",
-                    "source": {"code": "doi"}
+                    "type": "DOI"
                 }
             ],
             "purl": "https://purl.stanford.edu/qw012qy2533"
@@ -545,8 +545,8 @@
             ],
             "identifier": [
                 {
-                    "value": "https://doi.org/10.25740/64cr-bc95",
-                    "source": {"code": "doi"}
+                    "uri": "https://doi.org/10.25740/64cr-bc95",
+                    "type": "DOI"
                 }
             ],
             "purl": "https://purl.stanford.edu/vf806tr8954"
@@ -558,8 +558,8 @@
             ],
             "identifier": [
                 {
-                    "value": "https://doi.org/10.25740/c8bw-ar96",
-                    "source": {"code": "doi"}
+                    "uri": "https://doi.org/10.25740/c8bw-ar96",
+                    "type": "DOI"
                 }
             ],
             "purl": "https://purl.stanford.edu/kp222tm1554"
@@ -571,8 +571,8 @@
             ],
             "identifier": [
                 {
-                    "value": "https://doi.org/10.25740/pknx-5s37",
-                    "source": {"code": "doi"}
+                    "uri": "https://doi.org/10.25740/pknx-5s37",
+                    "type": "DOI"
                 }
             ],
             "purl": "https://purl.stanford.edu/nk828sc2920"

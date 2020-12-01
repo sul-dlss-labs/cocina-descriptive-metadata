@@ -299,7 +299,7 @@
         "identifier": [
             {
                 "value": "a6914736",
-                "source": {"value": "SIRSI"}
+                "type": "SIRSI"
             }
         ],
         "note": [

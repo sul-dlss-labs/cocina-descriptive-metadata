@@ -207,9 +207,7 @@
     "identifier": [
       {
         "value": "a12374669",
-        "source": {
-          "value": "SIRSI"
-        }
+        "type": "SIRSI"
       }
     ],
     "note": [

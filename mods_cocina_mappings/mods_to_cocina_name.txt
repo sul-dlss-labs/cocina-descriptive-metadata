@@ -116,11 +116,8 @@ Names
       "type": "person",
       "identifier": [
         {
-          "value": "https://www.wikidata.org/wiki/Q7704207",
-          "type": "URI",
-          "source": {
-            "code": "wikidata"
-          }
+          "uri": "https://www.wikidata.org/wiki/Q7704207",
+          "type": "Wikidata"
         }
       ],
       "note": [
@@ -736,9 +733,7 @@ OK to omit type: pseudonym in MODS mapping.
       "identifier": [
         {
           "value": "0000-0000-0000",
-          "source": {
-            "code": "orcid"
-          }
+          "type": "ORCID"
         }
       ],
       "role": [
