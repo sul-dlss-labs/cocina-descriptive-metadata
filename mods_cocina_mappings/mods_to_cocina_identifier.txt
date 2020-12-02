@@ -1,10 +1,23 @@
+Identifier mapping is at https://docs.google.com/spreadsheets/d/1d5PokzgXqNykvQeckG2ND43B6i9_CsjfIVwS_IsphS8/edit#gid=0&range=A131
+
 1. Identifier with type
 <identifier type="isbn">1234 5678 9203</identifier>
 {
   "identifier": [
     {
       "value": "1234 5678 9203",
-      "type": "ISBN"
+      "type": "ISBN",
+      "note": [
+        {
+          "type": "type",
+          "value": "isbn",
+          "uri": "http://id.loc.gov/vocabulary/identifiers/isbn",
+          "source": {
+            "value": "Standard Identifier Schemes",
+            "uri": "http://id.loc.gov/vocabulary/identifiers/"
+          }
+        }
+      ]
     }
   ]
 }
@@ -14,7 +27,18 @@
 {
   "identifier": [
     {
-      "uri": "https://www.wikidata.org/wiki/Q146"
+      "uri": "https://www.wikidata.org/wiki/Q146",
+      "note": [
+        {
+          "type": "type",
+          "value": "uri",
+          "uri": "http://id.loc.gov/vocabulary/identifiers/uri",
+          "source": {
+            "value": "Standard Identifier Schemes",
+            "uri": "http://id.loc.gov/vocabulary/identifiers/"
+          }
+        }
+      ]
     }
   ]
 }
@@ -37,7 +61,18 @@
     {
       "value": "sn 87042262",
       "type": "LCCN",
-      "status": "invalid"
+      "status": "invalid",
+      "note": [
+        {
+          "type": "type",
+          "value": "lccn",
+          "uri": "http://id.loc.gov/vocabulary/identifiers/lccn",
+          "source": {
+            "value": "Standard Identifier Schemes",
+            "uri": "http://id.loc.gov/vocabulary/identifiers/"
+          }
+        }
+      ]
     }
   ]
 }
