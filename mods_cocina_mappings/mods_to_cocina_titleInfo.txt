@@ -553,3 +553,29 @@ Only change in round-trip mapping is dropping empty script attributes. In the ro
     }
   ]
 }
+
+20. Uniform title with corporate author
+<titleInfo type="uniform" nameTitleGroup="1">
+  <title>Laws, etc. (United States code service)</title>
+</titleInfo>
+<name type="corporate" nameTitleGroup="1">
+  <namePart>United States</namePart>
+</name>
+Note: <name> is also mapped to "contributor" with type "organization" (see mods_to_cocina_name.txt)
+{
+  "title": [
+    {
+      "structuredValue": [
+        {
+          "value": "United States",
+          "type": "name"
+        },
+        {
+          "value": "Laws, etc. (United States code service)",
+          "type": "title"
+        }
+      ],
+      "type": "uniform"
+    }
+  ]
+}
