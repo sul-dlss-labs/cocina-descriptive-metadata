@@ -236,7 +236,7 @@
         }
       }
     ],
-    "physicalLocation": [
+    "digitalLocation": [
       {
         "value": "VICTOR\PLUS_PHOTOS_DAN\PLUS_TARD_PHOTOS_DAN_20071017\IMG_0852.JPG",
         "type": "discovery"
