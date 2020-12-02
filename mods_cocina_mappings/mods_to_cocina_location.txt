@@ -13,6 +13,11 @@
           "uri": "http://id.loc.gov/authorities/names/"
         }
       }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
     ]
   }
 }
@@ -29,6 +34,11 @@
         "source": {
           "code": "marcorg"
         }
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
       }
     ]
   }
@@ -49,6 +59,11 @@
           "code": "naf"
         }
       }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
     ]
   }
 }
@@ -64,6 +79,11 @@
         "value": "https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no=%2211728.000",
         "status": "primary"
       }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
     ]
   }
 }
@@ -73,7 +93,12 @@
   <url usage="primary display">http://purl.stanford.edu/ys701qw6956</url>
 </location>
 {
-  "purl": "http://purl.stanford.edu/ys701qw6956"
+  "purl": "http://purl.stanford.edu/ys701qw6956",
+  "digitalRepository": [
+    {
+      "value": "Stanford Digital Repository"
+    }
+  ]
 }
 
 6. Web archive (with display label)
@@ -100,9 +125,23 @@
         "value": "https://swap.stanford.edu/20171107174354/https://www.le.ac.uk/english/em1060to1220/index.html",
         "displayLabel": "Archived website"
       }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
     ]
   }
 }
+<location>
+  <physicalLocation type="repository" authority="naf" valueURI="http://id.loc.gov/authorities/names/n81070667">Stanford University. Libraries</physicalLocation>
+</location>
+<location>
+  <url usage="primary display">http://purl.stanford.edu/hf898mn6942</url>
+</location>
+<location>
+  <url displayLabel="Archived website">https://swap.stanford.edu/20171107174354/https://www.le.ac.uk/english/em1060to1220/index.html</url>
+</location>
 
 7. Shelf locator
 <location>
@@ -114,6 +153,11 @@
       {
         "value": "SC080",
         "type": "shelf locator"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
       }
     ]
   }
@@ -134,6 +178,11 @@
             "value": "Online table of contents from PCI available to Stanford-affiliated users:"
           }
         ]
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
       }
     ]
   }
@@ -195,6 +244,15 @@
     ]
   }
 }
+<location>
+  <physicalLocation type="repository" authority="naf" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives.</physicalLocation>
+</location>
+<location>
+  <physicalLocation type="discovery">VICTOR\PLUS_PHOTOS_DAN\PLUS_TARD_PHOTOS_DAN_20071017\IMG_0852.JPG</physicalLocation>
+</location>
+<location>
+  <url usage="primary display">http://purl.stanford.edu/hn970dy7259</url>
+</location>
 
 11. Physical location with display label
 <location>
@@ -221,6 +279,12 @@
     ]
   }
 }
+<location>
+  <physicalLocation type="repository" displayLabel="Repository" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives</physicalLocation>
+</location>
+<location>
+  <physicalLocation>Call Number: SC0340, Accession 2005-101, Box: 51, Folder: 3</physicalLocation>
+</location>
 
 12. Multiple locations and URLs with usage="primary display"
 <location>
