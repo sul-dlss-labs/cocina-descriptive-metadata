@@ -367,3 +367,39 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
 <location>
   <physicalLocation>Stanford University Libraries</physicalLocation>
 </location>
+
+13. Physical location with type "location"
+<location>
+  <physicalLocation type="repository" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives</physicalLocation>
+  <physicalLocation type="location">Box: 20, Folder: Engineering laboratories -- exterior -- #1</physicalLocation>
+  <shelfLocator>SC1071</shelfLocator>
+</location>
+{
+  "access": {
+    "accessContact": [
+      {
+        "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
+        "uri": "http://id.loc.gov/authorities/names/no2014019980",
+        "source": {
+          "code": "naf",
+          "uri": "http://id.loc.gov/authorities/names/"
+        }
+      }
+    ],
+    "physicalLocation": [
+      {
+        "value": "Box: 20, Folder: Engineering laboratories -- exterior -- #1",
+        "type": "location"
+      },
+      {
+        "value": "SC1071",
+        "type": "shelf locator"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
+    ]
+  }
+}
