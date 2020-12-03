@@ -1318,7 +1318,10 @@ The authority value goes with the code term and the authorityURI and valueURI va
       "note": [
         {
           "value": "monographic",
-          "type": "issuance"
+          "type": "issuance",
+          "source": {
+            "value": "MODS issuance terms"
+          }
         }
       ]
     }
