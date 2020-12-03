@@ -214,6 +214,11 @@
           "code": "naf"
         }
       }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
+      }
     ]
   }
 }
@@ -241,6 +246,11 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
       {
         "value": "VICTOR\PLUS_PHOTOS_DAN\PLUS_TARD_PHOTOS_DAN_20071017\IMG_0852.JPG",
         "type": "discovery"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
       }
     ]
   }
@@ -276,6 +286,11 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
     "physicalLocation": [
       {
         "value": "Call Number: SC0340, Accession 2005-101, Box: 51, Folder: 3"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
       }
     ]
   }
@@ -328,6 +343,11 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
     "physicalLocation": [
       {
         "value": "Stanford University Libraries"
+      }
+    ],
+    "digitalRepository": [
+      {
+        "value": "Stanford Digital Repository"
       }
     ]
   }
