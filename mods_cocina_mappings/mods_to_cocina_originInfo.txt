@@ -1208,29 +1208,25 @@ The authority value goes with the code term and the authorityURI and valueURI va
           "parallelValue": [
             {
               "value": "Kyōto-shi",
-              "valueLanguage": [
-                {
-                  "valueScript": {
-                    "code": "Latn",
-                    "source": {
-                      "code": "iso15924"
-                    }
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Latn",
+                  "source": {
+                    "code": "iso15924"
                   }
                 }
-              ]
+              }
             },
             {
               "value": "京都市",
-              "valueLanguage": [
-                {
-                  "valueScript": {
-                    "code": "Hani",
-                    "source": {
-                      "code": "iso15924"
-                    }
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Hani",
+                  "source": {
+                    "code": "iso15924"
                   }
                 }
-              ]
+              }
             }
           ]
         },
@@ -1249,29 +1245,25 @@ The authority value goes with the code term and the authorityURI and valueURI va
               "parallelValue": [
                 {
                   "value": "Rinsen Shoten",
-                  "valueLanguage": [
-                    {
-                      "valueScript": {
-                        "code": "Latn",
-                        "source": {
-                          "code": "iso15924"
-                        }
+                  "valueLanguage": {
+                    "valueScript": {
+                      "code": "Latn",
+                      "source": {
+                        "code": "iso15924"
                       }
                     }
-                  ]
+                  }
                 },
                 {
                   "value": "臨川書店",
-                  "valueLanguage": [
-                    {
-                      "valueScript": {
-                        "code": "Hani",
-                        "source": {
-                          "code": "iso15924"
-                        }
+                  "valueLanguage": {
+                    "valueScript": {
+                      "code": "Hani",
+                      "source": {
+                        "code": "iso15924"
                       }
                     }
-                  ]
+                  }
                 }
               ]
             }
