@@ -1,0 +1,24 @@
+1. Target audience with authority
+<targetAudience authority="marctarget">juvenile</targetAudience>
+{
+  "note": [
+    {
+      "value": "juvenile",
+      "type": "target audience",
+      "source": {
+        "code": "marctarget"
+      }
+    }
+  ]
+}
+
+2. Target audience without authority
+<targetAudience>ages 3-6</targetAudience>
+{
+  "note": [
+    {
+      "value": "ages 3-6",
+      "type": "target audience"
+    }
+  ]
+}
