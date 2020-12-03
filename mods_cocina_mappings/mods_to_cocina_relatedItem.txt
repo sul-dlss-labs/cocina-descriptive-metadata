@@ -200,15 +200,11 @@
         "identifier": [
           {
             "value": "6766105",
-            "source": {
-              "value": "SUL catalog key"
-            }
+            "type": "SUL catalog key"
           },
           {
             "value": "3888071",
-            "source": {
-              "code": "oclc"
-            }
+            "type": "OCLC"
           }
         ]
       }
