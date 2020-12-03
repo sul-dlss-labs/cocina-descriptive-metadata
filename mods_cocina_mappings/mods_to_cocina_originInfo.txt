@@ -1414,4 +1414,54 @@ The authority value goes with the code term and the authorityURI and valueURI va
   ]
 }
 
-42. Multingual edition
+42. Multilingual edition
+<originInfo eventType="publication" lang="eng" script="Latn" altRepGroup="1">
+  <edition>First edition</edition>
+</originInfo>
+<originInfo eventType="publication" lang="rus" script="Cyrl" altRepGroup="1">
+  <edition>Первое издание</edition>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "note": [
+        {
+          "type": "edition",
+          "parallelValue": [
+            {
+              "value": "First edition",
+              "valueLanguage": {
+                "code": "eng",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Latn",
+                  "source": {
+                    "code": "iso15924"
+                  }
+                }
+              }
+            },
+            {
+              "value": "Первое издание",
+              "valueLanguage": {
+                "code": "rus",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Cyrl",
+                  "source": {
+                    "code": "iso15924"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
