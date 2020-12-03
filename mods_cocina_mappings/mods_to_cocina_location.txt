@@ -197,6 +197,7 @@
     "accessContact": [
       {
         "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
+        "type": "repository",
         "valueLanguage": {
           "code": "eng",
           "source": {
@@ -236,6 +237,7 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
     "accessContact": [
       {
         "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
+        "type": "repository",
         "uri": "http://id.loc.gov/authorities/names/no2014019980",
         "source": {
           "code": "naf"
@@ -276,6 +278,7 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
       {
         "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
         "uri": "http://id.loc.gov/authorities/names/no2014019980",
+        "type": "repository",
         "displayLabel": "Repository",
         "source": {
           "code": "naf",
@@ -379,6 +382,7 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
     "accessContact": [
       {
         "value": "Stanford University. Libraries. Department of Special Collections and University Archives",
+        "type": "repository",
         "uri": "http://id.loc.gov/authorities/names/no2014019980",
         "source": {
           "code": "naf",
@@ -403,3 +407,12 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
     ]
   }
 }
+<location>
+  <physicalLocation type="repository" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives</physicalLocation>
+</location>
+<location>
+  <physicalLocation type="location">Box: 20, Folder: Engineering laboratories -- exterior -- #1</physicalLocation>
+</location>
+<location>
+  <shelfLocator>SC1071</shelfLocator>
+</location>
