@@ -218,7 +218,8 @@
   }
 }
 
-10. Physical location with type "discovery"
+10. Physical location with type "discovery" mapping to digitalLocation
+Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \.
 <location>
   <physicalLocation type="repository" authority="naf" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives.</physicalLocation>
   <physicalLocation type="discovery">VICTOR\PLUS_PHOTOS_DAN\PLUS_TARD_PHOTOS_DAN_20071017\IMG_0852.JPG</physicalLocation>
