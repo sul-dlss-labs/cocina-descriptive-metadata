@@ -1352,3 +1352,74 @@ The authority value goes with the code term and the authorityURI and valueURI va
     }
   ]
 }
+
+41. Multiscript originInfo with eventType production
+<originInfo eventType="production" lang="eng" script="Latn" altRepGroup="1">
+  <dateCreated keyDate="yes" encoding="w3cdtf">1999-09-09</dateCreated>
+  <place>
+    <placeTerm authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79076156">Moscow</placeTerm>
+  </place>
+</originInfo>
+<originInfo eventType="production" lang="rus" script="Cyrl" altRepGroup="1">
+<place>
+  <placeTerm>Москва</placeTerm>
+</place>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "date": [
+        {
+          "value": "1999-09-09",
+          "status": "primary",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ],
+      "location": [
+        {
+          "parallelValue": [
+            {
+              "value": "Moscow",
+              "uri": "http://id.loc.gov/authorities/names/n79076156",
+              "source": {
+                "uri": "http://id.loc.gov/authorities/names/"
+              },
+              "valueLanguage": {
+                "code": "eng",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Latn",
+                  "source": {
+                    "code": "iso15924"
+                  }
+                }
+              }
+            },
+            {
+              "value": "Москва",
+              "valueLanguage": {
+                "code": "rus",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Cyrl",
+                  "source": {
+                    "code": "iso15924"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+42. Multingual edition
