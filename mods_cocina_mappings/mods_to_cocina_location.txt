@@ -374,7 +374,11 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
 13. Physical location with type "location"
 <location>
   <physicalLocation type="repository" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives</physicalLocation>
+</location>
+<location>
   <physicalLocation type="location">Box: 20, Folder: Engineering laboratories -- exterior -- #1</physicalLocation>
+</location>
+<location>
   <shelfLocator>SC1071</shelfLocator>
 </location>
 {
@@ -407,12 +411,3 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
     ]
   }
 }
-<location>
-  <physicalLocation type="repository" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives</physicalLocation>
-</location>
-<location>
-  <physicalLocation type="location">Box: 20, Folder: Engineering laboratories -- exterior -- #1</physicalLocation>
-</location>
-<location>
-  <shelfLocator>SC1071</shelfLocator>
-</location>
