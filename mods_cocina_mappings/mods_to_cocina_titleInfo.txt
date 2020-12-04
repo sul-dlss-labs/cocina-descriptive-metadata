@@ -209,7 +209,7 @@ It's not shown here, but the name element would also map to contributor as well 
 <titleInfo type="uniform" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n80008522" nameTitleGroup="0">
   <title>Hamlet</title>
 </titleInfo>
-<name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n78095332" nameTitleGroup="0">
+<name usage="primary" type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n78095332" nameTitleGroup="0">
   <namePart>Shakespeare, William, 1564-1616</namePart>
 </name>
 {
@@ -222,7 +222,7 @@ It's not shown here, but the name element would also map to contributor as well 
       "structuredValue": [
         {
           "value": "Shakespeare, William, 1564-1616",
-          "type": "name"
+          "type": "name",
           "uri": "http://id.loc.gov/authorities/names/n78095332",
           "source": {
             "uri": "http://id.loc.gov/authorities/names/",
@@ -241,6 +241,22 @@ It's not shown here, but the name element would also map to contributor as well 
         "code": "naf"
       }
     }
+  ],
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "person",
+          "status": "primary",
+          "uri": "http://id.loc.gov/authorities/names/n78095332",
+          "source": {
+            "uri": "http://id.loc.gov/authorities/names/",
+            "code": "naf"
+          }
+        }
+      ]
+    }
   ]
 }
 
@@ -258,16 +274,21 @@ It's not shown here, but the name element would also map to contributor as well 
     {
       "structuredValue": [
         {
-          "value": "Saint-Saëns",
-          "type": "surname"
-        },
-        {
-          "value": "Camille",
-          "type": "forename"
-        },
-        {
-          "value": "1835-1921",
-          "type": "life dates"
+          "structuredValue": [
+            {
+              "value": "Saint-Saëns",
+              "type": "surname"
+            },
+            {
+              "value": "Camille",
+              "type": "forename"
+            },
+            {
+              "value": "1835-1921",
+              "type": "life dates"
+            }
+          ],
+          "type": "name"
         },
         {
           "value": "Princesse jaune. Vocal score",
@@ -275,6 +296,30 @@ It's not shown here, but the name element would also map to contributor as well 
         }
       ],
       "type": "uniform"
+    }
+  ],
+  "contributor": [
+    {
+      "name": [
+        {
+          "structuredValue": [
+            {
+              "value": "Saint-Saëns",
+              "type": "surname"
+            },
+            {
+              "value": "Camille",
+              "type": "forename"
+            },
+            {
+              "value": "1835-1921",
+              "type": "life dates"
+            }
+          ]
+        }
+      ],
+      "type": "person",
+      "status": "primary"
     }
   ]
 }
@@ -462,16 +507,21 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
         {
           "structuredValue": [
             {
-              "value": "Israel Meir",
+              "structuredValue": [
+                {
+                  "value": "Israel Meir",
+                  "type": "name"
+                },
+                {
+                  "value": "ha-Kohen",
+                  "type": "term of address"
+                },
+                {
+                  "value": "1838-1933",
+                  "type": "life dates"
+                }
+              ],
               "type": "name"
-            },
-            {
-              "value": "ha-Kohen",
-              "type": "term of address"
-            },
-            {
-              "value": "1838-1933",
-              "type": "life dates"
             },
             {
               "value": "Mishnah berurah. English & Hebrew",
@@ -497,6 +547,46 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
         }
       ],
       "type": "uniform"
+    }
+  ],
+  "contributor": [
+    {
+      "type": "person",
+      "status": "primary",
+      "name": [
+        {
+          "parallelValue": [
+            {
+              "structuredValue": [
+                {
+                  "value": "Israel Meir",
+                  "type": "name"
+                },
+                {
+                  "value": "ha-Kohen",
+                  "type": "term of address"
+                },
+                {
+                  "value": "1838-1933",
+                  "type": "life dates"
+                }
+              ]
+            },
+            {
+              "structuredValue": [
+                {
+                  "value": "Israel Meir in Hebrew characters",
+                  "type": "name"
+                },
+                {
+                  "value": "1838-1933",
+                  "type": "life dates"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
@@ -558,10 +648,9 @@ Only change in round-trip mapping is dropping empty script attributes. In the ro
 <titleInfo type="uniform" nameTitleGroup="1">
   <title>Laws, etc. (United States code service)</title>
 </titleInfo>
-<name type="corporate" nameTitleGroup="1">
+<name usage="primary" type="corporate" nameTitleGroup="1">
   <namePart>United States</namePart>
 </name>
-Note: <name> is also mapped to "contributor" with type "organization" (see mods_to_cocina_name.txt)
 {
   "title": [
     {
@@ -576,6 +665,17 @@ Note: <name> is also mapped to "contributor" with type "organization" (see mods_
         }
       ],
       "type": "uniform"
+    }
+  ],
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "United States"
+        }
+      ],
+      "type": "organization",
+      "status": "primary"
     }
   ]
 }
