@@ -1356,9 +1356,9 @@ The authority value goes with the code term and the authorityURI and valueURI va
   </place>
 </originInfo>
 <originInfo eventType="production" lang="rus" script="Cyrl" altRepGroup="1">
-<place>
-  <placeTerm>Москва</placeTerm>
-</place>
+  <place>
+    <placeTerm>Москва</placeTerm>
+  </place>
 </originInfo>
 {
   "event": [
