@@ -1296,12 +1296,6 @@ The authority value goes with the code term and the authorityURI and valueURI va
               }
             },
             {
-              "value": "1996",
-              "encoding": {
-                "code": "marc"
-              }
-            },
-            {
               "value": "平成 8 [1996]",
               "valueLanguage": {
                 "valueScript": {
@@ -1313,6 +1307,12 @@ The authority value goes with the code term and the authorityURI and valueURI va
               }
             }
           ]
+        },
+        {
+          "value": "1996",
+          "encoding": {
+            "code": "marc"
+          }
         }
       ],
       "note": [
@@ -1327,6 +1327,27 @@ The authority value goes with the code term and the authorityURI and valueURI va
     }
   ]
 }
+<originInfo script="Latn" altRepGroup="1" eventType="publication">
+  <place>
+    <placeTerm type="text">Kyōto-shi</placeTerm>
+  </place>
+  <publisher>Rinsen Shoten</publisher>
+  <dateIssued>Heisei 8 [1996]</dateIssued>
+</originInfo>
+<originInfo script="Hani" altRepGroup="1" eventType="publication">
+  <place>
+    <placeTerm type="text">京都市</placeTerm>
+  </place>
+  <publisher>臨川書店</publisher>
+  <dateIssued>平成 8 [1996]</dateIssued>
+</originInfo>
+<originInfo eventType="publication">
+  <place>
+    <placeTerm type="code" authority="marccountry">ja</placeTerm>
+  </place>
+  <dateIssued encoding="marc">1996</dateIssued>
+  <issuance>monographic</issuance>
+</originInfo
 
 40. originInfo with displayLabel
 <originInfo displayLabel="Origin" eventType="production">
