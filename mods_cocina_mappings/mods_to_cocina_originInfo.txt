@@ -1437,6 +1437,19 @@ The authority value goes with the code term and the authorityURI and valueURI va
     }
   ]
 }
+<originInfo eventType="production" lang="eng" script="Latn" altRepGroup="1">
+  <place>
+    <placeTerm authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79076156">Moscow</placeTerm>
+  </place>
+</originInfo>
+<originInfo eventType="production" lang="rus" script="Cyrl" altRepGroup="1">
+  <place>
+    <placeTerm>Москва</placeTerm>
+  </place>
+</originInfo>
+<originInfo eventType="production">
+  <dateCreated keyDate="yes" encoding="w3cdtf">1999-09-09</dateCreated>
+</originInfo>
 
 42. Multilingual edition
 <originInfo eventType="publication" lang="eng" script="Latn" altRepGroup="1">
