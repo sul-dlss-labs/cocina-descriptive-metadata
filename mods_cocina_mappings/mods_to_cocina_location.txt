@@ -300,8 +300,6 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
 }
 <location>
   <physicalLocation type="repository" displayLabel="Repository" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/no2014019980">Stanford University. Libraries. Department of Special Collections and University Archives</physicalLocation>
-</location>
-<location>
   <physicalLocation>Call Number: SC0340, Accession 2005-101, Box: 51, Folder: 3</physicalLocation>
 </location>
 
