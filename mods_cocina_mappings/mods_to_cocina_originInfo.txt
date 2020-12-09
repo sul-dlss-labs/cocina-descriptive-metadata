@@ -1471,7 +1471,7 @@ Round trip maps back to original. Rule: same as #39.
   ]
 }
 
-43. Parallel value with no script given in MODS
+43. Parallel value with no script given in MODS (DRAFT)
 Example adapted from hn285fy7937
 <originInfo altRepGroup="0203">
   <place>
@@ -1589,4 +1589,148 @@ Example adapted from hn285fy7937
   # The date doesn't have an encoding so it appears in both
   <dateIssued>2005</dateIssued>
   <edition>[Di 1 ban in Chinese]</edition>
+</originInfo>
+
+Example adapted from yc052ns4738
+<originInfo altRepGroup="02">
+   <place>
+      <placeTerm type="code" authority="marccountry">cc</placeTerm>
+   </place>
+   <dateIssued encoding="marc" point="start">1933</dateIssued>
+   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
+   <issuance>serial</issuance>
+   <place>
+      <placeTerm type="text">[Ruijin]</placeTerm>
+   </place>
+   <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu</publisher>
+</originInfo>
+<originInfo>
+   <place>
+      <placeTerm type="code" authority="marccountry">cc</placeTerm>
+   </place>
+   <dateIssued encoding="marc" point="start">1933</dateIssued>
+   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
+   <issuance>serial</issuance>
+   <frequency>Irregular</frequency>
+</originInfo>
+<originInfo altRepGroup="02">
+   <place>
+      <placeTerm type="code" authority="marccountry">cc</placeTerm>
+   </place>
+   <dateIssued encoding="marc" point="start">1933</dateIssued>
+   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
+   <issuance>serial</issuance>
+   <place>
+      <placeTerm type="text">[Ruijin] in Chinese</placeTerm>
+   </place>
+   <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu in Chinese</publisher>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "location": [
+        {
+          "parallelValue": [
+            {
+              "value": "[Ruijin]"
+            },
+            {
+              "value": "[Ruijin] in Chinese"
+            }
+          ]
+        },
+        {
+          "code": "cc",
+          "source": {
+            "code": "marccountry"
+          }
+        }
+      ],
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "1933",
+              "type": "start",
+              "encoding": {
+                "code": "marc"
+              }
+            },
+            {
+              "value": "uuuu",
+              "type": "end",
+              "encoding": {
+                "code": "marc"
+              }
+            }
+          ]
+        }
+      ],
+      "contributor": [
+        {
+          "type": "organization",
+          "name": [
+            {
+              "parallelValue": [
+                {
+                  "value": "Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu"
+                },
+                {
+                  "value": "Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu in Chinese"
+                }
+              ]
+            }
+          ],
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "note": [
+        {
+          "type": "issuance",
+          "value": "serial"
+        },
+        {
+          "type": "frequency",
+          "value": "Irregular"
+        }
+      ]
+    }
+  ]
+}
+<originInfo altRepGroup="1" eventType="publication">
+   <place>
+      <placeTerm type="code" authority="marccountry">cc</placeTerm>
+   </place>
+   <dateIssued encoding="marc" point="start">1933</dateIssued>
+   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
+   <issuance>serial</issuance>
+   <place>
+      <placeTerm type="text">[Ruijin]</placeTerm>
+   </place>
+   <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu</publisher>
+   <frequency>Irregular</frequency>
+</originInfo>
+<originInfo altRepGroup="1" eventType="publication">
+   <place>
+      <placeTerm type="code" authority="marccountry">cc</placeTerm>
+   </place>
+   <dateIssued encoding="marc" point="start">1933</dateIssued>
+   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
+   <issuance>serial</issuance>
+   <place>
+      <placeTerm type="text">[Ruijin] in Chinese</placeTerm>
+   </place>
+   <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu in Chinese</publisher>
+   <frequency>Irregular</frequency>
 </originInfo>
