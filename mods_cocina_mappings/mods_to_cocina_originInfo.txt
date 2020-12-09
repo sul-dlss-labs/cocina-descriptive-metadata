@@ -1199,6 +1199,7 @@ The authority value goes with the code term and the authorityURI and valueURI va
   <publisher>臨川書店</publisher>
   <dateIssued>平成 8 [1996]</dateIssued>
 </originInfo>
+Round trip maps back to original. Rule: anything in an event that does not have an explicit language/script goes in the eng and/or Latn originInfo.
 {
   "event": [
     {
@@ -1327,27 +1328,6 @@ The authority value goes with the code term and the authorityURI and valueURI va
     }
   ]
 }
-<originInfo script="Latn" altRepGroup="1" eventType="publication">
-  <place>
-    <placeTerm type="text">Kyōto-shi</placeTerm>
-  </place>
-  <publisher>Rinsen Shoten</publisher>
-  <dateIssued>Heisei 8 [1996]</dateIssued>
-</originInfo>
-<originInfo script="Hani" altRepGroup="1" eventType="publication">
-  <place>
-    <placeTerm type="text">京都市</placeTerm>
-  </place>
-  <publisher>臨川書店</publisher>
-  <dateIssued>平成 8 [1996]</dateIssued>
-</originInfo>
-<originInfo eventType="publication">
-  <place>
-    <placeTerm type="code" authority="marccountry">ja</placeTerm>
-  </place>
-  <dateIssued encoding="marc">1996</dateIssued>
-  <issuance>monographic</issuance>
-</originInfo
 
 40. originInfo with displayLabel
 <originInfo displayLabel="Origin" eventType="production">
@@ -1381,6 +1361,7 @@ The authority value goes with the code term and the authorityURI and valueURI va
     <placeTerm>Москва</placeTerm>
   </place>
 </originInfo>
+Round trip maps back to original. Rule: same as #39.
 {
   "event": [
     {
@@ -1437,19 +1418,6 @@ The authority value goes with the code term and the authorityURI and valueURI va
     }
   ]
 }
-<originInfo eventType="production" lang="eng" script="Latn" altRepGroup="1">
-  <place>
-    <placeTerm authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79076156">Moscow</placeTerm>
-  </place>
-</originInfo>
-<originInfo eventType="production" lang="rus" script="Cyrl" altRepGroup="1">
-  <place>
-    <placeTerm>Москва</placeTerm>
-  </place>
-</originInfo>
-<originInfo eventType="production">
-  <dateCreated keyDate="yes" encoding="w3cdtf">1999-09-09</dateCreated>
-</originInfo>
 
 42. Multilingual edition
 <originInfo eventType="publication" lang="eng" script="Latn" altRepGroup="1">
@@ -1502,3 +1470,123 @@ The authority value goes with the code term and the authorityURI and valueURI va
     }
   ]
 }
+
+43. Parallel value with no script given in MODS
+Example adapted from hn285fy7937
+<originInfo altRepGroup="0203">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Chengdu</placeTerm>
+  </place>
+  <publisher>Sichuan chu ban ji tuan, Sichuan wen yi chu ban she</publisher>
+  <dateIssued>2005</dateIssued>
+  <edition>Di 1 ban.</edition>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo altRepGroup="0203">
+  <place>
+    <placeTerm type="text">[Chengdu in Chinese]</placeTerm>
+  </place>
+  <publisher>[Sichuan chu ban ji tuan, Sichuan wen yi chu ban she in Chinese]</publisher>
+  <dateIssued>2005.</dateIssued>
+  <edition>[Di 1 ban in Chinese]</edition>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "location": [
+        {
+          "parallelValue": [
+            {
+              "value": "Chengdu"
+            },
+            {
+              "value": "[Chengdu in Chinese]"
+            }
+          ]
+        },
+        # Not included in parallelValue because it's type="code"
+        {
+          "code": "cc",
+          "source": {
+            "code": "marccountry"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "type": "organization",
+          "name": [
+            {
+              "parallelValue": [
+                {
+                  "value": "Sichuan chu ban ji tuan, Sichuan wen yi chu ban she"
+                },
+                {
+                  "value": "[Sichuan chu ban ji tuan, Sichuan wen yi chu ban she in Chinese]"
+                }
+              ]
+            }
+          ],
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2005"
+        }
+      ],
+      "note": [
+        {
+          "type": "issuance",
+          "value": "monographic"
+        },
+        {
+          "type": "edition",
+          "parallelValue": [
+            {
+              "value": "Di 1 ban."
+            },
+            {
+              "value": "[Di 1 ban in Chinese]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+<originInfo altRepGroup="1" eventType="publication">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Chengdu</placeTerm>
+  </place>
+  <publisher>Sichuan chu ban ji tuan, Sichuan wen yi chu ban she</publisher>
+  <dateIssued>2005</dateIssued>
+  <edition>Di 1 ban.</edition>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo altRepGroup="1" eventType="publication">
+  <place>
+    <placeTerm type="text">[Chengdu in Chinese]</placeTerm>
+  </place>
+  <publisher>[Sichuan chu ban ji tuan, Sichuan wen yi chu ban she in Chinese]</publisher>
+  # The date doesn't have an encoding so it appears in both
+  <dateIssued>2005</dateIssued>
+  <edition>[Di 1 ban in Chinese]</edition>
+</originInfo>
