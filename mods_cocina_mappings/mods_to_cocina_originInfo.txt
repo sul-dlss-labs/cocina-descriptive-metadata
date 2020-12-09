@@ -1200,6 +1200,7 @@ The authority value goes with the code term and the authorityURI and valueURI va
   <dateIssued>平成 8 [1996]</dateIssued>
 </originInfo>
 Round trip maps back to original. Rule: anything in an event that does not have an explicit language/script goes in the eng and/or Latn originInfo.
+See #43 for mapping when both attributes are absent.
 {
   "event": [
     {
@@ -1472,9 +1473,9 @@ Round trip maps back to original. Rule: same as #39.
 }
 
 43. Parallel value with no script given in MODS (DRAFT)
-Example adapted from hn285fy7937
+A. Example adapted from hn285fy7937
 <originInfo altRepGroup="0203">
-  <place>
+  <place>        # Not included in parallelValue because it's type="code"
     <placeTerm type="code" authority="marccountry">cc</placeTerm>
   </place>
   <place>
@@ -1508,7 +1509,6 @@ Example adapted from hn285fy7937
             }
           ]
         },
-        # Not included in parallelValue because it's type="code"
         {
           "code": "cc",
           "source": {
@@ -1569,6 +1569,9 @@ Example adapted from hn285fy7937
     }
   ]
 }
+# We don't know which originInfo is eng/Latn, so the rule in #39 cannot apply.
+# Instead, put all values that are not parallel values in both originInfo elements.
+# Parallel values are grouped by index.
 <originInfo altRepGroup="1" eventType="publication">
   <place>
     <placeTerm type="code" authority="marccountry">cc</placeTerm>
@@ -1583,15 +1586,18 @@ Example adapted from hn285fy7937
 </originInfo>
 <originInfo altRepGroup="1" eventType="publication">
   <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
     <placeTerm type="text">[Chengdu in Chinese]</placeTerm>
   </place>
   <publisher>[Sichuan chu ban ji tuan, Sichuan wen yi chu ban she in Chinese]</publisher>
-  # The date doesn't have an encoding so it appears in both
   <dateIssued>2005</dateIssued>
   <edition>[Di 1 ban in Chinese]</edition>
+  <issuance>monographic</issuance>
 </originInfo>
 
-Example adapted from yc052ns4738
+B. Example adapted from yc052ns4738
 <originInfo altRepGroup="02">
    <place>
       <placeTerm type="code" authority="marccountry">cc</placeTerm>
@@ -1603,15 +1609,6 @@ Example adapted from yc052ns4738
       <placeTerm type="text">[Ruijin]</placeTerm>
    </place>
    <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu</publisher>
-</originInfo>
-<originInfo>
-   <place>
-      <placeTerm type="code" authority="marccountry">cc</placeTerm>
-   </place>
-   <dateIssued encoding="marc" point="start">1933</dateIssued>
-   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
-   <issuance>serial</issuance>
-   <frequency>Irregular</frequency>
 </originInfo>
 <originInfo altRepGroup="02">
    <place>
@@ -1733,4 +1730,140 @@ Example adapted from yc052ns4738
    </place>
    <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu in Chinese</publisher>
    <frequency>Irregular</frequency>
+</originInfo>
+
+C. Example adapted from bh212vz9239
+<originInfo altRepGroup="02">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Guangdong</placeTerm>
+  </place>
+  <publisher>Guangdong lu jun ce liang ju</publisher>
+  <dateIssued>Minguo 11-18 [1922-1929]</dateIssued>
+  <dateIssued encoding="marc" point="start">1922</dateIssued>
+  <dateIssued encoding="marc" point="end">1929</dateIssued>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo altRepGroup="02">
+  <place>
+    <placeTerm type="text">Guangdong in Chinese</placeTerm>
+  </place>
+  <publisher>Guangdong lu jun ce liang ju in Chinese</publisher>
+  <dateIssued>Minguo 11-18 [1922-1929] in Chinese</dateIssued>
+</originInfo>
+{
+  "event": [
+    {
+      "location": [
+        {
+          "code": "cc",
+          "source": {
+            "code": "marccountry"
+          }
+        },
+        {
+          "parallelValue": [
+            {
+              "value": "Guangdong"
+            },
+            {
+              "value": "Guangdong in Chinese"
+            }
+          ]
+        }
+      ],
+      "contributor": [
+        {
+          "type": "organization",
+          "name": [
+            {
+              "parallelValue": [
+                {
+                  "value": "Guangdong lu jun ce liang ju"
+                },
+                {
+                  "value": "Guangdong lu jun ce liang ju in Chinese"
+                }
+              ]
+            }
+          ],
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "parallelValue": [
+            {
+              "value": "Minguo 11-18 [1922-1929]"
+            },
+            {
+              "value": "Minguo 11-18 [1922-1929] in Chinese"
+            }
+          ]
+        },
+        {
+          "structuredValue": [
+            {
+              "value": "1922",
+              "type": "start",
+              "encoding": {
+                "code": "marc"
+              }
+            },
+            {
+              "value": "1929",
+              "type": "end",
+              "encoding": {
+                "code": "marc"
+              }
+            }
+          ]
+        }
+      ],
+      "note": [
+        {
+          "type": "issuance",
+          "value": "monographic"
+        }
+      ]
+    }
+  ]
+}
+<originInfo altRepGroup="1">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Guangdong</placeTerm>
+  </place>
+  <publisher>Guangdong lu jun ce liang ju</publisher>
+  <dateIssued>Minguo 11-18 [1922-1929]</dateIssued>
+  <dateIssued encoding="marc" point="start">1922</dateIssued>
+  <dateIssued encoding="marc" point="end">1929</dateIssued>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo altRepGroup="1">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Guangdong in Chinese</placeTerm>
+  </place>
+  <publisher>Guangdong lu jun ce liang ju in Chinese</publisher>
+  <dateIssued>Minguo 11-18 [1922-1929] in Chinese</dateIssued>
+  <dateIssued encoding="marc" point="start">1922</dateIssued>
+  <dateIssued encoding="marc" point="end">1929</dateIssued>
+  <issuance>monographic</issuance>
 </originInfo>
