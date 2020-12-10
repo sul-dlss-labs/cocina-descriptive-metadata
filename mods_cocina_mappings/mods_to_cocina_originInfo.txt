@@ -1870,3 +1870,128 @@ C. Example adapted from bh212vz9239
   <dateIssued encoding="marc" point="end">1929</dateIssued>
   <issuance>monographic</issuance>
 </originInfo>
+
+44. Multiple originInfo elements with and without eventTypes
+<originInfo>
+  <place>
+    <placeTerm type="code" authority="marccountry">cau</placeTerm>
+  </place>
+  <dateIssued encoding="marc">2020</dateIssued>
+  <copyrightDate encoding="marc">2020</copyrightDate>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo eventType="publication">
+  <place>
+    <placeTerm type="text">[Stanford, California]</placeTerm>
+  </place>
+  <publisher>[Stanford University]</publisher>
+  <dateIssued>2020</dateIssued>
+</originInfo>
+<originInfo eventType="copyright notice">
+  <copyrightDate>&#xA9;2020</copyrightDate>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "location": [
+        {
+          "code": "cau",
+          "source": {
+            "code": "marccountry"
+          }
+        }
+      ],
+      "date": [
+        {
+          "value": "2020",
+          "encoding": {
+            "code": "marc"
+          }
+        }
+      ],
+      "note": [
+        {
+          "type": "issuance",
+          "value": "monographic",
+          "source": {
+            "value": "MODS issuance terms"
+          }
+        }
+      ]
+    },
+    {
+      "type": "publication",
+      "location": [
+        {
+          "value": "[Stanford, Calif.]"
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "[Stanford University]"
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2020"
+        }
+      ]
+    },
+    {
+      "type": "copyright notice",
+      "date": [
+        {
+          "value": "2020",
+          "encoding": {
+            "code": "marc"
+          }
+        }
+      ]
+    },
+    {
+      "type": "copyright notice",
+      "date": [
+        {
+          "value": "&#xA9;2020"
+        }
+      ]
+    }
+  ]
+}
+<originInfo eventType="publication">
+  <place>
+    <placeTerm type="code" authority="marccountry">cau</placeTerm>
+  </place>
+  <dateIssued encoding="marc">2020</dateIssued>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo eventType="publication">
+  <place>
+    <placeTerm type="text">[Stanford, California]</placeTerm>
+  </place>
+  <publisher>[Stanford University]</publisher>
+  <dateIssued>2020</dateIssued>
+</originInfo>
+<originInfo eventType="copyright notice"
+  <copyrightDate encoding="marc">2020</copyrightDate>
+</originInfo>
+<originInfo eventType="copyright notice">
+  <copyrightDate>&#xA9;2020</copyrightDate>
+</originInfo>
