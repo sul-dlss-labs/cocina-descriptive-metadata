@@ -415,3 +415,22 @@ Map MODS physicalLocation to COCINA digitalLocation if the value contains / or \
 <location>
   <shelfLocator>SC1071</shelfLocator>
 </location>
+
+14. Purl with displayLabel and note
+<location>
+  <url displayLabel="electronic resource" usage="primary display" note="Available to Stanford-affiliated users.">http://purl.stanford.edu/nd782fm8171</url>
+</location>
+{
+  "purl": "http://purl.stanford.edu/nd782fm8171",
+  "access": {
+    "note": [
+      {
+        "value": "Available to Stanford-affiliated users.",
+        "type": "purl access"
+      }
+    ]
+  }
+}
+<location>
+  <url usage="primary display" note="Available to Stanford-affiliated users.">http://purl.stanford.edu/nd782fm8171</url>
+</location>
