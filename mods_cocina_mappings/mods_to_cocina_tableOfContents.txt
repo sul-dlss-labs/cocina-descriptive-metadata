@@ -39,37 +39,35 @@
       "parallelValue": [
         {
           "value": "Chapter 1. Chapter 2. Chapter 3.",
-          "valueLanguage": [
-            {
-              "code": "eng",
+          "valueLanguage":
+          {
+            "code": "eng",
+            "source": {
+              "code": "iso639-2b"
+            },
+            "valueScript": {
+              "code": "Latn",
               "source": {
-                "code": "iso639-2b"
-              },
-              "valueScript": {
-                "code": "Latn",
-                "source": {
-                  "code": "iso15924"
-                }
+                "code": "iso15924"
               }
             }
-          ]
+          }
         },
         {
           "value": "Глава 1. Глава 2. Глава 3.",
-          "language": [
-            {
-              "code": "rus",
+          "valueLanguage":
+          {
+            "code": "rus",
+            "source": {
+              "code": "iso639-2b"
+            },
+            "valueScript": {
+              "code": "Cyrl",
               "source": {
-                "code": "iso639-2b"
-              },
-              "script": {
-                "value" : "Cyrl",
-                "source": {
-                  "code": "iso15924"
-                }
+                "code": "iso15924"
               }
             }
-          ]
+          }
         }
       ],
       "type": "table of contents"
