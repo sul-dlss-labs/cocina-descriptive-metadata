@@ -1571,7 +1571,7 @@ A. Example adapted from hn285fy7937
 }
 # We don't know which originInfo is eng/Latn, so the rule in #39 cannot apply.
 # Instead, put all values that are not parallel values in both originInfo elements.
-# Parallel values are grouped by index.
+# Parallel values are grouped by index (i.e. the first of each pair is in the first originInfo, the second in the second one).
 <originInfo altRepGroup="1" eventType="publication">
   <place>
     <placeTerm type="code" authority="marccountry">cc</placeTerm>
@@ -1596,6 +1596,7 @@ A. Example adapted from hn285fy7937
   <edition>[Di 1 ban in Chinese]</edition>
   <issuance>monographic</issuance>
 </originInfo>
+# When converting back to COCINA, duplicate values across the originInfos should be collapsed into one to generate the same record as above.
 
 B. Example adapted from yc052ns4738
 <originInfo altRepGroup="02">
@@ -1605,6 +1606,7 @@ B. Example adapted from yc052ns4738
    <dateIssued encoding="marc" point="start">1933</dateIssued>
    <dateIssued encoding="marc" point="end">uuuu</dateIssued>
    <issuance>serial</issuance>
+   <frequency>Irregular</frequency>
    <place>
       <placeTerm type="text">[Ruijin]</placeTerm>
    </place>
@@ -1617,6 +1619,7 @@ B. Example adapted from yc052ns4738
    <dateIssued encoding="marc" point="start">1933</dateIssued>
    <dateIssued encoding="marc" point="end">uuuu</dateIssued>
    <issuance>serial</issuance>
+   <frequency>Irregular</frequency>
    <place>
       <placeTerm type="text">[Ruijin] in Chinese</placeTerm>
    </place>
