@@ -661,6 +661,7 @@ Omit encoding for mapping purposes.
 }
 
 19b. Multiple cartographic subjects (mapped from ISO 19139)
+Based on jw325wd1971
 <subject>
   <cartographics>
     <scale>Scale not given.</scale>
