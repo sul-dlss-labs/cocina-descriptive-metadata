@@ -19,35 +19,33 @@
       "parallelValue": [
         {
           "value": "This is an abstract.",
-          "valueLanguage":
-            {
-              "code": "eng",
+          "valueLanguage": {
+            "code": "eng",
+            "source": {
+              "code": "iso639-2b"
+            },
+            "valueScript": {
+              "code": "Latn",
               "source": {
-                "code": "iso639-2b"
-              },
-              "valueScript": {
-                "code": "Latn",
-                "source": {
-                  "code": "iso15924"
-                }
+                "code": "iso15924"
               }
             }
+          }
         },
         {
           "value": "Это аннотация.",
-          "valueLanguage":
-            {
-              "code": "rus",
+          "valueLanguage": {
+            "code": "rus",
+            "source": {
+              "code": "iso639-2b"
+            },
+            "valueScript": {
+              "code": "Cyrl",
               "source": {
-                "code": "iso639-2b"
-              },
-              "valueScript": {
-                "code": "Cyrl",
-                "source": {
-                  "code": "iso15924"
-                }
+                "code": "iso15924"
               }
             }
+          }
         }
       ]
     }
