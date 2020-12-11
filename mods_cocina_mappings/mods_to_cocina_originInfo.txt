@@ -1200,6 +1200,7 @@ The authority value goes with the code term and the authorityURI and valueURI va
   <dateIssued>平成 8 [1996]</dateIssued>
 </originInfo>
 Round trip maps back to original. Rule: anything in an event that does not have an explicit language/script goes in the eng and/or Latn originInfo.
+See #43 for mapping when both attributes are absent.
 {
   "event": [
     {
@@ -1470,3 +1471,583 @@ Round trip maps back to original. Rule: same as #39.
     }
   ]
 }
+
+43. Parallel value with no script given in MODS (DRAFT)
+A. Example adapted from hn285fy7937
+<originInfo altRepGroup="0203">
+  <place>        # Not included in parallelValue because it's type="code"
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Chengdu</placeTerm>
+  </place>
+  <publisher>Sichuan chu ban ji tuan, Sichuan wen yi chu ban she</publisher>
+  <dateIssued>2005</dateIssued>
+  <edition>Di 1 ban.</edition>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo altRepGroup="0203">
+  <place>
+    <placeTerm type="text">[Chengdu in Chinese]</placeTerm>
+  </place>
+  <publisher>[Sichuan chu ban ji tuan, Sichuan wen yi chu ban she in Chinese]</publisher>
+  <dateIssued>2005.</dateIssued>
+  <edition>[Di 1 ban in Chinese]</edition>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "location": [
+        {
+          "parallelValue": [
+            {
+              "value": "Chengdu"
+            },
+            {
+              "value": "[Chengdu in Chinese]"
+            }
+          ]
+        },
+        {
+          "code": "cc",
+          "source": {
+            "code": "marccountry"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "type": "organization",
+          "name": [
+            {
+              "parallelValue": [
+                {
+                  "value": "Sichuan chu ban ji tuan, Sichuan wen yi chu ban she"
+                },
+                {
+                  "value": "[Sichuan chu ban ji tuan, Sichuan wen yi chu ban she in Chinese]"
+                }
+              ]
+            }
+          ],
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2005"
+        }
+      ],
+      "note": [
+        {
+          "type": "issuance",
+          "value": "monographic"
+        },
+        {
+          "type": "edition",
+          "parallelValue": [
+            {
+              "value": "Di 1 ban."
+            },
+            {
+              "value": "[Di 1 ban in Chinese]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+# We don't know which originInfo is eng/Latn, so the rule in #39 cannot apply.
+# Instead, put all values that are not parallel values in both originInfo elements.
+# Parallel values are grouped by index (i.e. the first of each pair is in the first originInfo, the second in the second one).
+<originInfo altRepGroup="1" eventType="publication">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Chengdu</placeTerm>
+  </place>
+  <publisher>Sichuan chu ban ji tuan, Sichuan wen yi chu ban she</publisher>
+  <dateIssued>2005</dateIssued>
+  <edition>Di 1 ban.</edition>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo altRepGroup="1" eventType="publication">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">[Chengdu in Chinese]</placeTerm>
+  </place>
+  <publisher>[Sichuan chu ban ji tuan, Sichuan wen yi chu ban she in Chinese]</publisher>
+  <dateIssued>2005</dateIssued>
+  <edition>[Di 1 ban in Chinese]</edition>
+  <issuance>monographic</issuance>
+</originInfo>
+# When converting back to COCINA, duplicate values across the originInfos should be collapsed into one to generate the same record as above.
+
+B. Example adapted from yc052ns4738
+<originInfo altRepGroup="02">
+   <place>
+      <placeTerm type="code" authority="marccountry">cc</placeTerm>
+   </place>
+   <dateIssued encoding="marc" point="start">1933</dateIssued>
+   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
+   <issuance>serial</issuance>
+   <frequency>Irregular</frequency>
+   <place>
+      <placeTerm type="text">[Ruijin]</placeTerm>
+   </place>
+   <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu</publisher>
+</originInfo>
+<originInfo altRepGroup="02">
+   <place>
+      <placeTerm type="code" authority="marccountry">cc</placeTerm>
+   </place>
+   <dateIssued encoding="marc" point="start">1933</dateIssued>
+   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
+   <issuance>serial</issuance>
+   <frequency>Irregular</frequency>
+   <place>
+      <placeTerm type="text">[Ruijin] in Chinese</placeTerm>
+   </place>
+   <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu in Chinese</publisher>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "location": [
+        {
+          "parallelValue": [
+            {
+              "value": "[Ruijin]"
+            },
+            {
+              "value": "[Ruijin] in Chinese"
+            }
+          ]
+        },
+        {
+          "code": "cc",
+          "source": {
+            "code": "marccountry"
+          }
+        }
+      ],
+      "date": [
+        {
+          "structuredValue": [
+            {
+              "value": "1933",
+              "type": "start",
+              "encoding": {
+                "code": "marc"
+              }
+            },
+            {
+              "value": "uuuu",
+              "type": "end",
+              "encoding": {
+                "code": "marc"
+              }
+            }
+          ]
+        }
+      ],
+      "contributor": [
+        {
+          "type": "organization",
+          "name": [
+            {
+              "parallelValue": [
+                {
+                  "value": "Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu"
+                },
+                {
+                  "value": "Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu in Chinese"
+                }
+              ]
+            }
+          ],
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "note": [
+        {
+          "type": "issuance",
+          "value": "serial"
+        },
+        {
+          "type": "frequency",
+          "value": "Irregular"
+        }
+      ]
+    }
+  ]
+}
+<originInfo altRepGroup="1" eventType="publication">
+   <place>
+      <placeTerm type="code" authority="marccountry">cc</placeTerm>
+   </place>
+   <dateIssued encoding="marc" point="start">1933</dateIssued>
+   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
+   <issuance>serial</issuance>
+   <place>
+      <placeTerm type="text">[Ruijin]</placeTerm>
+   </place>
+   <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu</publisher>
+   <frequency>Irregular</frequency>
+</originInfo>
+<originInfo altRepGroup="1" eventType="publication">
+   <place>
+      <placeTerm type="code" authority="marccountry">cc</placeTerm>
+   </place>
+   <dateIssued encoding="marc" point="start">1933</dateIssued>
+   <dateIssued encoding="marc" point="end">uuuu</dateIssued>
+   <issuance>serial</issuance>
+   <place>
+      <placeTerm type="text">[Ruijin] in Chinese</placeTerm>
+   </place>
+   <publisher>Zhong yang ge ming jun shi wei yuan hui zong wei sheng bu in Chinese</publisher>
+   <frequency>Irregular</frequency>
+</originInfo>
+
+C. Example adapted from bh212vz9239
+<originInfo altRepGroup="02">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Guangdong</placeTerm>
+  </place>
+  <publisher>Guangdong lu jun ce liang ju</publisher>
+  <dateIssued>Minguo 11-18 [1922-1929]</dateIssued>
+  <dateIssued encoding="marc" point="start">1922</dateIssued>
+  <dateIssued encoding="marc" point="end">1929</dateIssued>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo altRepGroup="02">
+  <place>
+    <placeTerm type="text">Guangdong in Chinese</placeTerm>
+  </place>
+  <publisher>Guangdong lu jun ce liang ju in Chinese</publisher>
+  <dateIssued>Minguo 11-18 [1922-1929] in Chinese</dateIssued>
+</originInfo>
+{
+  "event": [
+    {
+      "location": [
+        {
+          "code": "cc",
+          "source": {
+            "code": "marccountry"
+          }
+        },
+        {
+          "parallelValue": [
+            {
+              "value": "Guangdong"
+            },
+            {
+              "value": "Guangdong in Chinese"
+            }
+          ]
+        }
+      ],
+      "contributor": [
+        {
+          "type": "organization",
+          "name": [
+            {
+              "parallelValue": [
+                {
+                  "value": "Guangdong lu jun ce liang ju"
+                },
+                {
+                  "value": "Guangdong lu jun ce liang ju in Chinese"
+                }
+              ]
+            }
+          ],
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "parallelValue": [
+            {
+              "value": "Minguo 11-18 [1922-1929]"
+            },
+            {
+              "value": "Minguo 11-18 [1922-1929] in Chinese"
+            }
+          ]
+        },
+        {
+          "structuredValue": [
+            {
+              "value": "1922",
+              "type": "start",
+              "encoding": {
+                "code": "marc"
+              }
+            },
+            {
+              "value": "1929",
+              "type": "end",
+              "encoding": {
+                "code": "marc"
+              }
+            }
+          ]
+        }
+      ],
+      "note": [
+        {
+          "type": "issuance",
+          "value": "monographic"
+        }
+      ]
+    }
+  ]
+}
+<originInfo altRepGroup="1">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Guangdong</placeTerm>
+  </place>
+  <publisher>Guangdong lu jun ce liang ju</publisher>
+  <dateIssued>Minguo 11-18 [1922-1929]</dateIssued>
+  <dateIssued encoding="marc" point="start">1922</dateIssued>
+  <dateIssued encoding="marc" point="end">1929</dateIssued>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo altRepGroup="1">
+  <place>
+    <placeTerm type="code" authority="marccountry">cc</placeTerm>
+  </place>
+  <place>
+    <placeTerm type="text">Guangdong in Chinese</placeTerm>
+  </place>
+  <publisher>Guangdong lu jun ce liang ju in Chinese</publisher>
+  <dateIssued>Minguo 11-18 [1922-1929] in Chinese</dateIssued>
+  <dateIssued encoding="marc" point="start">1922</dateIssued>
+  <dateIssued encoding="marc" point="end">1929</dateIssued>
+  <issuance>monographic</issuance>
+</originInfo>
+
+44. Multiple originInfo elements with and without eventTypes
+<originInfo>
+  <place>
+    <placeTerm type="code" authority="marccountry">cau</placeTerm>
+  </place>
+  <dateIssued encoding="marc">2020</dateIssued>
+  <copyrightDate encoding="marc">2020</copyrightDate>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo eventType="publication">
+  <place>
+    <placeTerm type="text">[Stanford, California]</placeTerm>
+  </place>
+  <publisher>[Stanford University]</publisher>
+  <dateIssued>2020</dateIssued>
+</originInfo>
+<originInfo eventType="copyright notice">
+  <copyrightDate>&#xA9;2020</copyrightDate>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "location": [
+        {
+          "code": "cau",
+          "source": {
+            "code": "marccountry"
+          }
+        }
+      ],
+      "date": [
+        {
+          "value": "2020",
+          "encoding": {
+            "code": "marc"
+          }
+        }
+      ],
+      "note": [
+        {
+          "type": "issuance",
+          "value": "monographic",
+          "source": {
+            "value": "MODS issuance terms"
+          }
+        }
+      ]
+    },
+    {
+      "type": "publication",
+      "location": [
+        {
+          "value": "[Stanford, Calif.]"
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "[Stanford University]"
+            }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2020"
+        }
+      ]
+    },
+    {
+      "type": "copyright notice",
+      "date": [
+        {
+          "value": "2020",
+          "encoding": {
+            "code": "marc"
+          }
+        }
+      ]
+    },
+    {
+      "type": "copyright notice",
+      "date": [
+        {
+          "value": "&#xA9;2020"
+        }
+      ]
+    }
+  ]
+}
+<originInfo eventType="publication">
+  <place>
+    <placeTerm type="code" authority="marccountry">cau</placeTerm>
+  </place>
+  <dateIssued encoding="marc">2020</dateIssued>
+  <issuance>monographic</issuance>
+</originInfo>
+<originInfo eventType="publication">
+  <place>
+    <placeTerm type="text">[Stanford, California]</placeTerm>
+  </place>
+  <publisher>[Stanford University]</publisher>
+  <dateIssued>2020</dateIssued>
+</originInfo>
+<originInfo eventType="copyright notice"
+  <copyrightDate encoding="marc">2020</copyrightDate>
+</originInfo>
+<originInfo eventType="copyright notice">
+  <copyrightDate>&#xA9;2020</copyrightDate>
+</originInfo>
+
+45. dateOther with type="developed"
+<originInfo displayLabel="Place of Creation" eventType="production">
+  <place>
+    <placeTerm type="text" authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n50046557">Stanford (Calif.)</placeTerm>
+  </place>
+  <dateCreated keyDate="yes" encoding="w3cdtf">2003-11-29</dateCreated>
+  <dateOther type="developed" encoding="w3cdtf">2003-12-01</dateOther>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "displayLabel": "Place of Creation",
+      "location": [
+        {
+          "value": "Stanford (Calif.)",
+          "uri": "http://id.loc.gov/authorities/names/n50046557",
+          "source": {
+            "code": "naf",
+            "uri": "http://id.loc.gov/authorities/names"
+          }
+        }
+      ],
+      "date": [
+        {
+          "value": "2003-11-29",
+          "status": "primary",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    },
+    {
+      "type": "development",
+      "date": [
+        {
+          "value": "2003-12-01",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    }
+  ]
+}
+<originInfo displayLabel="Place of Creation" eventType="production">
+  <place>
+    <placeTerm type="text" authority="naf" authorityURI="http://id.loc.gov/authorities/names" valueURI="http://id.loc.gov/authorities/names/n50046557">Stanford (Calif.)</placeTerm>
+  </place>
+  <dateCreated keyDate="yes" encoding="w3cdtf">2003-11-29</dateCreated>
+</originInfo>
+<originInfo eventType="development">
+  <dateOther type="developed" encoding="w3cdtf">2003-12-01</dateOther>
+</originInfo>
