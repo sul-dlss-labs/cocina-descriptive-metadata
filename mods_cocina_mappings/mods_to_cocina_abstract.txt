@@ -15,11 +15,11 @@
 {
   "note": [
     {
-      "type": "summary"
+      "type": "summary",
       "parallelValue": [
         {
           "value": "This is an abstract.",
-          "valueLanguage": [
+          "valueLanguage":
             {
               "code": "eng",
               "source": {
@@ -32,11 +32,10 @@
                 }
               }
             }
-          ]
         },
         {
           "value": "Это аннотация.",
-          "valueLanguage": [
+          "valueLanguage":
             {
               "code": "rus",
               "source": {
@@ -49,7 +48,6 @@
                 }
               }
             }
-          ]
         }
       ]
     }
