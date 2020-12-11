@@ -536,7 +536,8 @@ Omit "type": "pseudonym" when mapping from MODS.
               }
             }
           ],
-          "type": "person"
+          "type": "person",
+          "status": "primary"
         }
       ]
     },
@@ -603,6 +604,7 @@ This example is for reference only - doesn't need to be mapped.
                   "type": "surname"
                 }
               ],
+              "status": "primary",
               "valueLanguage": {
                 "valueScript": {
                   "code": "Cyrl",
