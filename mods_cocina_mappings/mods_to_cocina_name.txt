@@ -510,6 +510,7 @@ Omit "type": "pseudonym" when mapping from MODS.
           "parallelValue": [
             {
               "value": "Булгаков, Михаил Афанасьевич",
+              "status": "primary"
               "valueLanguage": [
                 {
                   "valueScript": {
@@ -539,8 +540,7 @@ Omit "type": "pseudonym" when mapping from MODS.
               }
             }
           ],
-          "type": "person",
-          "status": "primary"
+          "type": "person"
         }
       ]
     },
