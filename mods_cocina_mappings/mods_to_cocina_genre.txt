@@ -81,41 +81,37 @@ Genre
       "parallelValue": [
         {
           "value": "photographs",
-          "valueLanguage": [
-            {
-              "code": "eng",
-              "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "valueLanguage": {
+            "code": "eng",
+            "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+            "source": {
+              "code": "iso639-2b",
+              "uri": "http://id.loc.gov/vocabulary/iso639-2/"
+            },
+            "valueScript": {
+              "code": "Latn",
               "source": {
-                "code": "iso639-2b",
-                "uri": "http://id.loc.gov/vocabulary/iso639-2/"
-              },
-              "valueScript": {
-                "code": "Latn",
-                "source": {
-                  "value": "ISO 15924"
-                }
+                "value": "ISO 15924"
               }
             }
-          ]
+          }
         },
         {
           "value": "фотографии",
-          "valueLanguage": [
-            {
-              "code": "rus",
-              "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "valueLanguage": {
+            "code": "rus",
+            "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+            "source": {
+              "code": "iso639-2b",
+              "uri": "http://id.loc.gov/vocabulary/iso639-2/"
+            },
+            "valueScript": {
+              "code": "Cyrl",
               "source": {
-                "code": "iso639-2b",
-                "uri": "http://id.loc.gov/vocabulary/iso639-2/"
-              },
-              "valueScript": {
-                "code": "Cyrl",
-                "source": {
-                  "value": "ISO 15924"
-                }
+                "value": "ISO 15924"
               }
             }
-          ]
+          }
         }
       ]
     }
