@@ -510,30 +510,26 @@ Omit "type": "pseudonym" when mapping from MODS.
           "parallelValue": [
             {
               "value": "Булгаков, Михаил Афанасьевич",
-              "status": "primary"
-              "valueLanguage": [
-                {
-                  "valueScript": {
-                    "code": "Cyrl",
-                    "source": {
-                      "code": "iso15924"
-                    }
+              "status": "primary",
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Cyrl",
+                  "source": {
+                    "code": "iso15924"
                   }
                 }
-              ]
+              }
             },
             {
               "value": "Bulgakov, Mikhail Afanasʹevich",
-              "valueLanguage": [
-                {
-                  "valueScript": {
-                    "code": "Latn",
-                    "source": {
-                      "code": "iso15924"
-                    }
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Latn",
+                  "source": {
+                    "code": "iso15924"
                   }
                 }
-              ],
+              },
               "type": "transliteration",
               "standard": {
                 "value": "ALA-LC Romanization Tables"
@@ -550,29 +546,25 @@ Omit "type": "pseudonym" when mapping from MODS.
           "parallelValue": [
             {
               "value": "Олеша, Юрий Карлович",
-              "valueLanguage": [
-                {
-                  "valueScript": {
-                    "code": "Cyrl",
-                    "source": {
-                      "code": "iso15924"
-                    }
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Cyrl",
+                  "source": {
+                    "code": "iso15924"
                   }
                 }
-              ]
+              }
             },
             {
               "value": "Olesha, I︠U︡riĭ Karlovich",
-              "valueLanguage": [
-                {
-                  "valueScript": {
-                    "code": "Latn",
-                    "source": {
-                      "code": "iso15924"
-                    }
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Latn",
+                  "source": {
+                    "code": "iso15924"
                   }
                 }
-              ],
+              },
               "type": "transliteration",
               "standard": {
                 "value": "ALA-LC Romanization Tables"
@@ -611,16 +603,14 @@ This example is for reference only - doesn't need to be mapped.
                   "type": "surname"
                 }
               ],
-              "valueLanguage": [
-                {
-                  "valueScript": {
-                    "code": "Cyrl",
-                    "source": {
-                      "value": "ISO 15924"
-                    }
+              "valueLanguage": {
+                "valueScript": {
+                  "code": "Cyrl",
+                  "source": {
+                    "value": "ISO 15924"
                   }
                 }
-              ]
+              }
             },
             {
               "structuredValue": [
@@ -633,16 +623,14 @@ This example is for reference only - doesn't need to be mapped.
                   "type": "surname"
                 }
               ],
-              "valueLanguage": [
-                {
+              "valueLanguage": {
                   "valueScript": {
                     "code": "Latn",
                     "source": {
                       "value": "ISO 15924"
                     }
                   }
-                }
-              ],
+              },
               "type": "transliteration",
               "standard": {
                 "value": "ALA-LC Romanization Tables"
