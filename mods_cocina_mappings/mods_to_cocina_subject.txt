@@ -759,14 +759,19 @@ Omit encoding for mapping purposes.
         {
           "value": "French New Wave",
           "valueLanguage": {
-            "code": "eng"
+            "code": "eng", 
+            "source": { 
+              "code": "iso639-2b" 
+            }
           }
         },
         {
           "value": "Nouvelle Vague",
           "valueLanguage": {
-            "code": "fre"
-          }
+            "code": "fre", 
+            "source": { 
+              "code": "iso639-2b" 
+            }
         }
       ],
       "type": "topic"
