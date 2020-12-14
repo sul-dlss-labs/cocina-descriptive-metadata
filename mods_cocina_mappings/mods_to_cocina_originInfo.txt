@@ -1552,7 +1552,10 @@ A. Example adapted from hn285fy7937
       "note": [
         {
           "type": "issuance",
-          "value": "monographic"
+          "value": "monographic",
+          "source": {
+            "value": "MODS issuance terms"
+          }
         },
         {
           "type": "edition",
@@ -1698,7 +1701,10 @@ B. Example adapted from yc052ns4738
       "note": [
         {
           "type": "issuance",
-          "value": "serial"
+          "value": "serial",
+          "source": {
+            "value": "MODS issuance terms"
+          }
         },
         {
           "type": "frequency",
@@ -1838,7 +1844,10 @@ C. Example adapted from bh212vz9239
       "note": [
         {
           "type": "issuance",
-          "value": "monographic"
+          "value": "monographic",
+          "source": {
+            "value": "MODS issuance terms"
+          }
         }
       ]
     }
