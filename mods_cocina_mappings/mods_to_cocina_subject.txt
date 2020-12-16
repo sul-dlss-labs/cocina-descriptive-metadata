@@ -660,6 +660,63 @@ Omit encoding for mapping purposes.
   ]
 }
 
+19b. Multiple cartographic subjects (mapped from ISO 19139)
+Based on jw325wd1971
+<subject>
+  <cartographics>
+    <scale>Scale not given.</scale>
+    <projection>Custom projection</projection>
+    <coordinates>(E 72°34ʹ58ʺ--E 73°52ʹ24ʺ/S 52°54ʹ8ʺ--S 53°11ʹ42ʺ)</coordinates>
+  </cartographics>
+</subject>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+  <cartographics>
+    <scale>Scale not given.</scale>
+    <projection>EPSG::4326</projection>
+    <coordinates>E 72°34ʹ58ʺ--E 73°52ʹ24ʺ/S 52°54ʹ8ʺ--S 53°11ʹ42ʺ</coordinates>
+  </cartographics>
+</subject>
+{
+  "form": [
+    {
+      "value": "Scale not given.",
+      "type": "map scale"
+    },
+    {
+      "value": "Custom projection",
+      "type": "map projection"
+    },
+    {
+      "value": "EPSG::4326",
+      "type": "map projection",
+      "source": {
+        "value": "EPSG",
+        "uri": "http://opengis.net/def/crs/EPSG/0/4326"
+      }
+    }
+  ],
+  "subject": [
+    {
+      "value": "E 72°34ʹ58ʺ--E 73°52ʹ24ʺ/S 52°54ʹ8ʺ--S 53°11ʹ42ʺ",
+      "type": "map coordinates"
+    }
+  ]
+}
+# Put all subject/cartographics without authority together
+<subject>
+  <cartographics>
+    <scale>Scale not given.</scale>
+    <projection>Custom projection</projection>
+    <coordinates>(E 72°34ʹ58ʺ--E 73°52ʹ24ʺ/S 52°54ʹ8ʺ--S 53°11ʹ42ʺ)</coordinates>
+  </cartographics>
+</subject>
+# Authority attributes must be at subject level, so each subject/cartographics with authority gets its own subject
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+  <cartographics>
+    <projection>EPSG::4326</projection>
+  </cartographics>
+</subject>
+
 20. Geographic code subject
 <subject>
   <geographicCode authority="marcgac">n-us-md</geographicCode>
