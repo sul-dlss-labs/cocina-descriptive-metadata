@@ -1882,7 +1882,7 @@ C. Example adapted from bh212vz9239
 </originInfo>
 <originInfo eventType="publication">
   <place>
-    <placeTerm type="text">[Stanford, California]</placeTerm>
+    <placeTerm type="text">[Stanford, Calif.]</placeTerm>
   </place>
   <publisher>[Stanford University]</publisher>
   <dateIssued>2020</dateIssued>
@@ -1984,12 +1984,12 @@ C. Example adapted from bh212vz9239
 </originInfo>
 <originInfo eventType="publication">
   <place>
-    <placeTerm type="text">[Stanford, California]</placeTerm>
+    <placeTerm type="text">[Stanford, Calif.]</placeTerm>
   </place>
   <publisher>[Stanford University]</publisher>
   <dateIssued>2020</dateIssued>
 </originInfo>
-<originInfo eventType="copyright notice"
+<originInfo eventType="copyright notice">
   <copyrightDate encoding="marc">2020</copyrightDate>
 </originInfo>
 <originInfo eventType="copyright notice">
