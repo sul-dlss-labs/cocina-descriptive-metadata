@@ -894,7 +894,9 @@ Example adapted from cp049zn0898
             }
           ]
         }
-      ]
+      ],
+      "type": "organization",
+      "status": "primary"
     }
   ]
 }
