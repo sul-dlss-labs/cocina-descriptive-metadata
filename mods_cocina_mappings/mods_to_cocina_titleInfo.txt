@@ -247,6 +247,7 @@ It's not shown here, but the name element would also map to contributor as well 
       "name": [
         {
           "value": "Shakespeare, William, 1564-1616",
+          "type": "person",
           "status": "primary",
           "uri": "http://id.loc.gov/authorities/names/n78095332",
           "source": {
@@ -254,9 +255,7 @@ It's not shown here, but the name element would also map to contributor as well 
             "code": "naf"
           }
         }
-      ],
-      "type": "person",
-      "status": "primary"
+      ]
     }
   ]
 }
@@ -470,6 +469,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
 }
 
 18. Multilingual uniform title
+# Both <name> elements have usage="primary" so "status": "primary" maps to contributor rather than name.
 <titleInfo>
   <title>Mishnah berurah</title>
   <subTitle>the classic commentary to Shulchan aruch Orach chayim, comprising the laws of daily Jewish conduct</subTitle>
@@ -571,8 +571,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
                   "value": "1838-1933",
                   "type": "life dates"
                 }
-              ],
-              "status": "primary"
+              ]
             },
             {
               "structuredValue": [
