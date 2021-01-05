@@ -1768,6 +1768,7 @@ C. Example adapted from bh212vz9239
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "code": "cc",
