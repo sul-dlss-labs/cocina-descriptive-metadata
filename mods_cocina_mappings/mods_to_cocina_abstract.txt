@@ -63,3 +63,13 @@
     }
   ]
 }
+
+4. Abstract with type "summary"
+<abstract type="summary">This is a summary.</abstract>
+{
+  "note": [
+    "value": "This is a summary.",
+    "type": "summary"
+  ]
+}
+<abstract>This is a summary.</abstract>
