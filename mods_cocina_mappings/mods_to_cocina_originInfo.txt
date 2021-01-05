@@ -2140,6 +2140,43 @@ bv279kp1172
 }
 
 48. Publisher with eventType distribution
+<originInfo eventType="distribution">
+  <publisher>Stanford University</publisher>
+  <dateOther type="distribution">2020</dateOther>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "distribution",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "value": "distributor",
+              "code": "dst",
+              "uri": "http://id.loc.gov/vocabulary/relators/dst"
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2020"
+        }
+      ]
+    }
+  ]
+}
+
 49. Publisher with eventType manufacture
 
 50. Publisher with dateOther type
