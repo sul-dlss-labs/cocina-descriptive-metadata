@@ -2269,3 +2269,84 @@ Adapted from sz423cd8263
   <publisher>Stanford University, Department of Biostatistics</publisher>
   <dateOther type="production">2002</dateOther>
 </originInfo>
+
+51. dateValid
+gx929mp5413
+<originInfo eventType="publication">
+  <publisher>Articque informatique</publisher>
+  <place>
+    <placeTerm type="text">Fondettes, FR</placeTerm>
+  </place>
+  <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+  <dateValid encoding="w3cdtf">2010</dateValid>
+  <edition>1</edition>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "publication",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Articque informatique"
+            }
+          ],
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "location": [
+        {
+          "value": "Fondettes, FR"
+        }
+      ],
+      "date": [
+        {
+          "value": "2010",
+          "encoding": {
+            "code": "w3cdtf"
+          },
+          "status": "primary"
+        }
+      ],
+      "note": [
+        {
+          "type": "edition",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "type": "validity",
+      "date": [
+        {
+          "value": "2010",
+          "encoding": {
+            "code": "w3cdtf"
+          }
+        }
+      ]
+    }
+  ]
+}
+<originInfo eventType="publication">
+  <publisher>Articque informatique</publisher>
+  <place>
+    <placeTerm type="text">Fondettes, FR</placeTerm>
+  </place>
+  <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+  <edition>1</edition>
+</originInfo>
+<originInfo eventType="validity">
+  <dateValid encoding="w3cdtf">2010</dateValid>
+</originInfo>
