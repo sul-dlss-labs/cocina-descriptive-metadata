@@ -2102,8 +2102,46 @@ bv279kp1172
 }
 
 47. Publisher with eventType production
+<originInfo eventType="production">
+  <publisher>Stanford University</publisher>
+  <dateOther type="production">2020</dateOther>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "production",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "value": "issuing body",
+              "code": "isb",
+              "uri": "http://id.loc.gov/vocabulary/relators/isb"
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2020"
+        }
+      ]
+    }
+  ]
+}
+
 48. Publisher with eventType distribution
 49. Publisher with eventType manufacture
+
 50. Publisher with dateOther type
 Adapted from sz423cd8263
 <originInfo displayLabel="producer">
