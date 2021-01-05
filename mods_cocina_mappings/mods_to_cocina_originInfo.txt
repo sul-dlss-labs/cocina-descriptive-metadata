@@ -962,6 +962,9 @@ The authority value goes with the code term and the authorityURI and valueURI va
     }
   ]
 }
+<originInfo lang="rus" script="Latn" transliteration="ALA-LC Romanization Tables">
+  <publisher>Institut russkoĭ literatury (Pushkinskiĭ Dom)</publisher>
+</originInfo>
 
 33. Publisher - other language
 <originInfo>
@@ -1552,7 +1555,10 @@ A. Example adapted from hn285fy7937
       "note": [
         {
           "type": "issuance",
-          "value": "monographic"
+          "value": "monographic",
+          "source": {
+            "value": "MODS issuance terms"
+          }
         },
         {
           "type": "edition",
@@ -1698,7 +1704,10 @@ B. Example adapted from yc052ns4738
       "note": [
         {
           "type": "issuance",
-          "value": "serial"
+          "value": "serial",
+          "source": {
+            "value": "MODS issuance terms"
+          }
         },
         {
           "type": "frequency",
@@ -1759,6 +1768,7 @@ C. Example adapted from bh212vz9239
 {
   "event": [
     {
+      "type": "publication",
       "location": [
         {
           "code": "cc",
@@ -1838,7 +1848,10 @@ C. Example adapted from bh212vz9239
       "note": [
         {
           "type": "issuance",
-          "value": "monographic"
+          "value": "monographic",
+          "source": {
+            "value": "MODS issuance terms"
+          }
         }
       ]
     }
@@ -1882,7 +1895,7 @@ C. Example adapted from bh212vz9239
 </originInfo>
 <originInfo eventType="publication">
   <place>
-    <placeTerm type="text">[Stanford, California]</placeTerm>
+    <placeTerm type="text">[Stanford, Calif.]</placeTerm>
   </place>
   <publisher>[Stanford University]</publisher>
   <dateIssued>2020</dateIssued>
@@ -1984,12 +1997,12 @@ C. Example adapted from bh212vz9239
 </originInfo>
 <originInfo eventType="publication">
   <place>
-    <placeTerm type="text">[Stanford, California]</placeTerm>
+    <placeTerm type="text">[Stanford, Calif.]</placeTerm>
   </place>
   <publisher>[Stanford University]</publisher>
   <dateIssued>2020</dateIssued>
 </originInfo>
-<originInfo eventType="copyright notice"
+<originInfo eventType="copyright notice">
   <copyrightDate encoding="marc">2020</copyrightDate>
 </originInfo>
 <originInfo eventType="copyright notice">
@@ -2051,3 +2064,39 @@ C. Example adapted from bh212vz9239
 <originInfo eventType="development">
   <dateOther type="developed" encoding="w3cdtf">2003-12-01</dateOther>
 </originInfo>
+
+46. Supplied place name
+bv279kp1172
+<originInfo eventType="production" displayLabel="Place of creation">
+  <place supplied="yes">
+    <placeTerm authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n81127564" type="text">Selma (Ala.)</placeTerm>
+  </place>
+  <dateCreated keyDate="yes" encoding="w3cdtf">1965</dateCreated>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "creation",
+      "displayLabel": "Place of creation",
+      "location": [
+        {
+          "type": "supplied",
+          "value": "Selma (Ala.)",
+          "uri": "http://id.loc.gov/authorities/names/n81127564",
+          "source": {
+            "uri": "http://id.loc.gov/authorities/names/"
+          }
+        }
+      ],
+      "date": [
+        {
+          "value": "1965",
+          "encoding": {
+            "code": "w3cdtf"
+          },
+          "status": "primary"
+        }
+      ]
+    }
+  ]
+}

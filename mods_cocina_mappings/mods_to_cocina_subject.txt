@@ -689,9 +689,9 @@ Based on jw325wd1971
     {
       "value": "EPSG::4326",
       "type": "map projection",
+      "uri": "http://opengis.net/def/crs/EPSG/0/4326",
       "source": {
-        "value": "EPSG",
-        "uri": "http://opengis.net/def/crs/EPSG/0/4326"
+        "value": "EPSG"
       },
       "displayLabel": "WGS84"
     }
@@ -817,14 +817,19 @@ Based on jw325wd1971
         {
           "value": "French New Wave",
           "valueLanguage": {
-            "code": "eng"
+            "code": "eng", 
+            "source": { 
+              "code": "iso639-2b" 
+            }
           }
         },
         {
           "value": "Nouvelle Vague",
           "valueLanguage": {
-            "code": "fre"
-          }
+            "code": "fre", 
+            "source": { 
+              "code": "iso639-2b" 
+            }
         }
       ],
       "type": "topic"

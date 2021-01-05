@@ -679,3 +679,89 @@ Only change in round-trip mapping is dropping empty script attributes. In the ro
     }
   ]
 }
+
+21. Complex multilingual title
+<titleInfo type="uniform" nameTitleGroup="1" altRepGroup="01">
+  <title>Shaʻare ha-ḳedushah</title>
+</titleInfo>
+<name type="personal" usage="primary" nameTitleGroup="1">
+  <namePart>Vital, Ḥayyim ben Joseph</namePart>
+  <namePart type="date">1542 or 1543-1620</namePart>
+</name>
+<titleInfo altRepGroup="02">
+  <title>ספר שערי הקדושה</title>
+  <subTitle>זה ספר האדם לעבודת בוראו</subTitle>
+</titleInfo>
+<titleInfo altRepGroup="02">
+  <title>Sefer Shaʻare ha-ḳedushah</title>
+  <subTitle>zeh sefer le-yosher ha-adam la-ʻavodat borʼo</subTitle>
+</titleInfo>
+{
+  "title": [
+    {
+      "structuredValue": [
+        {
+          "value": "Vital, Ḥayyim ben Joseph",
+          "type": "name"
+        },
+        {
+          "value": "1542 or 1543-1620",
+          "type": "life dates"
+        },
+        {
+          "value": "Shaʻare ha-ḳedushah",
+          "type": "title"
+        }
+      ],
+      "type": "uniform"
+    },
+    {
+      "parallelValue": [
+        {
+          "structuredValue": [
+            {
+              "value": "ספר שערי הקדושה",
+              "type": "main title"
+            },
+            {
+              "value": "זה ספר האדם לעבודת בורא",
+              "type": "subtitle"
+            }
+          ]
+        },
+        {
+          "structuredValue": [
+            {
+              "value": "Sefer Shaʻare ha-ḳedushah",
+              "type": "main title"
+            },
+            {
+              "value": "zeh sefer le-yosher ha-adam la-ʻavodat borʼo",
+              "type": "subtitle"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contributor": [
+    {
+      "name": [
+        {
+          "structuredValue": [
+            {
+              "value": "Vital, Ḥayyim ben Joseph",
+              "type": "name"
+            },
+            {
+              "value": "1542 or 1543-1620",
+              "type": "life dates"
+            }
+          ]
+        }
+      ],
+      "type": "person",
+      "status": "primary"
+    }
+  ]
+}
