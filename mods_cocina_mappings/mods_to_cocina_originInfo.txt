@@ -2178,6 +2178,42 @@ bv279kp1172
 }
 
 49. Publisher with eventType manufacture
+<originInfo eventType="manufacture">
+  <publisher>Stanford University</publisher>
+  <dateOther type="distribution">2020</dateOther>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "manufacture",
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "value": "manufacturer",
+              "code": "mfr",
+              "uri": "http://id.loc.gov/vocabulary/relators/mfr"
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2020"
+        }
+      ]
+    }
+  ]
+}
 
 50. Publisher with dateOther type
 Adapted from sz423cd8263
