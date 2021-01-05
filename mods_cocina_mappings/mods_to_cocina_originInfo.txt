@@ -2100,3 +2100,61 @@ bv279kp1172
     }
   ]
 }
+
+47. Publisher with eventType production
+48. Publisher with eventType distribution
+49. Publisher with eventType manufacture
+50. Publisher with dateOther type
+Adapted from sz423cd8263
+<originInfo displayLabel="producer">
+  <place>
+    <placeTerm>Stanford, Calif.</placeTerm>
+  </place>
+  <publisher>Stanford University, Department of Biostatistics</publisher>
+  <dateOther type="production">2002</dateOther>
+</originInfo>
+{
+  "event": [
+    {
+      "type": "production",
+      "displayLabel": "producer",
+      "location": [
+        {
+          "value": "Stanford, Calif."
+        }
+      ],
+      "contributor": [
+        {
+          "name": [
+            {
+              "value": "Stanford University, Department of Biostatistics"
+            }
+          ],
+          "role": [
+            {
+              "value": "issuing body",
+              "code": "isb",
+              "uri": "http://id.loc.gov/vocabulary/relators/isb"
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
+          ]
+        }
+      ],
+      "date": [
+        {
+          "value": "2002"
+        }
+      ]
+    }
+  ]
+}
+<originInfo displayLabel="producer" eventType="production">
+  <place>
+    <placeTerm>Stanford, Calif.</placeTerm>
+  </place>
+  <publisher>Stanford University, Department of Biostatistics</publisher>
+  <dateOther type="production">2002</dateOther>
+</originInfo>
