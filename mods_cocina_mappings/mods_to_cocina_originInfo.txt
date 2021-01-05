@@ -2121,7 +2121,7 @@ bv279kp1172
             {
               "value": "issuing body",
               "code": "isb",
-              "uri": "http://id.loc.gov/vocabulary/relators/isb"
+              "uri": "http://id.loc.gov/vocabulary/relators/isb",
               "source": {
                 "code": "marcrelator",
                 "uri": "http://id.loc.gov/vocabulary/relators/"
@@ -2159,7 +2159,7 @@ bv279kp1172
             {
               "value": "distributor",
               "code": "dst",
-              "uri": "http://id.loc.gov/vocabulary/relators/dst"
+              "uri": "http://id.loc.gov/vocabulary/relators/dst",
               "source": {
                 "code": "marcrelator",
                 "uri": "http://id.loc.gov/vocabulary/relators/"
@@ -2197,7 +2197,7 @@ bv279kp1172
             {
               "value": "manufacturer",
               "code": "mfr",
-              "uri": "http://id.loc.gov/vocabulary/relators/mfr"
+              "uri": "http://id.loc.gov/vocabulary/relators/mfr",
               "source": {
                 "code": "marcrelator",
                 "uri": "http://id.loc.gov/vocabulary/relators/"
@@ -2245,7 +2245,7 @@ Adapted from sz423cd8263
             {
               "value": "issuing body",
               "code": "isb",
-              "uri": "http://id.loc.gov/vocabulary/relators/isb"
+              "uri": "http://id.loc.gov/vocabulary/relators/isb",
               "source": {
                 "code": "marcrelator",
                 "uri": "http://id.loc.gov/vocabulary/relators/"
