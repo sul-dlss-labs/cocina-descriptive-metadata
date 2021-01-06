@@ -252,6 +252,7 @@
           {
             "value": "creator",
             "code": "cre",
+            "uri": "http://id.loc.gov/vocabulary/relators/",
             "source": {
               "code": "marcrelator",
               "uri": "http://id.loc.gov/vocabulary/relators/"
