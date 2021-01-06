@@ -631,7 +631,7 @@ MODS 3.7:
   ]
 }
 
-26b. originInfo eventType differs from date type, converted from MARC record with multiple 264s
+26b. originInfo eventType differs from date type, copyright and copyright notice events, converted from MARC record with multiple 264s
 <originInfo>
    <place>
       <placeTerm type="code" authority="marccountry">ru</placeTerm>
@@ -650,6 +650,7 @@ MODS 3.7:
 <originInfo eventType="copyright notice">
    <copyrightDate>©2018</copyrightDate>
 </originInfo>
+# eventType="copyright" maps to event.date, "copyright notice" maps to event.note
 {
   "event": [
     {
