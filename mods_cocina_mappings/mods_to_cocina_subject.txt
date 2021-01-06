@@ -652,10 +652,7 @@ Omit encoding for mapping purposes.
   "subject": [
     {
       "value": "E 72°--E 148°/N 13°--N 18°",
-      "type": "map coordinates",
-      "encoding": {
-        "value": "DMS"
-      }
+      "type": "map coordinates"
     }
   ]
 }
@@ -817,18 +814,18 @@ Based on jw325wd1971
         {
           "value": "French New Wave",
           "valueLanguage": {
-            "code": "eng", 
-            "source": { 
-              "code": "iso639-2b" 
+            "code": "eng",
+            "source": {
+              "code": "iso639-2b"
             }
           }
         },
         {
           "value": "Nouvelle Vague",
           "valueLanguage": {
-            "code": "fre", 
-            "source": { 
-              "code": "iso639-2b" 
+            "code": "fre",
+            "source": {
+              "code": "iso639-2b"
             }
         }
       ],
