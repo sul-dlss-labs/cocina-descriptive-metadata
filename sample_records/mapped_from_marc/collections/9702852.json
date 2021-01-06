@@ -349,10 +349,12 @@
                 ]
             }
         ],
-        "standard": {
-            "code": "dacs",
-            "source": {"value": "Descriptive Convention Source Codes"}
-        },
+        "metadataStandard": [
+            {
+                "code": "dacs",
+                "source": {"value": "Descriptive Convention Source Codes"}
+            }
+        ],
         "identifier": [
             {
                 "value": "9702852",
@@ -365,9 +367,7 @@
                 "date": [
                     {
                         "value": "20200718050001.0",
-                        "encoding": {
-                            "code": "iso8601"
-                        }
+                        "encoding": {"code": "iso8601"}
                     }
                 ]
             }

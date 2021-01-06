@@ -178,10 +178,12 @@
                 ]
             }
         ],
-        "standard": {
-            "code": "dacs",
-            "source": {"value": "Descriptive Convention Source Codes"}
-        },
+        "standard": [
+            {
+                "code": "dacs",
+                "source": {"value": "Descriptive Convention Source Codes"}
+            }
+        ],
         "identifier": [
             {
                 "value": "13138099",
