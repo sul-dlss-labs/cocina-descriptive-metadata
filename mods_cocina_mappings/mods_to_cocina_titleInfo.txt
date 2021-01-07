@@ -532,12 +532,17 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
         {
           "structuredValue": [
             {
-              "value": "Israel Meir in Hebrew characters",
+              "structuredValue": [
+                {
+                  "value": "Israel Meir in Hebrew characters",
+                  "type": "name"
+                },
+                {
+                  "value": "1838-1933",
+                  "type": "life dates"
+                }
+              ],
               "type": "name"
-            },
-            {
-              "value": "1838-1933",
-              "type": "life dates"
             },
             {
               "value": "Mishnah berurah in Hebrew characters",
@@ -701,12 +706,17 @@ Only change in round-trip mapping is dropping empty script attributes. In the ro
     {
       "structuredValue": [
         {
-          "value": "Vital, Ḥayyim ben Joseph",
+          "structuredValue": [
+            {
+              "value": "Vital, Ḥayyim ben Joseph",
+              "type": "name"
+            },
+            {
+              "value": "1542 or 1543-1620",
+              "type": "life dates"
+            }
+          ],
           "type": "name"
-        },
-        {
-          "value": "1542 or 1543-1620",
-          "type": "life dates"
         },
         {
           "value": "Shaʻare ha-ḳedushah",
