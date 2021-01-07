@@ -57,7 +57,12 @@
           "value": "2018-10-25",
           "encoding": {
             "code": "w3cdtf"
-          }
+          },
+          "appliesTo": [
+            {
+              "value": "SDR resource"
+            }
+          ]
         }
       ]
     }

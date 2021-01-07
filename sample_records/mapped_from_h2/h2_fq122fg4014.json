@@ -32,7 +32,12 @@
           "value": "2017-05-16",
           "encoding": {
             "code": "w3cdtf"
-          }
+          },
+          "appliesTo": [
+            {
+              "value": "SDR resource"
+            }
+          ]
         }
       ]
     }

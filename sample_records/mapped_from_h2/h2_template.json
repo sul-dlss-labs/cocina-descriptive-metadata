@@ -95,7 +95,12 @@
           "value": "",
           "encoding": {
             "code": "w3cdtf"
-          }
+          },
+          "appliesTo": [
+            {
+              "value": "SDR resource"
+            }
+          ]
         }
       ]
     }
