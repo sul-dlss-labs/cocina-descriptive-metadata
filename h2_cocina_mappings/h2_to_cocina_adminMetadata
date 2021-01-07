@@ -1,0 +1,25 @@
+1. adminMetadata
+Record creation date: 2018-10-25
+{
+  "adminMetadata": {
+    "event": [
+      {
+        "type": "creation",
+        "date": [
+          {
+            "value": "2018-10-25",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      }
+    ],
+    "note": [
+      {
+        "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      }
+    ]
+  }
+}
