@@ -101,9 +101,10 @@
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
-                "standard": {
+                "metadataStandard": {
                     "description": "Descriptive or content standards to which this resource description conforms.",
-                    "$ref": "#/definitions/Standard"
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/Standard"}
                 },
                 "identifier": {
                     "description": "Identifiers associated with this resource description.",
