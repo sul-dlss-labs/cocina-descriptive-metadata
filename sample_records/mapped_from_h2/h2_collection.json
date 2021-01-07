@@ -52,32 +52,6 @@
             "code": "w3cdtf"
           }
         }
-      ],
-      "contributor": [
-        {
-          "name": [
-            {
-              "value": "Stanford University",
-              "uri": "http://id.loc.gov/authorities/names/n79054636",
-              "source": {
-                "code": "naf",
-                "uri": "http://id.loc.gov/authorities/names/"
-              }
-            }
-          ],
-          "type": "organization",
-          "role": [
-            {
-              "value": "issuing body",
-              "code": "isb",
-              "uri": "http://id.loc.gov/vocabulary/relators/isb",
-              "source": {
-                "code": "marcrelator",
-                "uri": "http://id.loc.gov/vocabulary/relators/"
-              }
-            }
-          ]
-        }
       ]
     }
   ],
