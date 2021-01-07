@@ -240,26 +240,6 @@
     }
   ],
   "adminMetadata": {
-    "contributor": [
-      {
-        "name": [
-          {
-            "value": ""
-          }
-        ],
-        "type": "person",
-        "role": [
-          {
-            "value": "creator",
-            "code": "cre",
-            "source": {
-              "code": "marcrelator",
-              "uri": "http://id.loc.gov/vocabulary/relators/"
-            }
-          }
-        ]
-      }
-    ],
     "event": [
       {
         "type": "creation",
@@ -287,6 +267,10 @@
     "note": [
       {
         "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      },
+      {
+        "value": "Metadata modified by user via Stanford self-deposit application v.{#version}",
         "type": "record origin"
       }
     ]
