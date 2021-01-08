@@ -1,0 +1,5 @@
+1. PURL
+PURL: https://purl.stanford.edu/druid
+{
+  "purl": "https://purl.stanford.edu/druid"
+}
