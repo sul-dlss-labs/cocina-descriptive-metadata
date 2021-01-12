@@ -963,7 +963,7 @@ The authority value goes with the code term and the authorityURI and valueURI va
     }
   ]
 }
-<originInfo lang="rus" script="Latn" transliteration="ALA-LC Romanization Tables">
+<originInfo eventType="publication" lang="rus" script="Latn" transliteration="ALA-LC Romanization Tables">
   <publisher>Institut russkoĭ literatury (Pushkinskiĭ Dom)</publisher>
 </originInfo>
 
