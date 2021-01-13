@@ -260,7 +260,7 @@ It's not shown here, but the name element would also map to contributor as well 
   ]
 }
 
-6.1 Uniform title with multiple namePart subelements
+6b. Uniform title with multiple namePart subelements
 <titleInfo type="uniform" nameTitleGroup="1">
   <title>Princesse jaune. Vocal score</title>
 </titleInfo>
