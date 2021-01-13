@@ -267,7 +267,6 @@ Use "term of address" for "ordinal" if type of term cannot be determined from so
 <name type="personal" usage="primary">
   <namePart>Dunnett, Dorothy</namePart>
   <role>
-    <roleTerm type="text" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">author</roleTerm>
     <roleTerm type="code" authority="marcrelator" authorityURI="http://id.loc.gov/vocabulary/relators/" valueURI="http://id.loc.gov/vocabulary/relators/aut">aut</roleTerm>
   </role>
 </name>
