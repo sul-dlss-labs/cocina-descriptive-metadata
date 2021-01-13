@@ -1,0 +1,35 @@
+Collection name
+Data from Hopkins fieldwork
+
+Description
+Marine biology data gathered by Hopkins Marine Station
+
+Contact email
+hopkins@stanford.edu
+
+Links to related information
+http://www.example.com/marine-biology-article
+
+Link title
+The brooding sea-star
+
+Release date
+2020-01-01
+
+Collection managers
+Person, A
+Person, B
+
+Collection depositors
+Person, A
+Person, C
+
+Creation date
+2019-12-31
+
+Non-description datastreams:
+Visibility
+Terms of use
+License
+Review workflow status
+Reviewers
