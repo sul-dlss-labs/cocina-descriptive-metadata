@@ -469,6 +469,7 @@ How to ID: edge case requiring manual review of records with multiple titleInfo 
 }
 
 18. Multilingual uniform title
+# Both <name> elements have usage="primary" so "status": "primary" maps to contributor rather than name.
 <titleInfo>
   <title>Mishnah berurah</title>
   <subTitle>the classic commentary to Shulchan aruch Orach chayim, comprising the laws of daily Jewish conduct</subTitle>
