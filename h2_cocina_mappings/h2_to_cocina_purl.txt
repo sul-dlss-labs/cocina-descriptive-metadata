@@ -1,0 +1,18 @@
+1. PURL
+PURL: https://purl.stanford.edu/druid
+{
+  "purl": "https://purl.stanford.edu/druid"
+}
+
+2. PURL in context
+1. PURL
+Title: The brooding sea-star
+PURL: https://purl.stanford.edu/druid
+{
+  "title": [
+    {
+      "value": "The brooding sea-star"
+    }
+  ],
+  "purl": "https://purl.stanford.edu/druid"
+}
