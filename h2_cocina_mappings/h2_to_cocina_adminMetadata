@@ -1,0 +1,69 @@
+1. New record
+bc777tp9978
+Record creation date: 2018-10-25
+{
+  "adminMetadata": {
+    "event": [
+      {
+        "type": "creation",
+        "date": [
+          {
+            "value": "2018-10-25",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      }
+    ],
+    "note": [
+      {
+        "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      }
+    ]
+  }
+}
+
+2. Modified record
+jv545yc8727
+Record creation date: 2014-04-08
+Record modification date: 2014-10-22
+{
+  "adminMetadata": {
+    "event": [
+      {
+        "type": "creation",
+        "date": [
+          {
+            "value": "2014-04-08",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      },
+      {
+        "type": "modification",
+        "date": [
+          {
+            "value": "2014-10-22",
+            "encoding": {
+              "code": "w3cdtf"
+            }
+          }
+        ]
+      }
+    ],
+    "note": [
+      {
+        "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      },
+      {
+        "value": "Metadata modified by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+1. Contact email
+Contact email: me@stanford.edu
+{
+  "access": {
+    "accessContact": [
+      {
+        "value": "me@stnaford.edu",
+        "type": "email",
+        "displayLabel": "Contact"
+      }
+    ],
+    "digitalRepository": [
+      "value": "Stanford Digital Repository"
+    ]
+  }
+}
+
+2. Contact email not provided
+{
+  "access": {
+    "digitalRepository": [
+      "value": "Stanford Digital Repository"
+    ]
+  }
+}

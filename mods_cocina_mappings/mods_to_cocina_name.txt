@@ -489,7 +489,7 @@ Omit "type": "pseudonym" when mapping from MODS.
   ]
 }
 
-11. Multiple names with transliteration (name as value)
+12. Multiple names with transliteration (name as value)
 <name usage="primary" type="personal" script="Cyrl" altRepGroup="0">
   <namePart>Булгаков, Михаил Афанасьевич</namePart>
 </name>
@@ -579,7 +579,7 @@ Omit "type": "pseudonym" when mapping from MODS.
   ]
 }
 
-12. Transliterated name with parts (name as structuredValue)
+13. Transliterated name with parts (name as structuredValue)
 This example is for reference only - doesn't need to be mapped.
 <name usage="primary" type="personal" script="Cyrl" altRepGroup="0">
   <namePart>Булгаков, Михаил Афанасьевич</namePart>
@@ -647,7 +647,7 @@ This example is for reference only - doesn't need to be mapped.
   ]
 }
 
-13. Name with et al.
+14. Name with et al.
 <name type="personal">
   <namePart>Frydman, Judith</namePart>
 </name>
@@ -670,7 +670,7 @@ This example is for reference only - doesn't need to be mapped.
   ]
 }
 
-14. Name with display label
+15. Name with display label
 OK to omit type: pseudonym in MODS mapping.
 <name type="personal" displayLabel="Pseudonym">
   <namePart>Westmacott, Mary</namePart>
@@ -690,7 +690,7 @@ OK to omit type: pseudonym in MODS mapping.
   ]
 }
 
-15. Name with valueURI only (authority URI)
+16. Name with valueURI only (authority URI)
 <name valueURI="https://id.loc.gov/authorities/names/123">
   <affiliation>Stanford</affiliation>
 </name>
@@ -710,7 +710,7 @@ OK to omit type: pseudonym in MODS mapping.
   ]
 }
 
-16. Name with nameIdentifier only (RWO URI)
+17. Name with nameIdentifier only (RWO URI)
 <name>
   <nameIdentifier type="orcid">0000-0000-0000</nameIdentifier>
   <role>
@@ -738,7 +738,7 @@ OK to omit type: pseudonym in MODS mapping.
   ]
 }
 
-17. Full name with additional subelements
+18. Full name with additional subelements
 <name type="personal" usage="primary">
   <namePart>Sarmiento, Domingo Faustino</namePart>
   <namePart type="date">1811-1888</namePart>
@@ -764,7 +764,7 @@ OK to omit type: pseudonym in MODS mapping.
   ]
 }
 
-18. Name with active date - year
+19. Name with active date - year
 If date starts with "active," use type "activity dates" and drop "active" from date value
 <name type="personal">
   <namePart>Yao, Zongyi</namePart>
@@ -791,7 +791,7 @@ If date starts with "active," use type "activity dates" and drop "active" from d
   ]
 }
 
-19. Name with active date - century
+20. Name with active date - century
 <name type="personal">
   <namePart>Inoue, Kaian</namePart>
   <namePart type="date">Active 18th century</namePart>
@@ -817,7 +817,7 @@ If date starts with "active," use type "activity dates" and drop "active" from d
   ]
 }
 
-20. Name with approximate date
+21. Name with approximate date
 <name type="personal">
   <namePart>Lassus, Rudolph de</namePart>
   <namePart type="date">approximately 1563-1625</namePart>
@@ -839,6 +839,64 @@ If date starts with "active," use type "activity dates" and drop "active" from d
           ]
         }
       ]
+    }
+  ]
+}
+
+22. Name with language
+Example adapted from cp049zn0898
+<name type="corporate" usage="primary" lang="jpn" script="Jpan" altRepGroup="1">
+  <namePartRea Metaru Shigen Saisei Gijutsu Kenkyūkai in Japanese characters</namePart>
+<name>
+<name type="corporate" lang="jpn" script="Latn" transliteration="ALA-LC Romanization Tables" altRepGroup="1">
+  <namePart>Rea Metaru Shigen Saisei Gijutsu Kenkyūkai</namePart>
+<name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "parallelValue": [
+            {
+              "value": "Rea Metaru Shigen Saisei Gijutsu Kenkyūkai in Japanese characters",
+              "status": "primary",
+              "valueLanguage": {
+                "code": "jpn",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Jpan",
+                  "source": {
+                    "value": "ISO 15924"
+                  }
+                }
+              }
+            },
+            {
+              "value": "Rea Metaru Shigen Saisei Gijutsu Kenkyūkai",
+              "type": "transliteration",
+              "valueLanguage": {
+                "code": "jpn",
+                "source": {
+                  "code": "iso639-2b"
+                },
+                "valueScript": {
+                  "code": "Latn",
+                  "source": {
+                    "value": "ISO 15924"
+                  }
+                }
+              },
+              "standard": {
+                "value": "ALA-LC Romanization Tables"
+              }
+            }
+          ]
+        }
+      ],
+      "type": "organization",
+      "status": "primary"
     }
   ]
 }

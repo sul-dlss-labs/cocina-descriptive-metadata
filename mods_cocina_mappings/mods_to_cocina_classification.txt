@@ -43,3 +43,27 @@
     }
   ]
 }
+
+4. Multiple classifications
+<classification authority="ddc" edition="11">683</classification>
+<classification authority="ddc" edition="12">684</classification>
+{
+  "subject": [
+    {
+      "type": "classification",
+      "value": "683",
+      "source": {
+        "code": "ddc",
+        "version": "11th edition"
+      }
+    },
+    {
+      "type": "classification",
+      "value": "684",
+      "source": {
+        "code": "ddc",
+        "version": "12th edition"
+      }
+    }
+  ]
+}

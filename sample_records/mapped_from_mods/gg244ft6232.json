@@ -271,7 +271,9 @@
         }
     ],
     "adminMetadata": {
-        "standard": {"code": "aacr2"},
+        "metadataStandard": [
+            {"code": "aacr2"}
+        ],
         "contributor": [
             {
                 "name": [

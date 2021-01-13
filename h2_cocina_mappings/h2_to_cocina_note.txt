@@ -1,0 +1,20 @@
+1. Abstract
+Abstract: My paper is about dolphins.
+{
+  "note": [
+    {
+      "type": "summary",
+      "displayLabel": "abstract",
+      "value": "My paper is about dolphins."
+    }
+  ]
+}
+
+2. Preferred citation
+Citation: Me (2002). Our friend the dolphin.
+{
+  "note": [
+    "type": "preferred citation",
+    "value": "Me (2002). Our friend the dolphin."
+  ]
+}

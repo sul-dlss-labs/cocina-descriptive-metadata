@@ -59,37 +59,10 @@
           "value": "2014-04-09",
           "encoding": {
             "code": "w3cdtf"
-          }
-        }
-      ],
-      "contributor": [
-        {
-          "name": [
+          },
+          "appliesTo": [
             {
-              "value": "Stanford University",
-              "uri": "http://id.loc.gov/authorities/names/n79054636",
-              "source": {
-                "code": "naf",
-                "uri": "http://id.loc.gov/authorities/names/"
-              }
-            }
-          ],
-          "type": "organization",
-          "role": [
-            {
-              "value": "publisher",
-              "code": "pbl",
-              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
-              "source": {
-                "code": "marcrelator",
-                "uri": "http://id.loc.gov/vocabulary/relators/"
-              }
-            },
-            {
-              "value": "Publisher",
-              "source": {
-                "value": "Stanford self-deposit contributor types"
-              }
+              "value": "SDR resource"
             }
           ]
         }
@@ -243,27 +216,6 @@
     }
   ],
   "adminMetadata": {
-    "contributor": [
-      {
-        "name": [
-          {
-            "value": "Wang, Ge"
-          }
-        ],
-        "type": "person",
-        "role": [
-          {
-            "value": "creator",
-            "code": "cre",
-            "uri": "http://id.loc.gov/vocabulary/relators/cre",
-            "source": {
-              "code": "marcrelator",
-              "uri": "http://id.loc.gov/vocabulary/relators/"
-            }
-          }
-        ]
-      }
-    ],
     "event": [
       {
         "type": "creation",
@@ -291,6 +243,10 @@
     "note": [
       {
         "value": "Metadata created by user via Stanford self-deposit application v.{#version}",
+        "type": "record origin"
+      },
+      {
+        "value": "Metadata modified by user via Stanford self-deposit application v.{#version}",
         "type": "record origin"
       }
     ]
