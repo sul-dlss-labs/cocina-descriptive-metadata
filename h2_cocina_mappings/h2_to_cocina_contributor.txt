@@ -5,6 +5,10 @@ a) Systems should use this name as sort key when sorting by author
 b) MARC mappings should put this name in the 100 field as main author
 c) Other applications where a single name must be chosen for a purpose (such as constructing a citation using "et al.") should use this name.
 
+DataCite role mappings vary due to its different structure. Most roles map to DataCite contributor types, with the following exceptions:
+1) Creator maps to the Creator property
+2) Conferences, performances, and other events map to the Event resource type
+
 1. Person contributor with single mapped role
 Stanford, Jane. Data collector.
 {
