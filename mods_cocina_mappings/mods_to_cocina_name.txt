@@ -348,6 +348,32 @@ Use "term of address" for "ordinal" if type of term cannot be determined from so
 </name>
 [no COCINA output]
 
+7h. Unauthorized role term only
+<name type="personal" usage="primary">
+  <namePart>Dunnett, Dorothy</namePart>
+  <role>
+    <roleTerm type="text">author</roleTerm>
+  </role>
+</name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Dunnett, Dorothy"
+        }
+      ],
+      "type": "person",
+      "status": "primary",
+      "role": [
+        {
+          "value": "author"
+        }
+      ]
+    }
+  ]
+}
+
 8. Name with authority
 <name type="personal" usage="primary" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79046044">
   <namePart>Sayers, Dorothy L. (Dorothy Leigh), 1893-1957</namePart>
