@@ -301,26 +301,6 @@
     }
   ],
   "adminMetadata": {
-    "contributor": [
-      {
-        "name": [
-          {
-            "value": "Duong, KH"
-          }
-        ],
-        "type": "person",
-        "role": [
-          {
-            "value": "creator",
-            "code": "cre",
-            "source": {
-              "code": "marcrelator",
-              "uri": "http://id.loc.gov/vocabulary/relators/"
-            }
-          }
-        ]
-      }
-    ],
     "event": [
       {
         "type": "creation",
