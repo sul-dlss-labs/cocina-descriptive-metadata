@@ -2118,6 +2118,7 @@ bv279kp1172
               "value": "Stanford University"
             }
           ],
+          "type": "organization",
           "role": [
             {
               "value": "issuing body",
@@ -2156,6 +2157,7 @@ bv279kp1172
               "value": "Stanford University"
             }
           ],
+          "type": "organization",
           "role": [
             {
               "value": "distributor",
@@ -2194,6 +2196,7 @@ bv279kp1172
               "value": "Stanford University"
             }
           ],
+          "type": "organization",
           "role": [
             {
               "value": "manufacturer",
@@ -2242,6 +2245,7 @@ Adapted from sz423cd8263
               "value": "Stanford University, Department of Biostatistics"
             }
           ],
+          "type": "organization",
           "role": [
             {
               "value": "issuing body",
@@ -2293,6 +2297,7 @@ gx929mp5413
               "value": "Articque informatique"
             }
           ],
+          "type": "organization",
           "role": [
             {
               "value": "publisher",
