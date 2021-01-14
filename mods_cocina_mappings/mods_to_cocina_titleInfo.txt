@@ -260,7 +260,7 @@ It's not shown here, but the name element would also map to contributor as well 
   ]
 }
 
-6.1 Uniform title with multiple namePart subelements
+6b. Uniform title with multiple namePart subelements
 <titleInfo type="uniform" nameTitleGroup="1">
   <title>Princesse jaune. Vocal score</title>
 </titleInfo>
@@ -323,6 +323,82 @@ It's not shown here, but the name element would also map to contributor as well 
     }
   ]
 }
+
+6c. Name-title authority plus additional contributor not part of uniform title
+<titleInfo usage="primary">
+  <title>Hamlet</title>
+</titleInfo>
+<titleInfo type="uniform" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n80008522" nameTitleGroup="0">
+  <title>Hamlet</title>
+</titleInfo>
+<name usage="primary" type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n78095332" nameTitleGroup="0">
+  <namePart>Shakespeare, William, 1564-1616</namePart>
+</name>
+<name type="personal" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n78088956">
+  <namePart>Marlowe, Christopher, 1564-1593</namePart>
+</name>
+{
+  "title": [
+    {
+      "value": "Hamlet",
+      "status": "primary"
+    },
+    {
+      "structuredValue": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "name",
+          "uri": "http://id.loc.gov/authorities/names/n78095332",
+          "source": {
+            "uri": "http://id.loc.gov/authorities/names/",
+            "code": "naf"
+          }
+        },
+        {
+          "value": "Hamlet",
+          "type": "title"
+        }
+      ],
+      "type": "uniform",
+      "uri": "http://id.loc.gov/authorities/names/n80008522",
+      "source": {
+        "uri": "http://id.loc.gov/authorities/names/",
+        "code": "naf"
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Shakespeare, William, 1564-1616",
+          "type": "person",
+          "status": "primary",
+          "uri": "http://id.loc.gov/authorities/names/n78095332",
+          "source": {
+            "uri": "http://id.loc.gov/authorities/names/",
+            "code": "naf"
+          }
+        }
+      ]
+    },
+    {
+      "name": [
+        {
+          "value": "Marlowe, Christopher, 1564-1593",
+          "type": "person",
+          "status": "primary",
+          "uri": "http://id.loc.gov/authorities/names/n78088956",
+          "source": {
+            "uri": "http://id.loc.gov/authorities/names/",
+            "code": "naf"
+          }
+        }
+      ]
+    }
+  ]
+}
+
 
 7. Supplied title
 How to ID: titleInfo supplied="yes"
