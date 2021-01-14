@@ -22,8 +22,6 @@
       "source": {
         "code": "ddc",
         "version": "11th edition"
-          }
-        ]
       }
     }
   ]
