@@ -465,6 +465,42 @@ Use "term of address" for "ordinal" if type of term cannot be determined from so
   ]
 }
 
+7j. Name with multiple roles
+<name type="personal" usage="primary">
+  <namePart>Dunnett, Dorothy</namePart>
+    <role>
+      <roleTerm type="text">primary advisor</roleTerm>
+    </role>
+    <role>
+      <roleTerm authority="marcrelator" type="code" authorityURI="http://id.loc.gov/vocabulary/relators/">ths</roleTerm>
+    </role>
+</name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": 'Dunnett, Dorothy'
+        }
+      ],
+      "status": 'primary',
+      "type": 'person',
+      "role": [
+        {
+          "value": 'primary advisor'
+        },
+        {
+          "source": {
+            "code": 'marcrelator',
+            "uri": 'http://id.loc.gov/vocabulary/relators/'
+          },
+          "code": 'ths'
+        }
+      ]
+    }
+  ]
+}
+
 8. Name with authority
 <name type="personal" usage="primary" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79046044">
   <namePart>Sayers, Dorothy L. (Dorothy Leigh), 1893-1957</namePart>
