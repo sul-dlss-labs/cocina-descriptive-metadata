@@ -175,6 +175,31 @@ Names
   ]
 }
 
+5c. Name with multiple untyped parts
+<name type="corporate">
+  <namePart>United States</namePart>
+  <namePart>Office of Foreign Investment in the United States</namePart>
+</name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "structuredValue": [
+            {
+              "value": "United States"
+            },
+            {
+              "value": "Office of Foreign Investment in the United States"
+            }
+          ]
+        }
+      ],
+      "type": "organization"
+    }
+  ]
+}
+
 6. Name with ordinal
 <name type="personal" usage="primary">
   <namePart type="given">Elizabeth</namePart>
