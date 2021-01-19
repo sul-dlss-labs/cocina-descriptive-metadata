@@ -2086,7 +2086,7 @@ C. Example adapted from bh212vz9239
       ]
     },
     {
-      "type": "copyright notice",
+      "type": "copyright",
       "date": [
         {
           "value": "2020",
@@ -2097,10 +2097,11 @@ C. Example adapted from bh212vz9239
       ]
     },
     {
-      "type": "copyright notice",
-      "date": [
+      "type": "copyright",
+      "note": [
         {
-          "value": "&#xA9;2020"
+          "value": "&#xA9;2020",
+          "type": "copyright statement"
         }
       ]
     }
@@ -2120,7 +2121,7 @@ C. Example adapted from bh212vz9239
   <publisher>[Stanford University]</publisher>
   <dateIssued>2020</dateIssued>
 </originInfo>
-<originInfo eventType="copyright notice">
+<originInfo eventType="copyright">
   <copyrightDate encoding="marc">2020</copyrightDate>
 </originInfo>
 <originInfo eventType="copyright notice">
