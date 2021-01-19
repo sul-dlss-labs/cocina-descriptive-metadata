@@ -697,7 +697,11 @@ MODS 3.7:
   "event": [
     {
       "type": "copyright",
-      "value": "1980"
+      "date": [
+        {
+          "value": "1980"
+        }
+      ]
     }
   ]
 }
