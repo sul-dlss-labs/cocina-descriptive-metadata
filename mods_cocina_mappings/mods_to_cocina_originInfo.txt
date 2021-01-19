@@ -779,6 +779,18 @@ MODS 3.7:
             {
               "value": "Izdatelʹstvo \"Vesʹ Mir\""
             }
+          ],
+          "type": "organization",
+          "role": [
+            {
+              "value": "publisher",
+              "code": "pbl",
+              "uri": "http://id.loc.gov/vocabulary/relators/pbl",
+              "source": {
+                "code": "marcrelator",
+                "uri": "http://id.loc.gov/vocabulary/relators/"
+              }
+            }
           ]
         }
       ],
