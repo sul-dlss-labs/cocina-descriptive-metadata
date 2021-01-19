@@ -715,6 +715,35 @@ Based on jw325wd1971
   </cartographics>
 </subject>
 
+
+19c. Multiple cartographic subjects with altRepGroup
+
+<subject altRepGroup="1">
+  <cartographics>
+    <scale>Scale 1:650,000.</scale>
+  </cartographics>
+</subject>
+<subject altRepGroup="1">
+  <cartographics>
+    <scale>&#x6BD4;&#x4F8B;&#x5C3A; 1:650,000.</scale>
+  </cartographics>
+</subject>
+
+{
+  "form": [
+    "parallelValue": [
+      {
+        "value": "Scale 1:650,000.",
+        "type": "map scale"
+      },
+      {
+        "value": "比例尺 1:650,000.",
+        "type": "map scale"
+      }
+    ]
+  ]
+}
+
 20. Geographic code subject
 <subject>
   <geographicCode authority="marcgac">n-us-md</geographicCode>
