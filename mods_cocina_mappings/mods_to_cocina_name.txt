@@ -152,6 +152,29 @@ Names
   ]
 }
 
+5b. Name with untyped nameIdentifier
+<name type="personal">
+  <namePart>Burnett, Michael W.</namePart>
+  <nameIdentifier>https://orcid.org/0000-0001-5126-5568</nameIdentifier>
+</name>
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Burnett, Michael W.",
+        }
+      ],
+      "type": "person",
+      "identifier": [
+        {
+          "uri": "https://orcid.org/0000-0001-5126-5568"
+        }
+      ]
+    }
+  ]
+}
+
 6. Name with ordinal
 <name type="personal" usage="primary">
   <namePart type="given">Elizabeth</namePart>
