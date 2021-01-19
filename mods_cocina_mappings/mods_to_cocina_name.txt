@@ -18,6 +18,24 @@ Names
   ]
 }
 
+1b. Name without type
+<name usage="primary">
+  <namePart>Dunnett, Dorothy</namePart>
+</name>
+# report for remediation
+{
+  "contributor": [
+    {
+      "name": [
+        {
+          "value": "Dunnett, Dorothy"
+        }
+      ],
+      "status": "primary"
+    }
+  ]
+}
+
 2. Corporate name
 <name type="corporate" usage="primary">
   <namePart>Dorothy L. Sayers Society</namePart>
