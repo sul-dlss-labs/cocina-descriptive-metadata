@@ -569,6 +569,49 @@ Use "term of address" for "ordinal" if type of term cannot be determined from so
   ]
 }
 
+9b. Multiple names, no roles
+<name type="personal" usage="primary">
+  <namePart>Sarmiento, Domingo Faustino</namePart>
+  <namePart type="date">1811-1888</namePart>
+</name>
+<name type="personal">
+  <namePart>Rojas, Ricardo</namePart>
+  <namePart type="date">1882-1957</namePart>
+</name>
+{
+  "contributor": [
+    {
+      "name": [
+        "structuredValue": [
+          {
+            "value": 'Sarmiento, Domingo Faustino'
+          },
+          {
+            "type": 'life dates',
+            "value": '1811-1888'
+          }
+        ]
+      ],
+      "type": 'person',
+      "status": 'primary'
+    },
+    {
+      "name": [
+        "structuredValue": [
+          {
+            "value": 'Rojas, Ricardo'
+          },
+          {
+            "type": 'life dates',
+            "value": '1882-1957'
+          }
+        ]
+      ],
+      "type": 'person'
+    }
+  ]
+}
+
 10. Multiple names, no primary
 <name type="personal">
   <namePart>Gaiman, Neil</namePart>
