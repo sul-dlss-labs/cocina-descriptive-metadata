@@ -440,6 +440,31 @@ Use "term of address" for "ordinal" if type of term cannot be determined from so
   ]
 }
 
+7i. Valid role code without authority
+# Report as data error
+<name>
+  <namePart>Selective Service System</namePart>
+  <role>
+    <roleTerm type="code">isb</roleTerm>
+  </role>
+</name>
+{
+  "contributor": [
+    {
+      name: [
+        {
+          value: 'Selective Service System'
+        }
+      ],
+      role: [
+        {
+          code: 'isb'
+        }
+      ]
+    }
+  ]
+}
+
 8. Name with authority
 <name type="personal" usage="primary" authority="naf" authorityURI="http://id.loc.gov/authorities/names/" valueURI="http://id.loc.gov/authorities/names/n79046044">
   <namePart>Sayers, Dorothy L. (Dorothy Leigh), 1893-1957</namePart>
