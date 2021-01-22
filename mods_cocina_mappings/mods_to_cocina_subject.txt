@@ -988,15 +988,11 @@ Based on jw325wd1971
 }
 # See 19b
 <subject>
-  <cartographics>
-    <coordinates>W0750700 W0741200 N0443400 N0431200</coordinates>
-  </cartographics>
-  <cartographics>
-    <scale>Scale ca. 1:126,720. 1 in. to 2 miles.</scale>
-  </cartographics>
-  <cartographics>
-    <coordinates>W 75⁰07ʹ00ʹ--W 74⁰12ʹ00ʹ/N 44⁰34ʹ00ʹ--N 43⁰12ʹ00ʹ</coordinates>
-  </cartographics>
+ <cartographics>
+   <scale>Scale ca. 1:126,720. 1 in. to 2 miles.</scale>
+   <coordinates>W0750700 W0741200 N0443400 N0431200</coordinates>
+   <coordinates>W 75⁰07ʹ00ʹ--W 74⁰12ʹ00ʹ/N 44⁰34ʹ00ʹ--N 43⁰12ʹ00ʹ</coordinates>
+ </cartographics>
 </subject>
 
 32. Name subject with display form and role
