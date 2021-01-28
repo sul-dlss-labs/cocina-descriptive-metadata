@@ -36,6 +36,10 @@
                     "description": "Other information associated with the contributor.",
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
+                },
+                "valueAt": {
+                    "description": "URL or other pointer to the location of the contributor information.",
+                    "type": "string"
                 }
             }
         },
@@ -173,6 +177,10 @@
                     "description": "The language of the descriptive element value.",
                     "$ref": "#/definitions/DescriptiveValueLanguage"
                 },
+                "valueAt": {
+                    "description": "URL or other pointer to the location of the value.",
+                    "type": "string"
+                },
                 "parallelValue": {
                     "description": "Value model for multiple representations of the same information (e.g. in different languages).",
                     "type": "array",
@@ -244,6 +252,10 @@
                 "valueLanguage": {
                     "description": "The language of the descriptive element value.",
                     "$ref": "#/definitions/DescriptiveValueLanguage"
+                },
+                "valueAt": {
+                    "description": "URL or other pointer to the location of the value.",
+                    "type": "string"
                 },
                 "parallelValue": {
                     "description": "Value model for multiple representations of the same information (e.g. in different languages).",
@@ -391,6 +403,10 @@
                     "description": "The language of the descriptive element value.",
                     "$ref": "#/definitions/DescriptiveValueLanguage"
                 },
+                "valueAt": {
+                    "description": "URL or other pointer to the location of the language information.",
+                    "type": "string"
+                },
                 "parallelValue": {
                     "description": "Value model for multiple representations of the same information (e.g. in different languages).",
                     "type": "array",
@@ -486,6 +502,10 @@
                 "adminMetadata": {"$ref": "#/definitions/DescriptiveAdminMetadata"},
                 "version": {
                     "description": "The version of the related resource.",
+                    "type": "string"
+                },
+                "valueAt": {
+                    "description": "URL or other pointer to the location of the related resource information.",
                     "type": "string"
                 }
             }
@@ -620,6 +640,10 @@
                     "description": "The language of the descriptive element value.",
                     "$ref": "#/definitions/DescriptiveValueLanguage"
                 },
+                "valueAt": {
+                    "description": "URL or other pointer to the location of the title information.",
+                    "type": "string"
+                },
                 "parallelValue": {
                     "description": "Value model for multiple representations of the same information (e.g. in different languages).",
                     "type": "array",
@@ -698,6 +722,10 @@
             "type": "array",
             "items": {"$ref": "#/definitions/DescriptiveValue"}
         },
-        "adminMetadata": {"$ref": "#/definitions/DescriptiveAdminMetadata"}
+        "adminMetadata": {"$ref": "#/definitions/DescriptiveAdminMetadata"},
+        "valueAt": {
+            "description": "URL or other pointer to the location of the resource description.",
+            "type": "string"
+        }
     }
 }
