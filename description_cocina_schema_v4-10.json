@@ -131,6 +131,7 @@
             "allOf": [
                 {"$ref": "#/definitions/DescriptiveStructuredValue"},
                 {"$ref": "#/definitions/DescriptiveParallelValue"},
+                {"$ref": "#/definitions/DescriptiveGroupedValue"},
                 {
                     "properties": {
                         "value": {
@@ -195,6 +196,16 @@
                     }
                 }
             ]
+        },
+        "DescriptiveGroupedValue": {
+            "description": "Value model for a set of descriptive elements grouped together in an unstructured way.",
+            "type": "object",
+            "properties": {
+                "groupedValue": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/DescriptiveValue"}
+                }
+            }
         },
         "DescriptiveParallelValue": {
             "description": "Value model for multiple representations of the same information (e.g. in different languages).",
@@ -450,6 +461,9 @@
                         },
                         {
                             "required": ["parallelValue"]
+                        },
+                        {
+                            "required": ["groupedValue"]
                         },
                         {
                             "required": ["valueAt"]

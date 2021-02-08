@@ -190,6 +190,11 @@
                     "description": "Value model for descriptive elements structured as typed, ordered values.",
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
+                },
+                "groupedValue": {
+                    "description": "Value model for a set of descriptive elements grouped together in an unstructured way.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/DescriptiveValue"}
                 }
             }
         },
@@ -264,6 +269,11 @@
                 },
                 "structuredValue": {
                     "description": "Value model for descriptive elements structured as typed, ordered values.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/DescriptiveValue"}
+                },
+                "groupedValue": {
+                    "description": "Value model for a set of descriptive elements grouped together in an unstructured way.",
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
@@ -414,6 +424,11 @@
                 },
                 "structuredValue": {
                     "description": "Value model for descriptive elements structured as typed, ordered values.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/DescriptiveValue"}
+                },
+                "groupedValue": {
+                    "description": "Value model for a set of descriptive elements grouped together in an unstructured way.",
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
@@ -583,6 +598,9 @@
                     "required": ["parallelValue"]
                 },
                 {
+                    "required": ["groupedValue"]
+                },
+                {
                     "required": ["valueAt"]
                 }
             ],
@@ -654,6 +672,11 @@
                 },
                 "structuredValue": {
                     "description": "Value model for descriptive elements structured as typed, ordered values.",
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/DescriptiveValue"}
+                },
+                "groupedValue": {
+                    "description": "Value model for a set of descriptive elements grouped together in an unstructured way.",
                     "type": "array",
                     "items": {"$ref": "#/definitions/DescriptiveValue"}
                 },
